@@ -128,7 +128,7 @@ https://raw.githubusercontent.com/Rule-Provider/Rule-Provider/master/ruleset/sit
   + Chrome CrUX 各国热门网站 Top 5000（Public Suffix List 规范化）
 - 覆盖国家/地区数：IP 241 / 域名 243（不含无分配地址或无 ccTLD 的领地；特殊码 `EU` 一并提供）
 - 全球规则集规模：约 17.5 万条 CIDR（IPv4 约 11.1 万 / IPv6 约 6.9 万）；
-  Global site 约 22.7 万条域名规则
+  Global site 约 17.9 万条域名规则（去重 + 覆盖剔除后唯一）
 - 最新数据日期：见 [`ruleset/metadata.json`](ruleset/metadata.json)
   与 [`ruleset/site/metadata.json`](ruleset/site/metadata.json)
 

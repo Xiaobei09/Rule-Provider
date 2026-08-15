@@ -81,7 +81,12 @@
    （默认 `CN: cn`、`RU: tld-ru`）。`categories` 值支持单个分类名或分类名
    列表，列表用于把多个分类并入同一国家（如把 `netflix`/`openai` 等应用分类
    归属到其母国）；分类间共享域名由 `geosite.merge_rules` 去重（唯一性不变量）；
-5. `Global` site = 全部国家域名规则并集，同样经 `merge_rules` 去重。
+5. 覆盖剔除：`geosite.prune_covered_rules` 再剔除被其它 `domain` 后缀规则
+   完全覆盖的规则（如已有 `DOMAIN-SUFFIX,cn` 时，`DOMAIN-SUFFIX,10086.cn` 与
+   `DOMAIN,exact.cn` 冗余），`keyword:`/`regexp:` 因匹配语义不同不参与覆盖判定；
+   `validate` 对冗余规则同样报 FAIL；
+6. `Global` site = 全部国家域名规则并集，经 `merge_rules` 去重 + `prune_covered_rules`
+   覆盖剔除。
 
 **应用分类归属母国（默认启用）：** 把代表性应用/公司的 geosite 应用分类并入
 其注册国，使该国 site 规则集包含这些应用的完整域名，并计入 `Global` 并集，

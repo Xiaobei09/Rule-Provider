@@ -69,6 +69,40 @@ def merge_rules(rules: list[tuple[str, str]]) -> list[tuple[str, str]]:
     return sorted(seen.values(), key=lambda r: (RULE_ORDER[r[0]], r[1]))
 
 
+def _label_suffixes(value: str) -> list[str]:
+    """返回 domain 值的全部真父后缀。如 a.b.c -> ['b.c', 'c']。"""
+    parts = value.strip(".").split(".")
+    return [".".join(parts[i:]) for i in range(1, len(parts))]
+
+
+def prune_covered_rules(rules: list[tuple[str, str]]) -> list[tuple[str, str]]:
+    """剔除被其它 domain 后缀规则完全覆盖的规则（覆盖语义不变，保证唯一性）。
+
+    规则集内同一 policy 生效，故被覆盖规则可安全剔除：
+    - domain: X 若存在另一条 domain: Y 且 X 为 Y 的子域，则 X 冗余；
+    - full:   X 若存在 domain: Y 且 X == Y 或 X 为 Y 的子域，则 X 冗余；
+    - keyword / regexp 匹配语义不同，不参与覆盖判定。
+
+    保持输入排序（调用前先用 merge_rules 去重排序）。
+    """
+    domains = {value for kind, value in rules if kind == "domain"}
+    out: list[tuple[str, str]] = []
+    for kind, value in rules:
+        if kind == "domain":
+            covered = any(
+                parent in domains for parent in _label_suffixes(value)
+            )
+        elif kind == "full":
+            covered = value in domains or any(
+                parent in domains for parent in _label_suffixes(value)
+            )
+        else:
+            covered = False
+        if not covered:
+            out.append((kind, value))
+    return out
+
+
 def load_archive(path: Path) -> dict[str, str]:
     """读取 v2fly 数据压缩包，返回 {文件名: 内容}。"""
     prefix = "domain-list-community-master/data/"

@@ -10,6 +10,7 @@ from geosite import (
     build_cc_tld_map,
     merge_rules,
     parse_tld_list,
+    prune_covered_rules,
     resolve_category,
 )
 from render import (
@@ -180,6 +181,57 @@ def test_site_rules_unique_across_categories():
     merged = merge_rules(rules)
     keys = {(k, v) for k, v in merged}
     assert len(keys) == len(merged)
+
+
+def test_prune_covered_rules():
+    """被上级后缀覆盖的 domain 与 full 规则应被剔除。"""
+    rules = [
+        ("domain", "cn"),          # ccTLD 后缀，保留
+        ("domain", "10086.cn"),    # 被 cn 覆盖 -> 剔除
+        ("domain", "mail.10086.cn"),  # 被 cn 覆盖 -> 剔除
+        ("domain", "example.com"), # 无上级，保留
+        ("full", "exact.cn"),      # 被 cn 覆盖 -> 剔除
+        ("full", "example.com"),   # domain:example.com 覆盖 -> 剔除
+        ("keyword", "cn"),         # 关键字，保留
+        ("regexp", r"^.+\.cn$"),   # 正则，保留
+    ]
+    pruned = prune_covered_rules(rules)
+    assert pruned == [
+        ("domain", "cn"),
+        ("domain", "example.com"),
+        ("keyword", "cn"),
+        ("regexp", r"^.+\.cn$"),
+    ]
+
+
+def test_prune_covered_rules_parent_suffix():
+    """父后缀存在于集合中时才剔除；不存在时保留。"""
+    rules = [
+        ("domain", "example.com"),
+        ("domain", "foo.example.com"),
+    ]
+    assert prune_covered_rules(rules) == [("domain", "example.com")]
+    rules2 = [("domain", "com"), ("domain", "example.com"), ("domain", "foo.example.com")]
+    pruned = prune_covered_rules(rules2)
+    assert ("domain", "com") in pruned
+    assert ("domain", "example.com") not in pruned
+    assert ("domain", "foo.example.com") not in pruned
+
+
+def test_prune_covered_rules_full_equal_domain():
+    rules = [("full", "exact.cn"), ("domain", "exact.cn")]
+    assert prune_covered_rules(rules) == [("domain", "exact.cn")]
+
+
+def test_prune_covered_rules_idempotent():
+    rules = [
+        ("domain", "cn"),
+        ("domain", "10086.cn"),
+        ("full", "exact.cn"),
+        ("keyword", "cn"),
+    ]
+    once = prune_covered_rules(rules)
+    assert prune_covered_rules(once) == once
 
 
 def test_site_render_formats():

@@ -246,6 +246,7 @@ def _generate_site(
         build_cc_tld_map,
         load_archive,
         merge_rules,
+        prune_covered_rules,
         resolve_category,
     )
 
@@ -315,6 +316,7 @@ def _generate_site(
                 if not any(d == t or d.endswith("." + t) for t in tlds)
             )
         rules = merge_rules(rules)
+        rules = prune_covered_rules(rules)
         if not rules:
             continue
         per_country[cc] = rules
@@ -323,7 +325,7 @@ def _generate_site(
     if global_provider:
         for rules in per_country.values():
             global_rules.extend(rules)
-        global_rules = merge_rules(global_rules)
+        global_rules = prune_covered_rules(merge_rules(global_rules))
 
     formats = build_formats()
     selected = args.formats or cfg.get("formats", ["Surge", "Clash", "QuantumultX", "Loon"])
@@ -406,6 +408,13 @@ def _validate(cfg: dict) -> int:
                 errors += 1
             lines = [ln.strip()[2:].strip() for ln in lines[1:]]
         seen: set[str] = set()
+        suffix_set: set[str] = set()
+        if is_site:
+            suffix_set = {
+                ln.split(",")[1].strip()
+                for ln in lines
+                if ln.startswith("DOMAIN-SUFFIX,")
+            }
         for idx, ln in enumerate(lines, 1):
             parts = [p.strip() for p in ln.split(",")]
             if not ln.startswith(valid_prefixes):
@@ -423,6 +432,20 @@ def _validate(cfg: dict) -> int:
                     print(f"[validate] FAIL {path.name}:{idx} 重复规则 -> {ln}")
                     errors += 1
                 seen.add(key)
+                if ln.startswith("DOMAIN-SUFFIX,") or ln.startswith("DOMAIN,"):
+                    parents = [
+                        ".".join(value.split(".")[i:])
+                        for i in range(1, len(value.split(".")))
+                    ]
+                    covered = any(p in suffix_set for p in parents)
+                    if ln.startswith("DOMAIN,") and value in suffix_set:
+                        covered = True
+                    if covered:
+                        print(
+                            f"[validate] FAIL {path.name}:{idx} "
+                            f"被上级后缀覆盖(冗余) -> {ln}"
+                        )
+                        errors += 1
                 continue
             if len(parts) < 2:
                 print(f"[validate] FAIL {path.name}:{idx} 缺少 CIDR -> {ln}")
