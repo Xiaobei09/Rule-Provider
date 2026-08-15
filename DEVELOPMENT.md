@@ -265,18 +265,39 @@ test: add merge_networks adjacency cases                 # 测试
 
 ### 6.5 分支与 PR
 
-- 主分支为 `master`；
-- 人工改动请基于 `master` 建分支，提交后发 PR；
+- 主分支为 `main`；
+- 人工改动请基于 `main` 建分支，提交后发 PR；
 - 合入前必须通过 CI（单元测试 + 生成校验 + 幂等性检查）；
 - 生成的 `ruleset/` 由每日工作流自动提交，人工 PR 一般不应包含 `ruleset/` 改动。
 
-### 6.6 CI 工作流
+### 6.6 本地开发流程（固定命令）
+
+所有常规开发操作都通过 `Makefile` 固定，命令与 CI 各步骤一一对应：
+
+| 命令 | 等价步骤 | 是否需要联网 |
+| --- | --- | --- |
+| `make test` | `python3 run_tests.py`（全部单元测试） | 否 |
+| `make fetch` | `python3 scripts/generate.py fetch` | 是 |
+| `make generate` | `python3 scripts/generate.py generate` | 否 |
+| `make validate` | `python3 scripts/generate.py validate` | 否 |
+| `make check` | generate + validate + 重复 generate 做幂等性 diff | 否 |
+| `make all` | fetch + check（与每日更新等价） | 是 |
+| `make clean` | 删除 `ruleset/` 生成产物 | 否 |
+
+开发流程定式：
+
+1. 修改代码/配置后：`make test` 通过；
+2. 涉及数据源时：`make fetch`（联网）→ `make check`；
+3. 提交前自查：`make check` 与 `make test` 全绿；
+4. 提交信息遵循 §6.4 Conventional Commits，推送后发 PR，CI 复核。
+
+### 6.7 CI 工作流
 
 - `.github/workflows/ci.yml`：push/PR 触发，跑测试、语法检查、生成校验、幂等性；
 - `.github/workflows/daily-update.yml`：每日 04:30 UTC 触发，fetch + generate +
   validate + 有变化才 commit & push（使用 `github-actions[bot]`）。
 
-### 6.7 发布与致谢
+### 6.8 发布与致谢
 
 - 发布规则集时在 README 更新数据快照信息；
 - 数据来源致谢：AFRINIC / APNIC / ARIN / LACNIC / RIPE NCC / MaxMind /

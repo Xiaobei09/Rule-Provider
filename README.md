@@ -1,7 +1,7 @@
 # Rule-Provider
 
-[![CI](https://github.com/Rule-Provider/Rule-Provider/actions/workflows/ci.yml/badge.svg)](https://github.com/Rule-Provider/Rule-Provider/actions/workflows/ci.yml)
-[![Daily Update](https://github.com/Rule-Provider/Rule-Provider/actions/workflows/daily-update.yml/badge.svg)](https://github.com/Rule-Provider/Rule-Provider/actions/workflows/daily-update.yml)
+[![CI](https://github.com/Xiaobei09/Rule-Provider/actions/workflows/ci.yml/badge.svg)](https://github.com/Xiaobei09/Rule-Provider/actions/workflows/ci.yml)
+[![Daily Update](https://github.com/Xiaobei09/Rule-Provider/actions/workflows/daily-update.yml/badge.svg)](https://github.com/Xiaobei09/Rule-Provider/actions/workflows/daily-update.yml)
 
 **全球国家/地区 IP 规则集（Rule Provider）+ 全球规则集 + 各国域名（site）规则集，每日自动生成并提交。**
 
@@ -130,6 +130,20 @@ https://raw.githubusercontent.com/Rule-Provider/Rule-Provider/master/ruleset/sit
 ---
 
 ## 本地使用
+
+固定开发命令见 [`Makefile`](Makefile)（与 CI 各步骤一一对应）：
+
+```bash
+make test        # 运行全部单元测试（零依赖）
+make fetch       # 下载数据源到 cache/（需联网）
+make generate    # 生成规则集到 ruleset/
+make validate    # 校验已生成规则集
+make check       # 生成 + 校验 + 幂等性检查
+make all         # 完整流程（fetch + check）
+make clean       # 删除生成产物 ruleset/
+```
+
+等价底层命令：
 
 ```bash
 # 下载并解析数据源（写入 cache/，不入库）
