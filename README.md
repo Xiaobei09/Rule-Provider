@@ -123,11 +123,12 @@ https://raw.githubusercontent.com/Rule-Provider/Rule-Provider/master/ruleset/sit
 
 - IP 数据来源：AFRINIC / APNIC / ARIN / LACNIC / RIPE NCC
   （可选补充 MaxMind GeoLite2；并集补充 IPtoASN）
-- site（域名）数据来源：v2fly/domain-list-community（各国 ccTLD + 精选分类）
+- site（域名）数据来源：v2fly/domain-list-community（各国 ccTLD + 精选分类，
+  含代表性应用/公司分类归属母国，如 US=google/netflix/openai 等）
   + Chrome CrUX 各国热门网站 Top 5000（Public Suffix List 规范化）
-- 覆盖国家/地区数：IP 239 / 域名 243（不含无分配地址或无 ccTLD 的领地；特殊码 `EU` 一并提供）
-- 全球规则集规模：约 18 万条 CIDR（IPv4 约 11.1 万 / IPv6 约 6.9 万）；
-  Global site 约 8900 条域名规则
+- 覆盖国家/地区数：IP 241 / 域名 243（不含无分配地址或无 ccTLD 的领地；特殊码 `EU` 一并提供）
+- 全球规则集规模：约 17.5 万条 CIDR（IPv4 约 11.1 万 / IPv6 约 6.9 万）；
+  Global site 约 22.7 万条域名规则
 - 最新数据日期：见 [`ruleset/metadata.json`](ruleset/metadata.json)
   与 [`ruleset/site/metadata.json`](ruleset/site/metadata.json)
 

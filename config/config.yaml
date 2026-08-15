@@ -70,6 +70,12 @@ sources:
     categories:
       CN: cn
       RU: tld-ru
+      # 应用分类归属母国：让该国 site 规则集包含其代表性应用的完整域名，
+      # 并计入 Global 并集（补充 CrUX top sites 与 ccTLD 之外的覆盖）。
+      US: [google, netflix, openai, facebook, microsoft, apple, amazon, youtube, twitter, discord, reddit, github, anthropic]
+      JP: [niconico, abema, pixiv, dmm]
+      KR: [kakao, naver, coupang]
+      SE: spotify
 
   # site 补充来源：各国热门网站（Chrome CrUX 按国家 Top 排名，公开数据，按月更新）
   # 每个国家文件为 gzip CSV（origin,rank），rank 为量级桶，按桶有序。

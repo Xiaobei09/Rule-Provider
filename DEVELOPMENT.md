@@ -83,6 +83,20 @@
    归属到其母国）；分类间共享域名由 `geosite.merge_rules` 去重（唯一性不变量）；
 5. `Global` site = 全部国家域名规则并集，同样经 `merge_rules` 去重。
 
+**应用分类归属母国（默认启用）：** 把代表性应用/公司的 geosite 应用分类并入
+其注册国，使该国 site 规则集包含这些应用的完整域名，并计入 `Global` 并集，
+补充 CrUX top sites 与 ccTLD 之外的覆盖：
+
+| 国家 | 应用分类（默认） |
+| --- | --- |
+| US | google, netflix, openai, facebook, microsoft, apple, amazon, youtube, twitter, discord, reddit, github, anthropic |
+| JP | niconico, abema, pixiv, dmm |
+| KR | kakao, naver, coupang |
+| SE | spotify |
+
+按需增删：在 `config.yaml` 的 `sources.geosite.categories` 中修改对应列表即可
+（分类名需存在于 v2fly 数据；缺失分类仅跳过）。
+
 ### 2.5 site 补充来源：各国热门网站（CrUX top sites）
 
 为丰富各国「真实热门网站」域名，可选启用 `sources.top_sites`
