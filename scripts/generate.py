@@ -243,9 +243,9 @@ def _generate_site(
     """根据 v2fly geosite 数据（+ 可选 top sites 补充）生成各国域名规则集。"""
     from geosite import (
         FALLBACK_CCTLD,
-        RULE_ORDER,
         build_cc_tld_map,
         load_archive,
+        merge_rules,
         resolve_category,
     )
 
@@ -262,7 +262,12 @@ def _generate_site(
     for cc, tlds in FALLBACK_CCTLD.items():
         cc_tld_map.setdefault(cc, []).extend(tlds)
 
-    categories = {cc.upper(): name for cc, name in cfg.get("sources", {}).get("geosite", {}).get("categories", {}).items()}
+    # categories 值支持单个分类名或分类名列表（如应用分类归属其母国）
+    raw_categories = cfg.get("sources", {}).get("geosite", {}).get("categories", {})
+    categories: dict[str, list[str]] = {}
+    for cc, name in raw_categories.items():
+        names = name if isinstance(name, list) else [name]
+        categories[cc.upper()] = [str(n) for n in names if n]
     for cc in categories:
         cc_tld_map.setdefault(cc, [])
 
@@ -300,8 +305,8 @@ def _generate_site(
         if cc in exclude:
             continue
         rules = [("domain", t) for t in cc_tld_map[cc]]
-        if cc in categories:
-            rules.extend((r.kind, r.value) for r in resolve_category(data, categories[cc]))
+        for cat in categories.get(cc, []):
+            rules.extend((r.kind, r.value) for r in resolve_category(data, cat))
         if cc in top_sites:
             tlds = cc_tld_map[cc]
             rules.extend(
@@ -309,10 +314,7 @@ def _generate_site(
                 for d in top_sites[cc]
                 if not any(d == t or d.endswith("." + t) for t in tlds)
             )
-        seen: dict[tuple, tuple] = {}
-        for r in rules:
-            seen.setdefault(r, r)
-        rules = sorted(seen.values(), key=lambda r: (RULE_ORDER[r[0]], r[1]))
+        rules = merge_rules(rules)
         if not rules:
             continue
         per_country[cc] = rules
@@ -321,10 +323,7 @@ def _generate_site(
     if global_provider:
         for rules in per_country.values():
             global_rules.extend(rules)
-        seen_g: dict[tuple, tuple] = {}
-        for r in global_rules:
-            seen_g.setdefault(r, r)
-        global_rules = sorted(seen_g.values(), key=lambda r: (RULE_ORDER[r[0]], r[1]))
+        global_rules = merge_rules(global_rules)
 
     formats = build_formats()
     selected = args.formats or cfg.get("formats", ["Surge", "Clash", "QuantumultX", "Loon"])

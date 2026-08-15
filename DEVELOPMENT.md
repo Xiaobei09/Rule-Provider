@@ -78,8 +78,10 @@
 2. `include:<name>` 递归展开（循环引用以 seen 集合防护）；
 3. 跳过 `attribute:`、`ext:`、`country:` 等非规则行；
 4. 每个国家规则 = 该国 ccTLD 的 domain 规则 + 配置的 `categories` 分类
-   （默认 `CN: cn`、`RU: tld-ru`），去重后按 `(类型, 值)` 稳定排序；
-5. `Global` site = 全部国家域名规则并集。
+   （默认 `CN: cn`、`RU: tld-ru`）。`categories` 值支持单个分类名或分类名
+   列表，列表用于把多个分类并入同一国家（如把 `netflix`/`openai` 等应用分类
+   归属到其母国）；分类间共享域名由 `geosite.merge_rules` 去重（唯一性不变量）；
+5. `Global` site = 全部国家域名规则并集，同样经 `merge_rules` 去重。
 
 ### 2.5 site 补充来源：各国热门网站（CrUX top sites）
 

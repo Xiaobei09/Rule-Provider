@@ -58,6 +58,17 @@ class Rule:
     value: str
 
 
+def merge_rules(rules: list[tuple[str, str]]) -> list[tuple[str, str]]:
+    """按 (kind, value) 去重并按 RULE_ORDER 稳定排序。
+
+    保证每个国家/Global 规则集中同一规则只出现一次（唯一性不变量）。
+    """
+    seen: dict[tuple[str, str], tuple[str, str]] = {}
+    for r in rules:
+        seen.setdefault(r, r)
+    return sorted(seen.values(), key=lambda r: (RULE_ORDER[r[0]], r[1]))
+
+
 def load_archive(path: Path) -> dict[str, str]:
     """读取 v2fly 数据压缩包，返回 {文件名: 内容}。"""
     prefix = "domain-list-community-master/data/"

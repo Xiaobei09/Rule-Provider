@@ -52,6 +52,35 @@ def test_merge_not_adjacent():
     assert len(merged) == 2
 
 
+def test_merge_duplicates_removed():
+    nets = [
+        ipaddress.ip_network("10.0.0.0/24"),
+        ipaddress.ip_network("10.0.0.0/24"),
+        ipaddress.ip_network("10.0.1.0/24"),
+        ipaddress.ip_network("10.0.0.0/25"),
+    ]
+    merged = merge_networks(nets)
+    assert merged == [ipaddress.ip_network("10.0.0.0/23")]
+
+
+def test_merge_unique_no_overlap():
+    nets = [
+        ipaddress.ip_network("192.168.0.0/24"),
+        ipaddress.ip_network("192.168.0.128/25"),
+        ipaddress.ip_network("192.168.1.0/25"),
+        ipaddress.ip_network("192.168.1.128/25"),
+        ipaddress.ip_network("192.168.2.0/24"),
+    ]
+    merged = merge_networks(nets)
+    keys = {str(n) for n in merged}
+    assert len(keys) == len(merged)
+    for a in merged:
+        for b in merged:
+            if a is b:
+                continue
+            assert not a.overlaps(b)
+
+
 def test_merge_empty():
     assert merge_networks([]) == []
 

@@ -63,8 +63,10 @@ sources:
     url: https://codeload.github.com/v2fly/domain-list-community/tar.gz/refs/heads/master
     archive: geosite-v2fly.tar.gz
     enabled: true
-    # 国家 -> v2fly 分类：cn = tld-cn + geolocation-cn（中国公司/政府 TLD + 富域名列表）
-    #                        tld-ru = ru/su/moscow 等俄罗斯 TLD
+    # 国家 -> v2fly 分类（支持单个分类名或分类名列表，列表用于把多个分类并入
+    # 同一国家，如把应用分类归属到其母国）。分类间自动去重（唯一性不变量）。
+    # cn = tld-cn + geolocation-cn（中国公司/政府 TLD + 富域名列表）
+    # tld-ru = ru/su/moscow 等俄罗斯 TLD
     categories:
       CN: cn
       RU: tld-ru

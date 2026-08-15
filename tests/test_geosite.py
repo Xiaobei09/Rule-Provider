@@ -8,6 +8,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 from geosite import (
     FALLBACK_CCTLD,
     build_cc_tld_map,
+    merge_rules,
     parse_tld_list,
     resolve_category,
 )
@@ -97,6 +98,88 @@ def test_fallback_cctld_has_curated_entries():
 
 def test_parse_tld_list():
     assert parse_tld_list(_sample_data()["tld-ru"]) == ["ru", "su", "moscow"]
+
+
+def test_merge_rules_dedup_same_kind():
+    rules = [
+        ("domain", "example.com"),
+        ("domain", "example.com"),
+        ("domain", "foo.com"),
+        ("domain", "foo.com"),
+    ]
+    merged = merge_rules(rules)
+    assert merged == [("domain", "example.com"), ("domain", "foo.com")]
+
+
+def test_merge_rules_dedup_diff_kind_kept():
+    rules = [("full", "exact.com"), ("domain", "exact.com"), ("full", "exact.com")]
+    merged = merge_rules(rules)
+    assert merged == [("domain", "exact.com"), ("full", "exact.com")]
+
+
+def test_merge_rules_stable_order():
+    rules = [
+        ("keyword", "zz"),
+        ("full", "a.example"),
+        ("domain", "b.example"),
+        ("regexp", r"^x$"),
+        ("domain", "a.example"),
+    ]
+    merged = merge_rules(rules)
+    kinds = [k for k, _ in merged]
+    assert kinds == ["domain", "domain", "full", "keyword", "regexp"]
+    assert ("domain", "a.example") in merged
+
+
+def test_merge_rules_empty():
+    assert merge_rules([]) == []
+
+
+def test_multi_category_unique():
+    """多个分类并入同一国家后规则完全唯一。"""
+    data = _sample_data()
+    data["netflix"] = "netflix.com\nexample.com\n"
+    data["openai"] = "openai.com\nexample.com\n"
+    rules = [("domain", "de")]  # ccTLD
+    for cat in ("cn", "netflix", "openai"):
+        rules.extend((r.kind, r.value) for r in resolve_category(data, cat))
+    merged = merge_rules(rules)
+    keys = [(k, v) for k, v in merged]
+    assert len(keys) == len(set(keys))
+
+
+def test_merge_rules_dedup_stable_sort():
+    rules = [
+        ("domain", "example.com"),
+        ("keyword", "qq"),
+        ("domain", "example.com"),
+        ("full", "exact.example.org"),
+        ("keyword", "qq"),
+        ("regexp", r"^.+\.xunlei\.com$"),
+    ]
+    merged = merge_rules(rules)
+    assert merged == [
+        ("domain", "example.com"),
+        ("full", "exact.example.org"),
+        ("keyword", "qq"),
+        ("regexp", r"^.+\.xunlei\.com$"),
+    ]
+
+
+def test_merge_rules_orders_by_rule_kind():
+    merged = merge_rules([("regexp", "z"), ("domain", "a"), ("full", "m")])
+    assert [k for k, _ in merged] == ["domain", "full", "regexp"]
+
+
+def test_site_rules_unique_across_categories():
+    data = _sample_data()
+    rules = []
+    rules.extend((r.kind, r.value) for r in resolve_category(data, "cn"))
+    rules.extend((r.kind, r.value) for r in resolve_category(data, "cn"))
+    rules.extend((r.kind, r.value) for r in resolve_category(data, "tld-ru"))
+    merged = merge_rules(rules)
+    keys = {(k, v) for k, v in merged}
+    assert len(keys) == len(merged)
 
 
 def test_site_render_formats():
