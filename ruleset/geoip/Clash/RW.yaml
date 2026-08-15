@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: RW
 # 卢旺达（Rwanda）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 54 条（IPv4: 33 / IPv6: 21）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 90 条（IPv4: 66 / IPv6: 24）
 # ============================================================
 payload:
   - IP-CIDR,102.130.32.0/21,no-resolve
@@ -23,22 +23,55 @@ payload:
   - IP-CIDR,102.22.128.0/18,no-resolve
   - IP-CIDR,105.178.0.0/17,no-resolve
   - IP-CIDR,105.179.0.0/19,no-resolve
+  - IP-CIDR,137.196.4.0/24,no-resolve
+  - IP-CIDR,137.64.16.0/21,no-resolve
   - IP-CIDR,154.68.64.0/18,no-resolve
   - IP-CIDR,156.38.8.0/21,no-resolve
+  - IP-CIDR,196.12.128.0/22,no-resolve
+  - IP-CIDR,196.12.132.0/24,no-resolve
+  - IP-CIDR,196.12.134.0/23,no-resolve
+  - IP-CIDR,196.12.137.0/24,no-resolve
+  - IP-CIDR,196.12.138.0/23,no-resolve
+  - IP-CIDR,196.12.140.0/24,no-resolve
+  - IP-CIDR,196.12.143.0/24,no-resolve
+  - IP-CIDR,196.12.144.0/20,no-resolve
+  - IP-CIDR,196.216.80.0/23,no-resolve
   - IP-CIDR,196.223.12.0/24,no-resolve
   - IP-CIDR,196.223.240.0/21,no-resolve
   - IP-CIDR,196.44.240.0/20,no-resolve
   - IP-CIDR,196.49.7.0/24,no-resolve
+  - IP-CIDR,197.148.140.0/24,no-resolve
   - IP-CIDR,197.157.128.0/18,no-resolve
   - IP-CIDR,197.157.212.0/22,no-resolve
+  - IP-CIDR,197.214.245.0/24,no-resolve
+  - IP-CIDR,197.214.253.0/24,no-resolve
+  - IP-CIDR,197.214.37.0/24,no-resolve
+  - IP-CIDR,197.214.57.0/24,no-resolve
   - IP-CIDR,197.234.244.0/22,no-resolve
   - IP-CIDR,197.243.0.0/17,no-resolve
   - IP-CIDR,41.138.80.0/21,no-resolve
+  - IP-CIDR,41.173.168.0/23,no-resolve
+  - IP-CIDR,41.173.248.0/21,no-resolve
+  - IP-CIDR,41.173.28.0/22,no-resolve
+  - IP-CIDR,41.173.32.0/22,no-resolve
   - IP-CIDR,41.186.0.0/16,no-resolve
   - IP-CIDR,41.197.0.0/16,no-resolve
+  - IP-CIDR,41.215.248.0/22,no-resolve
+  - IP-CIDR,41.216.112.0/21,no-resolve
+  - IP-CIDR,41.216.120.0/22,no-resolve
+  - IP-CIDR,41.216.127.0/24,no-resolve
+  - IP-CIDR,41.216.96.0/20,no-resolve
   - IP-CIDR,41.222.244.0/22,no-resolve
+  - IP-CIDR,41.223.224.0/22,no-resolve
   - IP-CIDR,41.242.140.0/22,no-resolve
+  - IP-CIDR,41.60.151.0/24,no-resolve
   - IP-CIDR,41.74.160.0/20,no-resolve
+  - IP-CIDR,41.77.6.0/24,no-resolve
+  - IP-CIDR,45.215.225.0/24,no-resolve
+  - IP-CIDR,45.215.227.0/24,no-resolve
+  - IP-CIDR,45.215.248.0/24,no-resolve
+  - IP-CIDR,45.215.250.0/24,no-resolve
+  - IP-CIDR,66.178.97.0/24,no-resolve
   - IP-CIDR6,2001:43f8:11e0::/48,no-resolve
   - IP-CIDR6,2001:43f8:150::/47,no-resolve
   - IP-CIDR6,2001:43f8:d80::/48,no-resolve
@@ -52,11 +85,14 @@ payload:
   - IP-CIDR6,2c0e:7c00::/24,no-resolve
   - IP-CIDR6,2c0f:3880::/32,no-resolve
   - IP-CIDR6,2c0f:56c0::/32,no-resolve
+  - IP-CIDR6,2c0f:5800::/32,no-resolve
   - IP-CIDR6,2c0f:580::/32,no-resolve
   - IP-CIDR6,2c0f:6100::/32,no-resolve
   - IP-CIDR6,2c0f:6700::/32,no-resolve
   - IP-CIDR6,2c0f:9a0::/32,no-resolve
+  - IP-CIDR6,2c0f:e9c8::/32,no-resolve
   - IP-CIDR6,2c0f:eb68::/32,no-resolve
   - IP-CIDR6,2c0f:f628::/32,no-resolve
   - IP-CIDR6,2c0f:f860::/32,no-resolve
+  - IP-CIDR6,2c0f:fe30::/32,no-resolve
   - IP-CIDR6,2c0f:fe60::/32,no-resolve

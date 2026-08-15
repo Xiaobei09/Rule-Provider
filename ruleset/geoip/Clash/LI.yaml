@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: LI
 # 列支敦士登（Liechtenstein）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 91 条（IPv4: 62 / IPv6: 29）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 96 条（IPv4: 64 / IPv6: 32）
 # ============================================================
 payload:
   - IP-CIDR,130.43.168.0/24,no-resolve
@@ -18,6 +18,7 @@ payload:
   - IP-CIDR,185.19.35.0/24,no-resolve
   - IP-CIDR,185.197.181.0/24,no-resolve
   - IP-CIDR,185.208.120.0/22,no-resolve
+  - IP-CIDR,185.208.252.0/22,no-resolve
   - IP-CIDR,185.236.220.0/22,no-resolve
   - IP-CIDR,185.246.232.0/22,no-resolve
   - IP-CIDR,185.251.164.0/22,no-resolve
@@ -67,6 +68,7 @@ payload:
   - IP-CIDR,89.248.144.0/20,no-resolve
   - IP-CIDR,91.207.130.0/23,no-resolve
   - IP-CIDR,91.217.207.0/24,no-resolve
+  - IP-CIDR,91.224.94.0/23,no-resolve
   - IP-CIDR,91.232.229.0/24,no-resolve
   - IP-CIDR6,2001:678:bbc::/48,no-resolve
   - IP-CIDR6,2001:67c:18dc::/48,no-resolve
@@ -87,10 +89,13 @@ payload:
   - IP-CIDR6,2a03:5480::/29,no-resolve
   - IP-CIDR6,2a06:1940::/29,no-resolve
   - IP-CIDR6,2a0a:aec0::/29,no-resolve
+  - IP-CIDR6,2a0b:5dc0::/29,no-resolve
+  - IP-CIDR6,2a0b:83c0::/29,no-resolve
   - IP-CIDR6,2a0c:2e40::/30,no-resolve
   - IP-CIDR6,2a0c:d780::/29,no-resolve
   - IP-CIDR6,2a0d:d300::/32,no-resolve
   - IP-CIDR6,2a0e:11c0::/32,no-resolve
+  - IP-CIDR6,2a0f:85c1:b3e::/48,no-resolve
   - IP-CIDR6,2a10:4140::/29,no-resolve
   - IP-CIDR6,2a10:8940::/29,no-resolve
   - IP-CIDR6,2a10:d2c0::/32,no-resolve

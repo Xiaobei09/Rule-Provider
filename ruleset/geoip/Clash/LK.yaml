@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: LK
 # 斯里兰卡（Sri Lanka）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 94 条（IPv4: 70 / IPv6: 24）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 100 条（IPv4: 75 / IPv6: 25）
 # ============================================================
 payload:
   - IP-CIDR,101.2.176.0/20,no-resolve
@@ -15,6 +15,7 @@ payload:
   - IP-CIDR,103.144.60.0/24,no-resolve
   - IP-CIDR,103.2.148.0/22,no-resolve
   - IP-CIDR,103.2.152.0/22,no-resolve
+  - IP-CIDR,103.20.218.0/24,no-resolve
   - IP-CIDR,103.21.164.0/22,no-resolve
   - IP-CIDR,103.210.128.0/23,no-resolve
   - IP-CIDR,103.227.244.0/22,no-resolve
@@ -25,7 +26,9 @@ payload:
   - IP-CIDR,103.84.160.0/22,no-resolve
   - IP-CIDR,103.87.12.0/22,no-resolve
   - IP-CIDR,103.87.124.0/22,no-resolve
+  - IP-CIDR,103.96.226.0/23,no-resolve
   - IP-CIDR,103.99.100.0/24,no-resolve
+  - IP-CIDR,104.75.84.0/24,no-resolve
   - IP-CIDR,111.223.128.0/18,no-resolve
   - IP-CIDR,112.134.0.0/15,no-resolve
   - IP-CIDR,113.59.192.0/19,no-resolve
@@ -44,6 +47,7 @@ payload:
   - IP-CIDR,124.43.0.0/16,no-resolve
   - IP-CIDR,124.6.240.0/20,no-resolve
   - IP-CIDR,125.214.160.0/19,no-resolve
+  - IP-CIDR,14.140.61.0/24,no-resolve
   - IP-CIDR,157.10.164.0/24,no-resolve
   - IP-CIDR,160.30.6.0/24,no-resolve
   - IP-CIDR,175.157.0.0/16,no-resolve
@@ -59,9 +63,7 @@ payload:
   - IP-CIDR,203.189.184.0/21,no-resolve
   - IP-CIDR,203.189.64.0/20,no-resolve
   - IP-CIDR,203.34.116.0/24,no-resolve
-  - IP-CIDR,203.81.100.0/22,no-resolve
-  - IP-CIDR,203.81.104.0/21,no-resolve
-  - IP-CIDR,203.81.96.0/22,no-resolve
+  - IP-CIDR,203.81.96.0/20,no-resolve
   - IP-CIDR,203.94.64.0/18,no-resolve
   - IP-CIDR,203.96.160.0/22,no-resolve
   - IP-CIDR,212.104.224.0/20,no-resolve
@@ -75,6 +77,9 @@ payload:
   - IP-CIDR,43.250.240.0/22,no-resolve
   - IP-CIDR,43.252.12.0/22,no-resolve
   - IP-CIDR,45.121.88.0/22,no-resolve
+  - IP-CIDR,45.192.129.0/24,no-resolve
+  - IP-CIDR,45.194.93.0/24,no-resolve
+  - IP-CIDR,59.163.244.0/23,no-resolve
   - IP-CIDR,61.245.160.0/20,no-resolve
   - IP-CIDR6,2001:678:638::/48,no-resolve
   - IP-CIDR6,2001:de9::/48,no-resolve
@@ -100,3 +105,4 @@ payload:
   - IP-CIDR6,2405:6b00::/32,no-resolve
   - IP-CIDR6,2406:c00::/32,no-resolve
   - IP-CIDR6,2407:c00::/32,no-resolve
+  - IP-CIDR6,2a06:e881:4320::/46,no-resolve

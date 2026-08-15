@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: MM
 # 缅甸（Myanmar）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 362 条（IPv4: 233 / IPv6: 129）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 386 条（IPv4: 257 / IPv6: 129）
 # ============================================================
 payload:
   - IP-CIDR,103.101.16.0/22,no-resolve
@@ -169,10 +169,14 @@ payload:
   - IP-CIDR,123.253.20.0/22,no-resolve
   - IP-CIDR,123.253.228.0/22,no-resolve
   - IP-CIDR,136.228.160.0/20,no-resolve
+  - IP-CIDR,146.88.41.0/24,no-resolve
   - IP-CIDR,151.158.136.0/23,no-resolve
   - IP-CIDR,151.158.146.0/23,no-resolve
   - IP-CIDR,151.158.232.0/23,no-resolve
   - IP-CIDR,151.158.238.0/24,no-resolve
+  - IP-CIDR,154.18.220.0/22,no-resolve
+  - IP-CIDR,154.84.165.0/24,no-resolve
+  - IP-CIDR,156.236.2.0/23,no-resolve
   - IP-CIDR,157.10.224.0/23,no-resolve
   - IP-CIDR,157.119.76.0/22,no-resolve
   - IP-CIDR,157.15.142.0/23,no-resolve
@@ -205,6 +209,7 @@ payload:
   - IP-CIDR,202.53.156.0/22,no-resolve
   - IP-CIDR,203.109.36.0/22,no-resolve
   - IP-CIDR,203.109.48.0/22,no-resolve
+  - IP-CIDR,203.166.158.0/24,no-resolve
   - IP-CIDR,203.201.188.0/23,no-resolve
   - IP-CIDR,203.215.60.0/22,no-resolve
   - IP-CIDR,203.31.93.0/24,no-resolve
@@ -213,10 +218,21 @@ payload:
   - IP-CIDR,203.81.64.0/19,no-resolve
   - IP-CIDR,203.9.219.0/24,no-resolve
   - IP-CIDR,203.96.240.0/22,no-resolve
+  - IP-CIDR,204.157.168.0/21,no-resolve
   - IP-CIDR,210.14.96.0/20,no-resolve
   - IP-CIDR,210.87.126.0/23,no-resolve
   - IP-CIDR,27.109.116.0/22,no-resolve
   - IP-CIDR,37.111.0.0/17,no-resolve
+  - IP-CIDR,38.106.119.0/24,no-resolve
+  - IP-CIDR,38.225.238.0/23,no-resolve
+  - IP-CIDR,38.47.40.0/22,no-resolve
+  - IP-CIDR,38.47.45.0/24,no-resolve
+  - IP-CIDR,38.47.46.0/23,no-resolve
+  - IP-CIDR,38.51.128.0/22,no-resolve
+  - IP-CIDR,38.56.204.0/24,no-resolve
+  - IP-CIDR,38.83.17.0/24,no-resolve
+  - IP-CIDR,38.83.18.0/23,no-resolve
+  - IP-CIDR,38.94.156.0/24,no-resolve
   - IP-CIDR,42.156.32.0/22,no-resolve
   - IP-CIDR,43.224.40.0/22,no-resolve
   - IP-CIDR,43.224.84.0/22,no-resolve
@@ -230,9 +246,17 @@ payload:
   - IP-CIDR,45.112.44.0/22,no-resolve
   - IP-CIDR,45.120.84.0/22,no-resolve
   - IP-CIDR,45.125.4.0/22,no-resolve
+  - IP-CIDR,45.192.136.0/21,no-resolve
+  - IP-CIDR,45.192.22.0/23,no-resolve
+  - IP-CIDR,45.195.128.0/24,no-resolve
+  - IP-CIDR,45.195.135.0/24,no-resolve
+  - IP-CIDR,45.195.81.0/24,no-resolve
+  - IP-CIDR,45.196.69.0/24,no-resolve
+  - IP-CIDR,45.199.180.0/24,no-resolve
   - IP-CIDR,45.250.200.0/22,no-resolve
   - IP-CIDR,45.250.240.0/22,no-resolve
   - IP-CIDR,45.41.96.0/19,no-resolve
+  - IP-CIDR,45.64.72.0/23,no-resolve
   - IP-CIDR,59.153.108.0/22,no-resolve
   - IP-CIDR,59.153.88.0/22,no-resolve
   - IP-CIDR,61.4.64.0/20,no-resolve
@@ -252,7 +276,7 @@ payload:
   - IP-CIDR6,2001:df1:7e00::/48,no-resolve
   - IP-CIDR6,2001:df1:9ac0::/48,no-resolve
   - IP-CIDR6,2001:df1:a280::/48,no-resolve
-  - IP-CIDR6,2001:df1:c700::/48,no-resolve
+  - IP-CIDR6,2001:df1:c700::/47,no-resolve
   - IP-CIDR6,2001:df1:e2c0::/48,no-resolve
   - IP-CIDR6,2001:df1:ea40::/48,no-resolve
   - IP-CIDR6,2001:df1:f0c0::/48,no-resolve

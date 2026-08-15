@@ -1,13 +1,15 @@
 # ============================================================
 # Rule-Provider: VU
 # 瓦努阿图（Vanuatu）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 31 条（IPv4: 20 / IPv6: 11）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 56 条（IPv4: 40 / IPv6: 16）
 # ============================================================
 IP-CIDR,103.100.10.0/24,no-resolve
 IP-CIDR,103.101.192.0/24,no-resolve
 IP-CIDR,103.125.232.0/22,no-resolve
+IP-CIDR,103.136.147.0/24,no-resolve
+IP-CIDR,103.16.15.0/24,no-resolve
 IP-CIDR,103.20.232.0/23,no-resolve
 IP-CIDR,103.226.22.0/23,no-resolve
 IP-CIDR,103.25.228.0/23,no-resolve
@@ -17,14 +19,32 @@ IP-CIDR,103.7.197.0/24,no-resolve
 IP-CIDR,103.72.90.0/23,no-resolve
 IP-CIDR,103.75.20.0/23,no-resolve
 IP-CIDR,113.11.240.0/21,no-resolve
+IP-CIDR,147.78.240.0/23,no-resolve
 IP-CIDR,160.187.44.0/23,no-resolve
 IP-CIDR,163.128.190.0/24,no-resolve
+IP-CIDR,176.113.68.0/23,no-resolve
+IP-CIDR,176.119.150.0/24,no-resolve
 IP-CIDR,180.222.208.0/22,no-resolve
+IP-CIDR,185.184.220.0/24,no-resolve
+IP-CIDR,185.184.222.0/24,no-resolve
+IP-CIDR,185.248.85.0/24,no-resolve
+IP-CIDR,185.254.75.0/24,no-resolve
+IP-CIDR,194.114.136.0/24,no-resolve
 IP-CIDR,194.127.164.0/22,no-resolve
+IP-CIDR,194.36.25.0/24,no-resolve
+IP-CIDR,194.36.27.0/24,no-resolve
 IP-CIDR,202.4.251.0/24,no-resolve
 IP-CIDR,202.61.106.0/23,no-resolve
 IP-CIDR,202.80.32.0/20,no-resolve
 IP-CIDR,203.191.128.0/22,no-resolve
+IP-CIDR,213.232.112.0/24,no-resolve
+IP-CIDR,45.130.20.0/22,no-resolve
+IP-CIDR,45.147.50.0/23,no-resolve
+IP-CIDR,45.66.219.0/24,no-resolve
+IP-CIDR,80.66.197.0/24,no-resolve
+IP-CIDR,80.66.198.0/24,no-resolve
+IP-CIDR,88.214.21.0/24,no-resolve
+IP-CIDR,92.60.40.0/24,no-resolve
 IP-CIDR6,2001:dec::/48,no-resolve
 IP-CIDR6,2001:df0:410::/48,no-resolve
 IP-CIDR6,2001:df2:a700::/48,no-resolve
@@ -35,4 +55,9 @@ IP-CIDR6,2400:3400::/32,no-resolve
 IP-CIDR6,2400:c0c0::/32,no-resolve
 IP-CIDR6,2401:7a40::/32,no-resolve
 IP-CIDR6,2403:fbc0::/32,no-resolve
+IP-CIDR6,2a03:d9c0:3000::/47,no-resolve
 IP-CIDR6,2a07:d880::/29,no-resolve
+IP-CIDR6,2a07:fe00:1::/48,no-resolve
+IP-CIDR6,2a0b:89c1:3::/48,no-resolve
+IP-CIDR6,2a0c:59c0:18::/48,no-resolve
+IP-CIDR6,2a11:3:500::/40,no-resolve

@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: SL
 # 塞拉利昂（Sierra Leone）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 39 条（IPv4: 30 / IPv6: 9）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 43 条（IPv4: 33 / IPv6: 10）
 # ============================================================
 payload:
   - IP-CIDR,102.143.0.0/17,no-resolve
@@ -21,11 +21,14 @@ payload:
   - IP-CIDR,102.223.154.0/23,no-resolve
   - IP-CIDR,102.223.168.0/22,no-resolve
   - IP-CIDR,102.23.140.0/22,no-resolve
+  - IP-CIDR,154.53.196.0/23,no-resolve
   - IP-CIDR,160.19.152.0/22,no-resolve
   - IP-CIDR,160.20.112.0/22,no-resolve
   - IP-CIDR,165.73.236.0/22,no-resolve
   - IP-CIDR,169.239.196.0/22,no-resolve
   - IP-CIDR,169.239.244.0/22,no-resolve
+  - IP-CIDR,195.110.176.0/21,no-resolve
+  - IP-CIDR,195.110.184.0/23,no-resolve
   - IP-CIDR,196.216.220.0/23,no-resolve
   - IP-CIDR,196.223.10.0/24,no-resolve
   - IP-CIDR,196.43.229.0/24,no-resolve
@@ -39,6 +42,7 @@ payload:
   - IP-CIDR6,2001:43f8:1a30::/47,no-resolve
   - IP-CIDR6,2001:43f8:a90::/48,no-resolve
   - IP-CIDR6,2001:43f8:b0::/48,no-resolve
+  - IP-CIDR6,2001:978:3301::/48,no-resolve
   - IP-CIDR6,2c0f:27c0::/32,no-resolve
   - IP-CIDR6,2c0f:3000::/32,no-resolve
   - IP-CIDR6,2c0f:5640::/32,no-resolve

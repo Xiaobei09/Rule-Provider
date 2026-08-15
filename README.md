@@ -16,6 +16,8 @@
   （ISO 3166-1 全集 249 个中，仅无人岛/无分配领地缺席，另有 `EU` 欧盟特殊码）；
 - **准确性高**：数据来自 IANA 授权的区域互联网注册机构（AFRINIC / APNIC / ARIN /
   LACNIC / RIPE NCC）第一手分配记录，自动剔除 IANA 保留地址段；
+  另以 IPtoASN（ASN 注册国，Public Domain）作并集补充，弥合「分配国」与
+  「运营国」错位的跨国地址段；
 - **全球规则集**：额外提供 `Global` 规则集（全部国家地址段并集，IPv4 + IPv6）；
 - **各国域名规则集（site）**：`ruleset/site/` 提供每国域名规则——各国 ccTLD
   （`.cn`、`.de`、`.jp` 等，v2fly 全量清单 + IANA 补全）+ 精选分类
@@ -37,6 +39,7 @@
 ├── scripts/                    # 生成器（零第三方依赖）
 │   ├── generate.py             # CLI 入口
 │   ├── sources.py              # 数据源下载与解析
+│   ├── iptoasn.py              # geoip：IPtoASN 补充（ASN 归属）/ 范围拆分
 │   ├── cidr.py                 # CIDR 合并 / 保留段过滤
 │   ├── render.py               # 各平台格式渲染
 │   ├── countries.py            # ISO 3166 中英文元数据
@@ -118,7 +121,8 @@ https://raw.githubusercontent.com/Rule-Provider/Rule-Provider/master/ruleset/sit
 
 > 由每日工作流自动更新，非手动维护。
 
-- IP 数据来源：AFRINIC / APNIC / ARIN / LACNIC / RIPE NCC（可选补充 MaxMind GeoLite2）
+- IP 数据来源：AFRINIC / APNIC / ARIN / LACNIC / RIPE NCC
+  （可选补充 MaxMind GeoLite2；并集补充 IPtoASN）
 - site（域名）数据来源：v2fly/domain-list-community（各国 ccTLD + 精选分类）
   + Chrome CrUX 各国热门网站 Top 5000（Public Suffix List 规范化）
 - 覆盖国家/地区数：IP 239 / 域名 243（不含无分配地址或无 ccTLD 的领地；特殊码 `EU` 一并提供）
@@ -173,7 +177,8 @@ python3 scripts/generate.py generate --no-site   # 只生成 IP 规则集，跳�
   各文件仅含本区域数据，本项目合并全部五个以获得全球覆盖。
 - 生成时剔除 IANA 特殊用途保留段（私网/回环/多播/TEST-NET 等）；
 - 相邻地址段自动合并为更大 CIDR，不改变地址归属；
-- 可选启用 MaxMind GeoLite2（真实地理归属更精细）作为补充来源。
+- 并集补充 IPtoASN（ASN 注册国）：跨国段同时进入「分配国」与「运营国」，
+  弥合 RIR 只记录分配国的盲区；可选启用 MaxMind GeoLite2 作另一补充来源。
 - 域名数据来自 v2fly/domain-list-community：ccTLD 按国家注释映射 + IANA 官方
   根区列表校验补全，国家归属以数据源标注为准；
 - 各国热门网站来自 Chrome CrUX 公开排名（每月更新）：仅取每国 Top 5000，
@@ -199,6 +204,7 @@ python3 scripts/generate.py generate --no-site   # 只生成 IP 规则集，跳�
 [APNIC](https://www.apnic.net/) · [ARIN](https://www.arin.net/) ·
 [LACNIC](https://www.lacnic.net/) · [RIPE NCC](https://www.ripe.net/) ·
 [MaxMind](https://www.maxmind.com/) ·
+[IPtoASN](https://iptoasn.com/) ·
 [v2fly](https://github.com/v2fly/domain-list-community) ·
 [Google Chrome UX Report](https://developer.chrome.com/docs/crux/) ·
 [publicsuffix.org](https://publicsuffix.org/)

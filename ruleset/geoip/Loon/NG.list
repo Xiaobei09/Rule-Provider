@@ -1,13 +1,14 @@
 # ============================================================
 # Rule-Provider: NG
 # 尼日利亚（Nigeria）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 534 条（IPv4: 401 / IPv6: 133）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 549 条（IPv4: 410 / IPv6: 139）
 # ============================================================
 IP-CIDR,102.128.192.0/18,no-resolve
 IP-CIDR,102.130.0.0/21,no-resolve
 IP-CIDR,102.130.103.0/24,no-resolve
+IP-CIDR,102.130.224.0/21,no-resolve
 IP-CIDR,102.130.52.0/22,no-resolve
 IP-CIDR,102.131.128.0/17,no-resolve
 IP-CIDR,102.131.36.0/22,no-resolve
@@ -23,6 +24,7 @@ IP-CIDR,102.164.32.0/21,no-resolve
 IP-CIDR,102.164.44.0/22,no-resolve
 IP-CIDR,102.165.124.0/22,no-resolve
 IP-CIDR,102.165.184.0/22,no-resolve
+IP-CIDR,102.165.61.0/24,no-resolve
 IP-CIDR,102.176.240.0/21,no-resolve
 IP-CIDR,102.201.164.0/22,no-resolve
 IP-CIDR,102.201.184.0/22,no-resolve
@@ -211,6 +213,7 @@ IP-CIDR,105.235.192.0/20,no-resolve
 IP-CIDR,129.18.0.0/16,no-resolve
 IP-CIDR,129.205.96.0/19,no-resolve
 IP-CIDR,129.56.0.0/16,no-resolve
+IP-CIDR,154.0.189.0/24,no-resolve
 IP-CIDR,154.113.0.0/16,no-resolve
 IP-CIDR,154.117.64.0/18,no-resolve
 IP-CIDR,154.118.0.0/17,no-resolve
@@ -228,8 +231,11 @@ IP-CIDR,160.119.196.0/23,no-resolve
 IP-CIDR,160.119.246.0/23,no-resolve
 IP-CIDR,160.152.0.0/16,no-resolve
 IP-CIDR,160.226.0.0/17,no-resolve
+IP-CIDR,164.160.192.0/21,no-resolve
 IP-CIDR,165.73.192.0/19,no-resolve
 IP-CIDR,165.90.240.0/20,no-resolve
+IP-CIDR,167.88.48.0/24,no-resolve
+IP-CIDR,167.88.51.0/24,no-resolve
 IP-CIDR,168.253.112.0/21,no-resolve
 IP-CIDR,168.253.208.0/21,no-resolve
 IP-CIDR,169.159.64.0/18,no-resolve
@@ -338,13 +344,15 @@ IP-CIDR,212.100.64.0/19,no-resolve
 IP-CIDR,213.255.128.0/19,no-resolve
 IP-CIDR,217.117.0.0/20,no-resolve
 IP-CIDR,217.14.80.0/20,no-resolve
+IP-CIDR,38.95.205.0/24,no-resolve
 IP-CIDR,41.138.160.0/19,no-resolve
 IP-CIDR,41.184.0.0/16,no-resolve
 IP-CIDR,41.189.0.0/19,no-resolve
 IP-CIDR,41.190.0.0/19,no-resolve
 IP-CIDR,41.203.64.0/18,no-resolve
+IP-CIDR,41.204.250.0/24,no-resolve
 IP-CIDR,41.206.0.0/19,no-resolve
-IP-CIDR,41.207.248.0/22,no-resolve
+IP-CIDR,41.207.248.0/21,no-resolve
 IP-CIDR,41.215.244.0/22,no-resolve
 IP-CIDR,41.216.160.0/20,no-resolve
 IP-CIDR,41.216.216.0/21,no-resolve
@@ -397,6 +405,7 @@ IP-CIDR,41.79.4.0/22,no-resolve
 IP-CIDR,41.79.64.0/22,no-resolve
 IP-CIDR,41.86.128.0/19,no-resolve
 IP-CIDR,41.87.64.0/19,no-resolve
+IP-CIDR,45.222.192.0/18,no-resolve
 IP-CIDR,45.222.96.0/21,no-resolve
 IP-CIDR,62.173.32.0/19,no-resolve
 IP-CIDR,80.248.0.0/20,no-resolve
@@ -440,7 +449,11 @@ IP-CIDR6,2001:43fd:6000::/40,no-resolve
 IP-CIDR6,2001:43fd:a800::/48,no-resolve
 IP-CIDR6,2001:43fe:1000::/44,no-resolve
 IP-CIDR6,2001:43ff:800::/48,no-resolve
+IP-CIDR6,2602:fed2:7198::/48,no-resolve
+IP-CIDR6,2602:fed2:7308::/48,no-resolve
+IP-CIDR6,2a01:e281:ac00::/40,no-resolve
 IP-CIDR6,2a06:b940::/29,no-resolve
+IP-CIDR6,2a13:aac4:f060::/44,no-resolve
 IP-CIDR6,2c0f:1080::/32,no-resolve
 IP-CIDR6,2c0f:12c0::/32,no-resolve
 IP-CIDR6,2c0f:13c0::/32,no-resolve
@@ -507,6 +520,7 @@ IP-CIDR6,2c0f:eb50::/32,no-resolve
 IP-CIDR6,2c0f:ebb8::/32,no-resolve
 IP-CIDR6,2c0f:ec10::/32,no-resolve
 IP-CIDR6,2c0f:ec38::/32,no-resolve
+IP-CIDR6,2c0f:ec60::/32,no-resolve
 IP-CIDR6,2c0f:ed20::/32,no-resolve
 IP-CIDR6,2c0f:eec0::/32,no-resolve
 IP-CIDR6,2c0f:eee8::/32,no-resolve
@@ -524,6 +538,7 @@ IP-CIDR6,2c0f:f5a0::/32,no-resolve
 IP-CIDR6,2c0f:f5c0::/32,no-resolve
 IP-CIDR6,2c0f:f638::/32,no-resolve
 IP-CIDR6,2c0f:f880::/32,no-resolve
+IP-CIDR6,2c0f:f8e8::/32,no-resolve
 IP-CIDR6,2c0f:f9e0::/32,no-resolve
 IP-CIDR6,2c0f:fb98::/32,no-resolve
 IP-CIDR6,2c0f:fba8::/32,no-resolve

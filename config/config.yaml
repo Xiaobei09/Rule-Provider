@@ -44,6 +44,18 @@ sources:
     url: https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&license_key={license}&suffix=zip
     enabled: false
 
+  # IP 补充来源：IPtoASN（免费 IP -> ASN/国家数据库，Public Domain / PDDL v1.0）
+  # 数据源：https://iptoasn.com/，每小时更新，无需任何密钥。
+  # 与 RIR 的关系：RIR 记录的是「分配国」，IPtoASN 记录的是「ASN 注册/运营国」，
+  # 跨国段（分配国 != 运营国）将同时进入两国，作为 RIR 的并集补充。
+  # 文件无内嵌版本日期，数据日期取 HTTP Last-Modified 头（保证同日幂等）。
+  ip2asn:
+    enabled: true
+    url_v4: https://iptoasn.com/data/ip2asn-v4.tsv.gz
+    url_v6: https://iptoasn.com/data/ip2asn-v6.tsv.gz
+    archive_v4: ip2asn-v4.tsv.gz
+    archive_v6: ip2asn-v6.tsv.gz
+
   # site（域名规则）来源：v2fly/domain-list-community（互联网公开仓库，MIT 许可）
   # 数据文件 data/<name> 是 geosite 分类；data/tld-!cn 是全球 ccTLD（带国家注释）。
   # 每个国家规则 = 该国 ccTLD 后缀 + 指定分类（include: 自动递归）。

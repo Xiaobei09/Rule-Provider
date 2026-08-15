@@ -17,7 +17,7 @@
     --print-stats                 打印各国统计摘要
 
 生成内容：
-    ruleset/geoip/     每国 IP 段规则集（CIDR）
+    ruleset/geoip/     每国 IP 段规则集（RIR + 可选 IPtoASN/MaxMind 并集，CIDR）
     ruleset/global/    全球 IP 段 Rule Provider（并集）
     ruleset/site/      每国域名规则集（ccTLD + v2fly geosite 分类 + 可选 top sites）
     ruleset/metadata.json / ruleset/site/metadata.json  元数据
@@ -101,6 +101,13 @@ def _fetch(cfg: dict, source: str, cache_dir: Path) -> dict[str, list]:
             for cc, nets in mm_nets.items():
                 combined.setdefault(cc, []).extend(nets)
             print(f"[fetch] GeoLite2: 覆盖 {len(mm_nets)} 个国家/地区")
+
+    ia = cfg["sources"].get("ip2asn", {})
+    if ia.get("enabled", False):
+        from iptoasn import fetch_ip2asn
+
+        date = fetch_ip2asn(ia, cache_dir, timeout, ua)
+        print(f"[fetch] IPtoASN: 已下载（数据日期 {date or '未知'}）")
 
     gs = cfg["sources"].get("geosite", {})
     if gs.get("enabled", True):
@@ -476,6 +483,8 @@ def main(argv: list[str] | None = None) -> int:
         source_name = "MaxMind GeoLite2 + APNIC"
     elif args.source == "maxmind":
         source_name = "MaxMind GeoLite2 + APNIC"
+    if cfg["sources"].get("ip2asn", {}).get("enabled", False):
+        source_name += " + IPtoASN"
 
     try:
         if args.command in ("fetch", "all"):
@@ -509,6 +518,19 @@ def main(argv: list[str] | None = None) -> int:
                     nets, _t, _u = parse_delegated(text, statuses)
                     for cc, v in nets.items():
                         countries_nets.setdefault(cc, []).extend(v)
+            countries_nets = {cc: merge_networks(v) for cc, v in countries_nets.items()}
+            # IPtoASN 补充：与 RIR 并集（ASN 注册国，弥补分配国盲区）
+            if cfg["sources"].get("ip2asn", {}).get("enabled", False):
+                from iptoasn import load_date, load_ip2asn
+
+                ip2asn_nets = load_ip2asn(cache_dir, cfg["sources"]["ip2asn"])
+                for cc, nets in ip2asn_nets.items():
+                    countries_nets.setdefault(cc, []).extend(nets)
+                d = load_date(cache_dir)
+                if d:
+                    data_dates.append(d)
+                if ip2asn_nets:
+                    print(f"[generate] IPtoASN 补充: 覆盖 {len(ip2asn_nets)} 个国家/地区")
             countries_nets = {cc: merge_networks(v) for cc, v in countries_nets.items()}
             # 以 RIR 数据日期作为快照标识：同日数据重复生成输出一致（幂等）
             generated_at = max(data_dates, default=_utc())

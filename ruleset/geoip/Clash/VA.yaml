@@ -1,14 +1,15 @@
 # ============================================================
 # Rule-Provider: VA
 # 梵蒂冈（Holy See）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 7 条（IPv4: 4 / IPv6: 3）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 8 条（IPv4: 5 / IPv6: 3）
 # ============================================================
 payload:
   - IP-CIDR,185.152.68.0/22,no-resolve
   - IP-CIDR,185.17.220.0/22,no-resolve
   - IP-CIDR,193.43.102.0/23,no-resolve
+  - IP-CIDR,193.43.128.0/22,no-resolve
   - IP-CIDR,212.77.0.0/19,no-resolve
   - IP-CIDR6,2a01:b8::/29,no-resolve
   - IP-CIDR6,2a04:640::/29,no-resolve

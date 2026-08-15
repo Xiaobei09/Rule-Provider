@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: BO
 # 玻利维亚（Bolivia）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 159 条（IPv4: 102 / IPv6: 57）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 191 条（IPv4: 132 / IPv6: 59）
 # ============================================================
 IP-CIDR,131.0.0.0/22,no-resolve
 IP-CIDR,131.0.196.0/22,no-resolve
@@ -12,6 +12,14 @@ IP-CIDR,138.36.76.0/22,no-resolve
 IP-CIDR,143.0.101.0/24,no-resolve
 IP-CIDR,143.137.112.0/22,no-resolve
 IP-CIDR,143.137.228.0/22,no-resolve
+IP-CIDR,149.12.245.0/24,no-resolve
+IP-CIDR,154.9.180.0/24,no-resolve
+IP-CIDR,158.172.152.0/21,no-resolve
+IP-CIDR,158.172.224.0/22,no-resolve
+IP-CIDR,158.172.228.0/22,no-resolve
+IP-CIDR,158.172.232.0/21,no-resolve
+IP-CIDR,158.172.242.0/23,no-resolve
+IP-CIDR,158.172.248.0/21,no-resolve
 IP-CIDR,160.20.225.0/24,no-resolve
 IP-CIDR,161.138.0.0/16,no-resolve
 IP-CIDR,161.22.128.0/17,no-resolve
@@ -45,6 +53,7 @@ IP-CIDR,186.195.247.0/24,no-resolve
 IP-CIDR,186.2.0.0/17,no-resolve
 IP-CIDR,186.27.0.0/17,no-resolve
 IP-CIDR,187.102.200.0/22,no-resolve
+IP-CIDR,189.28.64.0/19,no-resolve
 IP-CIDR,190.0.248.0/21,no-resolve
 IP-CIDR,190.103.64.0/20,no-resolve
 IP-CIDR,190.104.0.0/19,no-resolve
@@ -95,8 +104,20 @@ IP-CIDR,201.131.41.0/24,no-resolve
 IP-CIDR,201.131.45.0/24,no-resolve
 IP-CIDR,201.150.160.0/19,no-resolve
 IP-CIDR,201.222.64.0/18,no-resolve
+IP-CIDR,203.88.99.0/24,no-resolve
+IP-CIDR,38.246.58.0/23,no-resolve
+IP-CIDR,38.246.61.0/24,no-resolve
+IP-CIDR,38.246.63.0/24,no-resolve
+IP-CIDR,38.46.145.0/24,no-resolve
+IP-CIDR,38.75.210.0/24,no-resolve
+IP-CIDR,38.96.56.0/22,no-resolve
+IP-CIDR,45.145.132.0/23,no-resolve
+IP-CIDR,45.145.134.0/24,no-resolve
 IP-CIDR,45.163.18.0/23,no-resolve
 IP-CIDR,45.183.184.0/22,no-resolve
+IP-CIDR,45.192.133.0/24,no-resolve
+IP-CIDR,45.194.52.0/24,no-resolve
+IP-CIDR,45.196.164.0/24,no-resolve
 IP-CIDR,45.225.75.0/24,no-resolve
 IP-CIDR,45.226.32.0/22,no-resolve
 IP-CIDR,45.229.195.0/24,no-resolve
@@ -105,8 +126,17 @@ IP-CIDR,45.232.46.0/23,no-resolve
 IP-CIDR,45.236.192.0/22,no-resolve
 IP-CIDR,45.4.98.0/23,no-resolve
 IP-CIDR,45.5.13.0/24,no-resolve
+IP-CIDR,45.6.3.0/24,no-resolve
 IP-CIDR,45.68.0.0/22,no-resolve
 IP-CIDR,45.70.180.0/22,no-resolve
+IP-CIDR,49.0.184.0/23,no-resolve
+IP-CIDR,49.0.188.0/23,no-resolve
+IP-CIDR,49.0.190.0/24,no-resolve
+IP-CIDR,82.21.156.0/24,no-resolve
+IP-CIDR,82.21.195.0/24,no-resolve
+IP-CIDR,82.25.21.0/24,no-resolve
+IP-CIDR,82.25.32.0/24,no-resolve
+IP-CIDR,82.29.148.0/24,no-resolve
 IP-CIDR6,2001:1378::/32,no-resolve
 IP-CIDR6,2800:320::/32,no-resolve
 IP-CIDR6,2800:390::/32,no-resolve
@@ -164,3 +194,5 @@ IP-CIDR6,2803:be0::/32,no-resolve
 IP-CIDR6,2803:c6e0::/32,no-resolve
 IP-CIDR6,2803:dc90::/32,no-resolve
 IP-CIDR6,2803:fa00::/32,no-resolve
+IP-CIDR6,2a0a:6040:9800::/48,no-resolve
+IP-CIDR6,2a0a:6040:98fe::/47,no-resolve

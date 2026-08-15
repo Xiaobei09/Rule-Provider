@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: NP
 # 尼泊尔（Nepal）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 434 条（IPv4: 269 / IPv6: 165）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 442 条（IPv4: 275 / IPv6: 167）
 # ============================================================
 payload:
   - IP-CIDR,101.251.4.0/22,no-resolve
@@ -191,6 +191,7 @@ payload:
   - IP-CIDR,144.79.238.0/23,no-resolve
   - IP-CIDR,150.107.106.0/23,no-resolve
   - IP-CIDR,150.107.204.0/22,no-resolve
+  - IP-CIDR,151.247.6.0/24,no-resolve
   - IP-CIDR,157.10.100.0/23,no-resolve
   - IP-CIDR,157.119.70.0/23,no-resolve
   - IP-CIDR,157.15.58.0/23,no-resolve
@@ -219,10 +220,12 @@ payload:
   - IP-CIDR,165.101.164.0/23,no-resolve
   - IP-CIDR,165.99.2.0/23,no-resolve
   - IP-CIDR,165.99.60.0/23,no-resolve
+  - IP-CIDR,169.136.70.0/24,no-resolve
   - IP-CIDR,182.50.64.0/22,no-resolve
   - IP-CIDR,182.54.156.0/22,no-resolve
   - IP-CIDR,182.93.64.0/19,no-resolve
   - IP-CIDR,183.91.132.0/22,no-resolve
+  - IP-CIDR,188.253.96.0/21,no-resolve
   - IP-CIDR,202.129.248.0/22,no-resolve
   - IP-CIDR,202.166.192.0/19,no-resolve
   - IP-CIDR,202.45.144.0/22,no-resolve
@@ -239,6 +242,7 @@ payload:
   - IP-CIDR,202.52.0.0/23,no-resolve
   - IP-CIDR,202.53.0.0/22,no-resolve
   - IP-CIDR,202.58.120.0/23,no-resolve
+  - IP-CIDR,202.6.102.0/24,no-resolve
   - IP-CIDR,202.63.240.0/21,no-resolve
   - IP-CIDR,202.70.64.0/19,no-resolve
   - IP-CIDR,202.79.32.0/19,no-resolve
@@ -256,6 +260,7 @@ payload:
   - IP-CIDR,36.0.4.0/22,no-resolve
   - IP-CIDR,36.252.0.0/15,no-resolve
   - IP-CIDR,36.50.148.0/23,no-resolve
+  - IP-CIDR,38.253.67.0/24,no-resolve
   - IP-CIDR,43.225.130.0/23,no-resolve
   - IP-CIDR,43.228.192.0/22,no-resolve
   - IP-CIDR,43.231.208.0/22,no-resolve
@@ -269,6 +274,7 @@ payload:
   - IP-CIDR,45.117.152.0/23,no-resolve
   - IP-CIDR,45.121.32.0/22,no-resolve
   - IP-CIDR,45.123.220.0/22,no-resolve
+  - IP-CIDR,45.139.188.0/22,no-resolve
   - IP-CIDR,45.64.114.0/23,no-resolve
   - IP-CIDR,45.64.160.0/22,no-resolve
   - IP-CIDR,49.126.0.0/16,no-resolve
@@ -440,3 +446,5 @@ payload:
   - IP-CIDR6,2407:b40::/32,no-resolve
   - IP-CIDR6,2407:efc0::/32,no-resolve
   - IP-CIDR6,2407:fe40::/32,no-resolve
+  - IP-CIDR6,2a0e:b107:f28::/48,no-resolve
+  - IP-CIDR6,2a0e:b107:f2a::/48,no-resolve

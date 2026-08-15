@@ -1,15 +1,17 @@
 # ============================================================
 # Rule-Provider: QA
 # 卡塔尔（Qatar）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 68 条（IPv4: 47 / IPv6: 21）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 80 条（IPv4: 56 / IPv6: 24）
 # ============================================================
 IP-CIDR,103.14.208.0/22,no-resolve
 IP-CIDR,103.17.0.0/22,no-resolve
 IP-CIDR,103.199.88.0/22,no-resolve
 IP-CIDR,103.225.72.0/22,no-resolve
 IP-CIDR,103.23.124.0/22,no-resolve
+IP-CIDR,165.124.188.0/22,no-resolve
+IP-CIDR,165.124.236.0/22,no-resolve
 IP-CIDR,176.202.0.0/15,no-resolve
 IP-CIDR,178.152.0.0/15,no-resolve
 IP-CIDR,178.23.16.0/21,no-resolve
@@ -24,20 +26,27 @@ IP-CIDR,185.25.12.0/22,no-resolve
 IP-CIDR,185.37.108.0/22,no-resolve
 IP-CIDR,185.37.96.0/22,no-resolve
 IP-CIDR,185.96.224.0/22,no-resolve
+IP-CIDR,192.195.88.0/21,no-resolve
 IP-CIDR,193.168.166.0/24,no-resolve
 IP-CIDR,194.42.47.64/26,no-resolve
 IP-CIDR,194.50.77.0/24,no-resolve
 IP-CIDR,194.6.255.0/24,no-resolve
 IP-CIDR,194.93.123.0/26,no-resolve
+IP-CIDR,195.219.42.0/24,no-resolve
+IP-CIDR,206.82.133.0/24,no-resolve
+IP-CIDR,209.58.40.0/23,no-resolve
 IP-CIDR,212.70.96.0/19,no-resolve
 IP-CIDR,212.77.192.0/19,no-resolve
 IP-CIDR,213.130.96.0/19,no-resolve
 IP-CIDR,213.177.175.0/24,no-resolve
 IP-CIDR,213.178.136.0/22,no-resolve
+IP-CIDR,23.15.44.0/22,no-resolve
+IP-CIDR,23.195.4.0/22,no-resolve
 IP-CIDR,31.11.48.0/21,no-resolve
 IP-CIDR,37.186.32.0/19,no-resolve
 IP-CIDR,37.208.128.0/17,no-resolve
 IP-CIDR,37.210.0.0/15,no-resolve
+IP-CIDR,45.67.72.0/24,no-resolve
 IP-CIDR,45.87.224.0/22,no-resolve
 IP-CIDR,5.180.36.0/22,no-resolve
 IP-CIDR,78.100.0.0/15,no-resolve
@@ -56,6 +65,9 @@ IP-CIDR6,2001:1a10::/29,no-resolve
 IP-CIDR6,2001:678:ed8::/48,no-resolve
 IP-CIDR6,2001:7f8:162::/47,no-resolve
 IP-CIDR6,2001:7f8:ed::/48,no-resolve
+IP-CIDR6,2600:1417:4800::/48,no-resolve
+IP-CIDR6,2607:fb28:10::/48,no-resolve
+IP-CIDR6,2620:10d:2080::/48,no-resolve
 IP-CIDR6,2a00:7be0::/32,no-resolve
 IP-CIDR6,2a00:f0e0::/32,no-resolve
 IP-CIDR6,2a02:4440::/32,no-resolve

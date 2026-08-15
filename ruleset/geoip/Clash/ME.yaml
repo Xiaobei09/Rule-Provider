@@ -1,13 +1,15 @@
 # ============================================================
 # Rule-Provider: ME
 # 黑山（Montenegro）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 63 条（IPv4: 43 / IPv6: 20）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 94 条（IPv4: 52 / IPv6: 42）
 # ============================================================
 payload:
   - IP-CIDR,109.228.64.0/18,no-resolve
+  - IP-CIDR,109.237.98.0/23,no-resolve
   - IP-CIDR,109.72.96.0/20,no-resolve
+  - IP-CIDR,147.45.44.0/24,no-resolve
   - IP-CIDR,185.1.44.0/24,no-resolve
   - IP-CIDR,185.12.40.0/22,no-resolve
   - IP-CIDR,185.132.160.0/22,no-resolve
@@ -24,18 +26,23 @@ payload:
   - IP-CIDR,185.68.48.0/22,no-resolve
   - IP-CIDR,185.80.96.0/22,no-resolve
   - IP-CIDR,193.32.112.0/23,no-resolve
+  - IP-CIDR,194.26.25.0/24,no-resolve
   - IP-CIDR,195.140.164.0/22,no-resolve
   - IP-CIDR,195.242.169.0/24,no-resolve
   - IP-CIDR,195.66.160.0/19,no-resolve
+  - IP-CIDR,212.193.31.0/24,no-resolve
+  - IP-CIDR,212.200.246.0/24,no-resolve
   - IP-CIDR,213.133.0.0/19,no-resolve
   - IP-CIDR,213.149.96.0/19,no-resolve
   - IP-CIDR,213.196.64.0/19,no-resolve
   - IP-CIDR,31.204.192.0/18,no-resolve
   - IP-CIDR,37.0.64.0/21,no-resolve
   - IP-CIDR,37.122.160.0/19,no-resolve
+  - IP-CIDR,37.221.180.0/24,no-resolve
   - IP-CIDR,46.161.64.0/18,no-resolve
   - IP-CIDR,46.33.192.0/19,no-resolve
   - IP-CIDR,62.4.32.0/19,no-resolve
+  - IP-CIDR,72.56.54.0/24,no-resolve
   - IP-CIDR,77.222.0.0/19,no-resolve
   - IP-CIDR,77.91.80.0/20,no-resolve
   - IP-CIDR,78.155.32.0/19,no-resolve
@@ -44,6 +51,8 @@ payload:
   - IP-CIDR,81.28.248.0/22,no-resolve
   - IP-CIDR,85.94.96.0/19,no-resolve
   - IP-CIDR,89.188.32.0/19,no-resolve
+  - IP-CIDR,89.19.220.0/24,no-resolve
+  - IP-CIDR,89.19.222.0/23,no-resolve
   - IP-CIDR,91.217.138.0/24,no-resolve
   - IP-CIDR,91.220.187.0/24,no-resolve
   - IP-CIDR,94.102.224.0/20,no-resolve
@@ -63,9 +72,31 @@ payload:
   - IP-CIDR6,2a03:7a0::/29,no-resolve
   - IP-CIDR6,2a04:7400::/29,no-resolve
   - IP-CIDR6,2a05:7b40::/29,no-resolve
+  - IP-CIDR6,2a06:1301:4100::/48,no-resolve
   - IP-CIDR6,2a06:e340::/29,no-resolve
+  - IP-CIDR6,2a09:ed80::/29,no-resolve
+  - IP-CIDR6,2a0c:4dc0:1000::/36,no-resolve
+  - IP-CIDR6,2a0c:4dc0:100::/40,no-resolve
+  - IP-CIDR6,2a0c:4dc0:10::/44,no-resolve
+  - IP-CIDR6,2a0c:4dc0:2000::/35,no-resolve
+  - IP-CIDR6,2a0c:4dc0:200::/39,no-resolve
+  - IP-CIDR6,2a0c:4dc0:20::/43,no-resolve
+  - IP-CIDR6,2a0c:4dc0:2::/47,no-resolve
+  - IP-CIDR6,2a0c:4dc0:4000::/34,no-resolve
+  - IP-CIDR6,2a0c:4dc0:400::/38,no-resolve
+  - IP-CIDR6,2a0c:4dc0:40::/42,no-resolve
+  - IP-CIDR6,2a0c:4dc0:4::/46,no-resolve
+  - IP-CIDR6,2a0c:4dc0:8000::/33,no-resolve
+  - IP-CIDR6,2a0c:4dc0:800::/37,no-resolve
+  - IP-CIDR6,2a0c:4dc0:80::/41,no-resolve
+  - IP-CIDR6,2a0c:4dc0:8::/45,no-resolve
+  - IP-CIDR6,2a0c:4dc0::/48,no-resolve
+  - IP-CIDR6,2a0c:4dc1::/32,no-resolve
+  - IP-CIDR6,2a0c:4dc2::/31,no-resolve
+  - IP-CIDR6,2a0c:4dc4::/30,no-resolve
   - IP-CIDR6,2a0c:60c0::/29,no-resolve
   - IP-CIDR6,2a0d:aa40::/29,no-resolve
   - IP-CIDR6,2a0f:3bc0::/29,no-resolve
+  - IP-CIDR6,2a0f:85c1:826::/48,no-resolve
   - IP-CIDR6,2a10:100::/30,no-resolve
   - IP-CIDR6,2a13:2640::/29,no-resolve

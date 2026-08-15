@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: BB
 # 巴巴多斯（Barbados）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 34 条（IPv4: 30 / IPv6: 4）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 57 条（IPv4: 53 / IPv6: 4）
 # ============================================================
 payload:
   - IP-CIDR,104.153.128.0/21,no-resolve
@@ -12,6 +12,7 @@ payload:
   - IP-CIDR,162.212.12.0/22,no-resolve
   - IP-CIDR,162.220.136.0/21,no-resolve
   - IP-CIDR,162.246.104.0/21,no-resolve
+  - IP-CIDR,173.225.251.0/24,no-resolve
   - IP-CIDR,192.171.120.0/21,no-resolve
   - IP-CIDR,192.214.112.0/20,no-resolve
   - IP-CIDR,192.235.48.0/20,no-resolve
@@ -23,18 +24,40 @@ payload:
   - IP-CIDR,198.246.230.0/24,no-resolve
   - IP-CIDR,198.56.56.0/21,no-resolve
   - IP-CIDR,199.254.104.0/21,no-resolve
+  - IP-CIDR,199.38.196.0/23,no-resolve
   - IP-CIDR,199.47.52.0/22,no-resolve
   - IP-CIDR,199.58.152.0/22,no-resolve
   - IP-CIDR,199.7.112.0/21,no-resolve
   - IP-CIDR,200.50.64.0/19,no-resolve
+  - IP-CIDR,204.16.112.0/24,no-resolve
+  - IP-CIDR,204.212.242.0/23,no-resolve
+  - IP-CIDR,204.212.244.0/23,no-resolve
   - IP-CIDR,205.214.192.0/19,no-resolve
+  - IP-CIDR,205.217.244.0/24,no-resolve
+  - IP-CIDR,205.244.148.0/22,no-resolve
+  - IP-CIDR,206.231.120.0/21,no-resolve
+  - IP-CIDR,208.0.96.0/21,no-resolve
+  - IP-CIDR,209.59.115.0/24,no-resolve
+  - IP-CIDR,209.59.91.0/24,no-resolve
   - IP-CIDR,216.110.96.0/19,no-resolve
   - IP-CIDR,23.236.0.0/20,no-resolve
+  - IP-CIDR,63.143.76.0/24,no-resolve
+  - IP-CIDR,63.170.68.0/23,no-resolve
+  - IP-CIDR,63.175.156.0/22,no-resolve
   - IP-CIDR,64.119.192.0/20,no-resolve
+  - IP-CIDR,64.210.40.0/21,no-resolve
+  - IP-CIDR,65.166.240.0/22,no-resolve
+  - IP-CIDR,65.166.244.0/22,no-resolve
+  - IP-CIDR,65.172.24.0/22,no-resolve
   - IP-CIDR,65.48.128.0/17,no-resolve
+  - IP-CIDR,66.249.150.0/24,no-resolve
+  - IP-CIDR,67.213.147.0/24,no-resolve
+  - IP-CIDR,67.213.148.0/23,no-resolve
+  - IP-CIDR,67.213.150.0/24,no-resolve
   - IP-CIDR,69.73.192.0/18,no-resolve
   - IP-CIDR,69.80.0.0/18,no-resolve
   - IP-CIDR,72.22.128.0/19,no-resolve
+  - IP-CIDR,72.27.129.0/24,no-resolve
   - IP-CIDR,72.51.64.0/18,no-resolve
   - IP-CIDR6,2600:8400::/28,no-resolve
   - IP-CIDR6,2602:fe45::/36,no-resolve

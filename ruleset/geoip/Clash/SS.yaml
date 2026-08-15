@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: SS
 # 南苏丹（South Sudan）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 38 条（IPv4: 29 / IPv6: 9）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 40 条（IPv4: 31 / IPv6: 9）
 # ============================================================
 payload:
   - IP-CIDR,102.208.132.0/22,no-resolve
@@ -32,9 +32,11 @@ payload:
   - IP-CIDR,196.49.116.0/24,no-resolve
   - IP-CIDR,196.60.88.0/24,no-resolve
   - IP-CIDR,197.231.236.0/22,no-resolve
+  - IP-CIDR,38.43.72.0/22,no-resolve
   - IP-CIDR,41.222.72.0/22,no-resolve
   - IP-CIDR,41.79.120.0/22,no-resolve
   - IP-CIDR,41.79.24.0/22,no-resolve
+  - IP-CIDR,45.148.27.0/24,no-resolve
   - IP-CIDR6,2001:43f8:13b1::/48,no-resolve
   - IP-CIDR6,2001:43f8:1660::/47,no-resolve
   - IP-CIDR6,2c0f:5a0::/32,no-resolve

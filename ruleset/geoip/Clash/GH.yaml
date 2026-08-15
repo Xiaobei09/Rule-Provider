@@ -1,13 +1,14 @@
 # ============================================================
 # Rule-Provider: GH
 # 加纳（Ghana）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 209 条（IPv4: 153 / IPv6: 56）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 215 条（IPv4: 159 / IPv6: 56）
 # ============================================================
 payload:
   - IP-CIDR,102.131.16.0/24,no-resolve
   - IP-CIDR,102.134.130.0/23,no-resolve
+  - IP-CIDR,102.134.28.0/22,no-resolve
   - IP-CIDR,102.135.188.0/24,no-resolve
   - IP-CIDR,102.164.123.0/24,no-resolve
   - IP-CIDR,102.176.0.0/17,no-resolve
@@ -91,6 +92,7 @@ payload:
   - IP-CIDR,160.226.179.0/24,no-resolve
   - IP-CIDR,164.160.132.0/22,no-resolve
   - IP-CIDR,164.160.240.0/20,no-resolve
+  - IP-CIDR,169.239.188.0/22,no-resolve
   - IP-CIDR,169.239.248.0/22,no-resolve
   - IP-CIDR,192.251.202.0/24,no-resolve
   - IP-CIDR,193.108.23.0/24,no-resolve
@@ -106,6 +108,7 @@ payload:
   - IP-CIDR,196.13.192.0/21,no-resolve
   - IP-CIDR,196.13.252.0/24,no-resolve
   - IP-CIDR,196.172.0.0/14,no-resolve
+  - IP-CIDR,196.200.116.0/24,no-resolve
   - IP-CIDR,196.201.2.0/24,no-resolve
   - IP-CIDR,196.201.32.0/19,no-resolve
   - IP-CIDR,196.201.4.0/23,no-resolve
@@ -133,6 +136,7 @@ payload:
   - IP-CIDR,197.251.128.0/17,no-resolve
   - IP-CIDR,197.253.64.0/18,no-resolve
   - IP-CIDR,197.255.64.0/18,no-resolve
+  - IP-CIDR,199.184.105.0/24,no-resolve
   - IP-CIDR,212.85.192.0/19,no-resolve
   - IP-CIDR,212.96.0.0/20,no-resolve
   - IP-CIDR,41.139.0.0/18,no-resolve
@@ -150,6 +154,7 @@ payload:
   - IP-CIDR,41.222.232.0/22,no-resolve
   - IP-CIDR,41.242.112.0/22,no-resolve
   - IP-CIDR,41.66.192.0/18,no-resolve
+  - IP-CIDR,41.73.158.0/24,no-resolve
   - IP-CIDR,41.74.80.0/20,no-resolve
   - IP-CIDR,41.75.48.0/20,no-resolve
   - IP-CIDR,41.78.124.0/22,no-resolve
@@ -158,6 +163,7 @@ payload:
   - IP-CIDR,45.221.24.0/24,no-resolve
   - IP-CIDR,45.222.128.0/17,no-resolve
   - IP-CIDR,45.222.48.0/20,no-resolve
+  - IP-CIDR,66.37.100.0/24,no-resolve
   - IP-CIDR,80.87.64.0/19,no-resolve
   - IP-CIDR6,2001:43c0::/32,no-resolve
   - IP-CIDR6,2001:43e0::/32,no-resolve

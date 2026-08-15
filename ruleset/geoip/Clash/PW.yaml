@@ -1,15 +1,18 @@
 # ============================================================
 # Rule-Provider: PW
 # 帕劳（Palau）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 7 条（IPv4: 4 / IPv6: 3）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 10 条（IPv4: 5 / IPv6: 5）
 # ============================================================
 payload:
   - IP-CIDR,103.159.28.0/23,no-resolve
   - IP-CIDR,103.251.132.0/23,no-resolve
   - IP-CIDR,103.30.248.0/22,no-resolve
   - IP-CIDR,202.124.224.0/20,no-resolve
+  - IP-CIDR,38.150.36.0/23,no-resolve
   - IP-CIDR6,2001:67c:ec8::/48,no-resolve
   - IP-CIDR6,2401:6e0::/32,no-resolve
   - IP-CIDR6,2404:7800::/32,no-resolve
+  - IP-CIDR6,2a13:c902::/32,no-resolve
+  - IP-CIDR6,2a14:4c40::/40,no-resolve

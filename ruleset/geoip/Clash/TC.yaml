@@ -1,16 +1,33 @@
 # ============================================================
 # Rule-Provider: TC
 # 特克斯和凯科斯群岛（Turks and Caicos Islands）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 8 条（IPv4: 7 / IPv6: 1）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 25 条（IPv4: 22 / IPv6: 3）
 # ============================================================
 payload:
   - IP-CIDR,142.54.204.0/22,no-resolve
+  - IP-CIDR,162.212.12.0/24,no-resolve
+  - IP-CIDR,173.225.254.0/24,no-resolve
   - IP-CIDR,192.203.37.0/24,no-resolve
   - IP-CIDR,199.103.28.0/22,no-resolve
   - IP-CIDR,199.182.192.0/22,no-resolve
+  - IP-CIDR,200.50.89.0/24,no-resolve
+  - IP-CIDR,200.50.90.0/24,no-resolve
   - IP-CIDR,204.110.56.0/21,no-resolve
   - IP-CIDR,204.13.104.0/22,no-resolve
+  - IP-CIDR,205.214.195.0/24,no-resolve
+  - IP-CIDR,205.214.199.0/24,no-resolve
+  - IP-CIDR,207.254.138.0/24,no-resolve
+  - IP-CIDR,207.254.140.0/22,no-resolve
+  - IP-CIDR,208.138.41.0/24,no-resolve
+  - IP-CIDR,208.138.44.0/24,no-resolve
+  - IP-CIDR,208.169.70.0/23,no-resolve
+  - IP-CIDR,208.169.72.0/24,no-resolve
+  - IP-CIDR,208.169.78.0/23,no-resolve
+  - IP-CIDR,209.236.48.0/22,no-resolve
+  - IP-CIDR,209.236.52.0/23,no-resolve
   - IP-CIDR,65.255.48.0/20,no-resolve
   - IP-CIDR6,2602:ff48::/36,no-resolve
+  - IP-CIDR6,2604:a180:5000::/36,no-resolve
+  - IP-CIDR6,2604:a180:a000::/35,no-resolve

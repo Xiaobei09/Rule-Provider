@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: TM
 # 土库曼斯坦（Turkmenistan）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 14 条（IPv4: 11 / IPv6: 3）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 15 条（IPv4: 12 / IPv6: 3）
 # ============================================================
 payload:
   - IP-CIDR,103.220.0.0/22,no-resolve
@@ -16,6 +16,7 @@ payload:
   - IP-CIDR,217.174.224.0/20,no-resolve
   - IP-CIDR,217.65.78.0/24,no-resolve
   - IP-CIDR,77.83.59.0/24,no-resolve
+  - IP-CIDR,93.171.220.0/22,no-resolve
   - IP-CIDR,95.85.96.0/19,no-resolve
   - IP-CIDR6,2001:7f8:165::/48,no-resolve
   - IP-CIDR6,2a05:2180::/29,no-resolve

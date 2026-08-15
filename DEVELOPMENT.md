@@ -106,6 +106,23 @@
 - 结果缓存为 `cache/crux-top-sites.json`（不入库）；与 ccTLD、`categories` 规则
   合并后一并进入 `ruleset/site/`（`Global` site 同样包含其并集）。
 
+### 2.6 geoip 补充来源：IPtoASN
+
+为弥补 RIR「分配国」与「实际运营国」的错位，可选启用 `sources.ip2asn`
+（[IPtoASN](https://iptoasn.com/)，免费 IP -> ASN/国家数据库，
+Public Domain / PDDL v1.0，每小时更新，无需任何密钥）。默认启用。
+
+- 文件为 gzip TSV（无表头）：`range_start range_end AS_number country_code AS_description`，
+  IPv4 / IPv6 各一个文件（约 7MB + 2MB）；
+- `AS_number == 0` 或 `country_code == None`（`Not routed`）的行一律跳过；
+- 每行闭区间 `[start, end]` 拆分为最少个规范 CIDR（允许非 2 的幂），
+  IPv4 与 IPv6 使用同一拆分算法（`iptoasn.split_range_to_cidrs`）；
+- 解析结果为 `{CC: [networks]}`，与 RIR 数据做**并集**合并后进入
+  `ruleset/geoip/` 与 `Global`；跨国段将同时出现在「分配国」与「ASN 运营国」两国；
+- 文件无内嵌版本日期：数据日期取 HTTP `Last-Modified` 头（GMT），
+  保存在 `cache/ip2asn-date.txt`，`metadata.json` 的 `generated_at` 取
+  RIR 与 IPtoASN 中日期的较大者，保证同日重复生成输出一致（幂等）。
+
 ### 2.4 数据源约束
 
 1. 只接受 HTTP 状态 200 的内容；下载必须带 UA，使用自适应分块下载（避免大文件被
@@ -301,4 +318,4 @@ test: add merge_networks adjacency cases                 # 测试
 
 - 发布规则集时在 README 更新数据快照信息；
 - 数据来源致谢：AFRINIC / APNIC / ARIN / LACNIC / RIPE NCC / MaxMind /
-  v2fly（domain-list-community）。
+  IPtoASN / v2fly（domain-list-community）。

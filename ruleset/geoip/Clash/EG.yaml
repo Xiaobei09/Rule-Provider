@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: EG
 # 埃及（Egypt）
-# 数据日期: 2026-08-14
-# 数据来源: APNIC
-# 规则统计: 共 200 条（IPv4: 180 / IPv6: 20）
+# 数据日期: 2026-08-15
+# 数据来源: APNIC + IPtoASN
+# 规则统计: 共 212 条（IPv4: 187 / IPv6: 25）
 # ============================================================
 payload:
   - IP-CIDR,102.128.176.0/21,no-resolve
@@ -56,6 +56,7 @@ payload:
   - IP-CIDR,105.192.0.0/12,no-resolve
   - IP-CIDR,105.32.0.0/12,no-resolve
   - IP-CIDR,105.80.0.0/12,no-resolve
+  - IP-CIDR,146.103.32.0/24,no-resolve
   - IP-CIDR,154.128.0.0/12,no-resolve
   - IP-CIDR,154.176.0.0/12,no-resolve
   - IP-CIDR,154.236.0.0/14,no-resolve
@@ -67,10 +68,12 @@ payload:
   - IP-CIDR,164.160.64.0/22,no-resolve
   - IP-CIDR,169.239.36.0/22,no-resolve
   - IP-CIDR,185.133.16.0/22,no-resolve
+  - IP-CIDR,185.187.178.0/24,no-resolve
   - IP-CIDR,192.101.142.0/24,no-resolve
   - IP-CIDR,193.19.232.0/22,no-resolve
   - IP-CIDR,193.227.0.0/18,no-resolve
   - IP-CIDR,193.227.128.0/24,no-resolve
+  - IP-CIDR,194.61.1.0/24,no-resolve
   - IP-CIDR,194.79.96.0/19,no-resolve
   - IP-CIDR,195.234.168.0/24,no-resolve
   - IP-CIDR,195.234.185.0/24,no-resolve
@@ -86,6 +89,8 @@ payload:
   - IP-CIDR,196.13.244.0/24,no-resolve
   - IP-CIDR,196.13.253.0/24,no-resolve
   - IP-CIDR,196.2.192.0/19,no-resolve
+  - IP-CIDR,196.20.60.0/23,no-resolve
+  - IP-CIDR,196.20.62.0/24,no-resolve
   - IP-CIDR,196.201.24.0/21,no-resolve
   - IP-CIDR,196.201.240.0/21,no-resolve
   - IP-CIDR,196.201.3.0/24,no-resolve
@@ -166,6 +171,7 @@ payload:
   - IP-CIDR,41.79.208.0/22,no-resolve
   - IP-CIDR,41.91.0.0/16,no-resolve
   - IP-CIDR,45.240.0.0/13,no-resolve
+  - IP-CIDR,45.85.188.0/24,no-resolve
   - IP-CIDR,45.96.0.0/12,no-resolve
   - IP-CIDR,62.114.0.0/16,no-resolve
   - IP-CIDR,62.117.32.0/19,no-resolve
@@ -183,6 +189,7 @@ payload:
   - IP-CIDR,81.29.96.0/20,no-resolve
   - IP-CIDR,82.129.128.0/17,no-resolve
   - IP-CIDR,82.201.128.0/17,no-resolve
+  - IP-CIDR,82.41.142.0/24,no-resolve
   - IP-CIDR,84.205.96.0/19,no-resolve
   - IP-CIDR,84.233.0.0/17,no-resolve
   - IP-CIDR,84.36.0.0/16,no-resolve
@@ -196,6 +203,11 @@ payload:
   - IP-CIDR6,2001:43f8:c50::/48,no-resolve
   - IP-CIDR6,2001:43fc:2800::/48,no-resolve
   - IP-CIDR6,2001:43fe:a800::/48,no-resolve
+  - IP-CIDR6,2602:f75c:f80::/48,no-resolve
+  - IP-CIDR6,2a05:1082:f::/48,no-resolve
+  - IP-CIDR6,2a0e:4200::/32,no-resolve
+  - IP-CIDR6,2a0e:b107:198::/48,no-resolve
+  - IP-CIDR6,2a0e:fd45:1337::/48,no-resolve
   - IP-CIDR6,2c0e::/20,no-resolve
   - IP-CIDR6,2c0f:2340::/32,no-resolve
   - IP-CIDR6,2c0f:6240::/32,no-resolve
