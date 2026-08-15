@@ -1,0 +1,98 @@
+# =============================================================================
+# Rule-Provider 生成配置
+# 修改配置后请同步更新 DEVELOPMENT.md 中的约束说明。
+# =============================================================================
+
+# 输出目录（相对仓库根目录）
+ruleset_dir: ruleset
+
+# 是否生成全球 Rule Provider（全部国家地址段的并集）
+global_provider: true
+
+# 需要生成的国家代码。默认留空 = 自动生成所有在数据源中出现且有有效地址段的国家。
+# 支持 ISO 3166-1 alpha-2 及数据源中的特殊码：EU / AP / ZZ / XK 等。
+# 示例: [CN, US, JP, HK, TW]
+countries: []
+
+# 强制包含/排除的国家代码（黑/白名单，覆盖 countries 自动逻辑）
+include_extra: [EU, AP, ZZ, XK]
+exclude: []
+
+# -----------------------------------------------------------------------------
+# 数据源配置
+# -----------------------------------------------------------------------------
+sources:
+  # 首选来源：五大 RIR（AFRINIC/APNIC/ARIN/LACNIC/RIPE）delegated 扩展文件
+  # 这是 IANA 授权的区域注册机构第一手数据，覆盖全球全部国家/地区，
+  # 含 IPv4 + IPv6，无需任何密钥。列表按区域划分，自动合并。
+  # 说明：delegated 文件仅含本区域；全球合并由本脚本完成。
+  rir:
+    urls:
+      - https://ftp.apnic.net/stats/apnic/delegated-apnic-extended-latest
+      - https://ftp.arin.net/pub/stats/arin/delegated-arin-extended-latest
+      - https://ftp.lacnic.net/pub/stats/lacnic/delegated-lacnic-extended-latest
+      - https://ftp.afrinic.net/stats/afrinic/delegated-afrinic-extended-latest
+      - https://ftp.ripe.net/pub/stats/ripencc/delegated-ripencc-extended-latest
+    # 提取哪些登记状态：allocated / assigned
+    # 两者都提取可覆盖全部合法分配段；仅提取 allocated 会忽略部分小段分配。
+    statuses: [allocated, assigned]
+
+  # 可选来源：MaxMind GeoLite2-Country-CSV（真实地理归属更精确，需免费 License Key）
+  # 设置方式：本地环境变量 MAXMIND_LICENSE_KEY，或在 GitHub Secrets 中配置同名密钥。
+  # 启用后将以 GeoLite2 数据为主，RIR 作为兜底补充。
+  maxmind:
+    url: https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-Country-CSV&license_key={license}&suffix=zip
+    enabled: false
+
+  # site（域名规则）来源：v2fly/domain-list-community（互联网公开仓库，MIT 许可）
+  # 数据文件 data/<name> 是 geosite 分类；data/tld-!cn 是全球 ccTLD（带国家注释）。
+  # 每个国家规则 = 该国 ccTLD 后缀 + 指定分类（include: 自动递归）。
+  geosite:
+    url: https://codeload.github.com/v2fly/domain-list-community/tar.gz/refs/heads/master
+    archive: geosite-v2fly.tar.gz
+    enabled: true
+    # 国家 -> v2fly 分类：cn = tld-cn + geolocation-cn（中国公司/政府 TLD + 富域名列表）
+    #                        tld-ru = ru/su/moscow 等俄罗斯 TLD
+    categories:
+      CN: cn
+      RU: tld-ru
+
+  # site 补充来源：各国热门网站（Chrome CrUX 按国家 Top 排名，公开数据，按月更新）
+  # 每个国家文件为 gzip CSV（origin,rank），rank 为量级桶，按桶有序。
+  # 仅取文件头部（HTTP Range）即可覆盖 top_n 所需数据，避免整文件重复下载。
+  # 提取的「可注册域名」（经 Public Suffix List 规范化）与 ccTLD/分类规则合并进
+  # 同一国家 site 规则集；被该国 ccTLD 后缀规则覆盖的域名自动剔除。
+  top_sites:
+    enabled: true
+    url: https://raw.githubusercontent.com/InternetHealthReport/crux-top-lists-country/main/data/country/{cc}/{month}.csv.gz
+    # 一次 Git Tree API 调用获取各国最新数据月份（写入缓存）
+    months_url: https://api.github.com/repos/InternetHealthReport/crux-top-lists-country/git/trees/main?recursive=1
+    psl_url: https://publicsuffix.org/list/public_suffix_list.dat
+    psl_archive: public_suffix_list.dat
+    tree_archive: crux-tree.json
+    top_n: 5000
+
+# -----------------------------------------------------------------------------
+# 生成细节约束
+# -----------------------------------------------------------------------------
+rules:
+  # 输出行尾是否附加 no-resolve（推荐 true，避免不必要的 DNS 解析）
+  no_resolve: true
+  # 是否剔除 IANA 特殊用途保留地址段（广播、TEST-NET、多播、回环等）
+  filter_reserved: true
+  # 是否生成 IPv6 段（IP-CIDR6 / ip6-cidr）
+  include_ipv6: true
+  # 是否将相邻地址段合并为更少更大的 CIDR（减小文件体积，不影响准确性）
+  merge_adjacent: true
+
+# -----------------------------------------------------------------------------
+# 输出格式。支持：Surge / Clash / QuantumultX / Loon
+# 格式细节见 DEVELOPMENT.md「输出格式规范」。
+# -----------------------------------------------------------------------------
+formats: [Surge, Clash, QuantumultX, Loon]
+
+# 下载与缓存
+network:
+  timeout_seconds: 60
+  user_agent: Rule-Provider/1.0 (https://github.com/Rule-Provider)
+  cache_dir: cache

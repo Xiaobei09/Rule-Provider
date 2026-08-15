@@ -1,0 +1,57 @@
+name: Daily Rule-Provider Update
+
+on:
+  schedule:
+    # 每天 UTC 04:30（北京时间 12:30）自动更新
+    - cron: "30 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  generate-and-commit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          # 运行时代码为零第三方依赖；pytest 仅用于 CI 校验
+          pip install pytest
+
+      - name: Fetch data sources
+        run: python3 scripts/generate.py fetch
+
+      - name: Generate rule sets
+        run: python3 scripts/generate.py generate
+
+      - name: Validate generated rule sets
+        run: |
+          python3 scripts/generate.py validate
+          python3 -m pytest tests/ -q
+
+      - name: Commit and push
+        run: |
+          if [[ -z "$(git status --porcelain ruleset)" ]]; then
+            echo "数据无变化，跳过提交"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ruleset
+          git commit -m "chore: daily update country rule sets ($(date -u +%F))"
+          git push
