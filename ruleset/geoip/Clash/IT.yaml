@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: IT
 # 意大利（Italy）
-# 数据日期: 2026-08-15
+# 数据日期: 2026-08-16
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 5444 条（IPv4: 4193 / IPv6: 1251）
+# 规则统计: 共 5442 条（IPv4: 4193 / IPv6: 1249）
 # ============================================================
 payload:
   - IP-CIDR,101.56.0.0/13,no-resolve
@@ -70,6 +70,7 @@ payload:
   - IP-CIDR,109.232.88.0/21,no-resolve
   - IP-CIDR,109.233.120.0/21,no-resolve
   - IP-CIDR,109.233.128.0/21,no-resolve
+  - IP-CIDR,109.233.184.0/24,no-resolve
   - IP-CIDR,109.233.216.0/21,no-resolve
   - IP-CIDR,109.233.96.0/21,no-resolve
   - IP-CIDR,109.234.136.0/21,no-resolve
@@ -3023,7 +3024,6 @@ payload:
   - IP-CIDR,46.31.104.0/21,no-resolve
   - IP-CIDR,46.31.128.0/21,no-resolve
   - IP-CIDR,46.31.248.0/21,no-resolve
-  - IP-CIDR,46.34.3.0/24,no-resolve
   - IP-CIDR,46.37.0.0/19,no-resolve
   - IP-CIDR,46.37.224.0/19,no-resolve
   - IP-CIDR,46.44.192.0/18,no-resolve
@@ -5075,7 +5075,6 @@ payload:
   - IP-CIDR6,2a0c:b641:d60::/44,no-resolve
   - IP-CIDR6,2a0c:b642:a00::/45,no-resolve
   - IP-CIDR6,2a0c:b642:a08::/47,no-resolve
-  - IP-CIDR6,2a0c:b642:ace::/48,no-resolve
   - IP-CIDR6,2a0c:bb80::/29,no-resolve
   - IP-CIDR6,2a0c:bc40::/29,no-resolve
   - IP-CIDR6,2a0c:bcc0::/29,no-resolve
@@ -5131,7 +5130,6 @@ payload:
   - IP-CIDR6,2a0d:c740:1c::/48,no-resolve
   - IP-CIDR6,2a0d:cc0::/29,no-resolve
   - IP-CIDR6,2a0d:d0c0::/29,no-resolve
-  - IP-CIDR6,2a0d:d940:2019::/48,no-resolve
   - IP-CIDR6,2a0d:e200::/29,no-resolve
   - IP-CIDR6,2a0d:e540::/29,no-resolve
   - IP-CIDR6,2a0d:e800::/29,no-resolve

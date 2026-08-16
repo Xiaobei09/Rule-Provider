@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: SY
 # 叙利亚（Syria）
-# 数据日期: 2026-08-15
+# 数据日期: 2026-08-16
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 261 条（IPv4: 227 / IPv6: 34）
+# 规则统计: 共 262 条（IPv4: 228 / IPv6: 34）
 # ============================================================
 payload:
   - IP-CIDR,103.17.202.0/24,no-resolve
@@ -19,6 +19,7 @@ payload:
   - IP-CIDR,131.222.252.0/23,no-resolve
   - IP-CIDR,139.28.49.0/24,no-resolve
   - IP-CIDR,145.249.0.0/18,no-resolve
+  - IP-CIDR,145.249.64.0/19,no-resolve
   - IP-CIDR,177.29.245.0/24,no-resolve
   - IP-CIDR,178.169.0.0/19,no-resolve
   - IP-CIDR,178.171.128.0/17,no-resolve

@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: SG
 # 新加坡（Singapore）
-# 数据日期: 2026-08-15
+# 数据日期: 2026-08-16
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 4358 条（IPv4: 3269 / IPv6: 1089）
+# 规则统计: 共 4362 条（IPv4: 3273 / IPv6: 1089）
 # ============================================================
 payload:
   - IP-CIDR,1.178.32.0/19,no-resolve
@@ -734,6 +734,8 @@ payload:
   - IP-CIDR,109.176.230.0/24,no-resolve
   - IP-CIDR,109.234.212.0/24,no-resolve
   - IP-CIDR,109.237.24.0/22,no-resolve
+  - IP-CIDR,109.66.165.0/24,no-resolve
+  - IP-CIDR,109.66.198.0/24,no-resolve
   - IP-CIDR,109.74.192.0/20,no-resolve
   - IP-CIDR,110.165.0.0/19,no-resolve
   - IP-CIDR,110.234.0.0/16,no-resolve
@@ -1190,6 +1192,7 @@ payload:
   - IP-CIDR,151.240.138.0/24,no-resolve
   - IP-CIDR,151.240.140.0/24,no-resolve
   - IP-CIDR,151.240.60.0/23,no-resolve
+  - IP-CIDR,151.240.76.0/24,no-resolve
   - IP-CIDR,151.240.78.0/23,no-resolve
   - IP-CIDR,151.240.81.0/24,no-resolve
   - IP-CIDR,151.240.82.0/24,no-resolve
@@ -1773,6 +1776,7 @@ payload:
   - IP-CIDR,190.92.192.0/18,no-resolve
   - IP-CIDR,191.219.128.0/19,no-resolve
   - IP-CIDR,191.43.0.0/16,no-resolve
+  - IP-CIDR,191.96.108.0/24,no-resolve
   - IP-CIDR,191.96.29.0/24,no-resolve
   - IP-CIDR,192.122.131.0/24,no-resolve
   - IP-CIDR,192.122.132.0/22,no-resolve
