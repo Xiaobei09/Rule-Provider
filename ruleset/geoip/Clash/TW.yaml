@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: TW
 # 中国台湾（Taiwan）
-# 数据日期: 2026-08-16
+# 数据日期: 2026-08-17
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1486 条（IPv4: 943 / IPv6: 543）
+# 规则统计: 共 1491 条（IPv4: 947 / IPv6: 544）
 # ============================================================
 payload:
   - IP-CIDR,1.160.0.0/12,no-resolve
@@ -522,6 +522,7 @@ payload:
   - IP-CIDR,157.254.230.0/24,no-resolve
   - IP-CIDR,157.66.166.0/23,no-resolve
   - IP-CIDR,159.117.64.0/19,no-resolve
+  - IP-CIDR,16.217.239.0/24,no-resolve
   - IP-CIDR,160.187.100.0/23,no-resolve
   - IP-CIDR,160.187.198.0/23,no-resolve
   - IP-CIDR,160.187.200.0/23,no-resolve
@@ -596,10 +597,12 @@ payload:
   - IP-CIDR,185.238.212.0/23,no-resolve
   - IP-CIDR,187.79.192.0/18,no-resolve
   - IP-CIDR,188.68.64.0/20,no-resolve
+  - IP-CIDR,192.120.198.0/24,no-resolve
   - IP-CIDR,192.160.29.0/24,no-resolve
   - IP-CIDR,192.188.171.0/24,no-resolve
   - IP-CIDR,192.192.0.0/16,no-resolve
   - IP-CIDR,192.254.86.0/24,no-resolve
+  - IP-CIDR,192.6.158.0/24,no-resolve
   - IP-CIDR,192.72.128.0/18,no-resolve
   - IP-CIDR,192.72.16.0/20,no-resolve
   - IP-CIDR,192.72.192.0/19,no-resolve
@@ -807,6 +810,7 @@ payload:
   - IP-CIDR,23.139.100.0/24,no-resolve
   - IP-CIDR,23.139.92.0/24,no-resolve
   - IP-CIDR,23.160.132.0/24,no-resolve
+  - IP-CIDR,23.162.84.0/24,no-resolve
   - IP-CIDR,23.202.124.0/22,no-resolve
   - IP-CIDR,23.212.60.0/24,no-resolve
   - IP-CIDR,27.0.152.0/22,no-resolve
@@ -1289,6 +1293,7 @@ payload:
   - IP-CIDR6,2407:d240::/32,no-resolve
   - IP-CIDR6,2407:d2c0::/32,no-resolve
   - IP-CIDR6,2407:e4c0::/32,no-resolve
+  - IP-CIDR6,2602:f349::/40,no-resolve
   - IP-CIDR6,2602:f37a::/40,no-resolve
   - IP-CIDR6,2602:f636::/40,no-resolve
   - IP-CIDR6,2602:f63a::/40,no-resolve
