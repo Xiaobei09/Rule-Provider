@@ -1,14 +1,15 @@
 # ============================================================
 # Rule-Provider: CZ
 # 捷克（Czechia）
-# 数据日期: 2026-08-17
+# 数据日期: 2026-08-18
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 2525 条（IPv4: 1739 / IPv6: 786）
+# 规则统计: 共 2533 条（IPv4: 1747 / IPv6: 786）
 # ============================================================
 payload:
   - IP-CIDR,102.223.110.0/24,no-resolve
   - IP-CIDR,104.254.80.0/21,no-resolve
   - IP-CIDR,108.186.193.0/24,no-resolve
+  - IP-CIDR,108.186.244.0/24,no-resolve
   - IP-CIDR,109.105.32.0/19,no-resolve
   - IP-CIDR,109.107.158.0/24,no-resolve
   - IP-CIDR,109.107.192.0/19,no-resolve
@@ -48,6 +49,7 @@ payload:
   - IP-CIDR,128.0.176.0/20,no-resolve
   - IP-CIDR,128.254.224.0/24,no-resolve
   - IP-CIDR,13.143.236.0/23,no-resolve
+  - IP-CIDR,13.143.68.0/22,no-resolve
   - IP-CIDR,130.185.176.0/21,no-resolve
   - IP-CIDR,130.193.0.0/24,no-resolve
   - IP-CIDR,130.193.16.0/21,no-resolve
@@ -898,11 +900,15 @@ payload:
   - IP-CIDR,195.128.155.0/24,no-resolve
   - IP-CIDR,195.128.192.0/19,no-resolve
   - IP-CIDR,195.130.220.0/24,no-resolve
-  - IP-CIDR,195.133.0.0/18,no-resolve
+  - IP-CIDR,195.133.0.0/19,no-resolve
   - IP-CIDR,195.133.144.0/22,no-resolve
   - IP-CIDR,195.133.194.0/23,no-resolve
   - IP-CIDR,195.133.196.0/22,no-resolve
   - IP-CIDR,195.133.200.0/23,no-resolve
+  - IP-CIDR,195.133.32.0/20,no-resolve
+  - IP-CIDR,195.133.48.0/21,no-resolve
+  - IP-CIDR,195.133.58.0/23,no-resolve
+  - IP-CIDR,195.133.62.0/23,no-resolve
   - IP-CIDR,195.133.64.0/19,no-resolve
   - IP-CIDR,195.137.182.0/24,no-resolve
   - IP-CIDR,195.140.252.0/22,no-resolve
@@ -1391,6 +1397,7 @@ payload:
   - IP-CIDR,81.92.144.0/20,no-resolve
   - IP-CIDR,81.95.96.0/20,no-resolve
   - IP-CIDR,82.100.0.0/18,no-resolve
+  - IP-CIDR,82.108.206.0/24,no-resolve
   - IP-CIDR,82.113.32.0/19,no-resolve
   - IP-CIDR,82.114.192.0/19,no-resolve
   - IP-CIDR,82.117.128.0/19,no-resolve
@@ -1399,6 +1406,7 @@ payload:
   - IP-CIDR,82.144.128.0/19,no-resolve
   - IP-CIDR,82.150.160.0/19,no-resolve
   - IP-CIDR,82.153.113.0/24,no-resolve
+  - IP-CIDR,82.153.116.0/24,no-resolve
   - IP-CIDR,82.202.0.0/17,no-resolve
   - IP-CIDR,82.208.0.0/21,no-resolve
   - IP-CIDR,82.208.16.0/22,no-resolve
