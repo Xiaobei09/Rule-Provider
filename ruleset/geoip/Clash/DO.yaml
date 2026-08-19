@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: DO
 # 多米尼加（Dominican Republic）
-# 数据日期: 2026-08-18
+# 数据日期: 2026-08-19
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 647 条（IPv4: 433 / IPv6: 214）
+# 规则统计: 共 650 条（IPv4: 435 / IPv6: 215）
 # ============================================================
 payload:
   - IP-CIDR,103.207.44.0/22,no-resolve
@@ -38,6 +38,7 @@ payload:
   - IP-CIDR,152.166.0.0/15,no-resolve
   - IP-CIDR,154.13.67.0/24,no-resolve
   - IP-CIDR,154.18.248.0/22,no-resolve
+  - IP-CIDR,154.21.15.0/24,no-resolve
   - IP-CIDR,154.3.57.0/24,no-resolve
   - IP-CIDR,154.40.139.0/24,no-resolve
   - IP-CIDR,154.41.144.0/20,no-resolve
@@ -255,7 +256,7 @@ payload:
   - IP-CIDR,38.172.206.0/23,no-resolve
   - IP-CIDR,38.172.60.0/22,no-resolve
   - IP-CIDR,38.183.152.0/24,no-resolve
-  - IP-CIDR,38.183.181.0/24,no-resolve
+  - IP-CIDR,38.183.180.0/24,no-resolve
   - IP-CIDR,38.183.216.0/23,no-resolve
   - IP-CIDR,38.188.0.0/20,no-resolve
   - IP-CIDR,38.188.102.0/23,no-resolve
@@ -295,6 +296,7 @@ payload:
   - IP-CIDR,38.246.144.0/22,no-resolve
   - IP-CIDR,38.246.152.0/21,no-resolve
   - IP-CIDR,38.246.74.0/23,no-resolve
+  - IP-CIDR,38.247.46.0/23,no-resolve
   - IP-CIDR,38.247.88.0/22,no-resolve
   - IP-CIDR,38.247.92.0/24,no-resolve
   - IP-CIDR,38.248.18.0/24,no-resolve
@@ -365,7 +367,7 @@ payload:
   - IP-CIDR,38.75.209.0/24,no-resolve
   - IP-CIDR,38.75.80.0/22,no-resolve
   - IP-CIDR,38.76.152.0/23,no-resolve
-  - IP-CIDR,38.76.250.0/23,no-resolve
+  - IP-CIDR,38.76.251.0/24,no-resolve
   - IP-CIDR,38.76.68.0/24,no-resolve
   - IP-CIDR,38.78.150.0/24,no-resolve
   - IP-CIDR,38.78.202.0/24,no-resolve
@@ -529,6 +531,7 @@ payload:
   - IP-CIDR6,2803:6850::/32,no-resolve
   - IP-CIDR6,2803:69d0::/32,no-resolve
   - IP-CIDR6,2803:6ad0::/32,no-resolve
+  - IP-CIDR6,2803:6b30::/32,no-resolve
   - IP-CIDR6,2803:6cd0::/32,no-resolve
   - IP-CIDR6,2803:6dd0::/32,no-resolve
   - IP-CIDR6,2803:6de0::/32,no-resolve

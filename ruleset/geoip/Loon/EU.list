@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: EU
 # 欧盟（European Union）
-# 数据日期: 2026-08-18
+# 数据日期: 2026-08-19
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1047 条（IPv4: 940 / IPv6: 107）
+# 规则统计: 共 1064 条（IPv4: 942 / IPv6: 122）
 # ============================================================
 IP-CIDR,103.141.68.0/24,no-resolve
 IP-CIDR,108.165.226.0/24,no-resolve
@@ -181,7 +181,9 @@ IP-CIDR,156.49.246.0/24,no-resolve
 IP-CIDR,156.49.252.0/24,no-resolve
 IP-CIDR,157.159.0.0/19,no-resolve
 IP-CIDR,157.159.128.0/18,no-resolve
-IP-CIDR,157.159.192.0/18,no-resolve
+IP-CIDR,157.159.192.0/19,no-resolve
+IP-CIDR,157.159.224.0/20,no-resolve
+IP-CIDR,157.159.240.0/20,no-resolve
 IP-CIDR,157.159.32.0/20,no-resolve
 IP-CIDR,157.159.48.0/21,no-resolve
 IP-CIDR,157.159.56.0/21,no-resolve
@@ -1014,7 +1016,22 @@ IP-CIDR6,2a00:800:600::/39,no-resolve
 IP-CIDR6,2a00:800:8000::/33,no-resolve
 IP-CIDR6,2a00:800:800::/37,no-resolve
 IP-CIDR6,2a00:800::/39,no-resolve
-IP-CIDR6,2a00:801::/32,no-resolve
+IP-CIDR6,2a00:801:1000::/36,no-resolve
+IP-CIDR6,2a00:801:100::/40,no-resolve
+IP-CIDR6,2a00:801:2000::/35,no-resolve
+IP-CIDR6,2a00:801:200::/39,no-resolve
+IP-CIDR6,2a00:801:4000::/34,no-resolve
+IP-CIDR6,2a00:801:400::/38,no-resolve
+IP-CIDR6,2a00:801:40::/45,no-resolve
+IP-CIDR6,2a00:801:48::/47,no-resolve
+IP-CIDR6,2a00:801:4a::/48,no-resolve
+IP-CIDR6,2a00:801:4c::/46,no-resolve
+IP-CIDR6,2a00:801:50::/44,no-resolve
+IP-CIDR6,2a00:801:60::/43,no-resolve
+IP-CIDR6,2a00:801:8000::/33,no-resolve
+IP-CIDR6,2a00:801:800::/37,no-resolve
+IP-CIDR6,2a00:801:80::/41,no-resolve
+IP-CIDR6,2a00:801::/42,no-resolve
 IP-CIDR6,2a00:802::/31,no-resolve
 IP-CIDR6,2a00:804::/30,no-resolve
 IP-CIDR6,2a00:808::/29,no-resolve

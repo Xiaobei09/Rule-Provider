@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: TR
 # 土耳其（Turkey）
-# 数据日期: 2026-08-18
+# 数据日期: 2026-08-19
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 3178 条（IPv4: 2270 / IPv6: 908）
+# 规则统计: 共 3180 条（IPv4: 2272 / IPv6: 908）
 # ============================================================
 payload:
   - IP-CIDR,102.140.0.0/23,no-resolve
@@ -111,6 +111,7 @@ payload:
   - IP-CIDR,139.28.240.0/22,no-resolve
   - IP-CIDR,139.28.32.0/22,no-resolve
   - IP-CIDR,139.28.48.0/22,no-resolve
+  - IP-CIDR,139.28.72.0/22,no-resolve
   - IP-CIDR,14.102.14.0/24,no-resolve
   - IP-CIDR,141.11.109.0/24,no-resolve
   - IP-CIDR,141.11.204.0/24,no-resolve
@@ -124,6 +125,7 @@ payload:
   - IP-CIDR,143.20.20.0/23,no-resolve
   - IP-CIDR,143.246.43.0/24,no-resolve
   - IP-CIDR,144.122.0.0/16,no-resolve
+  - IP-CIDR,144.225.53.0/24,no-resolve
   - IP-CIDR,144.225.55.0/24,no-resolve
   - IP-CIDR,144.225.64.0/23,no-resolve
   - IP-CIDR,146.103.24.0/24,no-resolve
@@ -218,7 +220,6 @@ payload:
   - IP-CIDR,162.35.228.0/24,no-resolve
   - IP-CIDR,163.5.168.0/24,no-resolve
   - IP-CIDR,163.5.182.0/24,no-resolve
-  - IP-CIDR,163.5.203.0/24,no-resolve
   - IP-CIDR,163.5.237.0/24,no-resolve
   - IP-CIDR,163.5.246.0/24,no-resolve
   - IP-CIDR,163.5.39.0/24,no-resolve
@@ -575,6 +576,7 @@ payload:
   - IP-CIDR,185.22.230.0/24,no-resolve
   - IP-CIDR,185.22.248.0/22,no-resolve
   - IP-CIDR,185.220.152.0/22,no-resolve
+  - IP-CIDR,185.220.168.0/23,no-resolve
   - IP-CIDR,185.220.56.0/22,no-resolve
   - IP-CIDR,185.221.64.0/24,no-resolve
   - IP-CIDR,185.222.215.0/24,no-resolve
@@ -1454,6 +1456,7 @@ payload:
   - IP-CIDR,31.40.196.0/22,no-resolve
   - IP-CIDR,31.40.204.0/22,no-resolve
   - IP-CIDR,31.40.240.0/22,no-resolve
+  - IP-CIDR,31.42.121.0/24,no-resolve
   - IP-CIDR,31.42.127.0/24,no-resolve
   - IP-CIDR,31.44.192.0/20,no-resolve
   - IP-CIDR,31.56.213.0/24,no-resolve
@@ -1576,7 +1579,6 @@ payload:
   - IP-CIDR,45.145.20.0/22,no-resolve
   - IP-CIDR,45.147.44.0/22,no-resolve
   - IP-CIDR,45.148.65.0/24,no-resolve
-  - IP-CIDR,45.149.242.0/24,no-resolve
   - IP-CIDR,45.15.22.0/24,no-resolve
   - IP-CIDR,45.15.41.0/24,no-resolve
   - IP-CIDR,45.150.149.0/24,no-resolve
