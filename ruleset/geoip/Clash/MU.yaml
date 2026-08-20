@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: MU
 # 毛里求斯（Mauritius）
-# 数据日期: 2026-08-19
+# 数据日期: 2026-08-20
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 201 条（IPv4: 159 / IPv6: 42）
+# 规则统计: 共 202 条（IPv4: 159 / IPv6: 43）
 # ============================================================
 payload:
   - IP-CIDR,102.112.0.0/13,no-resolve
@@ -187,6 +187,7 @@ payload:
   - IP-CIDR6,2001:43fe:6000::/48,no-resolve
   - IP-CIDR6,2c0f:4c20::/32,no-resolve
   - IP-CIDR6,2c0f:5140::/32,no-resolve
+  - IP-CIDR6,2c0f:8a0::/32,no-resolve
   - IP-CIDR6,2c0f:e808::/32,no-resolve
   - IP-CIDR6,2c0f:e8f8::/32,no-resolve
   - IP-CIDR6,2c0f:ec30::/32,no-resolve

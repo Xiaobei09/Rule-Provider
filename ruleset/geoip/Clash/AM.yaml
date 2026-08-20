@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: AM
 # 亚美尼亚（Armenia）
-# 数据日期: 2026-08-19
+# 数据日期: 2026-08-20
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 334 条（IPv4: 267 / IPv6: 67）
+# 规则统计: 共 337 条（IPv4: 270 / IPv6: 67）
 # ============================================================
 payload:
   - IP-CIDR,103.73.34.0/24,no-resolve
@@ -29,8 +29,11 @@ payload:
   - IP-CIDR,156.241.0.0/24,no-resolve
   - IP-CIDR,156.253.5.0/24,no-resolve
   - IP-CIDR,156.255.1.0/24,no-resolve
+  - IP-CIDR,157.228.100.0/22,no-resolve
+  - IP-CIDR,157.228.104.0/21,no-resolve
   - IP-CIDR,157.228.64.0/19,no-resolve
-  - IP-CIDR,157.228.96.0/20,no-resolve
+  - IP-CIDR,157.228.97.0/24,no-resolve
+  - IP-CIDR,157.228.98.0/23,no-resolve
   - IP-CIDR,163.5.244.0/24,no-resolve
   - IP-CIDR,163.5.31.0/24,no-resolve
   - IP-CIDR,176.113.118.0/24,no-resolve

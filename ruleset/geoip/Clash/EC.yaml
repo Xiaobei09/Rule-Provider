@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: EC
 # 厄瓜多尔（Ecuador）
-# 数据日期: 2026-08-19
+# 数据日期: 2026-08-20
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 664 条（IPv4: 389 / IPv6: 275）
+# 规则统计: 共 666 条（IPv4: 390 / IPv6: 276）
 # ============================================================
 payload:
   - IP-CIDR,103.23.62.0/23,no-resolve
@@ -283,6 +283,7 @@ payload:
   - IP-CIDR,38.224.80.0/21,no-resolve
   - IP-CIDR,38.224.88.0/21,no-resolve
   - IP-CIDR,38.255.20.0/22,no-resolve
+  - IP-CIDR,38.4.0.0/23,no-resolve
   - IP-CIDR,38.4.2.0/24,no-resolve
   - IP-CIDR,38.44.108.0/22,no-resolve
   - IP-CIDR,38.44.234.0/23,no-resolve
@@ -568,6 +569,7 @@ payload:
   - IP-CIDR6,2803:9990::/32,no-resolve
   - IP-CIDR6,2803:9a10::/32,no-resolve
   - IP-CIDR6,2803:9ac0::/32,no-resolve
+  - IP-CIDR6,2803:9b30::/32,no-resolve
   - IP-CIDR6,2803:9c20::/32,no-resolve
   - IP-CIDR6,2803:9cc0::/32,no-resolve
   - IP-CIDR6,2803:9dc0::/32,no-resolve
