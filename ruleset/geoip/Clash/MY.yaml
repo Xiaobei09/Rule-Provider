@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: MY
 # 马来西亚（Malaysia）
-# 数据日期: 2026-08-20
+# 数据日期: 2026-08-21
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1534 条（IPv4: 1167 / IPv6: 367）
+# 规则统计: 共 1533 条（IPv4: 1167 / IPv6: 366）
 # ============================================================
 payload:
   - IP-CIDR,1.32.0.0/17,no-resolve
@@ -784,6 +784,7 @@ payload:
   - IP-CIDR,188.214.64.0/20,no-resolve
   - IP-CIDR,191.40.32.0/22,no-resolve
   - IP-CIDR,191.40.36.0/22,no-resolve
+  - IP-CIDR,191.40.40.0/21,no-resolve
   - IP-CIDR,192.228.128.0/17,no-resolve
   - IP-CIDR,192.71.175.0/24,no-resolve
   - IP-CIDR,192.82.222.0/24,no-resolve
@@ -957,7 +958,6 @@ payload:
   - IP-CIDR,223.28.0.0/17,no-resolve
   - IP-CIDR,23.155.52.0/24,no-resolve
   - IP-CIDR,23.155.92.0/24,no-resolve
-  - IP-CIDR,23.156.116.0/24,no-resolve
   - IP-CIDR,23.156.132.0/24,no-resolve
   - IP-CIDR,23.156.148.0/24,no-resolve
   - IP-CIDR,23.160.68.0/24,no-resolve
@@ -1522,7 +1522,6 @@ payload:
   - IP-CIDR6,2620:13f:701a::/47,no-resolve
   - IP-CIDR6,2a01:a40::/29,no-resolve
   - IP-CIDR6,2a01:e281:aa00::/40,no-resolve
-  - IP-CIDR6,2a06:9801:224::/48,no-resolve
   - IP-CIDR6,2a06:a005:4b0::/44,no-resolve
   - IP-CIDR6,2a07:dd80::/29,no-resolve
   - IP-CIDR6,2a0c:9a40:8b60::/48,no-resolve

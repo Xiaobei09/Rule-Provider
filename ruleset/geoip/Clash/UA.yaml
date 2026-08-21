@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: UA
 # 乌克兰（Ukraine）
-# 数据日期: 2026-08-20
+# 数据日期: 2026-08-21
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 4898 条（IPv4: 4075 / IPv6: 823）
+# 规则统计: 共 4898 条（IPv4: 4078 / IPv6: 820）
 # ============================================================
 payload:
   - IP-CIDR,102.165.44.0/24,no-resolve
@@ -484,6 +484,8 @@ payload:
   - IP-CIDR,158.46.144.0/22,no-resolve
   - IP-CIDR,159.146.128.0/17,no-resolve
   - IP-CIDR,159.160.0.0/16,no-resolve
+  - IP-CIDR,159.200.232.0/23,no-resolve
+  - IP-CIDR,159.200.236.0/23,no-resolve
   - IP-CIDR,159.200.246.0/23,no-resolve
   - IP-CIDR,159.224.0.0/16,no-resolve
   - IP-CIDR,160.238.124.0/22,no-resolve
@@ -715,6 +717,8 @@ payload:
   - IP-CIDR,179.252.208.0/21,no-resolve
   - IP-CIDR,179.252.216.0/22,no-resolve
   - IP-CIDR,179.252.220.0/22,no-resolve
+  - IP-CIDR,179.254.82.0/24,no-resolve
+  - IP-CIDR,179.254.86.0/24,no-resolve
   - IP-CIDR,179.255.176.0/21,no-resolve
   - IP-CIDR,179.66.176.0/21,no-resolve
   - IP-CIDR,179.66.184.0/21,no-resolve
@@ -2239,7 +2243,6 @@ payload:
   - IP-CIDR,196.35.35.0/24,no-resolve
   - IP-CIDR,196.35.36.0/24,no-resolve
   - IP-CIDR,2.26.173.0/24,no-resolve
-  - IP-CIDR,2.26.175.0/24,no-resolve
   - IP-CIDR,2.27.218.0/23,no-resolve
   - IP-CIDR,2.27.220.0/22,no-resolve
   - IP-CIDR,2.27.57.0/24,no-resolve
@@ -4478,8 +4481,6 @@ payload:
   - IP-CIDR6,2a05:b00::/29,no-resolve
   - IP-CIDR6,2a05:b5c0::/29,no-resolve
   - IP-CIDR6,2a05:d780::/29,no-resolve
-  - IP-CIDR6,2a05:dfc1:2c10::/48,no-resolve
-  - IP-CIDR6,2a05:dfc1:2c34::/48,no-resolve
   - IP-CIDR6,2a05:f600::/29,no-resolve
   - IP-CIDR6,2a06:1680::/29,no-resolve
   - IP-CIDR6,2a06:2280::/29,no-resolve
@@ -4494,7 +4495,6 @@ payload:
   - IP-CIDR6,2a06:6680::/29,no-resolve
   - IP-CIDR6,2a06:7300::/29,no-resolve
   - IP-CIDR6,2a06:9000::/29,no-resolve
-  - IP-CIDR6,2a06:9801:272::/48,no-resolve
   - IP-CIDR6,2a06:9e40::/29,no-resolve
   - IP-CIDR6,2a06:a005:110::/44,no-resolve
   - IP-CIDR6,2a06:a005:120::/43,no-resolve

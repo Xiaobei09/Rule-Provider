@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: CO
 # 哥伦比亚（Colombia）
-# 数据日期: 2026-08-20
+# 数据日期: 2026-08-21
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1640 条（IPv4: 840 / IPv6: 800）
+# 规则统计: 共 1644 条（IPv4: 844 / IPv6: 800）
 # ============================================================
 IP-CIDR,103.133.208.0/22,no-resolve
 IP-CIDR,103.212.83.0/24,no-resolve
@@ -577,6 +577,7 @@ IP-CIDR,38.188.225.0/24,no-resolve
 IP-CIDR,38.188.252.0/22,no-resolve
 IP-CIDR,38.19.108.0/24,no-resolve
 IP-CIDR,38.19.212.0/23,no-resolve
+IP-CIDR,38.19.226.0/24,no-resolve
 IP-CIDR,38.19.238.0/23,no-resolve
 IP-CIDR,38.19.40.0/22,no-resolve
 IP-CIDR,38.19.46.0/23,no-resolve
@@ -612,7 +613,9 @@ IP-CIDR,38.199.24.0/23,no-resolve
 IP-CIDR,38.199.241.0/24,no-resolve
 IP-CIDR,38.199.243.0/24,no-resolve
 IP-CIDR,38.199.28.0/22,no-resolve
-IP-CIDR,38.199.64.0/21,no-resolve
+IP-CIDR,38.199.64.0/22,no-resolve
+IP-CIDR,38.199.68.0/23,no-resolve
+IP-CIDR,38.199.70.0/24,no-resolve
 IP-CIDR,38.199.76.0/24,no-resolve
 IP-CIDR,38.21.112.0/24,no-resolve
 IP-CIDR,38.21.115.0/24,no-resolve
@@ -631,6 +634,7 @@ IP-CIDR,38.211.144.0/23,no-resolve
 IP-CIDR,38.211.2.0/24,no-resolve
 IP-CIDR,38.211.254.0/24,no-resolve
 IP-CIDR,38.211.36.0/23,no-resolve
+IP-CIDR,38.211.46.0/24,no-resolve
 IP-CIDR,38.211.5.0/24,no-resolve
 IP-CIDR,38.211.68.0/22,no-resolve
 IP-CIDR,38.211.76.0/22,no-resolve
@@ -850,7 +854,6 @@ IP-CIDR6,2001:13b0:8020::/48,no-resolve
 IP-CIDR6,2001:13b2:9004::/47,no-resolve
 IP-CIDR6,2001:13c7:6000::/48,no-resolve
 IP-CIDR6,2001:13f8::/32,no-resolve
-IP-CIDR6,2602:f992:f2::/48,no-resolve
 IP-CIDR6,2800:1d0::/32,no-resolve
 IP-CIDR6,2800:1e0::/31,no-resolve
 IP-CIDR6,2800:24::/32,no-resolve
@@ -1310,6 +1313,7 @@ IP-CIDR6,2803:1b30::/32,no-resolve
 IP-CIDR6,2803:1d10::/32,no-resolve
 IP-CIDR6,2803:1e0::/32,no-resolve
 IP-CIDR6,2803:1e30::/32,no-resolve
+IP-CIDR6,2803:1e90::/32,no-resolve
 IP-CIDR6,2803:1fd0::/32,no-resolve
 IP-CIDR6,2803:2060::/32,no-resolve
 IP-CIDR6,2803:2090::/32,no-resolve
@@ -1372,9 +1376,7 @@ IP-CIDR6,2803:4860::/32,no-resolve
 IP-CIDR6,2803:4890::/32,no-resolve
 IP-CIDR6,2803:4930::/32,no-resolve
 IP-CIDR6,2803:4a50::/32,no-resolve
-IP-CIDR6,2803:4a90:1::/48,no-resolve
-IP-CIDR6,2803:4a90:2::/48,no-resolve
-IP-CIDR6,2803:4a90:4::/48,no-resolve
+IP-CIDR6,2803:4a90:3::/48,no-resolve
 IP-CIDR6,2803:4a90:6::/48,no-resolve
 IP-CIDR6,2803:4a90:8304::/48,no-resolve
 IP-CIDR6,2803:4a90:8306::/48,no-resolve
@@ -1392,6 +1394,7 @@ IP-CIDR6,2803:5640::/32,no-resolve
 IP-CIDR6,2803:5790::/32,no-resolve
 IP-CIDR6,2803:5960::/32,no-resolve
 IP-CIDR6,2803:5ae0::/32,no-resolve
+IP-CIDR6,2803:5b30::/32,no-resolve
 IP-CIDR6,2803:5be0::/32,no-resolve
 IP-CIDR6,2803:5c30::/32,no-resolve
 IP-CIDR6,2803:5ce0:500::/40,no-resolve
@@ -1581,6 +1584,7 @@ IP-CIDR6,2803:d80::/29,no-resolve
 IP-CIDR6,2803:d90::/32,no-resolve
 IP-CIDR6,2803:da20::/32,no-resolve
 IP-CIDR6,2803:da60::/32,no-resolve
+IP-CIDR6,2803:db30::/32,no-resolve
 IP-CIDR6,2803:dc20::/32,no-resolve
 IP-CIDR6,2803:ddd0::/32,no-resolve
 IP-CIDR6,2803:de80::/32,no-resolve
