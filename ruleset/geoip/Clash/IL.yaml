@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: IL
 # 以色列（Israel）
-# 数据日期: 2026-08-21
+# 数据日期: 2026-08-22
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1388 条（IPv4: 1157 / IPv6: 231）
+# 规则统计: 共 1390 条（IPv4: 1158 / IPv6: 232）
 # ============================================================
 payload:
   - IP-CIDR,102.128.166.0/24,no-resolve
@@ -192,6 +192,7 @@ payload:
   - IP-CIDR,169.196.48.0/23,no-resolve
   - IP-CIDR,169.196.52.0/23,no-resolve
   - IP-CIDR,169.196.56.0/23,no-resolve
+  - IP-CIDR,169.196.65.0/24,no-resolve
   - IP-CIDR,169.196.66.0/24,no-resolve
   - IP-CIDR,169.196.68.0/23,no-resolve
   - IP-CIDR,169.196.76.0/22,no-resolve
@@ -214,6 +215,7 @@ payload:
   - IP-CIDR,178.212.93.0/24,no-resolve
   - IP-CIDR,178.248.77.0/24,no-resolve
   - IP-CIDR,179.0.204.0/24,no-resolve
+  - IP-CIDR,179.190.29.0/24,no-resolve
   - IP-CIDR,181.214.135.0/24,no-resolve
   - IP-CIDR,181.214.197.0/24,no-resolve
   - IP-CIDR,181.214.214.0/24,no-resolve
@@ -385,7 +387,6 @@ payload:
   - IP-CIDR,188.64.208.0/22,no-resolve
   - IP-CIDR,188.66.26.0/24,no-resolve
   - IP-CIDR,189.125.96.0/22,no-resolve
-  - IP-CIDR,189.74.107.0/24,no-resolve
   - IP-CIDR,191.96.229.0/24,no-resolve
   - IP-CIDR,192.101.65.0/24,no-resolve
   - IP-CIDR,192.101.66.0/23,no-resolve
@@ -596,6 +597,7 @@ payload:
   - IP-CIDR,200.0.63.0/24,no-resolve
   - IP-CIDR,200.10.209.0/24,no-resolve
   - IP-CIDR,201.3.123.0/24,no-resolve
+  - IP-CIDR,201.7.24.0/24,no-resolve
   - IP-CIDR,202.75.240.0/24,no-resolve
   - IP-CIDR,202.75.242.0/23,no-resolve
   - IP-CIDR,202.75.244.0/24,no-resolve
@@ -611,7 +613,6 @@ payload:
   - IP-CIDR,204.57.218.0/24,no-resolve
   - IP-CIDR,205.177.67.0/24,no-resolve
   - IP-CIDR,205.177.68.0/24,no-resolve
-  - IP-CIDR,206.123.145.0/24,no-resolve
   - IP-CIDR,206.232.56.0/23,no-resolve
   - IP-CIDR,206.53.55.0/24,no-resolve
   - IP-CIDR,206.82.140.0/24,no-resolve
@@ -1272,6 +1273,7 @@ payload:
   - IP-CIDR6,2a06:a1c0::/29,no-resolve
   - IP-CIDR6,2a06:c5c0::/29,no-resolve
   - IP-CIDR6,2a06:c700::/29,no-resolve
+  - IP-CIDR6,2a06:de01:800::/38,no-resolve
   - IP-CIDR6,2a06:de07:fc00::/44,no-resolve
   - IP-CIDR6,2a06:e300::/29,no-resolve
   - IP-CIDR6,2a07:1980::/29,no-resolve

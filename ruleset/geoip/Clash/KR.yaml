@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: KR
 # 韩国（South Korea）
-# 数据日期: 2026-08-21
+# 数据日期: 2026-08-22
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1860 条（IPv4: 1676 / IPv6: 184）
+# 规则统计: 共 1861 条（IPv4: 1677 / IPv6: 184）
 # ============================================================
 payload:
   - IP-CIDR,1.11.0.0/16,no-resolve
@@ -696,12 +696,14 @@ payload:
   - IP-CIDR,141.11.9.0/24,no-resolve
   - IP-CIDR,141.223.0.0/16,no-resolve
   - IP-CIDR,141.98.150.0/24,no-resolve
-  - IP-CIDR,142.248.228.0/22,no-resolve
+  - IP-CIDR,142.248.228.0/24,no-resolve
+  - IP-CIDR,142.248.230.0/23,no-resolve
   - IP-CIDR,142.249.137.0/24,no-resolve
   - IP-CIDR,142.249.253.0/24,no-resolve
   - IP-CIDR,142.249.254.0/23,no-resolve
   - IP-CIDR,142.249.57.0/24,no-resolve
   - IP-CIDR,142.249.58.0/24,no-resolve
+  - IP-CIDR,143.14.82.0/24,no-resolve
   - IP-CIDR,143.248.0.0/16,no-resolve
   - IP-CIDR,144.225.244.0/23,no-resolve
   - IP-CIDR,144.48.100.0/22,no-resolve
@@ -839,7 +841,6 @@ payload:
   - IP-CIDR,169.208.0.0/12,no-resolve
   - IP-CIDR,172.120.240.0/24,no-resolve
   - IP-CIDR,172.120.243.0/24,no-resolve
-  - IP-CIDR,172.94.64.0/24,no-resolve
   - IP-CIDR,175.106.64.0/18,no-resolve
   - IP-CIDR,175.107.64.0/18,no-resolve
   - IP-CIDR,175.111.16.0/20,no-resolve

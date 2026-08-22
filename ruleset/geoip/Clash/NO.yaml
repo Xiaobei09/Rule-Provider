@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: NO
 # 挪威（Norway）
-# 数据日期: 2026-08-21
+# 数据日期: 2026-08-22
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1945 条（IPv4: 1428 / IPv6: 517）
+# 规则统计: 共 1957 条（IPv4: 1440 / IPv6: 517）
 # ============================================================
 payload:
   - IP-CIDR,103.19.218.0/24,no-resolve
@@ -42,6 +42,7 @@ payload:
   - IP-CIDR,129.177.0.0/16,no-resolve
   - IP-CIDR,129.240.0.0/15,no-resolve
   - IP-CIDR,129.242.0.0/16,no-resolve
+  - IP-CIDR,13.143.176.0/24,no-resolve
   - IP-CIDR,13.143.178.0/23,no-resolve
   - IP-CIDR,130.193.28.0/24,no-resolve
   - IP-CIDR,130.67.0.0/16,no-resolve
@@ -129,6 +130,7 @@ payload:
   - IP-CIDR,153.44.0.0/16,no-resolve
   - IP-CIDR,154.29.24.0/23,no-resolve
   - IP-CIDR,154.36.85.0/24,no-resolve
+  - IP-CIDR,155.117.16.0/24,no-resolve
   - IP-CIDR,155.209.0.0/16,no-resolve
   - IP-CIDR,155.227.0.0/16,no-resolve
   - IP-CIDR,155.4.0.0/16,no-resolve
@@ -163,6 +165,8 @@ payload:
   - IP-CIDR,165.49.240.0/24,no-resolve
   - IP-CIDR,167.148.123.0/24,no-resolve
   - IP-CIDR,167.150.120.0/24,no-resolve
+  - IP-CIDR,168.222.15.0/24,no-resolve
+  - IP-CIDR,168.222.61.0/24,no-resolve
   - IP-CIDR,171.22.152.0/22,no-resolve
   - IP-CIDR,171.23.0.0/16,no-resolve
   - IP-CIDR,171.25.160.0/22,no-resolve
@@ -199,6 +203,7 @@ payload:
   - IP-CIDR,178.74.0.0/18,no-resolve
   - IP-CIDR,178.94.177.0/24,no-resolve
   - IP-CIDR,179.254.68.0/22,no-resolve
+  - IP-CIDR,179.254.85.0/24,no-resolve
   - IP-CIDR,181.214.15.0/24,no-resolve
   - IP-CIDR,181.214.19.0/24,no-resolve
   - IP-CIDR,181.214.28.0/24,no-resolve
@@ -894,7 +899,6 @@ payload:
   - IP-CIDR,204.79.234.0/24,no-resolve
   - IP-CIDR,205.132.48.0/21,no-resolve
   - IP-CIDR,207.241.179.0/24,no-resolve
-  - IP-CIDR,209.92.165.0/24,no-resolve
   - IP-CIDR,212.125.160.0/19,no-resolve
   - IP-CIDR,212.125.192.0/18,no-resolve
   - IP-CIDR,212.162.144.0/22,no-resolve
@@ -1080,6 +1084,7 @@ payload:
   - IP-CIDR,46.228.48.0/20,no-resolve
   - IP-CIDR,46.230.128.0/19,no-resolve
   - IP-CIDR,46.230.160.0/21,no-resolve
+  - IP-CIDR,46.236.255.0/24,no-resolve
   - IP-CIDR,46.249.224.0/19,no-resolve
   - IP-CIDR,46.250.192.0/19,no-resolve
   - IP-CIDR,46.251.249.0/24,no-resolve
@@ -1105,6 +1110,7 @@ payload:
   - IP-CIDR,5.45.152.0/21,no-resolve
   - IP-CIDR,5.83.224.0/21,no-resolve
   - IP-CIDR,51.174.0.0/15,no-resolve
+  - IP-CIDR,51.241.145.0/24,no-resolve
   - IP-CIDR,62.101.192.0/18,no-resolve
   - IP-CIDR,62.102.160.0/19,no-resolve
   - IP-CIDR,62.113.128.0/19,no-resolve
@@ -1154,6 +1160,8 @@ payload:
   - IP-CIDR,77.90.62.0/24,no-resolve
   - IP-CIDR,77.94.232.0/21,no-resolve
   - IP-CIDR,77.95.72.0/21,no-resolve
+  - IP-CIDR,78.105.112.0/24,no-resolve
+  - IP-CIDR,78.105.124.0/24,no-resolve
   - IP-CIDR,78.128.75.0/24,no-resolve
   - IP-CIDR,78.156.0.0/19,no-resolve
   - IP-CIDR,78.158.224.0/19,no-resolve
@@ -1227,6 +1235,7 @@ payload:
   - IP-CIDR,82.196.192.0/19,no-resolve
   - IP-CIDR,82.199.0.0/19,no-resolve
   - IP-CIDR,82.22.59.0/24,no-resolve
+  - IP-CIDR,82.39.233.0/24,no-resolve
   - IP-CIDR,83.108.0.0/15,no-resolve
   - IP-CIDR,83.118.128.0/18,no-resolve
   - IP-CIDR,83.142.96.0/21,no-resolve
@@ -1279,6 +1288,7 @@ payload:
   - IP-CIDR,87.248.0.0/19,no-resolve
   - IP-CIDR,87.252.64.0/19,no-resolve
   - IP-CIDR,87.254.32.0/19,no-resolve
+  - IP-CIDR,87.84.76.0/24,no-resolve
   - IP-CIDR,88.135.71.0/24,no-resolve
   - IP-CIDR,88.151.160.0/21,no-resolve
   - IP-CIDR,88.151.224.0/21,no-resolve
@@ -1316,6 +1326,7 @@ payload:
   - IP-CIDR,89.45.165.0/24,no-resolve
   - IP-CIDR,89.8.0.0/14,no-resolve
   - IP-CIDR,91.123.32.0/19,no-resolve
+  - IP-CIDR,91.124.36.0/23,no-resolve
   - IP-CIDR,91.126.0.0/20,no-resolve
   - IP-CIDR,91.135.128.0/20,no-resolve
   - IP-CIDR,91.135.32.0/19,no-resolve
@@ -1400,6 +1411,7 @@ payload:
   - IP-CIDR,91.90.104.0/21,no-resolve
   - IP-CIDR,91.90.40.0/21,no-resolve
   - IP-CIDR,91.90.64.0/21,no-resolve
+  - IP-CIDR,92.112.5.0/24,no-resolve
   - IP-CIDR,92.114.96.0/23,no-resolve
   - IP-CIDR,92.220.0.0/15,no-resolve
   - IP-CIDR,92.42.64.0/21,no-resolve
