@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: LT
 # 立陶宛（Lithuania）
-# 数据日期: 2026-08-24
+# 数据日期: 2026-08-25
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 2736 条（IPv4: 2315 / IPv6: 421）
+# 规则统计: 共 2738 条（IPv4: 2316 / IPv6: 422）
 # ============================================================
 payload:
   - IP-CIDR,102.128.167.0/24,no-resolve
@@ -1738,6 +1738,7 @@ payload:
   - IP-CIDR,66.227.92.0/23,no-resolve
   - IP-CIDR,66.227.95.0/24,no-resolve
   - IP-CIDR,66.245.167.0/24,no-resolve
+  - IP-CIDR,66.92.3.0/24,no-resolve
   - IP-CIDR,66.95.202.0/23,no-resolve
   - IP-CIDR,67.203.21.0/24,no-resolve
   - IP-CIDR,67.207.188.0/24,no-resolve
@@ -2485,6 +2486,7 @@ payload:
   - IP-CIDR6,2a0b:22c0::/29,no-resolve
   - IP-CIDR6,2a0b:2e40::/29,no-resolve
   - IP-CIDR6,2a0b:3e00::/29,no-resolve
+  - IP-CIDR6,2a0b:4e07:46::/48,no-resolve
   - IP-CIDR6,2a0b:4fc0::/29,no-resolve
   - IP-CIDR6,2a0b:5600::/32,no-resolve
   - IP-CIDR6,2a0b:8440::/29,no-resolve

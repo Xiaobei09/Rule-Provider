@@ -1,7 +1,7 @@
 # ============================================================
 # Rule-Provider: TW
 # 中国台湾（Taiwan）
-# 数据日期: 2026-08-24
+# 数据日期: 2026-08-25
 # 数据来源: APNIC + IPtoASN
 # 规则统计: 共 1495 条（IPv4: 951 / IPv6: 544）
 # ============================================================
@@ -521,7 +521,6 @@ payload:
   - IP-CIDR,157.20.68.0/23,no-resolve
   - IP-CIDR,157.254.212.0/24,no-resolve
   - IP-CIDR,157.254.216.0/24,no-resolve
-  - IP-CIDR,157.254.230.0/24,no-resolve
   - IP-CIDR,157.66.166.0/23,no-resolve
   - IP-CIDR,159.117.64.0/19,no-resolve
   - IP-CIDR,16.217.239.0/24,no-resolve
@@ -560,6 +559,7 @@ payload:
   - IP-CIDR,163.223.248.0/23,no-resolve
   - IP-CIDR,163.227.172.0/23,no-resolve
   - IP-CIDR,163.32.0.0/16,no-resolve
+  - IP-CIDR,163.52.48.0/23,no-resolve
   - IP-CIDR,163.61.124.0/23,no-resolve
   - IP-CIDR,163.61.184.0/23,no-resolve
   - IP-CIDR,163.61.60.0/23,no-resolve
@@ -1130,6 +1130,7 @@ payload:
   - IP-CIDR6,2402:6420::/32,no-resolve
   - IP-CIDR6,2402:6ce0::/32,no-resolve
   - IP-CIDR6,2402:6d20::/32,no-resolve
+  - IP-CIDR6,2402:7160::/32,no-resolve
   - IP-CIDR6,2402:7500::/32,no-resolve
   - IP-CIDR6,2402:9c00::/32,no-resolve
   - IP-CIDR6,2402:ae0::/32,no-resolve
@@ -1356,7 +1357,6 @@ payload:
   - IP-CIDR6,2a0b:4e07:f0::/46,no-resolve
   - IP-CIDR6,2a0b:4e07:ffc::/46,no-resolve
   - IP-CIDR6,2a0c:9a40:8440::/44,no-resolve
-  - IP-CIDR6,2a0c:9a40:8710::/48,no-resolve
   - IP-CIDR6,2a0c:9a40:8712::/47,no-resolve
   - IP-CIDR6,2a0c:9a40:8714::/47,no-resolve
   - IP-CIDR6,2a0c:9a40:8720::/48,no-resolve
