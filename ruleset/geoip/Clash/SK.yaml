@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: SK
 # 斯洛伐克（Slovakia）
-# 数据日期: 2026-08-25
+# 数据日期: 2026-08-26
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 668 条（IPv4: 491 / IPv6: 177）
+# 规则统计: 共 669 条（IPv4: 491 / IPv6: 178）
 # ============================================================
 payload:
   - IP-CIDR,103.134.155.0/24,no-resolve
@@ -539,6 +539,7 @@ payload:
   - IP-CIDR6,2001:7f8:2f::/48,no-resolve
   - IP-CIDR6,2001:7fc:9::/48,no-resolve
   - IP-CIDR6,2001:978:1001::/48,no-resolve
+  - IP-CIDR6,2001:978:3c0f::/48,no-resolve
   - IP-CIDR6,2a00:10d8::/29,no-resolve
   - IP-CIDR6,2a00:1298::/32,no-resolve
   - IP-CIDR6,2a00:12a8::/29,no-resolve

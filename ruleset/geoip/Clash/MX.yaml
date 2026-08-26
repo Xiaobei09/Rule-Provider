@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: MX
 # 墨西哥（Mexico）
-# 数据日期: 2026-08-25
+# 数据日期: 2026-08-26
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1467 条（IPv4: 1225 / IPv6: 242）
+# 规则统计: 共 1467 条（IPv4: 1228 / IPv6: 239）
 # ============================================================
 payload:
   - IP-CIDR,103.137.192.0/24,no-resolve
@@ -794,6 +794,7 @@ payload:
   - IP-CIDR,204.145.201.0/24,no-resolve
   - IP-CIDR,204.153.24.0/23,no-resolve
   - IP-CIDR,204.157.104.0/22,no-resolve
+  - IP-CIDR,204.157.149.0/24,no-resolve
   - IP-CIDR,204.157.161.0/24,no-resolve
   - IP-CIDR,204.157.250.0/24,no-resolve
   - IP-CIDR,204.157.68.0/23,no-resolve
@@ -932,6 +933,7 @@ payload:
   - IP-CIDR,38.199.246.0/23,no-resolve
   - IP-CIDR,38.199.251.0/24,no-resolve
   - IP-CIDR,38.20.3.0/24,no-resolve
+  - IP-CIDR,38.21.113.0/24,no-resolve
   - IP-CIDR,38.210.176.0/22,no-resolve
   - IP-CIDR,38.210.20.0/23,no-resolve
   - IP-CIDR,38.210.200.0/22,no-resolve
@@ -967,6 +969,7 @@ payload:
   - IP-CIDR,38.224.251.0/24,no-resolve
   - IP-CIDR,38.224.27.0/24,no-resolve
   - IP-CIDR,38.224.96.0/23,no-resolve
+  - IP-CIDR,38.225.237.0/24,no-resolve
   - IP-CIDR,38.225.44.0/22,no-resolve
   - IP-CIDR,38.225.64.0/23,no-resolve
   - IP-CIDR,38.225.72.0/22,no-resolve
@@ -1458,13 +1461,10 @@ payload:
   - IP-CIDR6,2806:463::/32,no-resolve
   - IP-CIDR6,2806:464::/30,no-resolve
   - IP-CIDR6,2806:468::/29,no-resolve
-  - IP-CIDR6,2806:470::/31,no-resolve
-  - IP-CIDR6,2806:472::/32,no-resolve
-  - IP-CIDR6,2806:474::/31,no-resolve
-  - IP-CIDR6,2806:477::/32,no-resolve
+  - IP-CIDR6,2806:470::/29,no-resolve
   - IP-CIDR6,2806:478::/31,no-resolve
   - IP-CIDR6,2806:47b::/32,no-resolve
-  - IP-CIDR6,2806:47d::/32,no-resolve
+  - IP-CIDR6,2806:47c::/31,no-resolve
   - IP-CIDR6,2806::/28,no-resolve
   - IP-CIDR6,2a0f:15c1::/32,no-resolve
   - IP-CIDR6,2a0f:85c1:c17::/48,no-resolve

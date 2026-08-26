@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: DK
 # 丹麦（Denmark）
-# 数据日期: 2026-08-25
+# 数据日期: 2026-08-26
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1913 条（IPv4: 1453 / IPv6: 460）
+# 规则统计: 共 1913 条（IPv4: 1452 / IPv6: 461）
 # ============================================================
 payload:
   - IP-CIDR,103.153.54.0/24,no-resolve
@@ -135,7 +135,7 @@ payload:
   - IP-CIDR,185.125.220.0/22,no-resolve
   - IP-CIDR,185.125.80.0/22,no-resolve
   - IP-CIDR,185.126.108.0/22,no-resolve
-  - IP-CIDR,185.126.152.0/22,no-resolve
+  - IP-CIDR,185.126.152.0/23,no-resolve
   - IP-CIDR,185.126.52.0/22,no-resolve
   - IP-CIDR,185.126.65.0/24,no-resolve
   - IP-CIDR,185.127.48.0/22,no-resolve
@@ -513,7 +513,6 @@ payload:
   - IP-CIDR,193.162.112.0/20,no-resolve
   - IP-CIDR,193.162.12.0/24,no-resolve
   - IP-CIDR,193.162.141.0/24,no-resolve
-  - IP-CIDR,193.162.142.0/24,no-resolve
   - IP-CIDR,193.162.144.0/20,no-resolve
   - IP-CIDR,193.162.16.0/21,no-resolve
   - IP-CIDR,193.162.160.0/19,no-resolve
@@ -1810,6 +1809,7 @@ payload:
   - IP-CIDR6,2a0c:9a40:88da::/47,no-resolve
   - IP-CIDR6,2a0c:9a40:88dc::/48,no-resolve
   - IP-CIDR6,2a0c:ad00::/29,no-resolve
+  - IP-CIDR6,2a0c:b641:910::/44,no-resolve
   - IP-CIDR6,2a0c:c540::/29,no-resolve
   - IP-CIDR6,2a0c:cc00::/32,no-resolve
   - IP-CIDR6,2a0c:dd00::/29,no-resolve

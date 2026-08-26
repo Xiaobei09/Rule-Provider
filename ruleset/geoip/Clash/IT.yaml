@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: IT
 # 意大利（Italy）
-# 数据日期: 2026-08-25
+# 数据日期: 2026-08-26
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 5422 条（IPv4: 4159 / IPv6: 1263）
+# 规则统计: 共 5417 条（IPv4: 4154 / IPv6: 1263）
 # ============================================================
 payload:
   - IP-CIDR,101.56.0.0/13,no-resolve
@@ -33,14 +33,12 @@ payload:
   - IP-CIDR,104.249.12.0/22,no-resolve
   - IP-CIDR,104.252.105.0/24,no-resolve
   - IP-CIDR,104.252.107.0/24,no-resolve
-  - IP-CIDR,104.252.126.0/24,no-resolve
   - IP-CIDR,104.252.13.0/24,no-resolve
   - IP-CIDR,104.252.206.0/24,no-resolve
   - IP-CIDR,104.252.216.0/23,no-resolve
   - IP-CIDR,104.252.59.0/24,no-resolve
   - IP-CIDR,104.253.89.0/24,no-resolve
   - IP-CIDR,104.253.90.0/24,no-resolve
-  - IP-CIDR,104.253.94.0/24,no-resolve
   - IP-CIDR,104.83.128.0/19,no-resolve
   - IP-CIDR,104.83.88.0/22,no-resolve
   - IP-CIDR,104.83.92.0/23,no-resolve
@@ -129,6 +127,7 @@ payload:
   - IP-CIDR,130.255.96.0/21,no-resolve
   - IP-CIDR,130.78.220.0/23,no-resolve
   - IP-CIDR,130.78.32.0/19,no-resolve
+  - IP-CIDR,130.78.64.0/19,no-resolve
   - IP-CIDR,131.1.0.0/16,no-resolve
   - IP-CIDR,131.114.0.0/16,no-resolve
   - IP-CIDR,131.154.0.0/16,no-resolve
@@ -309,7 +308,7 @@ payload:
   - IP-CIDR,154.46.172.0/24,no-resolve
   - IP-CIDR,154.46.174.0/23,no-resolve
   - IP-CIDR,154.46.176.0/22,no-resolve
-  - IP-CIDR,154.46.180.0/24,no-resolve
+  - IP-CIDR,154.46.180.0/23,no-resolve
   - IP-CIDR,154.46.188.0/22,no-resolve
   - IP-CIDR,154.56.195.0/24,no-resolve
   - IP-CIDR,154.56.196.0/24,no-resolve
@@ -2851,12 +2850,8 @@ payload:
   - IP-CIDR,45.181.78.0/23,no-resolve
   - IP-CIDR,45.3.56.0/22,no-resolve
   - IP-CIDR,45.33.224.0/20,no-resolve
-  - IP-CIDR,45.38.103.0/24,no-resolve
-  - IP-CIDR,45.38.104.0/24,no-resolve
   - IP-CIDR,45.38.99.0/24,no-resolve
   - IP-CIDR,45.39.32.0/24,no-resolve
-  - IP-CIDR,45.39.42.0/24,no-resolve
-  - IP-CIDR,45.39.47.0/24,no-resolve
   - IP-CIDR,45.65.120.0/22,no-resolve
   - IP-CIDR,45.66.100.0/22,no-resolve
   - IP-CIDR,45.66.144.0/22,no-resolve
@@ -5051,10 +5046,10 @@ payload:
   - IP-CIDR6,2a0c:b641:360::/44,no-resolve
   - IP-CIDR6,2a0c:b641:500::/48,no-resolve
   - IP-CIDR6,2a0c:b641:750::/44,no-resolve
-  - IP-CIDR6,2a0c:b641:b80::/44,no-resolve
   - IP-CIDR6,2a0c:b641:d60::/44,no-resolve
   - IP-CIDR6,2a0c:b642:a00::/45,no-resolve
   - IP-CIDR6,2a0c:b642:a08::/47,no-resolve
+  - IP-CIDR6,2a0c:b642:ace::/48,no-resolve
   - IP-CIDR6,2a0c:bb80::/29,no-resolve
   - IP-CIDR6,2a0c:bc40::/29,no-resolve
   - IP-CIDR6,2a0c:bcc0::/29,no-resolve
