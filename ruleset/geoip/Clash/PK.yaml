@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: PK
 # 巴基斯坦（Pakistan）
-# 数据日期: 2026-08-26
+# 数据日期: 2026-08-27
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1273 条（IPv4: 925 / IPv6: 348）
+# 规则统计: 共 1267 条（IPv4: 918 / IPv6: 349）
 # ============================================================
 payload:
   - IP-CIDR,101.50.64.0/18,no-resolve
@@ -648,6 +648,7 @@ payload:
   - IP-CIDR,163.5.144.0/24,no-resolve
   - IP-CIDR,163.52.16.0/23,no-resolve
   - IP-CIDR,163.52.26.0/23,no-resolve
+  - IP-CIDR,163.52.54.0/23,no-resolve
   - IP-CIDR,163.52.8.0/23,no-resolve
   - IP-CIDR,163.61.0.0/23,no-resolve
   - IP-CIDR,163.61.128.0/23,no-resolve
@@ -672,17 +673,9 @@ payload:
   - IP-CIDR,167.148.168.0/24,no-resolve
   - IP-CIDR,169.40.141.0/24,no-resolve
   - IP-CIDR,172.40.102.0/24,no-resolve
-  - IP-CIDR,172.40.105.0/24,no-resolve
-  - IP-CIDR,172.40.106.0/24,no-resolve
+  - IP-CIDR,172.40.152.0/24,no-resolve
   - IP-CIDR,172.40.155.0/24,no-resolve
-  - IP-CIDR,172.40.188.0/24,no-resolve
-  - IP-CIDR,172.40.190.0/24,no-resolve
-  - IP-CIDR,172.40.192.0/24,no-resolve
-  - IP-CIDR,172.40.203.0/24,no-resolve
-  - IP-CIDR,172.40.232.0/24,no-resolve
-  - IP-CIDR,172.40.43.0/24,no-resolve
-  - IP-CIDR,172.40.55.0/24,no-resolve
-  - IP-CIDR,172.40.68.0/24,no-resolve
+  - IP-CIDR,172.41.23.0/24,no-resolve
   - IP-CIDR,175.107.0.0/18,no-resolve
   - IP-CIDR,175.107.192.0/18,no-resolve
   - IP-CIDR,175.110.64.0/19,no-resolve
@@ -1210,6 +1203,7 @@ payload:
   - IP-CIDR6,2402:5b60::/32,no-resolve
   - IP-CIDR6,2402:67a0::/32,no-resolve
   - IP-CIDR6,2402:6a60::/32,no-resolve
+  - IP-CIDR6,2402:7220::/32,no-resolve
   - IP-CIDR6,2402:7c00::/32,no-resolve
   - IP-CIDR6,2402:7e0::/32,no-resolve
   - IP-CIDR6,2402:9640::/32,no-resolve

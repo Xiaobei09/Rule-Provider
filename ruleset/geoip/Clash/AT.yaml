@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: AT
 # 奥地利（Austria）
-# 数据日期: 2026-08-26
+# 数据日期: 2026-08-27
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 2775 条（IPv4: 2086 / IPv6: 689）
+# 规则统计: 共 2776 条（IPv4: 2085 / IPv6: 691）
 # ============================================================
 payload:
   - IP-CIDR,103.203.180.0/22,no-resolve
@@ -42,7 +42,6 @@ payload:
   - IP-CIDR,131.100.0.0/22,no-resolve
   - IP-CIDR,131.130.0.0/16,no-resolve
   - IP-CIDR,132.243.203.0/24,no-resolve
-  - IP-CIDR,132.243.245.0/24,no-resolve
   - IP-CIDR,134.255.210.0/23,no-resolve
   - IP-CIDR,136.238.16.0/24,no-resolve
   - IP-CIDR,137.208.0.0/16,no-resolve
@@ -2139,6 +2138,7 @@ payload:
   - IP-CIDR6,2001:678:e00::/48,no-resolve
   - IP-CIDR6,2001:678:e90::/48,no-resolve
   - IP-CIDR6,2001:678:ea4::/48,no-resolve
+  - IP-CIDR6,2001:678:f78::/48,no-resolve
   - IP-CIDR6,2001:67c:1078::/48,no-resolve
   - IP-CIDR6,2001:67c:10b8::/48,no-resolve
   - IP-CIDR6,2001:67c:10e0::/48,no-resolve
@@ -2165,6 +2165,7 @@ payload:
   - IP-CIDR6,2001:67c:17c::/48,no-resolve
   - IP-CIDR6,2001:67c:180::/48,no-resolve
   - IP-CIDR6,2001:67c:1864::/48,no-resolve
+  - IP-CIDR6,2001:67c:1870::/48,no-resolve
   - IP-CIDR6,2001:67c:1930::/46,no-resolve
   - IP-CIDR6,2001:67c:1974::/48,no-resolve
   - IP-CIDR6,2001:67c:1b20::/48,no-resolve
@@ -2210,6 +2211,7 @@ payload:
   - IP-CIDR6,2001:67c:264::/48,no-resolve
   - IP-CIDR6,2001:67c:2694::/48,no-resolve
   - IP-CIDR6,2001:67c:26e4::/48,no-resolve
+  - IP-CIDR6,2001:67c:26e8::/48,no-resolve
   - IP-CIDR6,2001:67c:27c::/48,no-resolve
   - IP-CIDR6,2001:67c:27f0::/48,no-resolve
   - IP-CIDR6,2001:67c:2820::/48,no-resolve
@@ -2660,7 +2662,6 @@ payload:
   - IP-CIDR6,2a0d:c900::/29,no-resolve
   - IP-CIDR6,2a0d:cd80::/29,no-resolve
   - IP-CIDR6,2a0d:d100::/29,no-resolve
-  - IP-CIDR6,2a0d:d906::/32,no-resolve
   - IP-CIDR6,2a0d:ee80::/32,no-resolve
   - IP-CIDR6,2a0d:f300::/29,no-resolve
   - IP-CIDR6,2a0d:f9c0::/29,no-resolve
