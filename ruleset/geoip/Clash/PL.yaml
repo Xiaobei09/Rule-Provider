@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: PL
 # 波兰（Poland）
-# 数据日期: 2026-08-27
+# 数据日期: 2026-08-28
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 5496 条（IPv4: 4300 / IPv6: 1196）
+# 规则统计: 共 5500 条（IPv4: 4301 / IPv6: 1199）
 # ============================================================
 payload:
   - IP-CIDR,102.135.7.0/24,no-resolve
@@ -2013,7 +2013,7 @@ payload:
   - IP-CIDR,195.140.128.0/22,no-resolve
   - IP-CIDR,195.140.152.0/22,no-resolve
   - IP-CIDR,195.140.189.0/24,no-resolve
-  - IP-CIDR,195.140.190.0/23,no-resolve
+  - IP-CIDR,195.140.191.0/24,no-resolve
   - IP-CIDR,195.140.220.0/22,no-resolve
   - IP-CIDR,195.140.236.0/22,no-resolve
   - IP-CIDR,195.144.12.0/24,no-resolve
@@ -3017,6 +3017,7 @@ payload:
   - IP-CIDR,80.245.176.0/20,no-resolve
   - IP-CIDR,80.249.130.0/24,no-resolve
   - IP-CIDR,80.252.0.0/20,no-resolve
+  - IP-CIDR,80.47.0.0/19,no-resolve
   - IP-CIDR,80.48.0.0/13,no-resolve
   - IP-CIDR,80.65.212.0/22,no-resolve
   - IP-CIDR,80.68.146.0/24,no-resolve
@@ -4602,6 +4603,7 @@ payload:
   - IP-CIDR6,2602:2c9:1::/48,no-resolve
   - IP-CIDR6,2602:2c9:2::/48,no-resolve
   - IP-CIDR6,2602:2c9:5::/48,no-resolve
+  - IP-CIDR6,2602:f72e:105::/48,no-resolve
   - IP-CIDR6,2602:fa02:4b0::/44,no-resolve
   - IP-CIDR6,2a00:10a0::/32,no-resolve
   - IP-CIDR6,2a00:1308::/32,no-resolve
@@ -4784,6 +4786,7 @@ payload:
   - IP-CIDR6,2a03:3800::/32,no-resolve
   - IP-CIDR6,2a03:4620::/32,no-resolve
   - IP-CIDR6,2a03:4b00::/32,no-resolve
+  - IP-CIDR6,2a03:5840:15d::/48,no-resolve
   - IP-CIDR6,2a03:5860::/32,no-resolve
   - IP-CIDR6,2a03:5ec0::/32,no-resolve
   - IP-CIDR6,2a03:63e0::/29,no-resolve
@@ -5150,6 +5153,7 @@ payload:
   - IP-CIDR6,2a0d:78c0::/29,no-resolve
   - IP-CIDR6,2a0d:7bc0::/29,no-resolve
   - IP-CIDR6,2a0d:8300::/29,no-resolve
+  - IP-CIDR6,2a0d:8680::/29,no-resolve
   - IP-CIDR6,2a0d:8840::/29,no-resolve
   - IP-CIDR6,2a0d:8900::/29,no-resolve
   - IP-CIDR6,2a0d:8e40::/29,no-resolve

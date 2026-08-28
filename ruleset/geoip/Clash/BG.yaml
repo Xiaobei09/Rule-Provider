@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: BG
 # 保加利亚（Bulgaria）
-# 数据日期: 2026-08-27
+# 数据日期: 2026-08-28
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 2052 条（IPv4: 1674 / IPv6: 378）
+# 规则统计: 共 2057 条（IPv4: 1678 / IPv6: 379）
 # ============================================================
 payload:
   - IP-CIDR,102.211.232.0/24,no-resolve
@@ -1554,7 +1554,11 @@ payload:
   - IP-CIDR,94.103.127.0/24,no-resolve
   - IP-CIDR,94.125.100.0/22,no-resolve
   - IP-CIDR,94.126.224.0/22,no-resolve
+  - IP-CIDR,94.131.124.0/24,no-resolve
+  - IP-CIDR,94.131.127.0/24,no-resolve
   - IP-CIDR,94.131.16.0/22,no-resolve
+  - IP-CIDR,94.131.21.0/24,no-resolve
+  - IP-CIDR,94.131.22.0/24,no-resolve
   - IP-CIDR,94.131.48.0/22,no-resolve
   - IP-CIDR,94.139.192.0/19,no-resolve
   - IP-CIDR,94.142.255.0/24,no-resolve
@@ -1704,6 +1708,7 @@ payload:
   - IP-CIDR6,2001:67c:15cc::/48,no-resolve
   - IP-CIDR6,2001:67c:15e0::/48,no-resolve
   - IP-CIDR6,2001:67c:16b8::/48,no-resolve
+  - IP-CIDR6,2001:67c:1874::/48,no-resolve
   - IP-CIDR6,2001:67c:1bfc::/48,no-resolve
   - IP-CIDR6,2001:67c:20d0::/47,no-resolve
   - IP-CIDR6,2001:67c:2154::/48,no-resolve

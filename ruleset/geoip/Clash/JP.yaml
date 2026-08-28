@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: JP
 # 日本（Japan）
-# 数据日期: 2026-08-27
+# 数据日期: 2026-08-28
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 4549 条（IPv4: 3732 / IPv6: 817）
+# 规则统计: 共 4549 条（IPv4: 3733 / IPv6: 816）
 # ============================================================
 payload:
   - IP-CIDR,1.0.16.0/20,no-resolve
@@ -3178,7 +3178,8 @@ payload:
   - IP-CIDR,220.247.184.0/21,no-resolve
   - IP-CIDR,220.254.0.0/16,no-resolve
   - IP-CIDR,220.32.0.0/14,no-resolve
-  - IP-CIDR,220.38.0.0/15,no-resolve
+  - IP-CIDR,220.38.0.0/16,no-resolve
+  - IP-CIDR,220.39.0.0/16,no-resolve
   - IP-CIDR,220.40.0.0/15,no-resolve
   - IP-CIDR,220.44.0.0/14,no-resolve
   - IP-CIDR,220.48.0.0/12,no-resolve
@@ -4490,7 +4491,6 @@ payload:
   - IP-CIDR6,2a10:480::/29,no-resolve
   - IP-CIDR6,2a10:fa81:500::/40,no-resolve
   - IP-CIDR6,2a12:a300::/29,no-resolve
-  - IP-CIDR6,2a12:cb40:100::/44,no-resolve
   - IP-CIDR6,2a12:f8c0::/29,no-resolve
   - IP-CIDR6,2a13:6cc2::/32,no-resolve
   - IP-CIDR6,2a13:b487:1b00::/41,no-resolve
