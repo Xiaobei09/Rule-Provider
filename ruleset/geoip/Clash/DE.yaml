@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: DE
 # 德国（Germany）
-# 数据日期: 2026-08-29
+# 数据日期: 2026-08-30
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 14613 条（IPv4: 10698 / IPv6: 3915）
+# 规则统计: 共 14614 条（IPv4: 10697 / IPv6: 3917）
 # ============================================================
 payload:
   - IP-CIDR,100.42.176.0/20,no-resolve
@@ -94,7 +94,6 @@ payload:
   - IP-CIDR,109.109.0.0/19,no-resolve
   - IP-CIDR,109.109.192.0/20,no-resolve
   - IP-CIDR,109.110.180.0/24,no-resolve
-  - IP-CIDR,109.121.37.0/24,no-resolve
   - IP-CIDR,109.121.42.0/24,no-resolve
   - IP-CIDR,109.122.11.0/24,no-resolve
   - IP-CIDR,109.122.7.0/24,no-resolve
@@ -4930,6 +4929,7 @@ payload:
   - IP-CIDR,194.120.109.0/24,no-resolve
   - IP-CIDR,194.120.110.0/23,no-resolve
   - IP-CIDR,194.120.119.0/24,no-resolve
+  - IP-CIDR,194.120.121.0/24,no-resolve
   - IP-CIDR,194.120.126.0/24,no-resolve
   - IP-CIDR,194.120.150.0/24,no-resolve
   - IP-CIDR,194.120.16.0/23,no-resolve
@@ -9745,7 +9745,6 @@ payload:
   - IP-CIDR,89.207.180.0/22,no-resolve
   - IP-CIDR,89.207.200.0/21,no-resolve
   - IP-CIDR,89.21.32.0/19,no-resolve
-  - IP-CIDR,89.21.84.0/24,no-resolve
   - IP-CIDR,89.21.96.0/19,no-resolve
   - IP-CIDR,89.213.118.0/24,no-resolve
   - IP-CIDR,89.213.171.0/24,no-resolve
@@ -12814,6 +12813,7 @@ payload:
   - IP-CIDR6,2a06:d680::/29,no-resolve
   - IP-CIDR6,2a06:d840::/29,no-resolve
   - IP-CIDR6,2a06:de00:10::/47,no-resolve
+  - IP-CIDR6,2a06:de00:12::/48,no-resolve
   - IP-CIDR6,2a06:de00:1330::/48,no-resolve
   - IP-CIDR6,2a06:de00:1337::/48,no-resolve
   - IP-CIDR6,2a06:de00:1f00::/44,no-resolve
@@ -13779,7 +13779,8 @@ payload:
   - IP-CIDR6,2a0e:97c0:440::/44,no-resolve
   - IP-CIDR6,2a0e:97c0:470::/46,no-resolve
   - IP-CIDR6,2a0e:97c0:486::/47,no-resolve
-  - IP-CIDR6,2a0e:97c0:488::/48,no-resolve
+  - IP-CIDR6,2a0e:97c0:488::/47,no-resolve
+  - IP-CIDR6,2a0e:97c0:48a::/48,no-resolve
   - IP-CIDR6,2a0e:97c0:4b2b::/48,no-resolve
   - IP-CIDR6,2a0e:97c0:4b39::/48,no-resolve
   - IP-CIDR6,2a0e:97c0:4b44::/48,no-resolve
