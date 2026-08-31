@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: TH
 # 泰国（Thailand）
-# 数据日期: 2026-08-30
+# 数据日期: 2026-08-31
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1214 条（IPv4: 965 / IPv6: 249）
+# 规则统计: 共 1215 条（IPv4: 965 / IPv6: 250）
 # ============================================================
 payload:
   - IP-CIDR,1.0.128.0/17,no-resolve
@@ -1100,7 +1100,8 @@ payload:
   - IP-CIDR6,2401:93e0::/32,no-resolve
   - IP-CIDR6,2401:9d00::/32,no-resolve
   - IP-CIDR6,2401:a580::/32,no-resolve
-  - IP-CIDR6,2401:a860::/32,no-resolve
+  - IP-CIDR6,2401:a860:1000::/36,no-resolve
+  - IP-CIDR6,2401:a860:2000::/36,no-resolve
   - IP-CIDR6,2401:d880::/32,no-resolve
   - IP-CIDR6,2401:e000::/32,no-resolve
   - IP-CIDR6,2401:e80::/32,no-resolve

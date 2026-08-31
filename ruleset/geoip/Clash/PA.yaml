@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: PA
 # 巴拿马（Panama）
-# 数据日期: 2026-08-30
+# 数据日期: 2026-08-31
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1495 条（IPv4: 1061 / IPv6: 434）
+# 规则统计: 共 1495 条（IPv4: 1062 / IPv6: 433）
 # ============================================================
 payload:
   - IP-CIDR,103.173.150.0/23,no-resolve
@@ -716,6 +716,7 @@ payload:
   - IP-CIDR,5.154.252.0/23,no-resolve
   - IP-CIDR,5.157.129.0/24,no-resolve
   - IP-CIDR,5.182.32.0/24,no-resolve
+  - IP-CIDR,5.199.33.0/24,no-resolve
   - IP-CIDR,5.252.152.0/22,no-resolve
   - IP-CIDR,62.197.144.0/20,no-resolve
   - IP-CIDR,62.204.45.0/24,no-resolve
@@ -1188,8 +1189,7 @@ payload:
   - IP-CIDR6,2803:2540:340::/45,no-resolve
   - IP-CIDR6,2803:2540:348::/46,no-resolve
   - IP-CIDR6,2803:2540:34c::/46,no-resolve
-  - IP-CIDR6,2803:2540:350::/46,no-resolve
-  - IP-CIDR6,2803:2540:354::/46,no-resolve
+  - IP-CIDR6,2803:2540:350::/45,no-resolve
   - IP-CIDR6,2803:2540:358::/45,no-resolve
   - IP-CIDR6,2803:2540:360::/43,no-resolve
   - IP-CIDR6,2803:2540:380::/41,no-resolve
