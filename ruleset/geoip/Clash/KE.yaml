@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: KE
 # 肯尼亚（Kenya）
-# 数据日期: 2026-08-31
+# 数据日期: 2026-09-01
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 595 条（IPv4: 423 / IPv6: 172）
+# 规则统计: 共 596 条（IPv4: 423 / IPv6: 173）
 # ============================================================
 payload:
   - IP-CIDR,102.0.0.0/13,no-resolve
@@ -17,6 +17,7 @@ payload:
   - IP-CIDR,102.164.56.0/21,no-resolve
   - IP-CIDR,102.166.0.0/15,no-resolve
   - IP-CIDR,102.176.180.0/22,no-resolve
+  - IP-CIDR,102.201.104.0/22,no-resolve
   - IP-CIDR,102.201.124.0/22,no-resolve
   - IP-CIDR,102.201.132.0/22,no-resolve
   - IP-CIDR,102.201.136.0/22,no-resolve
@@ -408,7 +409,6 @@ payload:
   - IP-CIDR,41.223.148.0/22,no-resolve
   - IP-CIDR,41.223.56.0/22,no-resolve
   - IP-CIDR,41.242.0.0/21,no-resolve
-  - IP-CIDR,41.243.63.0/24,no-resolve
   - IP-CIDR,41.57.96.0/20,no-resolve
   - IP-CIDR,41.72.160.0/19,no-resolve
   - IP-CIDR,41.75.144.0/20,no-resolve
@@ -531,6 +531,7 @@ payload:
   - IP-CIDR6,2c0f:5320::/32,no-resolve
   - IP-CIDR6,2c0f:5340::/32,no-resolve
   - IP-CIDR6,2c0f:53a0::/32,no-resolve
+  - IP-CIDR6,2c0f:54a0::/32,no-resolve
   - IP-CIDR6,2c0f:5740::/32,no-resolve
   - IP-CIDR6,2c0f:5800::/32,no-resolve
   - IP-CIDR6,2c0f:5940::/32,no-resolve
