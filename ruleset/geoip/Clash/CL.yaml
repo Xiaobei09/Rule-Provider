@@ -1,7 +1,7 @@
 # ============================================================
 # Rule-Provider: CL
 # 智利（Chile）
-# 数据日期: 2026-09-01
+# 数据日期: 2026-09-02
 # 数据来源: APNIC + IPtoASN
 # 规则统计: 共 1088 条（IPv4: 750 / IPv6: 338）
 # ============================================================
@@ -410,6 +410,7 @@ payload:
   - IP-CIDR,200.123.38.0/23,no-resolve
   - IP-CIDR,200.123.40.0/22,no-resolve
   - IP-CIDR,200.123.44.0/24,no-resolve
+  - IP-CIDR,200.123.51.0/24,no-resolve
   - IP-CIDR,200.123.63.0/24,no-resolve
   - IP-CIDR,200.124.32.0/19,no-resolve
   - IP-CIDR,200.126.32.0/20,no-resolve
@@ -749,7 +750,6 @@ payload:
   - IP-CIDR,45.71.44.0/22,no-resolve
   - IP-CIDR,45.71.8.0/22,no-resolve
   - IP-CIDR,45.8.207.0/24,no-resolve
-  - IP-CIDR,62.84.165.0/24,no-resolve
   - IP-CIDR,64.116.212.0/23,no-resolve
   - IP-CIDR,64.76.148.0/23,no-resolve
   - IP-CIDR,64.76.154.0/23,no-resolve
