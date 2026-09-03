@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: ES
 # 西班牙（Spain）
-# 数据日期: 2026-09-02
+# 数据日期: 2026-09-03
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 5268 条（IPv4: 4036 / IPv6: 1232）
+# 规则统计: 共 5259 条（IPv4: 4031 / IPv6: 1228）
 # ============================================================
 payload:
   - IP-CIDR,1.178.224.0/19,no-resolve
@@ -2262,7 +2262,6 @@ payload:
   - IP-CIDR,2.152.44.0/22,no-resolve
   - IP-CIDR,2.152.48.0/21,no-resolve
   - IP-CIDR,2.152.56.0/23,no-resolve
-  - IP-CIDR,2.152.72.0/24,no-resolve
   - IP-CIDR,2.152.75.0/24,no-resolve
   - IP-CIDR,2.152.76.0/23,no-resolve
   - IP-CIDR,2.152.80.0/21,no-resolve
@@ -3149,7 +3148,6 @@ payload:
   - IP-CIDR,80.224.192.0/19,no-resolve
   - IP-CIDR,80.224.224.0/21,no-resolve
   - IP-CIDR,80.224.232.0/22,no-resolve
-  - IP-CIDR,80.224.236.0/23,no-resolve
   - IP-CIDR,80.224.239.0/24,no-resolve
   - IP-CIDR,80.224.240.0/21,no-resolve
   - IP-CIDR,80.224.253.0/24,no-resolve
@@ -3729,7 +3727,6 @@ payload:
   - IP-CIDR,91.90.0.0/21,no-resolve
   - IP-CIDR,91.90.161.0/24,no-resolve
   - IP-CIDR,91.92.248.0/23,no-resolve
-  - IP-CIDR,92.112.220.0/24,no-resolve
   - IP-CIDR,92.113.12.0/24,no-resolve
   - IP-CIDR,92.114.112.0/20,no-resolve
   - IP-CIDR,92.114.36.0/24,no-resolve
@@ -3824,9 +3821,7 @@ payload:
   - IP-CIDR,92.185.64.0/19,no-resolve
   - IP-CIDR,92.185.96.0/22,no-resolve
   - IP-CIDR,92.186.0.0/17,no-resolve
-  - IP-CIDR,92.186.128.0/21,no-resolve
-  - IP-CIDR,92.186.136.0/21,no-resolve
-  - IP-CIDR,92.186.144.0/20,no-resolve
+  - IP-CIDR,92.186.128.0/19,no-resolve
   - IP-CIDR,92.186.160.0/19,no-resolve
   - IP-CIDR,92.186.192.0/19,no-resolve
   - IP-CIDR,92.186.224.0/19,no-resolve
@@ -4049,8 +4044,6 @@ payload:
   - IP-CIDR6,2001:3786:1111::/48,no-resolve
   - IP-CIDR6,2001:3786:1500::/48,no-resolve
   - IP-CIDR6,2001:3786:1600::/48,no-resolve
-  - IP-CIDR6,2001:3786:1650::/48,no-resolve
-  - IP-CIDR6,2001:3786:1877::/48,no-resolve
   - IP-CIDR6,2001:3786:1997::/48,no-resolve
   - IP-CIDR6,2001:3786:1::/48,no-resolve
   - IP-CIDR6,2001:3786:2000::/47,no-resolve
@@ -4395,10 +4388,7 @@ payload:
   - IP-CIDR6,2a01:c50f:400::/39,no-resolve
   - IP-CIDR6,2a01:c50f:4200::/40,no-resolve
   - IP-CIDR6,2a01:c50f:4300::/40,no-resolve
-  - IP-CIDR6,2a01:c50f:4400::/39,no-resolve
-  - IP-CIDR6,2a01:c50f:4600::/40,no-resolve
-  - IP-CIDR6,2a01:c50f:4700::/41,no-resolve
-  - IP-CIDR6,2a01:c50f:4780::/41,no-resolve
+  - IP-CIDR6,2a01:c50f:4400::/38,no-resolve
   - IP-CIDR6,2a01:c50f:4800::/39,no-resolve
   - IP-CIDR6,2a01:c50f:4a00::/39,no-resolve
   - IP-CIDR6,2a01:c50f:4c00::/38,no-resolve
@@ -5046,6 +5036,7 @@ payload:
   - IP-CIDR6,2a0d:a900::/29,no-resolve
   - IP-CIDR6,2a0d:aec0::/29,no-resolve
   - IP-CIDR6,2a0d:b440::/29,no-resolve
+  - IP-CIDR6,2a0d:b640::/32,no-resolve
   - IP-CIDR6,2a0d:bf00::/29,no-resolve
   - IP-CIDR6,2a0d:c240::/29,no-resolve
   - IP-CIDR6,2a0d:c540::/29,no-resolve

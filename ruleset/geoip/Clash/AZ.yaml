@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: AZ
 # 阿塞拜疆（Azerbaijan）
-# 数据日期: 2026-09-02
+# 数据日期: 2026-09-03
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 288 条（IPv4: 199 / IPv6: 89）
+# 规则统计: 共 292 条（IPv4: 199 / IPv6: 93）
 # ============================================================
 payload:
   - IP-CIDR,109.104.102.0/23,no-resolve
@@ -245,17 +245,21 @@ payload:
   - IP-CIDR6,2a05:f200::/29,no-resolve
   - IP-CIDR6,2a06:2d40::/29,no-resolve
   - IP-CIDR6,2a06:91c0::/29,no-resolve
+  - IP-CIDR6,2a06:9801:a::/48,no-resolve
   - IP-CIDR6,2a07:4900::/29,no-resolve
   - IP-CIDR6,2a07:9500::/29,no-resolve
   - IP-CIDR6,2a07:f140::/29,no-resolve
   - IP-CIDR6,2a09:ce80::/29,no-resolve
   - IP-CIDR6,2a0a:8080::/29,no-resolve
+  - IP-CIDR6,2a0b:4e07:1400::/44,no-resolve
   - IP-CIDR6,2a0b:4e07:1414::/48,no-resolve
   - IP-CIDR6,2a0b:4e07:1433::/48,no-resolve
   - IP-CIDR6,2a0b:4e07:1438::/48,no-resolve
   - IP-CIDR6,2a0b:4e07:1441::/48,no-resolve
+  - IP-CIDR6,2a0b:4e07:14e4::/48,no-resolve
   - IP-CIDR6,2a0b:4e07:14ea::/48,no-resolve
   - IP-CIDR6,2a0b:4e07:14ff::/48,no-resolve
+  - IP-CIDR6,2a0b:4e07:1667::/48,no-resolve
   - IP-CIDR6,2a0b:4e07:1700::/40,no-resolve
   - IP-CIDR6,2a0b:4e07:3d::/48,no-resolve
   - IP-CIDR6,2a0b:9840::/29,no-resolve
