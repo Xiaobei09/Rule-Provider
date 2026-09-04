@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: RS
 # 塞尔维亚（Serbia）
-# 数据日期: 2026-09-03
+# 数据日期: 2026-09-04
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 645 条（IPv4: 511 / IPv6: 134）
+# 规则统计: 共 639 条（IPv4: 505 / IPv6: 134）
 # ============================================================
 payload:
   - IP-CIDR,100.43.64.0/19,no-resolve
@@ -42,6 +42,7 @@ payload:
   - IP-CIDR,141.8.128.0/18,no-resolve
   - IP-CIDR,146.255.188.0/24,no-resolve
   - IP-CIDR,147.91.0.0/16,no-resolve
+  - IP-CIDR,152.117.16.0/21,no-resolve
   - IP-CIDR,155.133.86.0/24,no-resolve
   - IP-CIDR,160.238.60.0/24,no-resolve
   - IP-CIDR,160.99.0.0/16,no-resolve
@@ -111,12 +112,10 @@ payload:
   - IP-CIDR,185.181.68.0/22,no-resolve
   - IP-CIDR,185.182.160.0/22,no-resolve
   - IP-CIDR,185.183.148.0/22,no-resolve
-  - IP-CIDR,185.189.255.0/24,no-resolve
   - IP-CIDR,185.190.152.0/22,no-resolve
   - IP-CIDR,185.199.120.0/22,no-resolve
   - IP-CIDR,185.20.36.0/22,no-resolve
   - IP-CIDR,185.202.79.0/24,no-resolve
-  - IP-CIDR,185.207.214.0/24,no-resolve
   - IP-CIDR,185.211.64.0/22,no-resolve
   - IP-CIDR,185.214.40.0/22,no-resolve
   - IP-CIDR,185.22.144.0/22,no-resolve
@@ -213,7 +212,6 @@ payload:
   - IP-CIDR,194.110.216.0/24,no-resolve
   - IP-CIDR,194.145.153.0/24,no-resolve
   - IP-CIDR,194.146.56.0/22,no-resolve
-  - IP-CIDR,194.147.90.0/24,no-resolve
   - IP-CIDR,194.15.224.0/22,no-resolve
   - IP-CIDR,194.24.248.0/23,no-resolve
   - IP-CIDR,194.247.192.0/19,no-resolve
@@ -232,7 +230,6 @@ payload:
   - IP-CIDR,195.133.28.0/24,no-resolve
   - IP-CIDR,195.149.192.0/22,no-resolve
   - IP-CIDR,195.178.32.0/19,no-resolve
-  - IP-CIDR,195.18.27.0/24,no-resolve
   - IP-CIDR,195.182.214.0/23,no-resolve
   - IP-CIDR,195.192.244.0/22,no-resolve
   - IP-CIDR,195.222.96.0/22,no-resolve
@@ -340,7 +337,6 @@ payload:
   - IP-CIDR,5.255.206.0/23,no-resolve
   - IP-CIDR,5.255.208.0/20,no-resolve
   - IP-CIDR,5.255.224.0/19,no-resolve
-  - IP-CIDR,5.42.211.0/24,no-resolve
   - IP-CIDR,5.45.192.0/21,no-resolve
   - IP-CIDR,5.45.200.0/21,no-resolve
   - IP-CIDR,5.45.208.0/22,no-resolve
@@ -390,7 +386,6 @@ payload:
   - IP-CIDR,79.173.96.0/21,no-resolve
   - IP-CIDR,79.175.64.0/18,no-resolve
   - IP-CIDR,80.240.144.0/20,no-resolve
-  - IP-CIDR,80.242.59.0/24,no-resolve
   - IP-CIDR,80.243.232.0/22,no-resolve
   - IP-CIDR,80.245.96.0/22,no-resolve
   - IP-CIDR,80.70.240.0/20,no-resolve
@@ -437,7 +432,6 @@ payload:
   - IP-CIDR,91.185.223.0/24,no-resolve
   - IP-CIDR,91.185.96.0/19,no-resolve
   - IP-CIDR,91.187.128.0/19,no-resolve
-  - IP-CIDR,91.192.93.0/24,no-resolve
   - IP-CIDR,91.193.75.0/24,no-resolve
   - IP-CIDR,91.194.216.0/23,no-resolve
   - IP-CIDR,91.194.82.0/23,no-resolve

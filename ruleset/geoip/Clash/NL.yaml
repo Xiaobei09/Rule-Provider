@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: NL
 # 荷兰（Netherlands）
-# 数据日期: 2026-09-03
+# 数据日期: 2026-09-04
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 17044 条（IPv4: 11725 / IPv6: 5319）
+# 规则统计: 共 17038 条（IPv4: 11727 / IPv6: 5311）
 # ============================================================
 payload:
   - IP-CIDR,101.97.0.0/19,no-resolve
@@ -84,6 +84,8 @@ payload:
   - IP-CIDR,103.246.144.0/22,no-resolve
   - IP-CIDR,103.248.249.0/24,no-resolve
   - IP-CIDR,103.25.88.0/22,no-resolve
+  - IP-CIDR,103.250.72.0/23,no-resolve
+  - IP-CIDR,103.250.74.0/24,no-resolve
   - IP-CIDR,103.251.156.0/22,no-resolve
   - IP-CIDR,103.251.164.0/22,no-resolve
   - IP-CIDR,103.255.76.0/23,no-resolve
@@ -100,7 +102,6 @@ payload:
   - IP-CIDR,103.48.248.0/22,no-resolve
   - IP-CIDR,103.5.251.0/24,no-resolve
   - IP-CIDR,103.53.152.0/23,no-resolve
-  - IP-CIDR,103.54.132.0/23,no-resolve
   - IP-CIDR,103.55.100.0/22,no-resolve
   - IP-CIDR,103.55.127.0/24,no-resolve
   - IP-CIDR,103.56.108.0/22,no-resolve
@@ -1145,7 +1146,6 @@ payload:
   - IP-CIDR,137.17.0.0/16,no-resolve
   - IP-CIDR,137.174.0.0/16,no-resolve
   - IP-CIDR,137.224.0.0/16,no-resolve
-  - IP-CIDR,137.31.180.0/24,no-resolve
   - IP-CIDR,137.31.38.0/24,no-resolve
   - IP-CIDR,137.31.40.0/23,no-resolve
   - IP-CIDR,137.31.42.0/24,no-resolve
@@ -6618,7 +6618,6 @@ payload:
   - IP-CIDR,222.167.220.0/24,no-resolve
   - IP-CIDR,222.167.231.0/24,no-resolve
   - IP-CIDR,222.167.238.0/24,no-resolve
-  - IP-CIDR,222.167.242.0/24,no-resolve
   - IP-CIDR,222.167.249.0/24,no-resolve
   - IP-CIDR,222.167.252.0/24,no-resolve
   - IP-CIDR,223.27.112.0/23,no-resolve
@@ -6732,6 +6731,7 @@ payload:
   - IP-CIDR,23.192.104.0/22,no-resolve
   - IP-CIDR,23.192.108.0/24,no-resolve
   - IP-CIDR,23.192.110.0/23,no-resolve
+  - IP-CIDR,23.192.113.0/24,no-resolve
   - IP-CIDR,23.192.118.0/23,no-resolve
   - IP-CIDR,23.192.120.0/23,no-resolve
   - IP-CIDR,23.192.124.0/22,no-resolve
@@ -9462,6 +9462,7 @@ payload:
   - IP-CIDR,5.188.86.0/23,no-resolve
   - IP-CIDR,5.199.144.0/20,no-resolve
   - IP-CIDR,5.199.188.0/22,no-resolve
+  - IP-CIDR,5.199.48.0/24,no-resolve
   - IP-CIDR,5.2.64.0/20,no-resolve
   - IP-CIDR,5.200.0.0/19,no-resolve
   - IP-CIDR,5.206.208.0/20,no-resolve
@@ -9747,6 +9748,7 @@ payload:
   - IP-CIDR,62.84.240.0/21,no-resolve
   - IP-CIDR,62.89.195.0/24,no-resolve
   - IP-CIDR,63.247.192.0/20,no-resolve
+  - IP-CIDR,64.120.109.0/24,no-resolve
   - IP-CIDR,64.124.167.0/24,no-resolve
   - IP-CIDR,64.137.109.0/24,no-resolve
   - IP-CIDR,64.18.16.0/20,no-resolve
@@ -12014,6 +12016,7 @@ payload:
   - IP-CIDR6,2001:67c:8c::/48,no-resolve
   - IP-CIDR6,2001:67c:910::/48,no-resolve
   - IP-CIDR6,2001:67c:994::/48,no-resolve
+  - IP-CIDR6,2001:67c:9b0::/48,no-resolve
   - IP-CIDR6,2001:67c:9d8::/48,no-resolve
   - IP-CIDR6,2001:67c:a0::/48,no-resolve
   - IP-CIDR6,2001:67c:a3c::/48,no-resolve
@@ -12228,17 +12231,7 @@ payload:
   - IP-CIDR6,2600:1403:5c80::/41,no-resolve
   - IP-CIDR6,2600:1403:5d00::/40,no-resolve
   - IP-CIDR6,2600:1403:5e00::/39,no-resolve
-  - IP-CIDR6,2600:1403:6000::/38,no-resolve
-  - IP-CIDR6,2600:1403:6401::/48,no-resolve
-  - IP-CIDR6,2600:1403:6402::/47,no-resolve
-  - IP-CIDR6,2600:1403:6404::/46,no-resolve
-  - IP-CIDR6,2600:1403:6408::/45,no-resolve
-  - IP-CIDR6,2600:1403:6410::/44,no-resolve
-  - IP-CIDR6,2600:1403:6420::/43,no-resolve
-  - IP-CIDR6,2600:1403:6440::/42,no-resolve
-  - IP-CIDR6,2600:1403:6480::/41,no-resolve
-  - IP-CIDR6,2600:1403:6500::/40,no-resolve
-  - IP-CIDR6,2600:1403:6600::/39,no-resolve
+  - IP-CIDR6,2600:1403:6000::/37,no-resolve
   - IP-CIDR6,2600:1403:6800::/38,no-resolve
   - IP-CIDR6,2600:1403:6c01::/48,no-resolve
   - IP-CIDR6,2600:1403:6c02::/47,no-resolve
@@ -15445,6 +15438,7 @@ payload:
   - IP-CIDR6,2a05:dfc1:6200::/47,no-resolve
   - IP-CIDR6,2a05:dfc1:6260::/46,no-resolve
   - IP-CIDR6,2a05:dfc1:6299::/48,no-resolve
+  - IP-CIDR6,2a05:dfc1:62a3::/48,no-resolve
   - IP-CIDR6,2a05:dfc1:62b0::/44,no-resolve
   - IP-CIDR6,2a05:dfc1:62c9::/48,no-resolve
   - IP-CIDR6,2a05:dfc1:62ff::/48,no-resolve

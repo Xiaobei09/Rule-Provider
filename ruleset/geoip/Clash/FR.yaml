@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: FR
 # 法国（France）
-# 数据日期: 2026-09-03
+# 数据日期: 2026-09-04
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 7715 条（IPv4: 5913 / IPv6: 1802）
+# 规则统计: 共 7716 条（IPv4: 5915 / IPv6: 1801）
 # ============================================================
 payload:
   - IP-CIDR,1.179.112.0/20,no-resolve
@@ -3500,6 +3500,7 @@ payload:
   - IP-CIDR,199.64.88.0/23,no-resolve
   - IP-CIDR,199.7.141.0/24,no-resolve
   - IP-CIDR,2.152.176.0/22,no-resolve
+  - IP-CIDR,2.152.180.0/23,no-resolve
   - IP-CIDR,2.26.132.0/24,no-resolve
   - IP-CIDR,2.26.145.0/24,no-resolve
   - IP-CIDR,2.26.153.0/24,no-resolve
@@ -4219,7 +4220,6 @@ payload:
   - IP-CIDR,45.149.26.0/24,no-resolve
   - IP-CIDR,45.149.36.0/22,no-resolve
   - IP-CIDR,45.149.56.0/22,no-resolve
-  - IP-CIDR,45.149.63.0/24,no-resolve
   - IP-CIDR,45.15.204.0/22,no-resolve
   - IP-CIDR,45.15.212.0/22,no-resolve
   - IP-CIDR,45.15.220.0/22,no-resolve
@@ -5163,6 +5163,7 @@ payload:
   - IP-CIDR,83.229.28.0/23,no-resolve
   - IP-CIDR,83.243.124.0/22,no-resolve
   - IP-CIDR,83.243.16.0/21,no-resolve
+  - IP-CIDR,83.245.78.0/24,no-resolve
   - IP-CIDR,83.68.96.0/19,no-resolve
   - IP-CIDR,83.97.56.0/21,no-resolve
   - IP-CIDR,83.97.74.0/23,no-resolve
@@ -5412,7 +5413,7 @@ payload:
   - IP-CIDR,90.112.0.0/12,no-resolve
   - IP-CIDR,90.64.0.0/11,no-resolve
   - IP-CIDR,90.97.0.0/16,no-resolve
-  - IP-CIDR,90.98.0.0/15,no-resolve
+  - IP-CIDR,90.99.0.0/16,no-resolve
   - IP-CIDR,91.102.248.0/21,no-resolve
   - IP-CIDR,91.103.120.0/21,no-resolve
   - IP-CIDR,91.103.232.0/21,no-resolve
@@ -5913,7 +5914,8 @@ payload:
   - IP-CIDR,95.215.236.0/23,no-resolve
   - IP-CIDR,95.215.72.0/22,no-resolve
   - IP-CIDR,95.81.128.0/18,no-resolve
-  - IP-CIDR,95.81.72.0/22,no-resolve
+  - IP-CIDR,95.81.72.0/24,no-resolve
+  - IP-CIDR,95.81.74.0/23,no-resolve
   - IP-CIDR,96.43.110.0/23,no-resolve
   - IP-CIDR,96.62.105.0/24,no-resolve
   - IP-CIDR,96.62.183.0/24,no-resolve
@@ -6793,7 +6795,6 @@ payload:
   - IP-CIDR6,2a06:dc80::/29,no-resolve
   - IP-CIDR6,2a06:dd80::/29,no-resolve
   - IP-CIDR6,2a06:de00:50::/48,no-resolve
-  - IP-CIDR6,2a06:de00:58::/47,no-resolve
   - IP-CIDR6,2a06:de01:400::/38,no-resolve
   - IP-CIDR6,2a06:e040::/29,no-resolve
   - IP-CIDR6,2a06:e1c0::/29,no-resolve
