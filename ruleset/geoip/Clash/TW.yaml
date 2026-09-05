@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: TW
 # 中国台湾（Taiwan）
-# 数据日期: 2026-09-04
+# 数据日期: 2026-09-05
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1495 条（IPv4: 951 / IPv6: 544）
+# 规则统计: 共 1498 条（IPv4: 954 / IPv6: 544）
 # ============================================================
 payload:
   - IP-CIDR,1.160.0.0/12,no-resolve
@@ -524,6 +524,8 @@ payload:
   - IP-CIDR,157.66.166.0/23,no-resolve
   - IP-CIDR,159.117.64.0/19,no-resolve
   - IP-CIDR,16.5.11.0/24,no-resolve
+  - IP-CIDR,16.5.15.0/24,no-resolve
+  - IP-CIDR,16.5.31.0/24,no-resolve
   - IP-CIDR,160.187.100.0/23,no-resolve
   - IP-CIDR,160.187.198.0/23,no-resolve
   - IP-CIDR,160.187.200.0/23,no-resolve
@@ -795,7 +797,8 @@ payload:
   - IP-CIDR,221.128.128.0/22,no-resolve
   - IP-CIDR,221.128.195.0/24,no-resolve
   - IP-CIDR,221.128.236.0/23,no-resolve
-  - IP-CIDR,221.128.240.0/21,no-resolve
+  - IP-CIDR,221.128.240.0/23,no-resolve
+  - IP-CIDR,221.128.242.0/24,no-resolve
   - IP-CIDR,221.128.248.0/21,no-resolve
   - IP-CIDR,221.169.0.0/16,no-resolve
   - IP-CIDR,222.156.0.0/15,no-resolve

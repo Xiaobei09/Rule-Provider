@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: GE
 # 格鲁吉亚（Georgia）
-# 数据日期: 2026-09-04
+# 数据日期: 2026-09-05
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 593 条（IPv4: 492 / IPv6: 101）
+# 规则统计: 共 586 条（IPv4: 485 / IPv6: 101）
 # ============================================================
 payload:
   - IP-CIDR,103.114.43.0/24,no-resolve
@@ -24,16 +24,11 @@ payload:
   - IP-CIDR,109.234.112.0/21,no-resolve
   - IP-CIDR,109.238.224.0/20,no-resolve
   - IP-CIDR,109.68.223.0/24,no-resolve
-  - IP-CIDR,113.203.208.0/24,no-resolve
   - IP-CIDR,113.203.210.0/24,no-resolve
   - IP-CIDR,113.203.218.0/24,no-resolve
-  - IP-CIDR,113.203.221.0/24,no-resolve
   - IP-CIDR,113.203.222.0/24,no-resolve
   - IP-CIDR,113.30.153.0/24,no-resolve
-  - IP-CIDR,115.167.48.0/24,no-resolve
   - IP-CIDR,115.167.50.0/23,no-resolve
-  - IP-CIDR,115.167.53.0/24,no-resolve
-  - IP-CIDR,115.167.54.0/24,no-resolve
   - IP-CIDR,132.243.202.0/24,no-resolve
   - IP-CIDR,132.243.206.0/24,no-resolve
   - IP-CIDR,132.243.226.0/24,no-resolve
@@ -78,7 +73,8 @@ payload:
   - IP-CIDR,167.17.45.0/24,no-resolve
   - IP-CIDR,168.222.122.0/23,no-resolve
   - IP-CIDR,169.40.12.0/23,no-resolve
-  - IP-CIDR,175.110.96.0/22,no-resolve
+  - IP-CIDR,175.110.97.0/24,no-resolve
+  - IP-CIDR,175.110.99.0/24,no-resolve
   - IP-CIDR,176.100.46.0/24,no-resolve
   - IP-CIDR,176.121.224.0/20,no-resolve
   - IP-CIDR,176.121.240.0/21,no-resolve
@@ -255,7 +251,6 @@ payload:
   - IP-CIDR,2.57.60.0/22,no-resolve
   - IP-CIDR,201.10.84.0/24,no-resolve
   - IP-CIDR,201.10.93.0/24,no-resolve
-  - IP-CIDR,202.92.21.0/24,no-resolve
   - IP-CIDR,206.245.146.0/24,no-resolve
   - IP-CIDR,206.53.48.0/24,no-resolve
   - IP-CIDR,212.100.188.0/24,no-resolve
@@ -321,8 +316,6 @@ payload:
   - IP-CIDR,45.136.52.0/22,no-resolve
   - IP-CIDR,45.137.40.0/24,no-resolve
   - IP-CIDR,45.138.44.0/22,no-resolve
-  - IP-CIDR,45.139.85.0/24,no-resolve
-  - IP-CIDR,45.139.86.0/23,no-resolve
   - IP-CIDR,45.141.217.0/24,no-resolve
   - IP-CIDR,45.143.108.0/22,no-resolve
   - IP-CIDR,45.147.31.0/24,no-resolve

@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: ID
 # 印度尼西亚（Indonesia）
-# 数据日期: 2026-09-04
+# 数据日期: 2026-09-05
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 8097 条（IPv4: 5180 / IPv6: 2917）
+# 规则统计: 共 8100 条（IPv4: 5182 / IPv6: 2918）
 # ============================================================
 payload:
   - IP-CIDR,101.0.4.0/22,no-resolve
@@ -3594,7 +3594,7 @@ payload:
   - IP-CIDR,156.225.100.0/24,no-resolve
   - IP-CIDR,156.225.99.0/24,no-resolve
   - IP-CIDR,156.230.176.0/20,no-resolve
-  - IP-CIDR,156.230.20.0/24,no-resolve
+  - IP-CIDR,156.230.20.0/23,no-resolve
   - IP-CIDR,156.230.22.0/24,no-resolve
   - IP-CIDR,157.10.0.0/22,no-resolve
   - IP-CIDR,157.10.102.0/23,no-resolve
@@ -4803,6 +4803,7 @@ payload:
   - IP-CIDR,223.255.224.0/21,no-resolve
   - IP-CIDR,223.27.144.0/20,no-resolve
   - IP-CIDR,23.11.48.0/20,no-resolve
+  - IP-CIDR,23.163.124.0/24,no-resolve
   - IP-CIDR,23.192.180.0/22,no-resolve
   - IP-CIDR,23.193.204.0/22,no-resolve
   - IP-CIDR,23.193.212.0/22,no-resolve
@@ -4941,7 +4942,7 @@ payload:
   - IP-CIDR,38.188.207.0/24,no-resolve
   - IP-CIDR,38.188.63.0/24,no-resolve
   - IP-CIDR,38.19.237.0/24,no-resolve
-  - IP-CIDR,38.190.149.0/24,no-resolve
+  - IP-CIDR,38.190.148.0/23,no-resolve
   - IP-CIDR,38.191.122.0/23,no-resolve
   - IP-CIDR,38.191.164.0/23,no-resolve
   - IP-CIDR,38.191.91.0/24,no-resolve
@@ -4953,6 +4954,7 @@ payload:
   - IP-CIDR,38.226.45.0/24,no-resolve
   - IP-CIDR,38.226.46.0/23,no-resolve
   - IP-CIDR,38.246.178.0/24,no-resolve
+  - IP-CIDR,38.246.196.0/24,no-resolve
   - IP-CIDR,38.248.19.0/24,no-resolve
   - IP-CIDR,38.253.120.0/23,no-resolve
   - IP-CIDR,38.253.224.0/23,no-resolve
@@ -7928,6 +7930,7 @@ payload:
   - IP-CIDR6,2600:1417:3000::/48,no-resolve
   - IP-CIDR6,2600:1417:5000::/48,no-resolve
   - IP-CIDR6,2600:1417:c00::/48,no-resolve
+  - IP-CIDR6,2602:f2fd::/40,no-resolve
   - IP-CIDR6,2602:f72e:3a::/47,no-resolve
   - IP-CIDR6,2602:fa02:35::/48,no-resolve
   - IP-CIDR6,2602:fac2:14::/48,no-resolve

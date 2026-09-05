@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: UA
 # 乌克兰（Ukraine）
-# 数据日期: 2026-09-04
+# 数据日期: 2026-09-05
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 4879 条（IPv4: 4072 / IPv6: 807）
+# 规则统计: 共 4874 条（IPv4: 4069 / IPv6: 805）
 # ============================================================
 payload:
   - IP-CIDR,102.165.44.0/24,no-resolve
@@ -485,6 +485,7 @@ payload:
   - IP-CIDR,159.160.0.0/16,no-resolve
   - IP-CIDR,159.200.232.0/23,no-resolve
   - IP-CIDR,159.200.236.0/23,no-resolve
+  - IP-CIDR,159.200.239.0/24,no-resolve
   - IP-CIDR,159.200.244.0/22,no-resolve
   - IP-CIDR,159.224.0.0/16,no-resolve
   - IP-CIDR,160.238.124.0/22,no-resolve
@@ -511,7 +512,6 @@ payload:
   - IP-CIDR,170.168.41.0/24,no-resolve
   - IP-CIDR,170.168.43.0/24,no-resolve
   - IP-CIDR,170.168.48.0/24,no-resolve
-  - IP-CIDR,170.168.77.0/24,no-resolve
   - IP-CIDR,171.25.168.0/22,no-resolve
   - IP-CIDR,171.25.204.0/22,no-resolve
   - IP-CIDR,171.25.236.0/22,no-resolve
@@ -847,7 +847,6 @@ payload:
   - IP-CIDR,185.155.88.0/22,no-resolve
   - IP-CIDR,185.156.40.0/22,no-resolve
   - IP-CIDR,185.156.52.0/22,no-resolve
-  - IP-CIDR,185.156.73.0/24,no-resolve
   - IP-CIDR,185.157.121.0/24,no-resolve
   - IP-CIDR,185.157.76.0/22,no-resolve
   - IP-CIDR,185.158.208.0/22,no-resolve
@@ -3131,7 +3130,6 @@ payload:
   - IP-CIDR,88.151.8.0/24,no-resolve
   - IP-CIDR,88.154.0.0/15,no-resolve
   - IP-CIDR,88.204.40.0/21,no-resolve
-  - IP-CIDR,88.210.63.0/24,no-resolve
   - IP-CIDR,88.214.64.0/18,no-resolve
   - IP-CIDR,88.214.8.0/22,no-resolve
   - IP-CIDR,88.218.180.0/22,no-resolve
@@ -3866,7 +3864,6 @@ payload:
   - IP-CIDR,92.60.186.0/23,no-resolve
   - IP-CIDR,92.60.188.0/24,no-resolve
   - IP-CIDR,92.63.182.0/23,no-resolve
-  - IP-CIDR,92.63.197.0/24,no-resolve
   - IP-CIDR,93.113.255.0/24,no-resolve
   - IP-CIDR,93.123.118.0/24,no-resolve
   - IP-CIDR,93.123.31.0/24,no-resolve
@@ -4476,8 +4473,6 @@ payload:
   - IP-CIDR6,2a05:b00::/29,no-resolve
   - IP-CIDR6,2a05:b5c0::/29,no-resolve
   - IP-CIDR6,2a05:d780::/29,no-resolve
-  - IP-CIDR6,2a05:dfc1:2c10::/48,no-resolve
-  - IP-CIDR6,2a05:dfc1:2c34::/48,no-resolve
   - IP-CIDR6,2a05:f600::/29,no-resolve
   - IP-CIDR6,2a06:1680::/29,no-resolve
   - IP-CIDR6,2a06:2280::/29,no-resolve

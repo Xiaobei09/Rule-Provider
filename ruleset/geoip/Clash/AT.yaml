@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: AT
 # 奥地利（Austria）
-# 数据日期: 2026-09-04
+# 数据日期: 2026-09-05
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 2778 条（IPv4: 2086 / IPv6: 692）
+# 规则统计: 共 2782 条（IPv4: 2089 / IPv6: 693）
 # ============================================================
 payload:
   - IP-CIDR,103.203.180.0/22,no-resolve
@@ -12,6 +12,7 @@ payload:
   - IP-CIDR,103.82.160.0/22,no-resolve
   - IP-CIDR,104.143.0.0/23,no-resolve
   - IP-CIDR,104.164.36.0/24,no-resolve
+  - IP-CIDR,104.239.109.0/24,no-resolve
   - IP-CIDR,104.252.152.0/24,no-resolve
   - IP-CIDR,104.253.180.0/24,no-resolve
   - IP-CIDR,104.253.196.0/24,no-resolve
@@ -1241,6 +1242,7 @@ payload:
   - IP-CIDR,195.34.220.0/22,no-resolve
   - IP-CIDR,195.35.104.32/27,no-resolve
   - IP-CIDR,195.39.200.0/23,no-resolve
+  - IP-CIDR,195.39.220.0/24,no-resolve
   - IP-CIDR,195.42.106.0/23,no-resolve
   - IP-CIDR,195.42.230.0/24,no-resolve
   - IP-CIDR,195.43.139.0/24,no-resolve
@@ -1657,6 +1659,7 @@ payload:
   - IP-CIDR,5.83.146.0/24,no-resolve
   - IP-CIDR,5.83.148.0/24,no-resolve
   - IP-CIDR,62.116.0.0/17,no-resolve
+  - IP-CIDR,62.117.128.0/17,no-resolve
   - IP-CIDR,62.122.24.0/22,no-resolve
   - IP-CIDR,62.13.192.0/19,no-resolve
   - IP-CIDR,62.140.32.0/19,no-resolve
@@ -2263,6 +2266,7 @@ payload:
   - IP-CIDR6,2001:67c:934::/48,no-resolve
   - IP-CIDR6,2001:67c:960::/48,no-resolve
   - IP-CIDR6,2001:67c:98::/48,no-resolve
+  - IP-CIDR6,2001:67c:9a0::/48,no-resolve
   - IP-CIDR6,2001:67c:9e4::/48,no-resolve
   - IP-CIDR6,2001:67c:a58::/48,no-resolve
   - IP-CIDR6,2001:67c:ac::/48,no-resolve
