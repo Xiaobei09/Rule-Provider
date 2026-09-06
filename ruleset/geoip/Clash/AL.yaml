@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: AL
 # 阿尔巴尼亚（Albania）
-# 数据日期: 2026-09-05
+# 数据日期: 2026-09-06
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 388 条（IPv4: 268 / IPv6: 120）
+# 规则统计: 共 389 条（IPv4: 268 / IPv6: 121）
 # ============================================================
 payload:
   - IP-CIDR,103.111.0.0/22,no-resolve
@@ -361,6 +361,7 @@ payload:
   - IP-CIDR6,2a0f:8880::/29,no-resolve
   - IP-CIDR6,2a0f:a880::/29,no-resolve
   - IP-CIDR6,2a0f:ce40::/32,no-resolve
+  - IP-CIDR6,2a0f:f44::/32,no-resolve
   - IP-CIDR6,2a10:b480::/29,no-resolve
   - IP-CIDR6,2a10:b800::/32,no-resolve
   - IP-CIDR6,2a10:d0c0::/29,no-resolve
