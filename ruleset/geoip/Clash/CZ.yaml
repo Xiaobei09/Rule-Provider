@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: CZ
 # 捷克（Czechia）
-# 数据日期: 2026-09-06
+# 数据日期: 2026-09-07
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 2523 条（IPv4: 1748 / IPv6: 775）
+# 规则统计: 共 2522 条（IPv4: 1747 / IPv6: 775）
 # ============================================================
 payload:
   - IP-CIDR,102.223.110.0/24,no-resolve
@@ -1248,7 +1248,6 @@ payload:
   - IP-CIDR,5.183.12.0/22,no-resolve
   - IP-CIDR,5.187.34.0/24,no-resolve
   - IP-CIDR,5.198.128.0/21,no-resolve
-  - IP-CIDR,5.22.152.0/24,no-resolve
   - IP-CIDR,5.22.158.0/24,no-resolve
   - IP-CIDR,5.23.39.0/24,no-resolve
   - IP-CIDR,5.252.40.0/22,no-resolve
@@ -2487,7 +2486,6 @@ payload:
   - IP-CIDR6,2a13:9c40::/29,no-resolve
   - IP-CIDR6,2a13:a540::/29,no-resolve
   - IP-CIDR6,2a13:c8c4:2100::/44,no-resolve
-  - IP-CIDR6,2a13:c8c4:21e0::/44,no-resolve
   - IP-CIDR6,2a13:c8c4:2200::/44,no-resolve
   - IP-CIDR6,2a13:e900::/29,no-resolve
   - IP-CIDR6,2a13:ee40:200::/48,no-resolve
@@ -2499,7 +2497,8 @@ payload:
   - IP-CIDR6,2a14:27c0::/29,no-resolve
   - IP-CIDR6,2a14:5080::/29,no-resolve
   - IP-CIDR6,2a14:5940::/29,no-resolve
-  - IP-CIDR6,2a14:6f44:1000::/42,no-resolve
+  - IP-CIDR6,2a14:6f44:1000::/43,no-resolve
+  - IP-CIDR6,2a14:6f44:1020::/44,no-resolve
   - IP-CIDR6,2a14:6f44:1040::/44,no-resolve
   - IP-CIDR6,2a14:6f44:1101::/48,no-resolve
   - IP-CIDR6,2a14:6f44:1102::/47,no-resolve

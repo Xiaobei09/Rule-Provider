@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: RO
 # 罗马尼亚（Romania）
-# 数据日期: 2026-09-06
+# 数据日期: 2026-09-07
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 5325 条（IPv4: 4773 / IPv6: 552）
+# 规则统计: 共 5322 条（IPv4: 4771 / IPv6: 551）
 # ============================================================
 payload:
   - IP-CIDR,102.128.164.0/23,no-resolve
@@ -324,6 +324,7 @@ payload:
   - IP-CIDR,130.195.250.0/23,no-resolve
   - IP-CIDR,130.195.57.0/24,no-resolve
   - IP-CIDR,130.195.58.0/23,no-resolve
+  - IP-CIDR,130.78.9.0/24,no-resolve
   - IP-CIDR,132.243.215.0/24,no-resolve
   - IP-CIDR,134.195.10.0/24,no-resolve
   - IP-CIDR,134.255.211.0/24,no-resolve
@@ -3178,7 +3179,6 @@ payload:
   - IP-CIDR,74.211.236.0/22,no-resolve
   - IP-CIDR,74.91.61.0/24,no-resolve
   - IP-CIDR,76.164.200.0/22,no-resolve
-  - IP-CIDR,77.110.65.0/24,no-resolve
   - IP-CIDR,77.110.72.0/24,no-resolve
   - IP-CIDR,77.110.89.0/24,no-resolve
   - IP-CIDR,77.111.80.0/21,no-resolve
@@ -3657,7 +3657,6 @@ payload:
   - IP-CIDR,87.76.164.0/24,no-resolve
   - IP-CIDR,87.76.189.0/24,no-resolve
   - IP-CIDR,87.86.216.0/24,no-resolve
-  - IP-CIDR,87.86.93.0/24,no-resolve
   - IP-CIDR,88.158.0.0/16,no-resolve
   - IP-CIDR,88.214.0.0/22,no-resolve
   - IP-CIDR,88.216.0.0/23,no-resolve
@@ -3884,7 +3883,6 @@ payload:
   - IP-CIDR,89.37.160.0/21,no-resolve
   - IP-CIDR,89.37.184.0/24,no-resolve
   - IP-CIDR,89.37.186.0/23,no-resolve
-  - IP-CIDR,89.37.192.0/24,no-resolve
   - IP-CIDR,89.37.195.0/24,no-resolve
   - IP-CIDR,89.37.196.0/23,no-resolve
   - IP-CIDR,89.37.212.0/22,no-resolve
@@ -5299,7 +5297,6 @@ payload:
   - IP-CIDR6,2a13:c8c4:f100::/47,no-resolve
   - IP-CIDR6,2a13:c8c4:f102::/48,no-resolve
   - IP-CIDR6,2a13:c8c4:f500::/40,no-resolve
-  - IP-CIDR6,2a13:c8c4:fe00::/40,no-resolve
   - IP-CIDR6,2a13:ddc0::/29,no-resolve
   - IP-CIDR6,2a13:e2c0::/29,no-resolve
   - IP-CIDR6,2a13:ea00::/32,no-resolve
