@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: TN
 # 突尼斯（Tunisia）
-# 数据日期: 2026-09-07
+# 数据日期: 2026-09-08
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 78 条（IPv4: 51 / IPv6: 27）
+# 规则统计: 共 79 条（IPv4: 52 / IPv6: 27）
 # ============================================================
 payload:
   - IP-CIDR,102.104.0.0/13,no-resolve
@@ -12,6 +12,7 @@ payload:
   - IP-CIDR,102.152.0.0/13,no-resolve
   - IP-CIDR,102.164.112.0/23,no-resolve
   - IP-CIDR,102.168.0.0/13,no-resolve
+  - IP-CIDR,102.201.80.0/22,no-resolve
   - IP-CIDR,102.204.204.0/22,no-resolve
   - IP-CIDR,102.207.250.0/23,no-resolve
   - IP-CIDR,102.208.224.0/22,no-resolve
