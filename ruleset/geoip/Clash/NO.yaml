@@ -1,14 +1,15 @@
 # ============================================================
 # Rule-Provider: NO
 # 挪威（Norway）
-# 数据日期: 2026-09-08
+# 数据日期: 2026-09-09
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1959 条（IPv4: 1440 / IPv6: 519）
+# 规则统计: 共 1959 条（IPv4: 1443 / IPv6: 516）
 # ============================================================
 payload:
   - IP-CIDR,103.19.218.0/24,no-resolve
   - IP-CIDR,103.193.208.0/22,no-resolve
   - IP-CIDR,104.143.252.0/24,no-resolve
+  - IP-CIDR,104.145.209.0/24,no-resolve
   - IP-CIDR,104.233.8.0/23,no-resolve
   - IP-CIDR,104.239.52.0/23,no-resolve
   - IP-CIDR,104.250.204.0/22,no-resolve
@@ -173,6 +174,7 @@ payload:
   - IP-CIDR,171.25.160.0/22,no-resolve
   - IP-CIDR,172.102.222.0/23,no-resolve
   - IP-CIDR,172.84.182.0/23,no-resolve
+  - IP-CIDR,172.98.215.0/24,no-resolve
   - IP-CIDR,176.101.170.0/24,no-resolve
   - IP-CIDR,176.103.222.0/23,no-resolve
   - IP-CIDR,176.11.0.0/16,no-resolve
@@ -1277,6 +1279,7 @@ payload:
   - IP-CIDR,85.221.0.0/17,no-resolve
   - IP-CIDR,85.252.0.0/16,no-resolve
   - IP-CIDR,85.255.32.0/20,no-resolve
+  - IP-CIDR,85.31.46.0/24,no-resolve
   - IP-CIDR,85.88.64.0/19,no-resolve
   - IP-CIDR,85.89.0.0/19,no-resolve
   - IP-CIDR,85.93.224.0/19,no-resolve
@@ -1756,7 +1759,6 @@ payload:
   - IP-CIDR6,2a05:a00::/32,no-resolve
   - IP-CIDR6,2a05:a840::/29,no-resolve
   - IP-CIDR6,2a05:aac0::/29,no-resolve
-  - IP-CIDR6,2a05:b380::/29,no-resolve
   - IP-CIDR6,2a05:be40::/29,no-resolve
   - IP-CIDR6,2a05:c00::/29,no-resolve
   - IP-CIDR6,2a05:c940::/29,no-resolve
@@ -1879,7 +1881,6 @@ payload:
   - IP-CIDR6,2a0b:fd82::/32,no-resolve
   - IP-CIDR6,2a0b:fe40::/29,no-resolve
   - IP-CIDR6,2a0c:1400::/29,no-resolve
-  - IP-CIDR6,2a0c:1b00::/29,no-resolve
   - IP-CIDR6,2a0c:1bc0::/29,no-resolve
   - IP-CIDR6,2a0c:2280::/29,no-resolve
   - IP-CIDR6,2a0c:2ec0::/29,no-resolve
@@ -1924,7 +1925,6 @@ payload:
   - IP-CIDR6,2a10:4d40::/29,no-resolve
   - IP-CIDR6,2a10:5a40::/29,no-resolve
   - IP-CIDR6,2a10:7640::/29,no-resolve
-  - IP-CIDR6,2a10:a300::/29,no-resolve
   - IP-CIDR6,2a10:a640::/29,no-resolve
   - IP-CIDR6,2a10:b80::/29,no-resolve
   - IP-CIDR6,2a10:d640::/29,no-resolve

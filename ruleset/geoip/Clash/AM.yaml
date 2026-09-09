@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: AM
 # 亚美尼亚（Armenia）
-# 数据日期: 2026-09-08
+# 数据日期: 2026-09-09
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 354 条（IPv4: 286 / IPv6: 68）
+# 规则统计: 共 357 条（IPv4: 289 / IPv6: 68）
 # ============================================================
 payload:
   - IP-CIDR,103.73.34.0/24,no-resolve
@@ -41,6 +41,7 @@ payload:
   - IP-CIDR,157.228.98.0/23,no-resolve
   - IP-CIDR,163.5.244.0/24,no-resolve
   - IP-CIDR,163.5.31.0/24,no-resolve
+  - IP-CIDR,172.99.22.0/24,no-resolve
   - IP-CIDR,176.113.118.0/24,no-resolve
   - IP-CIDR,176.120.24.0/21,no-resolve
   - IP-CIDR,176.124.96.0/21,no-resolve
@@ -140,6 +141,7 @@ payload:
   - IP-CIDR,195.88.66.0/23,no-resolve
   - IP-CIDR,2.26.12.0/22,no-resolve
   - IP-CIDR,2.26.144.0/24,no-resolve
+  - IP-CIDR,2.26.178.0/24,no-resolve
   - IP-CIDR,2.27.6.0/24,no-resolve
   - IP-CIDR,2.56.204.0/22,no-resolve
   - IP-CIDR,201.10.80.0/24,no-resolve
@@ -156,6 +158,8 @@ payload:
   - IP-CIDR,217.144.176.0/20,no-resolve
   - IP-CIDR,217.197.97.0/24,no-resolve
   - IP-CIDR,217.76.0.0/20,no-resolve
+  - IP-CIDR,23.226.128.0/24,no-resolve
+  - IP-CIDR,23.95.83.0/24,no-resolve
   - IP-CIDR,31.128.60.0/24,no-resolve
   - IP-CIDR,31.132.72.0/21,no-resolve
   - IP-CIDR,31.171.209.0/24,no-resolve
@@ -209,7 +213,6 @@ payload:
   - IP-CIDR,64.204.224.0/24,no-resolve
   - IP-CIDR,64.204.227.0/24,no-resolve
   - IP-CIDR,72.56.229.0/24,no-resolve
-  - IP-CIDR,74.0.24.0/24,no-resolve
   - IP-CIDR,77.105.128.0/21,no-resolve
   - IP-CIDR,77.105.144.0/24,no-resolve
   - IP-CIDR,77.105.160.0/22,no-resolve

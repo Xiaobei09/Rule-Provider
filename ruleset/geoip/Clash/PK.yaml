@@ -1,7 +1,7 @@
 # ============================================================
 # Rule-Provider: PK
 # 巴基斯坦（Pakistan）
-# 数据日期: 2026-09-08
+# 数据日期: 2026-09-09
 # 数据来源: APNIC + IPtoASN
 # 规则统计: 共 1243 条（IPv4: 892 / IPv6: 351）
 # ============================================================
@@ -535,7 +535,8 @@ payload:
   - IP-CIDR,149.40.232.0/24,no-resolve
   - IP-CIDR,149.40.236.0/24,no-resolve
   - IP-CIDR,149.40.239.0/24,no-resolve
-  - IP-CIDR,149.40.240.0/21,no-resolve
+  - IP-CIDR,149.40.240.0/22,no-resolve
+  - IP-CIDR,149.40.246.0/23,no-resolve
   - IP-CIDR,149.40.248.0/23,no-resolve
   - IP-CIDR,149.40.250.0/24,no-resolve
   - IP-CIDR,149.71.32.0/22,no-resolve
@@ -670,6 +671,7 @@ payload:
   - IP-CIDR,165.99.50.0/23,no-resolve
   - IP-CIDR,165.99.88.0/23,no-resolve
   - IP-CIDR,167.148.168.0/24,no-resolve
+  - IP-CIDR,168.222.14.0/24,no-resolve
   - IP-CIDR,169.40.141.0/24,no-resolve
   - IP-CIDR,175.107.0.0/18,no-resolve
   - IP-CIDR,175.107.192.0/18,no-resolve
@@ -785,9 +787,6 @@ payload:
   - IP-CIDR,205.164.128.0/19,no-resolve
   - IP-CIDR,206.0.192.0/19,no-resolve
   - IP-CIDR,206.135.160.0/23,no-resolve
-  - IP-CIDR,206.135.164.0/24,no-resolve
-  - IP-CIDR,206.135.169.0/24,no-resolve
-  - IP-CIDR,206.135.174.0/24,no-resolve
   - IP-CIDR,206.135.185.0/24,no-resolve
   - IP-CIDR,206.206.83.0/24,no-resolve
   - IP-CIDR,206.42.112.0/23,no-resolve
@@ -825,6 +824,7 @@ payload:
   - IP-CIDR,38.211.45.0/24,no-resolve
   - IP-CIDR,38.249.0.0/21,no-resolve
   - IP-CIDR,38.249.28.0/22,no-resolve
+  - IP-CIDR,38.249.32.0/24,no-resolve
   - IP-CIDR,38.249.8.0/22,no-resolve
   - IP-CIDR,38.68.84.0/22,no-resolve
   - IP-CIDR,38.78.192.0/23,no-resolve
@@ -883,8 +883,8 @@ payload:
   - IP-CIDR,59.103.0.0/16,no-resolve
   - IP-CIDR,61.5.128.0/19,no-resolve
   - IP-CIDR,64.50.187.0/24,no-resolve
-  - IP-CIDR,66.102.120.0/21,no-resolve
-  - IP-CIDR,68.165.108.0/24,no-resolve
+  - IP-CIDR,66.102.123.0/24,no-resolve
+  - IP-CIDR,66.102.125.0/24,no-resolve
   - IP-CIDR,72.255.0.0/18,no-resolve
   - IP-CIDR,78.41.63.0/24,no-resolve
   - IP-CIDR,82.152.12.0/24,no-resolve

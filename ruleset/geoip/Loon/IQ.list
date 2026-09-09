@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: IQ
 # 伊拉克（Iraq）
-# 数据日期: 2026-09-08
+# 数据日期: 2026-09-09
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 623 条（IPv4: 491 / IPv6: 132）
+# 规则统计: 共 630 条（IPv4: 495 / IPv6: 135）
 # ============================================================
 IP-CIDR,103.229.80.0/24,no-resolve
 IP-CIDR,109.127.64.0/18,no-resolve
@@ -83,7 +83,8 @@ IP-CIDR,185.14.248.0/22,no-resolve
 IP-CIDR,185.140.192.0/22,no-resolve
 IP-CIDR,185.141.8.0/22,no-resolve
 IP-CIDR,185.144.15.0/24,no-resolve
-IP-CIDR,185.147.100.0/22,no-resolve
+IP-CIDR,185.147.100.0/24,no-resolve
+IP-CIDR,185.147.102.0/23,no-resolve
 IP-CIDR,185.155.156.0/22,no-resolve
 IP-CIDR,185.157.180.0/22,no-resolve
 IP-CIDR,185.158.20.0/22,no-resolve
@@ -114,7 +115,6 @@ IP-CIDR,185.207.12.0/24,no-resolve
 IP-CIDR,185.21.136.0/22,no-resolve
 IP-CIDR,185.210.228.0/24,no-resolve
 IP-CIDR,185.212.33.0/24,no-resolve
-IP-CIDR,185.216.69.0/24,no-resolve
 IP-CIDR,185.217.61.0/24,no-resolve
 IP-CIDR,185.217.76.0/22,no-resolve
 IP-CIDR,185.217.88.0/22,no-resolve
@@ -287,7 +287,10 @@ IP-CIDR,37.237.100.0/22,no-resolve
 IP-CIDR,37.237.104.0/24,no-resolve
 IP-CIDR,37.237.106.0/23,no-resolve
 IP-CIDR,37.237.108.0/22,no-resolve
-IP-CIDR,37.237.112.0/20,no-resolve
+IP-CIDR,37.237.112.0/21,no-resolve
+IP-CIDR,37.237.120.0/23,no-resolve
+IP-CIDR,37.237.122.0/24,no-resolve
+IP-CIDR,37.237.124.0/22,no-resolve
 IP-CIDR,37.237.128.0/22,no-resolve
 IP-CIDR,37.237.132.0/22,no-resolve
 IP-CIDR,37.237.136.0/21,no-resolve
@@ -313,7 +316,8 @@ IP-CIDR,37.237.33.0/24,no-resolve
 IP-CIDR,37.237.34.0/23,no-resolve
 IP-CIDR,37.237.36.0/22,no-resolve
 IP-CIDR,37.237.40.0/21,no-resolve
-IP-CIDR,37.237.48.0/20,no-resolve
+IP-CIDR,37.237.48.0/21,no-resolve
+IP-CIDR,37.237.56.0/21,no-resolve
 IP-CIDR,37.237.64.0/20,no-resolve
 IP-CIDR,37.237.80.0/21,no-resolve
 IP-CIDR,37.237.96.0/22,no-resolve
@@ -516,9 +520,12 @@ IP-CIDR6,2a02:5ee0::/32,no-resolve
 IP-CIDR6,2a02:b60::/32,no-resolve
 IP-CIDR6,2a03:47c0::/29,no-resolve
 IP-CIDR6,2a03:4b40:4000::/36,no-resolve
-IP-CIDR6,2a03:4b40:5000::/39,no-resolve
+IP-CIDR6,2a03:4b40:5000::/40,no-resolve
+IP-CIDR6,2a03:4b40:5100::/41,no-resolve
+IP-CIDR6,2a03:4b40:5180::/41,no-resolve
 IP-CIDR6,2a03:4b40:5200::/39,no-resolve
-IP-CIDR6,2a03:4b40:5400::/38,no-resolve
+IP-CIDR6,2a03:4b40:5400::/39,no-resolve
+IP-CIDR6,2a03:4b40:5600::/39,no-resolve
 IP-CIDR6,2a03:4b40:5800::/37,no-resolve
 IP-CIDR6,2a03:4b40:6000::/35,no-resolve
 IP-CIDR6,2a03:4b40:8000::/33,no-resolve
