@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: PA
 # 巴拿马（Panama）
-# 数据日期: 2026-09-09
+# 数据日期: 2026-09-10
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1495 条（IPv4: 1059 / IPv6: 436）
+# 规则统计: 共 1491 条（IPv4: 1059 / IPv6: 432）
 # ============================================================
 payload:
   - IP-CIDR,103.173.150.0/23,no-resolve
@@ -1327,7 +1327,8 @@ payload:
   - IP-CIDR6,2803:bc40:8158::/45,no-resolve
   - IP-CIDR6,2803:bc40:8160::/45,no-resolve
   - IP-CIDR6,2803:bc40:8168::/45,no-resolve
-  - IP-CIDR6,2803:bc40:8170::/44,no-resolve
+  - IP-CIDR6,2803:bc40:8170::/45,no-resolve
+  - IP-CIDR6,2803:bc40:8178::/45,no-resolve
   - IP-CIDR6,2803:bc40:8180::/46,no-resolve
   - IP-CIDR6,2803:bc40:8184::/46,no-resolve
   - IP-CIDR6,2803:bc40:8188::/45,no-resolve
@@ -1363,9 +1364,7 @@ payload:
   - IP-CIDR6,2803:bc40:a050::/45,no-resolve
   - IP-CIDR6,2803:bc40:a058::/46,no-resolve
   - IP-CIDR6,2803:bc40:a05c::/46,no-resolve
-  - IP-CIDR6,2803:bc40:a060::/44,no-resolve
-  - IP-CIDR6,2803:bc40:a070::/45,no-resolve
-  - IP-CIDR6,2803:bc40:a078::/45,no-resolve
+  - IP-CIDR6,2803:bc40:a060::/43,no-resolve
   - IP-CIDR6,2803:bc40:a080::/44,no-resolve
   - IP-CIDR6,2803:bc40:a090::/46,no-resolve
   - IP-CIDR6,2803:bc40:a094::/46,no-resolve
@@ -1416,10 +1415,7 @@ payload:
   - IP-CIDR6,2803:e880:8120::/44,no-resolve
   - IP-CIDR6,2803:e880:8130::/45,no-resolve
   - IP-CIDR6,2803:e880:8138::/45,no-resolve
-  - IP-CIDR6,2803:e880:8140::/43,no-resolve
-  - IP-CIDR6,2803:e880:8160::/44,no-resolve
-  - IP-CIDR6,2803:e880:8170::/45,no-resolve
-  - IP-CIDR6,2803:e880:8178::/45,no-resolve
+  - IP-CIDR6,2803:e880:8140::/42,no-resolve
   - IP-CIDR6,2803:e880:8180::/45,no-resolve
   - IP-CIDR6,2803:e880:8188::/46,no-resolve
   - IP-CIDR6,2803:e880:818c::/46,no-resolve

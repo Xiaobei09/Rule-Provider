@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: PL
 # 波兰（Poland）
-# 数据日期: 2026-09-09
+# 数据日期: 2026-09-10
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 5506 条（IPv4: 4306 / IPv6: 1200）
+# 规则统计: 共 5507 条（IPv4: 4306 / IPv6: 1201）
 # ============================================================
 payload:
   - IP-CIDR,102.135.7.0/24,no-resolve
@@ -4791,6 +4791,7 @@ payload:
   - IP-CIDR6,2a03:3800::/32,no-resolve
   - IP-CIDR6,2a03:4620::/32,no-resolve
   - IP-CIDR6,2a03:4b00::/32,no-resolve
+  - IP-CIDR6,2a03:5840:15d::/48,no-resolve
   - IP-CIDR6,2a03:5860::/32,no-resolve
   - IP-CIDR6,2a03:5ec0::/32,no-resolve
   - IP-CIDR6,2a03:63e0::/29,no-resolve
