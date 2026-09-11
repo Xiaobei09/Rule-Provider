@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: BR
 # 巴西（Brazil）
-# 数据日期: 2026-09-10
+# 数据日期: 2026-09-11
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 15607 条（IPv4: 6509 / IPv6: 9098）
+# 规则统计: 共 15612 条（IPv4: 6513 / IPv6: 9099）
 # ============================================================
 IP-CIDR,102.129.192.0/24,no-resolve
 IP-CIDR,102.129.211.0/24,no-resolve
@@ -12,6 +12,7 @@ IP-CIDR,102.165.25.0/24,no-resolve
 IP-CIDR,102.165.46.0/24,no-resolve
 IP-CIDR,103.125.76.0/24,no-resolve
 IP-CIDR,103.151.110.0/23,no-resolve
+IP-CIDR,103.17.202.0/24,no-resolve
 IP-CIDR,103.204.193.0/24,no-resolve
 IP-CIDR,103.43.23.0/24,no-resolve
 IP-CIDR,103.68.206.0/23,no-resolve
@@ -892,7 +893,6 @@ IP-CIDR,154.7.240.0/21,no-resolve
 IP-CIDR,154.91.38.0/24,no-resolve
 IP-CIDR,155.2.189.0/24,no-resolve
 IP-CIDR,155.211.0.0/16,no-resolve
-IP-CIDR,156.235.49.0/24,no-resolve
 IP-CIDR,156.249.64.0/22,no-resolve
 IP-CIDR,157.254.207.0/24,no-resolve
 IP-CIDR,157.254.248.0/24,no-resolve
@@ -1999,6 +1999,7 @@ IP-CIDR,177.200.232.0/23,no-resolve
 IP-CIDR,177.200.240.0/20,no-resolve
 IP-CIDR,177.201.0.0/17,no-resolve
 IP-CIDR,177.201.128.0/19,no-resolve
+IP-CIDR,177.201.211.0/24,no-resolve
 IP-CIDR,177.201.240.0/20,no-resolve
 IP-CIDR,177.202.0.0/18,no-resolve
 IP-CIDR,177.202.128.0/18,no-resolve
@@ -2304,14 +2305,13 @@ IP-CIDR,178.83.14.0/24,no-resolve
 IP-CIDR,178.83.141.0/24,no-resolve
 IP-CIDR,178.83.17.0/24,no-resolve
 IP-CIDR,178.92.162.0/23,no-resolve
-IP-CIDR,178.92.188.0/24,no-resolve
+IP-CIDR,178.92.188.0/23,no-resolve
 IP-CIDR,178.92.192.0/23,no-resolve
 IP-CIDR,178.92.204.0/24,no-resolve
 IP-CIDR,178.92.216.0/24,no-resolve
 IP-CIDR,178.95.22.0/24,no-resolve
 IP-CIDR,178.95.26.0/23,no-resolve
-IP-CIDR,178.95.33.0/24,no-resolve
-IP-CIDR,178.95.34.0/23,no-resolve
+IP-CIDR,178.95.32.0/22,no-resolve
 IP-CIDR,178.95.40.0/23,no-resolve
 IP-CIDR,178.95.44.0/24,no-resolve
 IP-CIDR,178.95.47.0/24,no-resolve
@@ -3735,6 +3735,7 @@ IP-CIDR,198.17.231.0/24,no-resolve
 IP-CIDR,198.17.232.0/24,no-resolve
 IP-CIDR,198.184.161.0/24,no-resolve
 IP-CIDR,198.23.182.0/24,no-resolve
+IP-CIDR,198.23.218.0/24,no-resolve
 IP-CIDR,198.24.1.0/24,no-resolve
 IP-CIDR,198.24.4.0/23,no-resolve
 IP-CIDR,198.242.48.0/22,no-resolve
@@ -4862,7 +4863,7 @@ IP-CIDR,38.211.202.0/23,no-resolve
 IP-CIDR,38.211.204.0/22,no-resolve
 IP-CIDR,38.211.234.0/24,no-resolve
 IP-CIDR,38.211.248.0/23,no-resolve
-IP-CIDR,38.211.252.0/23,no-resolve
+IP-CIDR,38.211.253.0/24,no-resolve
 IP-CIDR,38.211.3.0/24,no-resolve
 IP-CIDR,38.211.38.0/24,no-resolve
 IP-CIDR,38.211.40.0/22,no-resolve
@@ -4938,7 +4939,10 @@ IP-CIDR,38.246.78.0/23,no-resolve
 IP-CIDR,38.250.192.0/22,no-resolve
 IP-CIDR,38.250.200.0/22,no-resolve
 IP-CIDR,38.250.204.0/23,no-resolve
-IP-CIDR,38.250.208.0/20,no-resolve
+IP-CIDR,38.250.208.0/22,no-resolve
+IP-CIDR,38.250.212.0/23,no-resolve
+IP-CIDR,38.250.215.0/24,no-resolve
+IP-CIDR,38.250.216.0/21,no-resolve
 IP-CIDR,38.250.224.0/22,no-resolve
 IP-CIDR,38.250.232.0/21,no-resolve
 IP-CIDR,38.250.240.0/22,no-resolve
@@ -7641,7 +7645,6 @@ IP-CIDR6,2804:194c::/32,no-resolve
 IP-CIDR6,2804:1950::/32,no-resolve
 IP-CIDR6,2804:1954::/32,no-resolve
 IP-CIDR6,2804:195c::/32,no-resolve
-IP-CIDR6,2804:1964::/32,no-resolve
 IP-CIDR6,2804:1968::/32,no-resolve
 IP-CIDR6,2804:196c::/32,no-resolve
 IP-CIDR6,2804:1970::/32,no-resolve
@@ -15146,6 +15149,8 @@ IP-CIDR6,2804:9a64::/32,no-resolve
 IP-CIDR6,2804:9a68::/32,no-resolve
 IP-CIDR6,2804:9a6c::/32,no-resolve
 IP-CIDR6,2804:9a70::/32,no-resolve
+IP-CIDR6,2804:9a74::/32,no-resolve
+IP-CIDR6,2804:9a78::/32,no-resolve
 IP-CIDR6,2804:9a8::/32,no-resolve
 IP-CIDR6,2804:9ac::/32,no-resolve
 IP-CIDR6,2804:9b0::/32,no-resolve

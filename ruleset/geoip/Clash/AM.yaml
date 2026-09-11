@@ -1,14 +1,13 @@
 # ============================================================
 # Rule-Provider: AM
 # 亚美尼亚（Armenia）
-# 数据日期: 2026-09-10
+# 数据日期: 2026-09-11
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 356 条（IPv4: 288 / IPv6: 68）
+# 规则统计: 共 354 条（IPv4: 286 / IPv6: 68）
 # ============================================================
 payload:
   - IP-CIDR,103.73.34.0/24,no-resolve
   - IP-CIDR,103.75.196.0/22,no-resolve
-  - IP-CIDR,104.234.54.0/23,no-resolve
   - IP-CIDR,109.68.120.0/21,no-resolve
   - IP-CIDR,109.75.32.0/20,no-resolve
   - IP-CIDR,130.12.102.0/24,no-resolve
@@ -41,6 +40,7 @@ payload:
   - IP-CIDR,157.228.98.0/23,no-resolve
   - IP-CIDR,163.5.244.0/24,no-resolve
   - IP-CIDR,163.5.31.0/24,no-resolve
+  - IP-CIDR,172.99.22.0/24,no-resolve
   - IP-CIDR,176.113.118.0/24,no-resolve
   - IP-CIDR,176.120.24.0/21,no-resolve
   - IP-CIDR,176.124.96.0/21,no-resolve
@@ -97,7 +97,6 @@ payload:
   - IP-CIDR,188.115.192.0/18,no-resolve
   - IP-CIDR,188.164.152.0/21,no-resolve
   - IP-CIDR,188.92.28.0/24,no-resolve
-  - IP-CIDR,192.208.11.0/24,no-resolve
   - IP-CIDR,193.104.198.0/24,no-resolve
   - IP-CIDR,193.104.56.0/24,no-resolve
   - IP-CIDR,193.142.19.0/24,no-resolve
@@ -147,7 +146,7 @@ payload:
   - IP-CIDR,201.10.87.0/24,no-resolve
   - IP-CIDR,202.133.88.0/22,no-resolve
   - IP-CIDR,206.62.192.0/19,no-resolve
-  - IP-CIDR,207.180.21.0/24,no-resolve
+  - IP-CIDR,207.180.53.0/24,no-resolve
   - IP-CIDR,212.34.224.0/19,no-resolve
   - IP-CIDR,212.42.192.0/19,no-resolve
   - IP-CIDR,212.73.64.0/19,no-resolve
@@ -170,6 +169,7 @@ payload:
   - IP-CIDR,31.76.254.0/24,no-resolve
   - IP-CIDR,31.76.36.0/24,no-resolve
   - IP-CIDR,31.76.92.0/24,no-resolve
+  - IP-CIDR,31.77.0.0/24,no-resolve
   - IP-CIDR,31.77.139.0/24,no-resolve
   - IP-CIDR,37.157.208.0/20,no-resolve
   - IP-CIDR,37.186.64.0/18,no-resolve
@@ -209,8 +209,6 @@ payload:
   - IP-CIDR,5.77.128.0/17,no-resolve
   - IP-CIDR,62.3.16.0/24,no-resolve
   - IP-CIDR,62.89.0.0/19,no-resolve
-  - IP-CIDR,64.204.224.0/24,no-resolve
-  - IP-CIDR,64.204.227.0/24,no-resolve
   - IP-CIDR,72.56.229.0/24,no-resolve
   - IP-CIDR,77.105.128.0/21,no-resolve
   - IP-CIDR,77.105.144.0/24,no-resolve

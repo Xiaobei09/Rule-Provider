@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: SA
 # 沙特阿拉伯（Saudi Arabia）
-# 数据日期: 2026-09-10
+# 数据日期: 2026-09-11
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 831 条（IPv4: 678 / IPv6: 153）
+# 规则统计: 共 832 条（IPv4: 678 / IPv6: 154）
 # ============================================================
 payload:
   - IP-CIDR,102.177.185.0/24,no-resolve
@@ -805,6 +805,7 @@ payload:
   - IP-CIDR6,2a0f:6ec0::/29,no-resolve
   - IP-CIDR6,2a0f:85c1:ccb::/48,no-resolve
   - IP-CIDR6,2a0f:85c1:d00::/47,no-resolve
+  - IP-CIDR6,2a0f:85c1:d02::/48,no-resolve
   - IP-CIDR6,2a0f:85c1:d04::/48,no-resolve
   - IP-CIDR6,2a0f:85c1:d39::/48,no-resolve
   - IP-CIDR6,2a0f:85c1:d4a::/48,no-resolve
