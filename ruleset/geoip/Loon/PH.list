@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: PH
 # 菲律宾（Philippines）
-# 数据日期: 2026-09-11
+# 数据日期: 2026-09-12
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1592 条（IPv4: 1105 / IPv6: 487）
+# 规则统计: 共 1593 条（IPv4: 1105 / IPv6: 488）
 # ============================================================
 IP-CIDR,1.37.0.0/16,no-resolve
 IP-CIDR,101.192.112.0/20,no-resolve
@@ -268,7 +268,8 @@ IP-CIDR,103.241.32.0/22,no-resolve
 IP-CIDR,103.241.76.0/22,no-resolve
 IP-CIDR,103.241.8.0/22,no-resolve
 IP-CIDR,103.243.117.0/24,no-resolve
-IP-CIDR,103.243.20.0/22,no-resolve
+IP-CIDR,103.243.20.0/23,no-resolve
+IP-CIDR,103.243.23.0/24,no-resolve
 IP-CIDR,103.244.192.0/23,no-resolve
 IP-CIDR,103.244.28.0/22,no-resolve
 IP-CIDR,103.245.156.0/24,no-resolve
@@ -668,6 +669,7 @@ IP-CIDR,163.227.87.0/24,no-resolve
 IP-CIDR,163.52.100.0/24,no-resolve
 IP-CIDR,163.52.102.0/23,no-resolve
 IP-CIDR,163.52.13.0/24,no-resolve
+IP-CIDR,163.52.156.0/24,no-resolve
 IP-CIDR,163.52.18.0/24,no-resolve
 IP-CIDR,163.52.39.0/24,no-resolve
 IP-CIDR,163.61.135.0/24,no-resolve
@@ -1077,8 +1079,7 @@ IP-CIDR,58.71.0.0/17,no-resolve
 IP-CIDR,58.97.144.0/22,no-resolve
 IP-CIDR,58.97.149.0/24,no-resolve
 IP-CIDR,58.97.155.0/24,no-resolve
-IP-CIDR,58.97.157.0/24,no-resolve
-IP-CIDR,58.97.158.0/23,no-resolve
+IP-CIDR,58.97.156.0/22,no-resolve
 IP-CIDR,58.97.160.0/19,no-resolve
 IP-CIDR,61.14.192.0/21,no-resolve
 IP-CIDR,61.245.0.0/19,no-resolve
@@ -1102,7 +1103,6 @@ IP-CIDR,8.45.8.0/21,no-resolve
 IP-CIDR,82.100.184.0/21,no-resolve
 IP-CIDR,82.21.146.0/24,no-resolve
 IP-CIDR,82.22.54.0/24,no-resolve
-IP-CIDR,82.47.41.0/24,no-resolve
 IP-CIDR,87.121.117.0/24,no-resolve
 IP-CIDR,87.84.71.0/24,no-resolve
 IP-CIDR,89.33.12.0/24,no-resolve
@@ -1269,6 +1269,7 @@ IP-CIDR6,2001:df7:640::/48,no-resolve
 IP-CIDR6,2001:df7:6c0::/48,no-resolve
 IP-CIDR6,2001:df7:7240::/48,no-resolve
 IP-CIDR6,2001:df7:7d00::/48,no-resolve
+IP-CIDR6,2001:df7:7ec0::/48,no-resolve
 IP-CIDR6,2001:df7:8100::/48,no-resolve
 IP-CIDR6,2001:df7:9f00::/48,no-resolve
 IP-CIDR6,2001:df7:a780::/48,no-resolve
