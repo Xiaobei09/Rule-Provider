@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: EE
 # 爱沙尼亚（Estonia）
-# 数据日期: 2026-09-12
+# 数据日期: 2026-09-13
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1257 条（IPv4: 945 / IPv6: 312）
+# 规则统计: 共 1259 条（IPv4: 946 / IPv6: 313）
 # ============================================================
 payload:
   - IP-CIDR,102.215.228.0/24,no-resolve
@@ -703,6 +703,7 @@ payload:
   - IP-CIDR,78.17.156.0/24,no-resolve
   - IP-CIDR,78.17.159.0/24,no-resolve
   - IP-CIDR,78.17.161.0/24,no-resolve
+  - IP-CIDR,78.17.162.0/24,no-resolve
   - IP-CIDR,78.17.17.0/24,no-resolve
   - IP-CIDR,78.17.173.0/24,no-resolve
   - IP-CIDR,78.17.176.0/24,no-resolve
@@ -997,7 +998,8 @@ payload:
   - IP-CIDR6,2405:84c0:8022::/47,no-resolve
   - IP-CIDR6,2405:84c0:8024::/46,no-resolve
   - IP-CIDR6,2405:84c0:8028::/45,no-resolve
-  - IP-CIDR6,2405:84c0:8030::/48,no-resolve
+  - IP-CIDR6,2405:84c0:8030::/46,no-resolve
+  - IP-CIDR6,2405:84c0:8034::/47,no-resolve
   - IP-CIDR6,2405:84c0:803f::/48,no-resolve
   - IP-CIDR6,2405:84c0:8040::/48,no-resolve
   - IP-CIDR6,2405:84c0:8046::/47,no-resolve
@@ -1124,6 +1126,7 @@ payload:
   - IP-CIDR6,2a0a:79c7:f300::/40,no-resolve
   - IP-CIDR6,2a0a:79c7:f600::/40,no-resolve
   - IP-CIDR6,2a0a:79c7:fa00::/40,no-resolve
+  - IP-CIDR6,2a0a:79c7:fe00::/40,no-resolve
   - IP-CIDR6,2a0a:acc0::/29,no-resolve
   - IP-CIDR6,2a0a:ae80::/29,no-resolve
   - IP-CIDR6,2a0b:1187:1000::/44,no-resolve
@@ -1185,7 +1188,6 @@ payload:
   - IP-CIDR6,2a10:1fc0::/29,no-resolve
   - IP-CIDR6,2a10:2a00::/29,no-resolve
   - IP-CIDR6,2a10:46c0::/29,no-resolve
-  - IP-CIDR6,2a10:ab80:400::/46,no-resolve
   - IP-CIDR6,2a10:b000::/29,no-resolve
   - IP-CIDR6,2a10:b140::/29,no-resolve
   - IP-CIDR6,2a10:c940::/29,no-resolve

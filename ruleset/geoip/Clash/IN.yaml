@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: IN
 # 印度（India）
-# 数据日期: 2026-09-12
+# 数据日期: 2026-09-13
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 11979 条（IPv4: 8968 / IPv6: 3011）
+# 规则统计: 共 11978 条（IPv4: 8966 / IPv6: 3012）
 # ============================================================
 payload:
   - IP-CIDR,1.10.10.0/24,no-resolve
@@ -6470,6 +6470,7 @@ payload:
   - IP-CIDR,185.5.146.0/24,no-resolve
   - IP-CIDR,185.64.180.0/22,no-resolve
   - IP-CIDR,185.66.136.0/22,no-resolve
+  - IP-CIDR,185.67.20.0/24,no-resolve
   - IP-CIDR,185.72.240.0/22,no-resolve
   - IP-CIDR,185.75.208.0/22,no-resolve
   - IP-CIDR,185.90.243.0/24,no-resolve
@@ -6517,7 +6518,6 @@ payload:
   - IP-CIDR,191.219.28.0/24,no-resolve
   - IP-CIDR,191.219.30.0/24,no-resolve
   - IP-CIDR,191.222.248.0/24,no-resolve
-  - IP-CIDR,191.44.78.0/24,no-resolve
   - IP-CIDR,191.44.86.0/23,no-resolve
   - IP-CIDR,191.44.93.0/24,no-resolve
   - IP-CIDR,191.96.0.0/24,no-resolve
@@ -7656,7 +7656,6 @@ payload:
   - IP-CIDR,31.40.220.0/22,no-resolve
   - IP-CIDR,31.40.228.0/22,no-resolve
   - IP-CIDR,31.42.112.0/22,no-resolve
-  - IP-CIDR,31.42.125.0/24,no-resolve
   - IP-CIDR,31.56.101.0/24,no-resolve
   - IP-CIDR,31.56.59.0/24,no-resolve
   - IP-CIDR,31.56.73.0/24,no-resolve
@@ -8738,7 +8737,6 @@ payload:
   - IP-CIDR,82.25.26.0/24,no-resolve
   - IP-CIDR,82.25.5.0/24,no-resolve
   - IP-CIDR,82.26.242.0/24,no-resolve
-  - IP-CIDR,82.26.84.0/24,no-resolve
   - IP-CIDR,82.27.1.0/24,no-resolve
   - IP-CIDR,82.27.242.0/24,no-resolve
   - IP-CIDR,82.29.241.0/24,no-resolve
@@ -10589,6 +10587,7 @@ payload:
   - IP-CIDR6,2001:df7:8080::/48,no-resolve
   - IP-CIDR6,2001:df7:80::/48,no-resolve
   - IP-CIDR6,2001:df7:8180::/48,no-resolve
+  - IP-CIDR6,2001:df7:8240::/48,no-resolve
   - IP-CIDR6,2001:df7:8400::/47,no-resolve
   - IP-CIDR6,2001:df7:8480::/48,no-resolve
   - IP-CIDR6,2001:df7:8780::/48,no-resolve
