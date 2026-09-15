@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: NZ
 # 新西兰（New Zealand）
-# 数据日期: 2026-09-14
+# 数据日期: 2026-09-15
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1885 条（IPv4: 1447 / IPv6: 438）
+# 规则统计: 共 1882 条（IPv4: 1447 / IPv6: 435）
 # ============================================================
 payload:
   - IP-CIDR,101.100.0.0/17,no-resolve
@@ -1885,9 +1885,6 @@ payload:
   - IP-CIDR6,2a0f:9400:4::/48,no-resolve
   - IP-CIDR6,2a0f:9400:6::/48,no-resolve
   - IP-CIDR6,2a0f:9400::/46,no-resolve
-  - IP-CIDR6,2a10:ccc3:1300::/43,no-resolve
-  - IP-CIDR6,2a10:ccc3:1320::/43,no-resolve
-  - IP-CIDR6,2a10:ccc3:1340::/42,no-resolve
-  - IP-CIDR6,2a10:ccc3:1380::/41,no-resolve
+  - IP-CIDR6,2a10:ccc3:1300::/40,no-resolve
   - IP-CIDR6,2a12:adc0::/29,no-resolve
   - IP-CIDR6,2a13:c680::/29,no-resolve
