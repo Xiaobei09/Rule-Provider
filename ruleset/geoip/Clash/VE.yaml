@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: VE
 # 委内瑞拉（Venezuela）
-# 数据日期: 2026-09-15
+# 数据日期: 2026-09-16
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 781 条（IPv4: 544 / IPv6: 237）
+# 规则统计: 共 782 条（IPv4: 545 / IPv6: 237）
 # ============================================================
 payload:
   - IP-CIDR,103.83.193.0/24,no-resolve
@@ -69,7 +69,7 @@ payload:
   - IP-CIDR,154.95.52.0/24,no-resolve
   - IP-CIDR,156.231.192.0/18,no-resolve
   - IP-CIDR,156.232.128.0/17,no-resolve
-  - IP-CIDR,156.235.91.0/24,no-resolve
+  - IP-CIDR,156.235.90.0/23,no-resolve
   - IP-CIDR,156.236.128.0/18,no-resolve
   - IP-CIDR,156.236.192.0/19,no-resolve
   - IP-CIDR,156.236.224.0/20,no-resolve
@@ -293,6 +293,7 @@ payload:
   - IP-CIDR,38.124.62.0/23,no-resolve
   - IP-CIDR,38.125.106.0/24,no-resolve
   - IP-CIDR,38.125.236.0/24,no-resolve
+  - IP-CIDR,38.127.221.0/24,no-resolve
   - IP-CIDR,38.129.142.0/23,no-resolve
   - IP-CIDR,38.129.7.0/24,no-resolve
   - IP-CIDR,38.129.89.0/24,no-resolve
@@ -326,7 +327,6 @@ payload:
   - IP-CIDR,38.172.56.0/24,no-resolve
   - IP-CIDR,38.172.58.0/23,no-resolve
   - IP-CIDR,38.183.112.0/21,no-resolve
-  - IP-CIDR,38.183.184.0/24,no-resolve
   - IP-CIDR,38.183.192.0/21,no-resolve
   - IP-CIDR,38.183.212.0/22,no-resolve
   - IP-CIDR,38.183.224.0/19,no-resolve
@@ -515,7 +515,8 @@ payload:
   - IP-CIDR,45.89.80.0/24,no-resolve
   - IP-CIDR,46.29.29.0/24,no-resolve
   - IP-CIDR,64.139.4.0/22,no-resolve
-  - IP-CIDR,74.118.60.0/22,no-resolve
+  - IP-CIDR,74.118.60.0/23,no-resolve
+  - IP-CIDR,74.118.62.0/24,no-resolve
   - IP-CIDR,74.123.48.0/22,no-resolve
   - IP-CIDR,80.66.125.0/24,no-resolve
   - IP-CIDR,82.86.101.0/24,no-resolve
