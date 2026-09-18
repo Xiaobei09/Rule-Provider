@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: GE
 # 格鲁吉亚（Georgia）
-# 数据日期: 2026-09-16
+# 数据日期: 2026-09-18
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 592 条（IPv4: 491 / IPv6: 101）
+# 规则统计: 共 593 条（IPv4: 492 / IPv6: 101）
 # ============================================================
 payload:
   - IP-CIDR,103.114.43.0/24,no-resolve
@@ -37,6 +37,7 @@ payload:
   - IP-CIDR,134.19.224.0/19,no-resolve
   - IP-CIDR,134.90.0.0/17,no-resolve
   - IP-CIDR,139.45.212.0/23,no-resolve
+  - IP-CIDR,141.0.187.0/24,no-resolve
   - IP-CIDR,141.0.190.0/24,no-resolve
   - IP-CIDR,141.8.208.0/21,no-resolve
   - IP-CIDR,144.31.116.0/22,no-resolve
@@ -59,6 +60,7 @@ payload:
   - IP-CIDR,150.241.78.0/23,no-resolve
   - IP-CIDR,151.245.62.0/24,no-resolve
   - IP-CIDR,153.76.185.0/24,no-resolve
+  - IP-CIDR,153.76.190.0/24,no-resolve
   - IP-CIDR,153.79.175.0/24,no-resolve
   - IP-CIDR,154.6.140.0/23,no-resolve
   - IP-CIDR,162.222.88.0/23,no-resolve
@@ -131,7 +133,6 @@ payload:
   - IP-CIDR,185.162.72.0/23,no-resolve
   - IP-CIDR,185.163.200.0/22,no-resolve
   - IP-CIDR,185.164.56.0/24,no-resolve
-  - IP-CIDR,185.165.47.0/24,no-resolve
   - IP-CIDR,185.168.224.0/22,no-resolve
   - IP-CIDR,185.174.96.0/22,no-resolve
   - IP-CIDR,185.181.248.0/22,no-resolve
@@ -245,7 +246,6 @@ payload:
   - IP-CIDR,195.80.233.0/24,no-resolve
   - IP-CIDR,195.96.130.0/23,no-resolve
   - IP-CIDR,2.26.162.0/23,no-resolve
-  - IP-CIDR,2.26.191.0/24,no-resolve
   - IP-CIDR,2.26.24.0/22,no-resolve
   - IP-CIDR,2.26.76.0/23,no-resolve
   - IP-CIDR,2.27.175.0/24,no-resolve
@@ -429,10 +429,10 @@ payload:
   - IP-CIDR,85.8.213.0/24,no-resolve
   - IP-CIDR,87.120.68.0/24,no-resolve
   - IP-CIDR,87.253.32.0/19,no-resolve
-  - IP-CIDR,87.58.222.0/23,no-resolve
   - IP-CIDR,88.210.192.0/18,no-resolve
   - IP-CIDR,88.218.112.0/22,no-resolve
   - IP-CIDR,89.125.155.0/24,no-resolve
+  - IP-CIDR,89.125.9.0/24,no-resolve
   - IP-CIDR,89.125.97.0/24,no-resolve
   - IP-CIDR,89.150.0.0/23,no-resolve
   - IP-CIDR,89.232.0.0/18,no-resolve
@@ -487,6 +487,7 @@ payload:
   - IP-CIDR,93.187.111.0/24,no-resolve
   - IP-CIDR,93.188.8.0/21,no-resolve
   - IP-CIDR,93.190.247.0/24,no-resolve
+  - IP-CIDR,93.190.8.0/23,no-resolve
   - IP-CIDR,94.100.224.0/20,no-resolve
   - IP-CIDR,94.137.160.0/19,no-resolve
   - IP-CIDR,94.159.112.0/24,no-resolve

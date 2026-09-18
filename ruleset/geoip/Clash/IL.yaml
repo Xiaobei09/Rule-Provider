@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: IL
 # 以色列（Israel）
-# 数据日期: 2026-09-16
+# 数据日期: 2026-09-18
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1398 条（IPv4: 1165 / IPv6: 233）
+# 规则统计: 共 1399 条（IPv4: 1165 / IPv6: 234）
 # ============================================================
 payload:
   - IP-CIDR,102.128.166.0/24,no-resolve
@@ -214,11 +214,9 @@ payload:
   - IP-CIDR,176.241.112.0/21,no-resolve
   - IP-CIDR,176.97.205.0/24,no-resolve
   - IP-CIDR,176.97.214.0/24,no-resolve
-  - IP-CIDR,177.185.2.0/24,no-resolve
   - IP-CIDR,178.212.93.0/24,no-resolve
   - IP-CIDR,178.248.77.0/24,no-resolve
   - IP-CIDR,179.0.204.0/24,no-resolve
-  - IP-CIDR,179.190.43.0/24,no-resolve
   - IP-CIDR,181.214.135.0/24,no-resolve
   - IP-CIDR,181.214.197.0/24,no-resolve
   - IP-CIDR,181.214.214.0/24,no-resolve
@@ -743,6 +741,7 @@ payload:
   - IP-CIDR,31.76.32.0/24,no-resolve
   - IP-CIDR,31.76.87.0/24,no-resolve
   - IP-CIDR,31.76.93.0/24,no-resolve
+  - IP-CIDR,31.77.189.0/24,no-resolve
   - IP-CIDR,31.77.228.0/24,no-resolve
   - IP-CIDR,37.122.152.0/22,no-resolve
   - IP-CIDR,37.122.156.0/23,no-resolve
@@ -843,6 +842,7 @@ payload:
   - IP-CIDR,46.19.80.0/21,no-resolve
   - IP-CIDR,46.210.0.0/16,no-resolve
   - IP-CIDR,46.232.208.0/23,no-resolve
+  - IP-CIDR,46.232.235.0/24,no-resolve
   - IP-CIDR,46.243.144.0/22,no-resolve
   - IP-CIDR,46.255.74.0/23,no-resolve
   - IP-CIDR,46.31.96.0/21,no-resolve
@@ -898,9 +898,9 @@ payload:
   - IP-CIDR,66.22.49.0/24,no-resolve
   - IP-CIDR,66.22.50.0/24,no-resolve
   - IP-CIDR,66.22.61.0/24,no-resolve
-  - IP-CIDR,66.22.65.0/24,no-resolve
   - IP-CIDR,66.22.66.0/23,no-resolve
   - IP-CIDR,66.22.68.0/24,no-resolve
+  - IP-CIDR,66.22.70.0/24,no-resolve
   - IP-CIDR,66.22.74.0/23,no-resolve
   - IP-CIDR,66.22.77.0/24,no-resolve
   - IP-CIDR,66.22.78.0/24,no-resolve
@@ -1323,6 +1323,7 @@ payload:
   - IP-CIDR6,2a0c:4780::/29,no-resolve
   - IP-CIDR6,2a0c:8cc0::/29,no-resolve
   - IP-CIDR6,2a0c:9280::/29,no-resolve
+  - IP-CIDR6,2a0c:9a40:890a::/48,no-resolve
   - IP-CIDR6,2a0c:9a40:890e::/48,no-resolve
   - IP-CIDR6,2a0c:a600::/29,no-resolve
   - IP-CIDR6,2a0c:c040::/29,no-resolve
