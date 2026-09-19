@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: FR
 # 法国（France）
-# 数据日期: 2026-09-18
+# 数据日期: 2026-09-19
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 7662 条（IPv4: 5857 / IPv6: 1805）
+# 规则统计: 共 7663 条（IPv4: 5856 / IPv6: 1807）
 # ============================================================
 payload:
   - IP-CIDR,1.179.112.0/20,no-resolve
@@ -4563,7 +4563,6 @@ payload:
   - IP-CIDR,51.91.0.0/16,no-resolve
   - IP-CIDR,54.36.0.0/14,no-resolve
   - IP-CIDR,57.128.0.0/14,no-resolve
-  - IP-CIDR,61.18.253.0/24,no-resolve
   - IP-CIDR,62.100.128.0/19,no-resolve
   - IP-CIDR,62.100.208.0/24,no-resolve
   - IP-CIDR,62.100.216.0/22,no-resolve
@@ -7081,6 +7080,7 @@ payload:
   - IP-CIDR6,2a0c:5000::/30,no-resolve
   - IP-CIDR6,2a0c:5040::/29,no-resolve
   - IP-CIDR6,2a0c:5340::/29,no-resolve
+  - IP-CIDR6,2a0c:56c0::/48,no-resolve
   - IP-CIDR6,2a0c:5e80::/29,no-resolve
   - IP-CIDR6,2a0c:6040::/29,no-resolve
   - IP-CIDR6,2a0c:6180::/29,no-resolve
@@ -7310,6 +7310,7 @@ payload:
   - IP-CIDR6,2a0e:b107:2430::/48,no-resolve
   - IP-CIDR6,2a0e:b107:2b0::/48,no-resolve
   - IP-CIDR6,2a0e:b107:8e0::/44,no-resolve
+  - IP-CIDR6,2a0e:b107:9f8::/48,no-resolve
   - IP-CIDR6,2a0e:b107:d91::/48,no-resolve
   - IP-CIDR6,2a0e:b107:f50::/44,no-resolve
   - IP-CIDR6,2a0e:b380::/29,no-resolve

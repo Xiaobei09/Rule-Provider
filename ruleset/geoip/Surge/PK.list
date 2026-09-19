@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: PK
 # 巴基斯坦（Pakistan）
-# 数据日期: 2026-09-18
+# 数据日期: 2026-09-19
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1258 条（IPv4: 905 / IPv6: 353）
+# 规则统计: 共 1265 条（IPv4: 910 / IPv6: 355）
 # ============================================================
 IP-CIDR,101.50.64.0/18,no-resolve
 IP-CIDR,101.53.224.0/19,no-resolve
@@ -366,7 +366,7 @@ IP-CIDR,103.75.244.0/22,no-resolve
 IP-CIDR,103.76.110.0/23,no-resolve
 IP-CIDR,103.76.28.0/23,no-resolve
 IP-CIDR,103.76.3.0/24,no-resolve
-IP-CIDR,103.77.8.0/23,no-resolve
+IP-CIDR,103.77.8.0/24,no-resolve
 IP-CIDR,103.78.134.0/23,no-resolve
 IP-CIDR,103.79.16.0/22,no-resolve
 IP-CIDR,103.8.112.0/22,no-resolve
@@ -455,7 +455,6 @@ IP-CIDR,116.0.32.0/19,no-resolve
 IP-CIDR,116.197.156.0/22,no-resolve
 IP-CIDR,116.204.167.0/24,no-resolve
 IP-CIDR,116.206.140.0/22,no-resolve
-IP-CIDR,116.206.167.0/24,no-resolve
 IP-CIDR,116.206.64.0/22,no-resolve
 IP-CIDR,116.206.84.0/22,no-resolve
 IP-CIDR,116.213.32.0/22,no-resolve
@@ -501,7 +500,8 @@ IP-CIDR,138.252.74.0/23,no-resolve
 IP-CIDR,139.135.32.0/19,no-resolve
 IP-CIDR,139.190.0.0/18,no-resolve
 IP-CIDR,139.190.192.0/18,no-resolve
-IP-CIDR,139.190.64.0/19,no-resolve
+IP-CIDR,139.190.72.0/21,no-resolve
+IP-CIDR,139.190.80.0/20,no-resolve
 IP-CIDR,139.5.116.0/22,no-resolve
 IP-CIDR,14.1.104.0/22,no-resolve
 IP-CIDR,14.192.128.0/19,no-resolve
@@ -530,7 +530,6 @@ IP-CIDR,149.13.54.0/23,no-resolve
 IP-CIDR,149.40.128.0/20,no-resolve
 IP-CIDR,149.40.160.0/20,no-resolve
 IP-CIDR,149.40.192.0/19,no-resolve
-IP-CIDR,149.40.224.0/24,no-resolve
 IP-CIDR,149.40.228.0/24,no-resolve
 IP-CIDR,149.40.230.0/23,no-resolve
 IP-CIDR,149.40.232.0/24,no-resolve
@@ -572,8 +571,12 @@ IP-CIDR,154.192.64.0/21,no-resolve
 IP-CIDR,154.192.72.0/21,no-resolve
 IP-CIDR,154.192.80.0/20,no-resolve
 IP-CIDR,154.192.96.0/19,no-resolve
+IP-CIDR,154.198.104.0/22,no-resolve
+IP-CIDR,154.198.108.0/22,no-resolve
+IP-CIDR,154.198.112.0/20,no-resolve
 IP-CIDR,154.198.13.0/24,no-resolve
-IP-CIDR,154.198.64.0/18,no-resolve
+IP-CIDR,154.198.64.0/19,no-resolve
+IP-CIDR,154.198.96.0/21,no-resolve
 IP-CIDR,154.208.32.0/19,no-resolve
 IP-CIDR,154.48.211.0/24,no-resolve
 IP-CIDR,154.57.192.0/21,no-resolve
@@ -645,6 +648,8 @@ IP-CIDR,163.52.118.0/23,no-resolve
 IP-CIDR,163.52.146.0/23,no-resolve
 IP-CIDR,163.52.16.0/23,no-resolve
 IP-CIDR,163.52.185.0/24,no-resolve
+IP-CIDR,163.52.207.0/24,no-resolve
+IP-CIDR,163.52.214.0/24,no-resolve
 IP-CIDR,163.52.26.0/23,no-resolve
 IP-CIDR,163.52.54.0/23,no-resolve
 IP-CIDR,163.52.68.0/23,no-resolve
@@ -818,7 +823,7 @@ IP-CIDR,221.120.192.0/18,no-resolve
 IP-CIDR,221.132.112.0/21,no-resolve
 IP-CIDR,223.123.0.0/17,no-resolve
 IP-CIDR,223.29.224.0/22,no-resolve
-IP-CIDR,223.29.228.0/23,no-resolve
+IP-CIDR,223.29.229.0/24,no-resolve
 IP-CIDR,223.29.232.0/22,no-resolve
 IP-CIDR,27.0.184.0/22,no-resolve
 IP-CIDR,27.54.120.0/22,no-resolve
@@ -896,7 +901,7 @@ IP-CIDR,61.5.128.0/19,no-resolve
 IP-CIDR,64.50.187.0/24,no-resolve
 IP-CIDR,66.102.120.0/23,no-resolve
 IP-CIDR,66.102.123.0/24,no-resolve
-IP-CIDR,66.102.124.0/23,no-resolve
+IP-CIDR,66.102.125.0/24,no-resolve
 IP-CIDR,72.255.0.0/18,no-resolve
 IP-CIDR,78.41.63.0/24,no-resolve
 IP-CIDR,82.152.12.0/24,no-resolve
@@ -1089,6 +1094,8 @@ IP-CIDR6,2001:df7:60c0::/48,no-resolve
 IP-CIDR6,2001:df7:6240::/48,no-resolve
 IP-CIDR6,2001:df7:7340::/48,no-resolve
 IP-CIDR6,2001:df7:7480::/48,no-resolve
+IP-CIDR6,2001:df7:8c40::/48,no-resolve
+IP-CIDR6,2001:df7:8cc0::/48,no-resolve
 IP-CIDR6,2001:df7:a100::/48,no-resolve
 IP-CIDR6,2001:df7:c380::/48,no-resolve
 IP-CIDR6,2001:df7:d380::/48,no-resolve
