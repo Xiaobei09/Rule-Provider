@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: DE
 # 德国（Germany）
-# 数据日期: 2026-09-20
+# 数据日期: 2026-09-21
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 14657 条（IPv4: 10720 / IPv6: 3937）
+# 规则统计: 共 14662 条（IPv4: 10721 / IPv6: 3941）
 # ============================================================
 payload:
   - IP-CIDR,100.42.176.0/20,no-resolve
@@ -7837,6 +7837,7 @@ payload:
   - IP-CIDR,45.145.39.0/24,no-resolve
   - IP-CIDR,45.145.40.0/22,no-resolve
   - IP-CIDR,45.145.8.0/22,no-resolve
+  - IP-CIDR,45.146.107.0/24,no-resolve
   - IP-CIDR,45.146.132.0/22,no-resolve
   - IP-CIDR,45.146.136.0/22,no-resolve
   - IP-CIDR,45.146.16.0/21,no-resolve
@@ -12947,6 +12948,8 @@ payload:
   - IP-CIDR6,2a07:54c1:4701::/48,no-resolve
   - IP-CIDR6,2a07:54c1:4702::/47,no-resolve
   - IP-CIDR6,2a07:54c1:c31a::/48,no-resolve
+  - IP-CIDR6,2a07:54c4:19a1::/48,no-resolve
+  - IP-CIDR6,2a07:54c4:19a2::/48,no-resolve
   - IP-CIDR6,2a07:54c7:2000::/36,no-resolve
   - IP-CIDR6,2a07:56c0::/29,no-resolve
   - IP-CIDR6,2a07:5b40::/29,no-resolve
@@ -13323,10 +13326,12 @@ payload:
   - IP-CIDR6,2a0b:4e07:2b::/48,no-resolve
   - IP-CIDR6,2a0b:4e07:2c03::/48,no-resolve
   - IP-CIDR6,2a0b:4e07:34::/46,no-resolve
+  - IP-CIDR6,2a0b:4e07:48::/46,no-resolve
   - IP-CIDR6,2a0b:4e07:50::/44,no-resolve
   - IP-CIDR6,2a0b:4e07:5fc0::/48,no-resolve
   - IP-CIDR6,2a0b:4e07:5fc4::/48,no-resolve
   - IP-CIDR6,2a0b:4e07:5fc8::/47,no-resolve
+  - IP-CIDR6,2a0b:4e07:6400::/38,no-resolve
   - IP-CIDR6,2a0b:4e07:6800::/38,no-resolve
   - IP-CIDR6,2a0b:4e07:b6::/47,no-resolve
   - IP-CIDR6,2a0b:4e07:e3::/48,no-resolve

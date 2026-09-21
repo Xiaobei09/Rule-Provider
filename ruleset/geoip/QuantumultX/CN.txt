@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: CN
 # 中国（China）
-# 数据日期: 2026-09-20
+# 数据日期: 2026-09-21
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 10157 条（IPv4: 7005 / IPv6: 3152）
+# 规则统计: 共 10157 条（IPv4: 7006 / IPv6: 3151）
 # ============================================================
 ip-cidr, 1.0.1.0/24
 ip-cidr, 1.0.2.0/23
@@ -3124,7 +3124,6 @@ ip-cidr, 155.102.52.0/22
 ip-cidr, 155.102.56.0/21
 ip-cidr, 155.102.64.0/24
 ip-cidr, 155.102.69.0/24
-ip-cidr, 155.102.70.0/24
 ip-cidr, 155.102.72.0/21
 ip-cidr, 155.102.8.0/22
 ip-cidr, 155.102.80.0/24
@@ -3141,7 +3140,6 @@ ip-cidr, 156.107.179.0/24
 ip-cidr, 156.107.181.0/24
 ip-cidr, 156.227.20.0/24
 ip-cidr, 156.231.163.0/24
-ip-cidr, 156.236.12.0/24
 ip-cidr, 156.236.17.0/24
 ip-cidr, 156.237.104.0/23
 ip-cidr, 156.240.112.0/20
@@ -3294,7 +3292,6 @@ ip-cidr, 162.62.245.0/24
 ip-cidr, 162.62.246.0/23
 ip-cidr, 162.62.248.0/23
 ip-cidr, 162.62.250.0/24
-ip-cidr, 162.62.253.0/24
 ip-cidr, 162.62.254.0/24
 ip-cidr, 162.62.42.0/23
 ip-cidr, 162.62.48.0/21
@@ -3361,7 +3358,10 @@ ip-cidr, 163.181.244.0/22
 ip-cidr, 163.181.248.0/21
 ip-cidr, 163.181.25.0/24
 ip-cidr, 163.181.26.0/24
-ip-cidr, 163.181.32.0/20
+ip-cidr, 163.181.32.0/21
+ip-cidr, 163.181.40.0/24
+ip-cidr, 163.181.42.0/23
+ip-cidr, 163.181.44.0/22
 ip-cidr, 163.181.48.0/21
 ip-cidr, 163.181.56.0/24
 ip-cidr, 163.181.58.0/23
@@ -6158,6 +6158,7 @@ ip-cidr, 44.30.15.0/24
 ip-cidr, 44.30.152.0/24
 ip-cidr, 44.30.158.0/24
 ip-cidr, 44.30.164.0/24
+ip-cidr, 44.30.169.0/24
 ip-cidr, 44.30.171.0/24
 ip-cidr, 44.30.190.0/24
 ip-cidr, 44.30.194.0/24
@@ -9459,18 +9460,18 @@ ip6-cidr, 2a06:a005:e50::/44
 ip6-cidr, 2a06:a005:e70::/44
 ip6-cidr, 2a06:de00:de00::/47
 ip6-cidr, 2a06:de00:de04::/48
+ip6-cidr, 2a06:de02:405::/48
 ip6-cidr, 2a06:de02:40c::/48
 ip6-cidr, 2a06:de02:411::/48
 ip6-cidr, 2a06:de02:419::/48
-ip6-cidr, 2a06:de02:42b::/48
 ip6-cidr, 2a06:de02:42d::/48
 ip6-cidr, 2a06:de02:431::/48
 ip6-cidr, 2a06:de02:435::/48
 ip6-cidr, 2a06:de02:43f::/48
 ip6-cidr, 2a06:de02:443::/48
 ip6-cidr, 2a06:de02:44b::/48
-ip6-cidr, 2a06:de02:454::/48
 ip6-cidr, 2a06:de02:459::/48
+ip6-cidr, 2a06:de02:472::/48
 ip6-cidr, 2a06:de02:476::/48
 ip6-cidr, 2a06:de02:47b::/48
 ip6-cidr, 2a06:de02:480::/48
@@ -9478,45 +9479,44 @@ ip6-cidr, 2a06:de02:482::/48
 ip6-cidr, 2a06:de02:489::/48
 ip6-cidr, 2a06:de02:490::/48
 ip6-cidr, 2a06:de02:494::/48
-ip6-cidr, 2a06:de02:497::/48
 ip6-cidr, 2a06:de02:4aa::/48
-ip6-cidr, 2a06:de02:4c1::/48
+ip6-cidr, 2a06:de02:4ae::/48
+ip6-cidr, 2a06:de02:4b7::/48
 ip6-cidr, 2a06:de02:4c7::/48
 ip6-cidr, 2a06:de02:4d7::/48
+ip6-cidr, 2a06:de02:4dc::/48
 ip6-cidr, 2a06:de02:4f5::/48
 ip6-cidr, 2a06:de02:4fd::/48
+ip6-cidr, 2a06:de02:504::/48
 ip6-cidr, 2a06:de02:511::/48
 ip6-cidr, 2a06:de02:51d::/48
 ip6-cidr, 2a06:de02:524::/48
-ip6-cidr, 2a06:de02:532::/48
 ip6-cidr, 2a06:de02:538::/48
 ip6-cidr, 2a06:de02:553::/48
-ip6-cidr, 2a06:de02:554::/48
 ip6-cidr, 2a06:de02:561::/48
 ip6-cidr, 2a06:de02:56a::/48
-ip6-cidr, 2a06:de02:57f::/48
+ip6-cidr, 2a06:de02:57e::/47
 ip6-cidr, 2a06:de02:585::/48
 ip6-cidr, 2a06:de02:587::/48
+ip6-cidr, 2a06:de02:58e::/48
 ip6-cidr, 2a06:de02:592::/48
-ip6-cidr, 2a06:de02:5a7::/48
 ip6-cidr, 2a06:de02:5b4::/48
 ip6-cidr, 2a06:de02:5b7::/48
 ip6-cidr, 2a06:de02:5cf::/48
-ip6-cidr, 2a06:de02:5e0::/48
-ip6-cidr, 2a06:de02:5eb::/48
-ip6-cidr, 2a06:de02:5fb::/48
+ip6-cidr, 2a06:de02:5ea::/47
 ip6-cidr, 2a06:de02:5fc::/48
 ip6-cidr, 2a06:de02:60d::/48
+ip6-cidr, 2a06:de02:619::/48
 ip6-cidr, 2a06:de02:61a::/48
 ip6-cidr, 2a06:de02:622::/48
+ip6-cidr, 2a06:de02:624::/48
 ip6-cidr, 2a06:de02:628::/48
 ip6-cidr, 2a06:de02:62a::/47
 ip6-cidr, 2a06:de02:634::/48
-ip6-cidr, 2a06:de02:63e::/48
 ip6-cidr, 2a06:de02:647::/48
 ip6-cidr, 2a06:de02:648::/48
+ip6-cidr, 2a06:de02:657::/48
 ip6-cidr, 2a06:de02:65d::/48
-ip6-cidr, 2a06:de02:661::/48
 ip6-cidr, 2a06:de02:664::/48
 ip6-cidr, 2a06:de02:66c::/48
 ip6-cidr, 2a06:de02:676::/48
@@ -9526,15 +9526,15 @@ ip6-cidr, 2a06:de02:6a0::/48
 ip6-cidr, 2a06:de02:6c6::/48
 ip6-cidr, 2a06:de02:6cf::/48
 ip6-cidr, 2a06:de02:704::/48
+ip6-cidr, 2a06:de02:70b::/48
 ip6-cidr, 2a06:de02:70d::/48
 ip6-cidr, 2a06:de02:712::/48
 ip6-cidr, 2a06:de02:72c::/48
 ip6-cidr, 2a06:de02:731::/48
-ip6-cidr, 2a06:de02:73e::/48
 ip6-cidr, 2a06:de02:78a::/48
-ip6-cidr, 2a06:de02:790::/48
 ip6-cidr, 2a06:de02:796::/48
 ip6-cidr, 2a06:de02:7a3::/48
+ip6-cidr, 2a06:de02:7ac::/48
 ip6-cidr, 2a06:de02:7af::/48
 ip6-cidr, 2a06:de07:f800::/38
 ip6-cidr, 2a06:e881:6600::/48

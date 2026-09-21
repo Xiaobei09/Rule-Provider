@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: IQ
 # 伊拉克（Iraq）
-# 数据日期: 2026-09-20
+# 数据日期: 2026-09-21
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 628 条（IPv4: 493 / IPv6: 135）
+# 规则统计: 共 629 条（IPv4: 494 / IPv6: 135）
 # ============================================================
 payload:
   - IP-CIDR,103.229.80.0/24,no-resolve
@@ -326,9 +326,10 @@ payload:
   - IP-CIDR,37.238.114.0/23,no-resolve
   - IP-CIDR,37.238.117.0/24,no-resolve
   - IP-CIDR,37.238.118.0/23,no-resolve
-  - IP-CIDR,37.238.120.0/21,no-resolve
-  - IP-CIDR,37.238.128.0/21,no-resolve
-  - IP-CIDR,37.238.136.0/21,no-resolve
+  - IP-CIDR,37.238.120.0/22,no-resolve
+  - IP-CIDR,37.238.124.0/23,no-resolve
+  - IP-CIDR,37.238.126.0/24,no-resolve
+  - IP-CIDR,37.238.128.0/20,no-resolve
   - IP-CIDR,37.238.144.0/21,no-resolve
   - IP-CIDR,37.238.152.0/22,no-resolve
   - IP-CIDR,37.238.156.0/22,no-resolve

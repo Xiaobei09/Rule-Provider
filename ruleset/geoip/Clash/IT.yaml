@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: IT
 # 意大利（Italy）
-# 数据日期: 2026-09-20
+# 数据日期: 2026-09-21
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 5430 条（IPv4: 4145 / IPv6: 1285）
+# 规则统计: 共 5433 条（IPv4: 4147 / IPv6: 1286）
 # ============================================================
 payload:
   - IP-CIDR,101.56.0.0/13,no-resolve
@@ -183,8 +183,8 @@ payload:
   - IP-CIDR,141.98.200.0/22,no-resolve
   - IP-CIDR,142.249.224.0/22,no-resolve
   - IP-CIDR,143.20.112.0/24,no-resolve
+  - IP-CIDR,143.20.154.0/24,no-resolve
   - IP-CIDR,143.20.5.0/24,no-resolve
-  - IP-CIDR,143.20.79.0/24,no-resolve
   - IP-CIDR,143.225.0.0/16,no-resolve
   - IP-CIDR,143.246.160.0/21,no-resolve
   - IP-CIDR,143.246.40.0/24,no-resolve
@@ -2272,6 +2272,7 @@ payload:
   - IP-CIDR,2.32.0.0/12,no-resolve
   - IP-CIDR,2.56.103.0/24,no-resolve
   - IP-CIDR,2.56.128.0/22,no-resolve
+  - IP-CIDR,2.56.2.0/24,no-resolve
   - IP-CIDR,2.56.251.0/24,no-resolve
   - IP-CIDR,2.56.92.0/22,no-resolve
   - IP-CIDR,2.57.32.0/22,no-resolve
@@ -3153,6 +3154,7 @@ payload:
   - IP-CIDR,62.101.0.0/19,no-resolve
   - IP-CIDR,62.101.64.0/18,no-resolve
   - IP-CIDR,62.102.152.0/21,no-resolve
+  - IP-CIDR,62.105.220.0/22,no-resolve
   - IP-CIDR,62.108.224.0/19,no-resolve
   - IP-CIDR,62.110.0.0/16,no-resolve
   - IP-CIDR,62.112.200.0/21,no-resolve
@@ -5061,6 +5063,7 @@ payload:
   - IP-CIDR6,2a0c:b641:d60::/44,no-resolve
   - IP-CIDR6,2a0c:b642:a00::/45,no-resolve
   - IP-CIDR6,2a0c:b642:a08::/47,no-resolve
+  - IP-CIDR6,2a0c:b642:ace::/48,no-resolve
   - IP-CIDR6,2a0c:bb80::/29,no-resolve
   - IP-CIDR6,2a0c:bc40::/29,no-resolve
   - IP-CIDR6,2a0c:bcc0::/29,no-resolve
