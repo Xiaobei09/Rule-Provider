@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: CR
 # 哥斯达黎加（Costa Rica）
-# 数据日期: 2026-09-21
+# 数据日期: 2026-09-23
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 342 条（IPv4: 229 / IPv6: 113）
+# 规则统计: 共 342 条（IPv4: 230 / IPv6: 112）
 # ============================================================
 payload:
   - IP-CIDR,128.201.144.0/22,no-resolve
@@ -139,6 +139,7 @@ payload:
   - IP-CIDR,191.102.56.0/22,no-resolve
   - IP-CIDR,192.100.182.0/24,no-resolve
   - IP-CIDR,192.153.167.0/24,no-resolve
+  - IP-CIDR,193.41.39.0/24,no-resolve
   - IP-CIDR,196.40.0.0/18,no-resolve
   - IP-CIDR,196.40.64.0/19,no-resolve
   - IP-CIDR,198.49.164.0/24,no-resolve
@@ -277,7 +278,6 @@ payload:
   - IP-CIDR6,2803:210::/32,no-resolve
   - IP-CIDR6,2803:21a0::/32,no-resolve
   - IP-CIDR6,2803:22a0::/32,no-resolve
-  - IP-CIDR6,2803:2cc0::/32,no-resolve
   - IP-CIDR6,2803:2ed0::/32,no-resolve
   - IP-CIDR6,2803:3100::/32,no-resolve
   - IP-CIDR6,2803:3200::/32,no-resolve

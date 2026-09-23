@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: VE
 # 委内瑞拉（Venezuela）
-# 数据日期: 2026-09-21
+# 数据日期: 2026-09-23
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 787 条（IPv4: 550 / IPv6: 237）
+# 规则统计: 共 797 条（IPv4: 560 / IPv6: 237）
 # ============================================================
 payload:
   - IP-CIDR,103.83.193.0/24,no-resolve
@@ -272,9 +272,7 @@ payload:
   - IP-CIDR,201.71.2.0/23,no-resolve
   - IP-CIDR,204.199.176.0/24,no-resolve
   - IP-CIDR,206.0.137.0/24,no-resolve
-  - IP-CIDR,206.0.160.0/20,no-resolve
-  - IP-CIDR,206.0.176.0/21,no-resolve
-  - IP-CIDR,206.0.184.0/21,no-resolve
+  - IP-CIDR,206.0.160.0/19,no-resolve
   - IP-CIDR,206.0.224.0/19,no-resolve
   - IP-CIDR,206.1.128.0/17,no-resolve
   - IP-CIDR,206.1.88.0/22,no-resolve
@@ -349,6 +347,7 @@ payload:
   - IP-CIDR,38.191.68.0/22,no-resolve
   - IP-CIDR,38.196.152.0/22,no-resolve
   - IP-CIDR,38.196.159.0/24,no-resolve
+  - IP-CIDR,38.196.208.0/23,no-resolve
   - IP-CIDR,38.196.232.0/23,no-resolve
   - IP-CIDR,38.196.235.0/24,no-resolve
   - IP-CIDR,38.196.240.0/21,no-resolve
@@ -411,8 +410,7 @@ payload:
   - IP-CIDR,38.51.208.0/20,no-resolve
   - IP-CIDR,38.51.236.0/22,no-resolve
   - IP-CIDR,38.51.56.0/22,no-resolve
-  - IP-CIDR,38.52.136.0/22,no-resolve
-  - IP-CIDR,38.52.140.0/22,no-resolve
+  - IP-CIDR,38.52.136.0/21,no-resolve
   - IP-CIDR,38.52.168.0/23,no-resolve
   - IP-CIDR,38.57.105.0/24,no-resolve
   - IP-CIDR,38.58.191.0/24,no-resolve
@@ -426,7 +424,19 @@ payload:
   - IP-CIDR,38.61.224.0/20,no-resolve
   - IP-CIDR,38.61.240.0/21,no-resolve
   - IP-CIDR,38.61.248.0/21,no-resolve
-  - IP-CIDR,38.63.64.0/18,no-resolve
+  - IP-CIDR,38.63.108.0/23,no-resolve
+  - IP-CIDR,38.63.110.0/24,no-resolve
+  - IP-CIDR,38.63.113.0/24,no-resolve
+  - IP-CIDR,38.63.114.0/23,no-resolve
+  - IP-CIDR,38.63.116.0/24,no-resolve
+  - IP-CIDR,38.63.118.0/23,no-resolve
+  - IP-CIDR,38.63.120.0/23,no-resolve
+  - IP-CIDR,38.63.64.0/21,no-resolve
+  - IP-CIDR,38.63.72.0/22,no-resolve
+  - IP-CIDR,38.63.76.0/24,no-resolve
+  - IP-CIDR,38.63.80.0/22,no-resolve
+  - IP-CIDR,38.63.84.0/23,no-resolve
+  - IP-CIDR,38.63.96.0/21,no-resolve
   - IP-CIDR,38.64.172.0/23,no-resolve
   - IP-CIDR,38.65.120.0/22,no-resolve
   - IP-CIDR,38.65.57.0/24,no-resolve

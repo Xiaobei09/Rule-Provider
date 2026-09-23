@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: CH
 # 瑞士（Switzerland）
-# 数据日期: 2026-09-21
+# 数据日期: 2026-09-23
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 4015 条（IPv4: 3099 / IPv6: 916）
+# 规则统计: 共 4016 条（IPv4: 3100 / IPv6: 916）
 # ============================================================
 payload:
   - IP-CIDR,101.2.251.0/24,no-resolve
@@ -15,7 +15,6 @@ payload:
   - IP-CIDR,103.63.31.0/24,no-resolve
   - IP-CIDR,103.69.224.0/24,no-resolve
   - IP-CIDR,104.128.16.0/20,no-resolve
-  - IP-CIDR,104.132.179.0/24,no-resolve
   - IP-CIDR,104.132.214.0/24,no-resolve
   - IP-CIDR,104.132.59.0/24,no-resolve
   - IP-CIDR,104.134.240.0/23,no-resolve
@@ -403,6 +402,7 @@ payload:
   - IP-CIDR,169.32.0.0/14,no-resolve
   - IP-CIDR,169.36.0.0/15,no-resolve
   - IP-CIDR,169.39.0.0/16,no-resolve
+  - IP-CIDR,169.40.104.0/24,no-resolve
   - IP-CIDR,169.41.0.0/16,no-resolve
   - IP-CIDR,169.42.0.0/15,no-resolve
   - IP-CIDR,169.49.0.0/16,no-resolve
@@ -2289,6 +2289,7 @@ payload:
   - IP-CIDR,213.3.0.0/16,no-resolve
   - IP-CIDR,213.5.152.0/21,no-resolve
   - IP-CIDR,213.55.128.0/17,no-resolve
+  - IP-CIDR,216.113.167.0/24,no-resolve
   - IP-CIDR,216.162.198.0/23,no-resolve
   - IP-CIDR,216.181.158.0/23,no-resolve
   - IP-CIDR,216.252.224.0/21,no-resolve

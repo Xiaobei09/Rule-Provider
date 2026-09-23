@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: GE
 # 格鲁吉亚（Georgia）
-# 数据日期: 2026-09-21
+# 数据日期: 2026-09-23
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 593 条（IPv4: 492 / IPv6: 101）
+# 规则统计: 共 598 条（IPv4: 496 / IPv6: 102）
 # ============================================================
 payload:
   - IP-CIDR,103.114.43.0/24,no-resolve
@@ -104,6 +104,7 @@ payload:
   - IP-CIDR,181.215.15.0/24,no-resolve
   - IP-CIDR,185.1.224.0/24,no-resolve
   - IP-CIDR,185.100.76.0/22,no-resolve
+  - IP-CIDR,185.102.115.0/24,no-resolve
   - IP-CIDR,185.102.144.0/22,no-resolve
   - IP-CIDR,185.103.200.0/24,no-resolve
   - IP-CIDR,185.104.192.0/24,no-resolve
@@ -202,6 +203,7 @@ payload:
   - IP-CIDR,193.105.237.0/24,no-resolve
   - IP-CIDR,193.135.137.0/24,no-resolve
   - IP-CIDR,193.138.97.0/24,no-resolve
+  - IP-CIDR,193.148.56.0/23,no-resolve
   - IP-CIDR,193.162.132.0/23,no-resolve
   - IP-CIDR,193.163.170.0/24,no-resolve
   - IP-CIDR,193.176.212.0/22,no-resolve
@@ -314,12 +316,14 @@ payload:
   - IP-CIDR,45.11.188.0/22,no-resolve
   - IP-CIDR,45.12.62.0/23,no-resolve
   - IP-CIDR,45.12.68.0/24,no-resolve
+  - IP-CIDR,45.13.186.0/24,no-resolve
   - IP-CIDR,45.13.40.0/22,no-resolve
   - IP-CIDR,45.131.214.0/24,no-resolve
   - IP-CIDR,45.134.241.0/24,no-resolve
   - IP-CIDR,45.136.52.0/22,no-resolve
   - IP-CIDR,45.137.40.0/24,no-resolve
   - IP-CIDR,45.138.44.0/22,no-resolve
+  - IP-CIDR,45.139.84.0/24,no-resolve
   - IP-CIDR,45.141.217.0/24,no-resolve
   - IP-CIDR,45.143.108.0/22,no-resolve
   - IP-CIDR,45.147.31.0/24,no-resolve
@@ -431,6 +435,7 @@ payload:
   - IP-CIDR,87.253.32.0/19,no-resolve
   - IP-CIDR,88.210.192.0/18,no-resolve
   - IP-CIDR,88.218.112.0/22,no-resolve
+  - IP-CIDR,89.125.11.0/24,no-resolve
   - IP-CIDR,89.125.155.0/24,no-resolve
   - IP-CIDR,89.125.9.0/24,no-resolve
   - IP-CIDR,89.125.97.0/24,no-resolve
@@ -496,8 +501,7 @@ payload:
   - IP-CIDR,94.43.0.0/16,no-resolve
   - IP-CIDR,95.104.0.0/17,no-resolve
   - IP-CIDR,95.137.128.0/17,no-resolve
-  - IP-CIDR,95.85.236.0/23,no-resolve
-  - IP-CIDR,95.85.239.0/24,no-resolve
+  - IP-CIDR,95.85.236.0/22,no-resolve
   - IP-CIDR6,2001:3940::/29,no-resolve
   - IP-CIDR6,2001:3d40::/29,no-resolve
   - IP-CIDR6,2001:67c:2128::/48,no-resolve
@@ -565,6 +569,7 @@ payload:
   - IP-CIDR6,2a0d:d940:9008::/48,no-resolve
   - IP-CIDR6,2a0e:2700::/29,no-resolve
   - IP-CIDR6,2a0e:97c1:8a20::/48,no-resolve
+  - IP-CIDR6,2a0f:1500::/29,no-resolve
   - IP-CIDR6,2a0f:52c0::/29,no-resolve
   - IP-CIDR6,2a0f:7980::/32,no-resolve
   - IP-CIDR6,2a0f:8c0::/32,no-resolve

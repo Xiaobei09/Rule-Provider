@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: HU
 # 匈牙利（Hungary）
-# 数据日期: 2026-09-21
+# 数据日期: 2026-09-23
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 920 条（IPv4: 727 / IPv6: 193）
+# 规则统计: 共 921 条（IPv4: 727 / IPv6: 194）
 # ============================================================
 payload:
   - IP-CIDR,109.105.0.0/19,no-resolve
@@ -906,6 +906,7 @@ payload:
   - IP-CIDR6,2a10:c800::/29,no-resolve
   - IP-CIDR6,2a10:cc0::/29,no-resolve
   - IP-CIDR6,2a10:ecc0::/29,no-resolve
+  - IP-CIDR6,2a10:fa81:2200::/40,no-resolve
   - IP-CIDR6,2a11:440::/32,no-resolve
   - IP-CIDR6,2a11:540::/30,no-resolve
   - IP-CIDR6,2a12:86c0::/29,no-resolve

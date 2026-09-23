@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: KZ
 # 哈萨克斯坦（Kazakhstan）
-# 数据日期: 2026-09-21
+# 数据日期: 2026-09-23
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1111 条（IPv4: 1001 / IPv6: 110）
+# 规则统计: 共 1112 条（IPv4: 1002 / IPv6: 110）
 # ============================================================
 payload:
   - IP-CIDR,103.116.196.0/22,no-resolve
@@ -474,10 +474,10 @@ payload:
   - IP-CIDR,2.27.130.0/23,no-resolve
   - IP-CIDR,2.57.96.0/22,no-resolve
   - IP-CIDR,2.72.0.0/13,no-resolve
+  - IP-CIDR,201.34.144.0/23,no-resolve
+  - IP-CIDR,201.34.146.0/24,no-resolve
   - IP-CIDR,201.51.10.0/24,no-resolve
-  - IP-CIDR,201.51.16.0/24,no-resolve
-  - IP-CIDR,201.51.18.0/23,no-resolve
-  - IP-CIDR,201.51.20.0/22,no-resolve
+  - IP-CIDR,201.51.16.0/21,no-resolve
   - IP-CIDR,201.51.24.0/22,no-resolve
   - IP-CIDR,204.52.107.0/24,no-resolve
   - IP-CIDR,206.210.32.0/19,no-resolve
@@ -777,7 +777,7 @@ payload:
   - IP-CIDR,82.38.92.0/24,no-resolve
   - IP-CIDR,82.97.246.0/24,no-resolve
   - IP-CIDR,83.136.220.0/24,no-resolve
-  - IP-CIDR,83.217.194.0/24,no-resolve
+  - IP-CIDR,83.217.194.0/23,no-resolve
   - IP-CIDR,83.217.222.0/24,no-resolve
   - IP-CIDR,83.222.22.0/23,no-resolve
   - IP-CIDR,83.97.77.0/24,no-resolve
@@ -915,6 +915,7 @@ payload:
   - IP-CIDR,91.234.208.0/23,no-resolve
   - IP-CIDR,91.235.176.0/22,no-resolve
   - IP-CIDR,91.237.162.0/24,no-resolve
+  - IP-CIDR,91.237.164.0/22,no-resolve
   - IP-CIDR,91.239.101.0/24,no-resolve
   - IP-CIDR,91.240.254.0/24,no-resolve
   - IP-CIDR,91.240.8.0/22,no-resolve
