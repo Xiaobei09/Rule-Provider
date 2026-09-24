@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: ES
 # 西班牙（Spain）
-# 数据日期: 2026-09-23
+# 数据日期: 2026-09-24
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 5264 条（IPv4: 4035 / IPv6: 1229）
+# 规则统计: 共 5266 条（IPv4: 4037 / IPv6: 1229）
 # ============================================================
 payload:
   - IP-CIDR,1.178.224.0/19,no-resolve
@@ -2266,7 +2266,7 @@ payload:
   - IP-CIDR,2.152.56.0/23,no-resolve
   - IP-CIDR,2.152.75.0/24,no-resolve
   - IP-CIDR,2.152.77.0/24,no-resolve
-  - IP-CIDR,2.152.80.0/21,no-resolve
+  - IP-CIDR,2.152.84.0/22,no-resolve
   - IP-CIDR,2.152.89.0/24,no-resolve
   - IP-CIDR,2.152.90.0/23,no-resolve
   - IP-CIDR,2.152.96.0/19,no-resolve
@@ -3299,9 +3299,11 @@ payload:
   - IP-CIDR,85.137.180.0/23,no-resolve
   - IP-CIDR,85.137.82.0/23,no-resolve
   - IP-CIDR,85.152.0.0/16,no-resolve
-  - IP-CIDR,85.155.0.0/20,no-resolve
+  - IP-CIDR,85.155.0.0/21,no-resolve
+  - IP-CIDR,85.155.12.0/23,no-resolve
   - IP-CIDR,85.155.208.0/20,no-resolve
   - IP-CIDR,85.155.252.0/22,no-resolve
+  - IP-CIDR,85.155.8.0/22,no-resolve
   - IP-CIDR,85.158.168.0/21,no-resolve
   - IP-CIDR,85.184.224.0/22,no-resolve
   - IP-CIDR,85.187.52.0/22,no-resolve
@@ -3801,8 +3803,9 @@ payload:
   - IP-CIDR,92.177.88.0/21,no-resolve
   - IP-CIDR,92.177.96.0/19,no-resolve
   - IP-CIDR,92.178.0.0/20,no-resolve
-  - IP-CIDR,92.178.128.0/17,no-resolve
+  - IP-CIDR,92.178.128.0/18,no-resolve
   - IP-CIDR,92.178.16.0/20,no-resolve
+  - IP-CIDR,92.178.192.0/18,no-resolve
   - IP-CIDR,92.178.32.0/20,no-resolve
   - IP-CIDR,92.178.48.0/20,no-resolve
   - IP-CIDR,92.178.64.0/21,no-resolve
@@ -3893,12 +3896,11 @@ payload:
   - IP-CIDR,92.190.88.0/21,no-resolve
   - IP-CIDR,92.190.96.0/19,no-resolve
   - IP-CIDR,92.191.0.0/18,no-resolve
-  - IP-CIDR,92.191.112.0/20,no-resolve
   - IP-CIDR,92.191.128.0/18,no-resolve
   - IP-CIDR,92.191.192.0/19,no-resolve
   - IP-CIDR,92.191.224.0/19,no-resolve
   - IP-CIDR,92.191.64.0/19,no-resolve
-  - IP-CIDR,92.191.96.0/20,no-resolve
+  - IP-CIDR,92.191.96.0/19,no-resolve
   - IP-CIDR,92.246.64.0/22,no-resolve
   - IP-CIDR,92.246.80.0/22,no-resolve
   - IP-CIDR,92.249.8.0/22,no-resolve
