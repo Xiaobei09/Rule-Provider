@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: RS
 # 塞尔维亚（Serbia）
-# 数据日期: 2026-09-24
+# 数据日期: 2026-09-25
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 649 条（IPv4: 515 / IPv6: 134）
+# 规则统计: 共 652 条（IPv4: 518 / IPv6: 134）
 # ============================================================
 payload:
   - IP-CIDR,100.43.64.0/19,no-resolve
@@ -61,6 +61,7 @@ payload:
   - IP-CIDR,176.67.192.0/19,no-resolve
   - IP-CIDR,176.98.179.0/24,no-resolve
   - IP-CIDR,176.98.183.0/24,no-resolve
+  - IP-CIDR,176.98.184.0/24,no-resolve
   - IP-CIDR,176.98.191.0/24,no-resolve
   - IP-CIDR,178.148.0.0/15,no-resolve
   - IP-CIDR,178.154.128.0/18,no-resolve
@@ -336,7 +337,9 @@ payload:
   - IP-CIDR,5.183.24.0/22,no-resolve
   - IP-CIDR,5.22.160.0/19,no-resolve
   - IP-CIDR,5.252.236.0/22,no-resolve
-  - IP-CIDR,5.255.192.0/21,no-resolve
+  - IP-CIDR,5.255.192.0/22,no-resolve
+  - IP-CIDR,5.255.196.0/24,no-resolve
+  - IP-CIDR,5.255.198.0/23,no-resolve
   - IP-CIDR,5.255.200.0/22,no-resolve
   - IP-CIDR,5.255.204.0/24,no-resolve
   - IP-CIDR,5.255.206.0/23,no-resolve
@@ -402,7 +405,6 @@ payload:
   - IP-CIDR,81.24.240.0/21,no-resolve
   - IP-CIDR,82.117.192.0/19,no-resolve
   - IP-CIDR,82.208.192.0/18,no-resolve
-  - IP-CIDR,82.41.19.0/24,no-resolve
   - IP-CIDR,83.229.16.0/24,no-resolve
   - IP-CIDR,84.252.176.0/20,no-resolve
   - IP-CIDR,85.137.24.0/24,no-resolve
@@ -440,6 +442,7 @@ payload:
   - IP-CIDR,91.185.223.0/24,no-resolve
   - IP-CIDR,91.185.96.0/19,no-resolve
   - IP-CIDR,91.187.128.0/19,no-resolve
+  - IP-CIDR,91.189.83.0/24,no-resolve
   - IP-CIDR,91.193.75.0/24,no-resolve
   - IP-CIDR,91.194.216.0/23,no-resolve
   - IP-CIDR,91.194.82.0/23,no-resolve

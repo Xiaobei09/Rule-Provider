@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: CA
 # 加拿大（Canada）
-# 数据日期: 2026-09-24
+# 数据日期: 2026-09-25
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 9506 条（IPv4: 8046 / IPv6: 1460）
+# 规则统计: 共 9507 条（IPv4: 8046 / IPv6: 1461）
 # ============================================================
 payload:
   - IP-CIDR,100.42.240.0/20,no-resolve
@@ -9405,6 +9405,7 @@ payload:
   - IP-CIDR6,2a0f:1cc5:2f13::/48,no-resolve
   - IP-CIDR6,2a0f:1cc5:ffff::/48,no-resolve
   - IP-CIDR6,2a0f:1e80:100::/48,no-resolve
+  - IP-CIDR6,2a0f:31c5::/32,no-resolve
   - IP-CIDR6,2a0f:3d80:acab::/48,no-resolve
   - IP-CIDR6,2a0f:3d86:101::/48,no-resolve
   - IP-CIDR6,2a0f:7803:f850::/47,no-resolve

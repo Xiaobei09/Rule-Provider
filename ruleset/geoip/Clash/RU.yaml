@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: RU
 # 俄罗斯（Russia）
-# 数据日期: 2026-09-24
+# 数据日期: 2026-09-25
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 13030 条（IPv4: 10645 / IPv6: 2385）
+# 规则统计: 共 13031 条（IPv4: 10646 / IPv6: 2385）
 # ============================================================
 payload:
   - IP-CIDR,103.101.85.0/24,no-resolve
@@ -324,6 +324,7 @@ payload:
   - IP-CIDR,128.72.0.0/14,no-resolve
   - IP-CIDR,129.101.101.0/24,no-resolve
   - IP-CIDR,129.101.64.0/19,no-resolve
+  - IP-CIDR,129.101.96.0/24,no-resolve
   - IP-CIDR,13.143.170.0/24,no-resolve
   - IP-CIDR,13.143.206.0/24,no-resolve
   - IP-CIDR,13.143.232.0/24,no-resolve
@@ -473,8 +474,7 @@ payload:
   - IP-CIDR,141.101.212.0/22,no-resolve
   - IP-CIDR,141.101.220.0/24,no-resolve
   - IP-CIDR,141.101.222.0/23,no-resolve
-  - IP-CIDR,141.101.225.0/24,no-resolve
-  - IP-CIDR,141.101.226.0/23,no-resolve
+  - IP-CIDR,141.101.224.0/22,no-resolve
   - IP-CIDR,141.101.228.0/23,no-resolve
   - IP-CIDR,141.101.231.0/24,no-resolve
   - IP-CIDR,141.101.232.0/23,no-resolve
@@ -2684,6 +2684,7 @@ payload:
   - IP-CIDR,185.86.13.0/24,no-resolve
   - IP-CIDR,185.86.132.0/22,no-resolve
   - IP-CIDR,185.86.144.0/22,no-resolve
+  - IP-CIDR,185.86.4.0/24,no-resolve
   - IP-CIDR,185.86.92.0/24,no-resolve
   - IP-CIDR,185.87.192.0/21,no-resolve
   - IP-CIDR,185.88.124.0/22,no-resolve
@@ -3261,6 +3262,7 @@ payload:
   - IP-CIDR,193.16.232.0/24,no-resolve
   - IP-CIDR,193.16.40.0/23,no-resolve
   - IP-CIDR,193.160.12.0/23,no-resolve
+  - IP-CIDR,193.160.140.0/22,no-resolve
   - IP-CIDR,193.160.158.0/24,no-resolve
   - IP-CIDR,193.160.204.0/23,no-resolve
   - IP-CIDR,193.160.208.0/22,no-resolve
@@ -3446,6 +3448,7 @@ payload:
   - IP-CIDR,193.222.58.0/24,no-resolve
   - IP-CIDR,193.222.62.0/24,no-resolve
   - IP-CIDR,193.223.103.0/24,no-resolve
+  - IP-CIDR,193.223.104.0/23,no-resolve
   - IP-CIDR,193.223.108.0/24,no-resolve
   - IP-CIDR,193.223.68.0/23,no-resolve
   - IP-CIDR,193.227.134.0/24,no-resolve
@@ -6648,9 +6651,7 @@ payload:
   - IP-CIDR,46.243.164.0/22,no-resolve
   - IP-CIDR,46.243.168.0/22,no-resolve
   - IP-CIDR,46.243.172.0/22,no-resolve
-  - IP-CIDR,46.243.177.0/24,no-resolve
-  - IP-CIDR,46.243.178.0/23,no-resolve
-  - IP-CIDR,46.243.180.0/22,no-resolve
+  - IP-CIDR,46.243.176.0/21,no-resolve
   - IP-CIDR,46.243.184.0/22,no-resolve
   - IP-CIDR,46.243.2.0/24,no-resolve
   - IP-CIDR,46.243.201.0/24,no-resolve
