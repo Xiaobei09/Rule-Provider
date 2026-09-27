@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: IQ
 # 伊拉克（Iraq）
-# 数据日期: 2026-09-25
+# 数据日期: 2026-09-27
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 630 条（IPv4: 495 / IPv6: 135）
+# 规则统计: 共 629 条（IPv4: 494 / IPv6: 135）
 # ============================================================
 payload:
   - IP-CIDR,103.229.80.0/24,no-resolve
@@ -159,7 +159,7 @@ payload:
   - IP-CIDR,185.56.192.0/22,no-resolve
   - IP-CIDR,185.58.12.0/22,no-resolve
   - IP-CIDR,185.65.252.0/22,no-resolve
-  - IP-CIDR,185.65.62.0/24,no-resolve
+  - IP-CIDR,185.65.62.0/23,no-resolve
   - IP-CIDR,185.69.4.0/22,no-resolve
   - IP-CIDR,185.72.252.0/22,no-resolve
   - IP-CIDR,185.75.224.0/22,no-resolve
@@ -248,7 +248,6 @@ payload:
   - IP-CIDR,37.205.112.0/21,no-resolve
   - IP-CIDR,37.236.0.0/21,no-resolve
   - IP-CIDR,37.236.10.0/23,no-resolve
-  - IP-CIDR,37.236.104.0/21,no-resolve
   - IP-CIDR,37.236.12.0/22,no-resolve
   - IP-CIDR,37.236.120.0/21,no-resolve
   - IP-CIDR,37.236.128.0/21,no-resolve
@@ -281,7 +280,7 @@ payload:
   - IP-CIDR,37.236.84.0/22,no-resolve
   - IP-CIDR,37.236.88.0/21,no-resolve
   - IP-CIDR,37.236.9.0/24,no-resolve
-  - IP-CIDR,37.236.96.0/21,no-resolve
+  - IP-CIDR,37.236.96.0/20,no-resolve
   - IP-CIDR,37.237.100.0/22,no-resolve
   - IP-CIDR,37.237.104.0/24,no-resolve
   - IP-CIDR,37.237.106.0/23,no-resolve
@@ -454,7 +453,7 @@ payload:
   - IP-CIDR,79.132.196.0/22,no-resolve
   - IP-CIDR,80.173.228.0/23,no-resolve
   - IP-CIDR,80.76.50.0/24,no-resolve
-  - IP-CIDR,81.161.228.0/24,no-resolve
+  - IP-CIDR,81.161.228.0/23,no-resolve
   - IP-CIDR,81.22.32.0/22,no-resolve
   - IP-CIDR,81.90.16.0/20,no-resolve
   - IP-CIDR,82.129.16.0/21,no-resolve

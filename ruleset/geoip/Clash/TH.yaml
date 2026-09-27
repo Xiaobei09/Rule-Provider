@@ -1,7 +1,7 @@
 # ============================================================
 # Rule-Provider: TH
 # 泰国（Thailand）
-# 数据日期: 2026-09-25
+# 数据日期: 2026-09-27
 # 数据来源: APNIC + IPtoASN
 # 规则统计: 共 1227 条（IPv4: 977 / IPv6: 250）
 # ============================================================
@@ -279,6 +279,7 @@ payload:
   - IP-CIDR,104.76.196.0/24,no-resolve
   - IP-CIDR,106.0.128.0/17,no-resolve
   - IP-CIDR,109.122.24.0/24,no-resolve
+  - IP-CIDR,109.172.80.0/24,no-resolve
   - IP-CIDR,110.164.0.0/16,no-resolve
   - IP-CIDR,110.168.0.0/14,no-resolve
   - IP-CIDR,110.34.128.0/17,no-resolve
@@ -410,7 +411,6 @@ payload:
   - IP-CIDR,151.244.255.0/24,no-resolve
   - IP-CIDR,151.246.242.0/24,no-resolve
   - IP-CIDR,151.249.88.0/23,no-resolve
-  - IP-CIDR,153.76.232.0/21,no-resolve
   - IP-CIDR,154.16.156.0/24,no-resolve
   - IP-CIDR,154.16.66.0/24,no-resolve
   - IP-CIDR,154.197.102.0/24,no-resolve
@@ -781,7 +781,6 @@ payload:
   - IP-CIDR,223.27.192.0/18,no-resolve
   - IP-CIDR,23.138.44.0/24,no-resolve
   - IP-CIDR,23.139.100.0/24,no-resolve
-  - IP-CIDR,23.139.68.0/24,no-resolve
   - IP-CIDR,23.139.84.0/24,no-resolve
   - IP-CIDR,23.139.92.0/24,no-resolve
   - IP-CIDR,23.140.40.0/24,no-resolve
@@ -798,6 +797,7 @@ payload:
   - IP-CIDR,23.159.100.0/24,no-resolve
   - IP-CIDR,23.159.164.0/24,no-resolve
   - IP-CIDR,23.162.28.0/24,no-resolve
+  - IP-CIDR,23.164.116.0/24,no-resolve
   - IP-CIDR,23.177.168.0/24,no-resolve
   - IP-CIDR,23.177.200.0/24,no-resolve
   - IP-CIDR,23.178.56.0/24,no-resolve
@@ -1192,6 +1192,7 @@ payload:
   - IP-CIDR6,2407:ed00::/32,no-resolve
   - IP-CIDR6,2600:1417:2c00::/48,no-resolve
   - IP-CIDR6,2600:1417:5f::/48,no-resolve
+  - IP-CIDR6,2602:f2e4::/40,no-resolve
   - IP-CIDR6,2602:f2e6::/40,no-resolve
   - IP-CIDR6,2602:f333::/40,no-resolve
   - IP-CIDR6,2602:f397::/40,no-resolve
@@ -1206,7 +1207,6 @@ payload:
   - IP-CIDR6,2602:f42c::/40,no-resolve
   - IP-CIDR6,2602:f5f3::/40,no-resolve
   - IP-CIDR6,2602:f63b::/40,no-resolve
-  - IP-CIDR6,2602:f63c::/40,no-resolve
   - IP-CIDR6,2602:f671::/40,no-resolve
   - IP-CIDR6,2602:f72e:3f::/48,no-resolve
   - IP-CIDR6,2602:f8b7::/40,no-resolve

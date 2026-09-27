@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: IE
 # 爱尔兰（Ireland）
-# 数据日期: 2026-09-25
+# 数据日期: 2026-09-27
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1410 条（IPv4: 1086 / IPv6: 324）
+# 规则统计: 共 1412 条（IPv4: 1087 / IPv6: 325）
 # ============================================================
 payload:
   - IP-CIDR,104.206.18.0/24,no-resolve
@@ -689,6 +689,7 @@ payload:
   - IP-CIDR,45.137.184.0/22,no-resolve
   - IP-CIDR,45.139.240.0/22,no-resolve
   - IP-CIDR,45.139.254.0/23,no-resolve
+  - IP-CIDR,45.140.144.0/24,no-resolve
   - IP-CIDR,45.144.8.0/22,no-resolve
   - IP-CIDR,45.146.184.0/23,no-resolve
   - IP-CIDR,45.148.0.0/22,no-resolve
@@ -1376,6 +1377,7 @@ payload:
   - IP-CIDR6,2a0e:97c0:a22::/48,no-resolve
   - IP-CIDR6,2a0e:a800::/29,no-resolve
   - IP-CIDR6,2a0f:1080::/29,no-resolve
+  - IP-CIDR6,2a0f:3400:500::/48,no-resolve
   - IP-CIDR6,2a0f:4400::/29,no-resolve
   - IP-CIDR6,2a0f:4dc0::/29,no-resolve
   - IP-CIDR6,2a0f:6380::/29,no-resolve

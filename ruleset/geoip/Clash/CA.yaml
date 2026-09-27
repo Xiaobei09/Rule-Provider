@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: CA
 # 加拿大（Canada）
-# 数据日期: 2026-09-25
+# 数据日期: 2026-09-27
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 9507 条（IPv4: 8046 / IPv6: 1461）
+# 规则统计: 共 9507 条（IPv4: 8045 / IPv6: 1462）
 # ============================================================
 payload:
   - IP-CIDR,100.42.240.0/20,no-resolve
@@ -752,10 +752,9 @@ payload:
   - IP-CIDR,142.228.153.0/24,no-resolve
   - IP-CIDR,142.228.170.0/23,no-resolve
   - IP-CIDR,142.228.180.0/23,no-resolve
-  - IP-CIDR,142.228.24.0/22,no-resolve
+  - IP-CIDR,142.228.24.0/23,no-resolve
   - IP-CIDR,142.228.28.0/23,no-resolve
   - IP-CIDR,142.228.31.0/24,no-resolve
-  - IP-CIDR,142.228.32.0/23,no-resolve
   - IP-CIDR,142.228.35.0/24,no-resolve
   - IP-CIDR,142.228.44.0/24,no-resolve
   - IP-CIDR,142.228.46.0/23,no-resolve
@@ -984,7 +983,6 @@ payload:
   - IP-CIDR,149.248.80.0/20,no-resolve
   - IP-CIDR,149.248.96.0/19,no-resolve
   - IP-CIDR,149.5.244.0/22,no-resolve
-  - IP-CIDR,149.5.5.0/24,no-resolve
   - IP-CIDR,149.56.0.0/16,no-resolve
   - IP-CIDR,149.99.0.0/16,no-resolve
   - IP-CIDR,15.195.0.0/16,no-resolve
@@ -7998,6 +7996,7 @@ payload:
   - IP-CIDR,96.125.192.0/19,no-resolve
   - IP-CIDR,96.125.240.0/20,no-resolve
   - IP-CIDR,96.126.164.0/22,no-resolve
+  - IP-CIDR,96.126.177.0/24,no-resolve
   - IP-CIDR,96.126.70.0/24,no-resolve
   - IP-CIDR,96.127.192.0/18,no-resolve
   - IP-CIDR,96.20.0.0/14,no-resolve
@@ -8184,6 +8183,7 @@ payload:
   - IP-CIDR6,2602:81d::/44,no-resolve
   - IP-CIDR6,2602:81d:b000::/44,no-resolve
   - IP-CIDR6,2602:81e:1000::/44,no-resolve
+  - IP-CIDR6,2602:f2d8::/36,no-resolve
   - IP-CIDR6,2602:f2de::/40,no-resolve
   - IP-CIDR6,2602:f2e3::/40,no-resolve
   - IP-CIDR6,2602:f2ee::/36,no-resolve
