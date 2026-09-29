@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: GE
 # 格鲁吉亚（Georgia）
-# 数据日期: 2026-09-27
+# 数据日期: 2026-09-29
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 618 条（IPv4: 516 / IPv6: 102）
+# 规则统计: 共 620 条（IPv4: 518 / IPv6: 102）
 # ============================================================
 payload:
   - IP-CIDR,103.114.43.0/24,no-resolve
@@ -110,6 +110,7 @@ payload:
   - IP-CIDR,179.254.105.0/24,no-resolve
   - IP-CIDR,179.254.114.0/24,no-resolve
   - IP-CIDR,179.254.80.0/24,no-resolve
+  - IP-CIDR,179.254.97.0/24,no-resolve
   - IP-CIDR,179.61.254.0/24,no-resolve
   - IP-CIDR,181.215.110.0/24,no-resolve
   - IP-CIDR,181.215.15.0/24,no-resolve
@@ -247,6 +248,7 @@ payload:
   - IP-CIDR,194.48.200.0/24,no-resolve
   - IP-CIDR,194.50.153.0/24,no-resolve
   - IP-CIDR,194.58.43.0/24,no-resolve
+  - IP-CIDR,194.58.58.0/24,no-resolve
   - IP-CIDR,194.60.250.0/24,no-resolve
   - IP-CIDR,194.76.184.0/24,no-resolve
   - IP-CIDR,194.87.59.0/24,no-resolve
@@ -259,6 +261,7 @@ payload:
   - IP-CIDR,195.80.233.0/24,no-resolve
   - IP-CIDR,195.96.130.0/23,no-resolve
   - IP-CIDR,2.26.162.0/23,no-resolve
+  - IP-CIDR,2.26.171.0/24,no-resolve
   - IP-CIDR,2.26.24.0/22,no-resolve
   - IP-CIDR,2.26.76.0/23,no-resolve
   - IP-CIDR,2.27.175.0/24,no-resolve
@@ -327,7 +330,7 @@ payload:
   - IP-CIDR,38.188.56.0/23,no-resolve
   - IP-CIDR,45.11.188.0/22,no-resolve
   - IP-CIDR,45.118.250.0/24,no-resolve
-  - IP-CIDR,45.12.62.0/23,no-resolve
+  - IP-CIDR,45.12.62.0/24,no-resolve
   - IP-CIDR,45.12.68.0/24,no-resolve
   - IP-CIDR,45.13.186.0/24,no-resolve
   - IP-CIDR,45.13.40.0/22,no-resolve
@@ -342,7 +345,6 @@ payload:
   - IP-CIDR,45.141.217.0/24,no-resolve
   - IP-CIDR,45.143.108.0/22,no-resolve
   - IP-CIDR,45.146.89.0/24,no-resolve
-  - IP-CIDR,45.147.31.0/24,no-resolve
   - IP-CIDR,45.151.104.0/24,no-resolve
   - IP-CIDR,45.151.106.0/24,no-resolve
   - IP-CIDR,45.153.219.0/24,no-resolve

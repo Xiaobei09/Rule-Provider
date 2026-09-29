@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: CY
 # 塞浦路斯（Cyprus）
-# 数据日期: 2026-09-27
+# 数据日期: 2026-09-29
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 2715 条（IPv4: 2300 / IPv6: 415）
+# 规则统计: 共 2718 条（IPv4: 2303 / IPv6: 415）
 # ============================================================
 payload:
   - IP-CIDR,103.110.124.0/23,no-resolve
@@ -179,6 +179,7 @@ payload:
   - IP-CIDR,136.176.177.0/24,no-resolve
   - IP-CIDR,136.176.185.0/24,no-resolve
   - IP-CIDR,136.176.193.0/24,no-resolve
+  - IP-CIDR,136.176.216.0/24,no-resolve
   - IP-CIDR,136.176.233.0/24,no-resolve
   - IP-CIDR,136.176.241.0/24,no-resolve
   - IP-CIDR,136.176.249.0/24,no-resolve
@@ -428,10 +429,8 @@ payload:
   - IP-CIDR,153.80.138.0/24,no-resolve
   - IP-CIDR,153.80.14.0/23,no-resolve
   - IP-CIDR,153.80.146.0/23,no-resolve
-  - IP-CIDR,153.80.148.0/24,no-resolve
   - IP-CIDR,153.80.151.0/24,no-resolve
   - IP-CIDR,153.80.152.0/23,no-resolve
-  - IP-CIDR,153.80.154.0/24,no-resolve
   - IP-CIDR,153.80.16.0/24,no-resolve
   - IP-CIDR,153.80.161.0/24,no-resolve
   - IP-CIDR,153.80.162.0/24,no-resolve
@@ -1996,9 +1995,16 @@ payload:
   - IP-CIDR,78.140.180.0/24,no-resolve
   - IP-CIDR,78.142.242.0/24,no-resolve
   - IP-CIDR,78.158.128.0/19,no-resolve
+  - IP-CIDR,78.17.119.0/24,no-resolve
+  - IP-CIDR,78.17.157.0/24,no-resolve
+  - IP-CIDR,78.17.163.0/24,no-resolve
+  - IP-CIDR,78.17.169.0/24,no-resolve
+  - IP-CIDR,78.17.172.0/24,no-resolve
+  - IP-CIDR,78.17.183.0/24,no-resolve
   - IP-CIDR,78.17.218.0/23,no-resolve
   - IP-CIDR,78.17.238.0/23,no-resolve
   - IP-CIDR,78.17.248.0/22,no-resolve
+  - IP-CIDR,78.17.82.0/23,no-resolve
   - IP-CIDR,78.40.140.0/24,no-resolve
   - IP-CIDR,79.176.10.0/24,no-resolve
   - IP-CIDR,79.176.79.0/24,no-resolve
@@ -2051,7 +2057,6 @@ payload:
   - IP-CIDR,83.136.219.0/24,no-resolve
   - IP-CIDR,83.168.0.0/18,no-resolve
   - IP-CIDR,83.245.28.0/22,no-resolve
-  - IP-CIDR,84.232.39.0/24,no-resolve
   - IP-CIDR,84.238.132.0/23,no-resolve
   - IP-CIDR,84.246.111.0/24,no-resolve
   - IP-CIDR,84.252.71.0/24,no-resolve
@@ -2077,8 +2082,6 @@ payload:
   - IP-CIDR,85.237.194.0/24,no-resolve
   - IP-CIDR,85.237.212.0/24,no-resolve
   - IP-CIDR,85.248.249.0/24,no-resolve
-  - IP-CIDR,85.28.61.0/24,no-resolve
-  - IP-CIDR,85.28.63.0/24,no-resolve
   - IP-CIDR,85.31.224.0/20,no-resolve
   - IP-CIDR,85.31.60.0/22,no-resolve
   - IP-CIDR,85.8.130.0/24,no-resolve

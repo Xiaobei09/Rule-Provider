@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: MX
 # 墨西哥（Mexico）
-# 数据日期: 2026-09-27
+# 数据日期: 2026-09-29
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1489 条（IPv4: 1246 / IPv6: 243）
+# 规则统计: 共 1490 条（IPv4: 1247 / IPv6: 243）
 # ============================================================
 payload:
   - IP-CIDR,103.137.192.0/24,no-resolve
@@ -796,6 +796,7 @@ payload:
   - IP-CIDR,204.126.12.0/23,no-resolve
   - IP-CIDR,204.126.140.0/23,no-resolve
   - IP-CIDR,204.145.201.0/24,no-resolve
+  - IP-CIDR,204.153.206.0/23,no-resolve
   - IP-CIDR,204.153.24.0/23,no-resolve
   - IP-CIDR,204.157.104.0/22,no-resolve
   - IP-CIDR,204.157.135.0/24,no-resolve
@@ -913,7 +914,6 @@ payload:
   - IP-CIDR,38.19.33.0/24,no-resolve
   - IP-CIDR,38.19.34.0/23,no-resolve
   - IP-CIDR,38.19.36.0/23,no-resolve
-  - IP-CIDR,38.19.39.0/24,no-resolve
   - IP-CIDR,38.19.44.0/24,no-resolve
   - IP-CIDR,38.19.60.0/22,no-resolve
   - IP-CIDR,38.19.92.0/23,no-resolve
@@ -950,7 +950,6 @@ payload:
   - IP-CIDR,38.210.252.0/23,no-resolve
   - IP-CIDR,38.210.66.0/23,no-resolve
   - IP-CIDR,38.210.68.0/22,no-resolve
-  - IP-CIDR,38.211.100.0/24,no-resolve
   - IP-CIDR,38.211.115.0/24,no-resolve
   - IP-CIDR,38.211.136.0/23,no-resolve
   - IP-CIDR,38.211.148.0/22,no-resolve
@@ -982,6 +981,7 @@ payload:
   - IP-CIDR,38.224.251.0/24,no-resolve
   - IP-CIDR,38.224.27.0/24,no-resolve
   - IP-CIDR,38.224.96.0/23,no-resolve
+  - IP-CIDR,38.225.109.0/24,no-resolve
   - IP-CIDR,38.225.237.0/24,no-resolve
   - IP-CIDR,38.225.44.0/22,no-resolve
   - IP-CIDR,38.225.64.0/23,no-resolve
@@ -1239,6 +1239,7 @@ payload:
   - IP-CIDR,82.152.133.0/24,no-resolve
   - IP-CIDR,82.152.138.0/23,no-resolve
   - IP-CIDR,82.153.2.0/23,no-resolve
+  - IP-CIDR,82.47.138.0/24,no-resolve
   - IP-CIDR,85.92.126.0/23,no-resolve
   - IP-CIDR,89.213.106.0/24,no-resolve
   - IP-CIDR,89.34.76.0/24,no-resolve
@@ -1483,10 +1484,10 @@ payload:
   - IP-CIDR6,2806:470::/29,no-resolve
   - IP-CIDR6,2806:478::/31,no-resolve
   - IP-CIDR6,2806:47b::/32,no-resolve
-  - IP-CIDR6,2806:47c::/31,no-resolve
-  - IP-CIDR6,2806:47e::/32,no-resolve
+  - IP-CIDR6,2806:47c::/30,no-resolve
   - IP-CIDR6,2806:480::/32,no-resolve
   - IP-CIDR6,2806:482::/32,no-resolve
+  - IP-CIDR6,2806:485::/32,no-resolve
   - IP-CIDR6,2806::/28,no-resolve
   - IP-CIDR6,2a0f:15c1::/32,no-resolve
   - IP-CIDR6,2a0f:85c1:c17::/48,no-resolve

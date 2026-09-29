@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: TR
 # 土耳其（Turkey）
-# 数据日期: 2026-09-27
+# 数据日期: 2026-09-29
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 3163 条（IPv4: 2294 / IPv6: 869）
+# 规则统计: 共 3167 条（IPv4: 2294 / IPv6: 873）
 # ============================================================
 payload:
   - IP-CIDR,102.135.106.0/24,no-resolve
@@ -64,6 +64,7 @@ payload:
   - IP-CIDR,109.74.18.0/24,no-resolve
   - IP-CIDR,109.94.208.0/24,no-resolve
   - IP-CIDR,110.172.145.0/24,no-resolve
+  - IP-CIDR,111.235.150.0/24,no-resolve
   - IP-CIDR,128.0.53.0/24,no-resolve
   - IP-CIDR,128.0.57.0/24,no-resolve
   - IP-CIDR,128.127.168.0/21,no-resolve
@@ -230,6 +231,7 @@ payload:
   - IP-CIDR,163.5.39.0/24,no-resolve
   - IP-CIDR,163.5.53.0/24,no-resolve
   - IP-CIDR,163.5.66.0/24,no-resolve
+  - IP-CIDR,164.37.236.0/24,no-resolve
   - IP-CIDR,164.37.72.0/21,no-resolve
   - IP-CIDR,164.40.236.0/24,no-resolve
   - IP-CIDR,164.63.208.0/24,no-resolve
@@ -1483,7 +1485,6 @@ payload:
   - IP-CIDR,31.57.215.0/24,no-resolve
   - IP-CIDR,31.57.33.0/24,no-resolve
   - IP-CIDR,31.57.77.0/24,no-resolve
-  - IP-CIDR,31.58.236.0/24,no-resolve
   - IP-CIDR,31.58.245.0/24,no-resolve
   - IP-CIDR,31.58.246.0/23,no-resolve
   - IP-CIDR,31.58.248.0/24,no-resolve
@@ -1805,7 +1806,6 @@ payload:
   - IP-CIDR,77.245.144.0/20,no-resolve
   - IP-CIDR,77.47.142.0/24,no-resolve
   - IP-CIDR,77.67.128.0/17,no-resolve
-  - IP-CIDR,77.67.29.0/24,no-resolve
   - IP-CIDR,77.72.184.0/21,no-resolve
   - IP-CIDR,77.73.112.0/24,no-resolve
   - IP-CIDR,77.73.216.0/21,no-resolve
@@ -2455,6 +2455,7 @@ payload:
   - IP-CIDR6,2a04:10c0::/29,no-resolve
   - IP-CIDR6,2a04:1100::/30,no-resolve
   - IP-CIDR6,2a04:1880::/29,no-resolve
+  - IP-CIDR6,2a04:2ac0::/29,no-resolve
   - IP-CIDR6,2a04:3880::/30,no-resolve
   - IP-CIDR6,2a04:3ac0::/29,no-resolve
   - IP-CIDR6,2a04:3e80::/29,no-resolve
@@ -2545,6 +2546,9 @@ payload:
   - IP-CIDR6,2a06:8540::/29,no-resolve
   - IP-CIDR6,2a06:8c80::/29,no-resolve
   - IP-CIDR6,2a06:9140::/29,no-resolve
+  - IP-CIDR6,2a06:9801:1567::/48,no-resolve
+  - IP-CIDR6,2a06:9801:156e::/47,no-resolve
+  - IP-CIDR6,2a06:9801:1580::/48,no-resolve
   - IP-CIDR6,2a06:9801:2f1::/48,no-resolve
   - IP-CIDR6,2a06:9801:52::/48,no-resolve
   - IP-CIDR6,2a06:9801:7dd::/48,no-resolve
