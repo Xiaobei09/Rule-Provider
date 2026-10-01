@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: LB
 # 黎巴嫩（Lebanon）
-# 数据日期: 2026-09-29
+# 数据日期: 2026-10-01
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 381 条（IPv4: 267 / IPv6: 114）
+# 规则统计: 共 381 条（IPv4: 266 / IPv6: 115）
 # ============================================================
 payload:
   - IP-CIDR,109.110.185.0/24,no-resolve
@@ -213,7 +213,6 @@ payload:
   - IP-CIDR,46.20.103.0/24,no-resolve
   - IP-CIDR,46.20.104.0/24,no-resolve
   - IP-CIDR,46.20.107.0/24,no-resolve
-  - IP-CIDR,46.20.99.0/24,no-resolve
   - IP-CIDR,46.227.248.0/21,no-resolve
   - IP-CIDR,46.234.11.0/24,no-resolve
   - IP-CIDR,46.234.12.0/24,no-resolve
@@ -368,6 +367,7 @@ payload:
   - IP-CIDR6,2a0f:9400:8011::/48,no-resolve
   - IP-CIDR6,2a0f:9540::/29,no-resolve
   - IP-CIDR6,2a0f:b1c0::/29,no-resolve
+  - IP-CIDR6,2a0f:b280::/29,no-resolve
   - IP-CIDR6,2a10:1300::/29,no-resolve
   - IP-CIDR6,2a10:1900::/29,no-resolve
   - IP-CIDR6,2a10:1b00::/29,no-resolve

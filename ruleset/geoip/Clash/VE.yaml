@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: VE
 # 委内瑞拉（Venezuela）
-# 数据日期: 2026-09-29
+# 数据日期: 2026-10-01
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 794 条（IPv4: 556 / IPv6: 238）
+# 规则统计: 共 796 条（IPv4: 556 / IPv6: 240）
 # ============================================================
 payload:
   - IP-CIDR,103.83.193.0/24,no-resolve
@@ -309,6 +309,7 @@ payload:
   - IP-CIDR,38.134.249.0/24,no-resolve
   - IP-CIDR,38.135.16.0/21,no-resolve
   - IP-CIDR,38.137.176.0/22,no-resolve
+  - IP-CIDR,38.137.181.0/24,no-resolve
   - IP-CIDR,38.137.232.0/21,no-resolve
   - IP-CIDR,38.147.15.0/24,no-resolve
   - IP-CIDR,38.147.74.0/23,no-resolve
@@ -325,8 +326,7 @@ payload:
   - IP-CIDR,38.17.192.0/18,no-resolve
   - IP-CIDR,38.171.0.0/16,no-resolve
   - IP-CIDR,38.172.138.0/23,no-resolve
-  - IP-CIDR,38.172.160.0/21,no-resolve
-  - IP-CIDR,38.172.168.0/21,no-resolve
+  - IP-CIDR,38.172.160.0/20,no-resolve
   - IP-CIDR,38.172.176.0/21,no-resolve
   - IP-CIDR,38.172.184.0/24,no-resolve
   - IP-CIDR,38.172.188.0/23,no-resolve
@@ -632,6 +632,7 @@ payload:
   - IP-CIDR6,2803:39d0::/32,no-resolve
   - IP-CIDR6,2803:3c30::/32,no-resolve
   - IP-CIDR6,2803:3c40::/32,no-resolve
+  - IP-CIDR6,2803:3f30::/32,no-resolve
   - IP-CIDR6,2803:40e0::/32,no-resolve
   - IP-CIDR6,2803:4330::/32,no-resolve
   - IP-CIDR6,2803:43d0::/32,no-resolve
@@ -774,6 +775,7 @@ payload:
   - IP-CIDR6,2803:dc30::/32,no-resolve
   - IP-CIDR6,2803:dd80::/32,no-resolve
   - IP-CIDR6,2803:ded0::/32,no-resolve
+  - IP-CIDR6,2803:df30::/32,no-resolve
   - IP-CIDR6,2803:e1d0::/32,no-resolve
   - IP-CIDR6,2803:e210::/32,no-resolve
   - IP-CIDR6,2803:e3a0::/32,no-resolve
