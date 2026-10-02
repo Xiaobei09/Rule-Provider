@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: ID
 # 印度尼西亚（Indonesia）
-# 数据日期: 2026-10-01
+# 数据日期: 2026-10-02
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 8211 条（IPv4: 5240 / IPv6: 2971）
+# 规则统计: 共 8220 条（IPv4: 5244 / IPv6: 2976）
 # ============================================================
 payload:
   - IP-CIDR,101.0.4.0/22,no-resolve
@@ -4339,7 +4339,7 @@ payload:
   - IP-CIDR,192.189.233.0/24,no-resolve
   - IP-CIDR,192.189.94.0/24,no-resolve
   - IP-CIDR,192.203.193.0/24,no-resolve
-  - IP-CIDR,192.203.209.0/24,no-resolve
+  - IP-CIDR,192.203.208.0/23,no-resolve
   - IP-CIDR,192.203.38.0/23,no-resolve
   - IP-CIDR,192.207.254.0/24,no-resolve
   - IP-CIDR,192.232.36.0/22,no-resolve
@@ -4374,6 +4374,8 @@ payload:
   - IP-CIDR,198.15.28.0/24,no-resolve
   - IP-CIDR,198.15.30.0/24,no-resolve
   - IP-CIDR,198.167.140.0/23,no-resolve
+  - IP-CIDR,198.17.240.0/23,no-resolve
+  - IP-CIDR,198.22.34.0/24,no-resolve
   - IP-CIDR,198.22.37.0/24,no-resolve
   - IP-CIDR,198.32.172.0/24,no-resolve
   - IP-CIDR,198.51.101.0/24,no-resolve
@@ -4893,6 +4895,7 @@ payload:
   - IP-CIDR,27.111.32.0/19,no-resolve
   - IP-CIDR,27.112.64.0/21,no-resolve
   - IP-CIDR,27.112.76.0/22,no-resolve
+  - IP-CIDR,27.112.98.0/23,no-resolve
   - IP-CIDR,27.121.112.0/23,no-resolve
   - IP-CIDR,27.121.80.0/21,no-resolve
   - IP-CIDR,27.123.0.0/21,no-resolve
@@ -5131,6 +5134,7 @@ payload:
   - IP-CIDR,45.116.156.0/22,no-resolve
   - IP-CIDR,45.117.132.0/22,no-resolve
   - IP-CIDR,45.118.112.0/22,no-resolve
+  - IP-CIDR,45.120.192.0/23,no-resolve
   - IP-CIDR,45.120.244.0/22,no-resolve
   - IP-CIDR,45.121.142.0/23,no-resolve
   - IP-CIDR,45.121.216.0/22,no-resolve
@@ -7138,8 +7142,13 @@ payload:
   - IP-CIDR6,2001:df7:9cc0::/48,no-resolve
   - IP-CIDR6,2001:df7:9d00::/48,no-resolve
   - IP-CIDR6,2001:df7:9d40::/48,no-resolve
+  - IP-CIDR6,2001:df7:9ec0::/48,no-resolve
+  - IP-CIDR6,2001:df7:9fc0::/48,no-resolve
   - IP-CIDR6,2001:df7:a00::/48,no-resolve
+  - IP-CIDR6,2001:df7:a040::/48,no-resolve
+  - IP-CIDR6,2001:df7:a0c0::/48,no-resolve
   - IP-CIDR6,2001:df7:a200::/48,no-resolve
+  - IP-CIDR6,2001:df7:a240::/48,no-resolve
   - IP-CIDR6,2001:df7:a300::/48,no-resolve
   - IP-CIDR6,2001:df7:a40::/48,no-resolve
   - IP-CIDR6,2001:df7:a500::/48,no-resolve

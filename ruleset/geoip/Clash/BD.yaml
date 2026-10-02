@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: BD
 # 孟加拉国（Bangladesh）
-# 数据日期: 2026-10-01
+# 数据日期: 2026-10-02
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 4008 条（IPv4: 2331 / IPv6: 1677）
+# 规则统计: 共 4010 条（IPv4: 2332 / IPv6: 1678）
 # ============================================================
 payload:
   - IP-CIDR,101.2.160.0/21,no-resolve
@@ -1700,7 +1700,7 @@ payload:
   - IP-CIDR,157.20.114.0/23,no-resolve
   - IP-CIDR,157.20.116.0/23,no-resolve
   - IP-CIDR,157.20.148.0/22,no-resolve
-  - IP-CIDR,157.20.42.0/23,no-resolve
+  - IP-CIDR,157.20.43.0/24,no-resolve
   - IP-CIDR,157.20.54.0/23,no-resolve
   - IP-CIDR,157.20.56.0/23,no-resolve
   - IP-CIDR,157.20.74.0/23,no-resolve
@@ -1983,6 +1983,7 @@ payload:
   - IP-CIDR,202.144.200.0/22,no-resolve
   - IP-CIDR,202.161.176.0/20,no-resolve
   - IP-CIDR,202.164.208.0/21,no-resolve
+  - IP-CIDR,202.168.150.0/23,no-resolve
   - IP-CIDR,202.168.224.0/19,no-resolve
   - IP-CIDR,202.173.120.0/22,no-resolve
   - IP-CIDR,202.181.12.0/22,no-resolve
@@ -3263,6 +3264,7 @@ payload:
   - IP-CIDR6,2001:df7:9680::/48,no-resolve
   - IP-CIDR6,2001:df7:9780::/48,no-resolve
   - IP-CIDR6,2001:df7:9c80::/48,no-resolve
+  - IP-CIDR6,2001:df7:9e40::/48,no-resolve
   - IP-CIDR6,2001:df7:9f80::/48,no-resolve
   - IP-CIDR6,2001:df7:a180::/48,no-resolve
   - IP-CIDR6,2001:df7:a280::/48,no-resolve

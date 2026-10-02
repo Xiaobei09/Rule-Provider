@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: SA
 # 沙特阿拉伯（Saudi Arabia）
-# 数据日期: 2026-10-01
+# 数据日期: 2026-10-02
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 837 条（IPv4: 683 / IPv6: 154）
+# 规则统计: 共 835 条（IPv4: 682 / IPv6: 153）
 # ============================================================
 payload:
   - IP-CIDR,102.177.185.0/24,no-resolve
@@ -93,7 +93,7 @@ payload:
   - IP-CIDR,161.251.0.0/16,no-resolve
   - IP-CIDR,161.70.0.0/16,no-resolve
   - IP-CIDR,162.142.128.0/17,no-resolve
-  - IP-CIDR,162.217.248.0/23,no-resolve
+  - IP-CIDR,162.217.248.0/24,no-resolve
   - IP-CIDR,164.215.40.0/21,no-resolve
   - IP-CIDR,165.125.1.0/24,no-resolve
   - IP-CIDR,166.87.0.0/16,no-resolve
@@ -200,7 +200,6 @@ payload:
   - IP-CIDR,185.203.108.0/22,no-resolve
   - IP-CIDR,185.205.24.0/22,no-resolve
   - IP-CIDR,185.206.132.0/22,no-resolve
-  - IP-CIDR,185.206.168.0/24,no-resolve
   - IP-CIDR,185.206.170.0/23,no-resolve
   - IP-CIDR,185.206.28.0/22,no-resolve
   - IP-CIDR,185.207.28.0/22,no-resolve
@@ -422,6 +421,7 @@ payload:
   - IP-CIDR,213.5.168.0/21,no-resolve
   - IP-CIDR,216.162.240.0/21,no-resolve
   - IP-CIDR,216.86.68.0/24,no-resolve
+  - IP-CIDR,216.86.71.0/24,no-resolve
   - IP-CIDR,217.12.224.0/20,no-resolve
   - IP-CIDR,217.13.98.0/24,no-resolve
   - IP-CIDR,217.145.240.0/20,no-resolve
@@ -468,7 +468,6 @@ payload:
   - IP-CIDR,45.43.75.0/24,no-resolve
   - IP-CIDR,45.43.92.0/24,no-resolve
   - IP-CIDR,45.65.72.0/22,no-resolve
-  - IP-CIDR,45.67.136.0/24,no-resolve
   - IP-CIDR,45.67.139.0/24,no-resolve
   - IP-CIDR,45.91.248.0/24,no-resolve
   - IP-CIDR,45.92.218.0/23,no-resolve
@@ -703,7 +702,6 @@ payload:
   - IP-CIDR6,2001:67c:18c8::/47,no-resolve
   - IP-CIDR6,2001:67c:1b0c::/48,no-resolve
   - IP-CIDR6,2001:67c:2164::/48,no-resolve
-  - IP-CIDR6,2001:67c:27b8::/48,no-resolve
   - IP-CIDR6,2001:67c:2994::/48,no-resolve
   - IP-CIDR6,2001:67c:3e8::/47,no-resolve
   - IP-CIDR6,2001:67c:b64::/48,no-resolve
