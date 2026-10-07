@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: MW
 # 马拉维（Malawi）
-# 数据日期: 2026-10-04
+# 数据日期: 2026-10-07
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 85 条（IPv4: 52 / IPv6: 33）
+# 规则统计: 共 87 条（IPv4: 53 / IPv6: 34）
 # ============================================================
 payload:
   - IP-CIDR,102.130.101.0/24,no-resolve
@@ -23,6 +23,7 @@ payload:
   - IP-CIDR,102.223.95.0/24,no-resolve
   - IP-CIDR,102.36.145.0/24,no-resolve
   - IP-CIDR,102.70.0.0/15,no-resolve
+  - IP-CIDR,104.23.249.0/24,no-resolve
   - IP-CIDR,105.234.0.0/16,no-resolve
   - IP-CIDR,129.140.0.0/16,no-resolve
   - IP-CIDR,137.115.0.0/16,no-resolve
@@ -72,6 +73,7 @@ payload:
   - IP-CIDR6,2001:43fd:f000::/48,no-resolve
   - IP-CIDR6,2001:43ff:4800::/48,no-resolve
   - IP-CIDR6,2001:43ff:f000::/48,no-resolve
+  - IP-CIDR6,2400:cb00:1045::/48,no-resolve
   - IP-CIDR6,2c0e:7800::/24,no-resolve
   - IP-CIDR6,2c0e:7e80::/28,no-resolve
   - IP-CIDR6,2c0f:1300::/32,no-resolve
