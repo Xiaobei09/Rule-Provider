@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: JP
 # 日本（Japan）
-# 数据日期: 2026-10-07
+# 数据日期: 2026-10-08
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 4590 条（IPv4: 3770 / IPv6: 820）
+# 规则统计: 共 4594 条（IPv4: 3773 / IPv6: 821）
 # ============================================================
 payload:
   - IP-CIDR,1.0.16.0/20,no-resolve
@@ -1454,6 +1454,7 @@ payload:
   - IP-CIDR,143.20.41.0/24,no-resolve
   - IP-CIDR,143.201.0.0/16,no-resolve
   - IP-CIDR,143.203.228.0/22,no-resolve
+  - IP-CIDR,143.203.44.0/22,no-resolve
   - IP-CIDR,143.90.0.0/16,no-resolve
   - IP-CIDR,143.94.0.0/16,no-resolve
   - IP-CIDR,144.1.0.0/16,no-resolve
@@ -1901,6 +1902,7 @@ payload:
   - IP-CIDR,167.88.184.0/24,no-resolve
   - IP-CIDR,168.151.54.0/24,no-resolve
   - IP-CIDR,168.91.117.0/24,no-resolve
+  - IP-CIDR,169.40.138.0/23,no-resolve
   - IP-CIDR,170.102.224.0/24,no-resolve
   - IP-CIDR,170.105.0.0/16,no-resolve
   - IP-CIDR,170.199.246.0/24,no-resolve
@@ -3284,6 +3286,7 @@ payload:
   - IP-CIDR,23.133.100.0/24,no-resolve
   - IP-CIDR,23.137.116.0/24,no-resolve
   - IP-CIDR,23.137.68.0/24,no-resolve
+  - IP-CIDR,23.157.180.0/24,no-resolve
   - IP-CIDR,23.159.40.0/24,no-resolve
   - IP-CIDR,23.176.40.0/24,no-resolve
   - IP-CIDR,23.183.56.0/24,no-resolve
@@ -4468,6 +4471,7 @@ payload:
   - IP-CIDR6,240d::/27,no-resolve
   - IP-CIDR6,240f::/23,no-resolve
   - IP-CIDR6,2602:f2dc:95::/48,no-resolve
+  - IP-CIDR6,2602:f3ff::/36,no-resolve
   - IP-CIDR6,2602:f688::/32,no-resolve
   - IP-CIDR6,2602:f75d::/36,no-resolve
   - IP-CIDR6,2602:f780::/36,no-resolve

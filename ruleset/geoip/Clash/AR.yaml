@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: AR
 # 阿根廷（Argentina）
-# 数据日期: 2026-10-07
+# 数据日期: 2026-10-08
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 3061 条（IPv4: 1852 / IPv6: 1209）
+# 规则统计: 共 3050 条（IPv4: 1853 / IPv6: 1197）
 # ============================================================
 payload:
   - IP-CIDR,108.165.136.0/24,no-resolve
@@ -194,6 +194,7 @@ payload:
   - IP-CIDR,149.46.0.0/21,no-resolve
   - IP-CIDR,149.50.128.0/19,no-resolve
   - IP-CIDR,149.78.131.0/24,no-resolve
+  - IP-CIDR,149.78.133.0/24,no-resolve
   - IP-CIDR,149.78.136.0/24,no-resolve
   - IP-CIDR,149.78.138.0/24,no-resolve
   - IP-CIDR,149.78.140.0/23,no-resolve
@@ -1364,6 +1365,7 @@ payload:
   - IP-CIDR,38.156.16.0/24,no-resolve
   - IP-CIDR,38.156.226.0/23,no-resolve
   - IP-CIDR,38.156.6.0/24,no-resolve
+  - IP-CIDR,38.156.71.0/24,no-resolve
   - IP-CIDR,38.156.80.0/22,no-resolve
   - IP-CIDR,38.156.96.0/19,no-resolve
   - IP-CIDR,38.158.96.0/19,no-resolve
@@ -1439,8 +1441,7 @@ payload:
   - IP-CIDR,38.254.116.0/22,no-resolve
   - IP-CIDR,38.254.64.0/21,no-resolve
   - IP-CIDR,38.254.72.0/24,no-resolve
-  - IP-CIDR,38.254.80.0/21,no-resolve
-  - IP-CIDR,38.254.88.0/21,no-resolve
+  - IP-CIDR,38.254.80.0/20,no-resolve
   - IP-CIDR,38.255.0.0/24,no-resolve
   - IP-CIDR,38.255.95.0/24,no-resolve
   - IP-CIDR,38.3.130.0/23,no-resolve
@@ -2506,20 +2507,8 @@ payload:
   - IP-CIDR6,2803:7d80:6400::/38,no-resolve
   - IP-CIDR6,2803:7d80:6800::/37,no-resolve
   - IP-CIDR6,2803:7d80:7000::/36,no-resolve
-  - IP-CIDR6,2803:7d80:8000::/35,no-resolve
+  - IP-CIDR6,2803:7d80:8000::/33,no-resolve
   - IP-CIDR6,2803:7d80::/34,no-resolve
-  - IP-CIDR6,2803:7d80:a000::/43,no-resolve
-  - IP-CIDR6,2803:7d80:a020::/45,no-resolve
-  - IP-CIDR6,2803:7d80:a028::/45,no-resolve
-  - IP-CIDR6,2803:7d80:a030::/44,no-resolve
-  - IP-CIDR6,2803:7d80:a040::/42,no-resolve
-  - IP-CIDR6,2803:7d80:a080::/41,no-resolve
-  - IP-CIDR6,2803:7d80:a100::/40,no-resolve
-  - IP-CIDR6,2803:7d80:a200::/39,no-resolve
-  - IP-CIDR6,2803:7d80:a400::/38,no-resolve
-  - IP-CIDR6,2803:7d80:a800::/37,no-resolve
-  - IP-CIDR6,2803:7d80:b000::/36,no-resolve
-  - IP-CIDR6,2803:7d80:c000::/34,no-resolve
   - IP-CIDR6,2803:7dc0::/32,no-resolve
   - IP-CIDR6,2803:7dd0::/32,no-resolve
   - IP-CIDR6,2803:7e00::/32,no-resolve

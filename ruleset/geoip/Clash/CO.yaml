@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: CO
 # 哥伦比亚（Colombia）
-# 数据日期: 2026-10-07
+# 数据日期: 2026-10-08
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1662 条（IPv4: 856 / IPv6: 806）
+# 规则统计: 共 1664 条（IPv4: 857 / IPv6: 807）
 # ============================================================
 payload:
   - IP-CIDR,103.133.208.0/22,no-resolve
@@ -71,7 +71,7 @@ payload:
   - IP-CIDR,152.204.0.0/15,no-resolve
   - IP-CIDR,152.231.24.0/21,no-resolve
   - IP-CIDR,154.197.34.0/23,no-resolve
-  - IP-CIDR,154.6.62.0/24,no-resolve
+  - IP-CIDR,154.198.58.0/24,no-resolve
   - IP-CIDR,155.117.250.0/24,no-resolve
   - IP-CIDR,157.253.0.0/16,no-resolve
   - IP-CIDR,157.254.10.0/24,no-resolve
@@ -568,7 +568,6 @@ payload:
   - IP-CIDR,38.156.13.0/24,no-resolve
   - IP-CIDR,38.156.224.0/23,no-resolve
   - IP-CIDR,38.156.228.0/22,no-resolve
-  - IP-CIDR,38.156.255.0/24,no-resolve
   - IP-CIDR,38.156.70.0/24,no-resolve
   - IP-CIDR,38.156.76.0/23,no-resolve
   - IP-CIDR,38.156.92.0/23,no-resolve
@@ -600,7 +599,9 @@ payload:
   - IP-CIDR,38.191.190.0/24,no-resolve
   - IP-CIDR,38.191.192.0/22,no-resolve
   - IP-CIDR,38.191.196.0/22,no-resolve
-  - IP-CIDR,38.191.200.0/21,no-resolve
+  - IP-CIDR,38.191.200.0/22,no-resolve
+  - IP-CIDR,38.191.204.0/24,no-resolve
+  - IP-CIDR,38.191.206.0/23,no-resolve
   - IP-CIDR,38.191.208.0/22,no-resolve
   - IP-CIDR,38.191.212.0/22,no-resolve
   - IP-CIDR,38.191.216.0/21,no-resolve
@@ -946,6 +947,7 @@ payload:
   - IP-CIDR6,2801:108::/44,no-resolve
   - IP-CIDR6,2801:10:3000::/48,no-resolve
   - IP-CIDR6,2801:10:3800::/48,no-resolve
+  - IP-CIDR6,2801:10:4400::/48,no-resolve
   - IP-CIDR6,2801:10:5800::/48,no-resolve
   - IP-CIDR6,2801:10:7000::/48,no-resolve
   - IP-CIDR6,2801:10:7800::/48,no-resolve
