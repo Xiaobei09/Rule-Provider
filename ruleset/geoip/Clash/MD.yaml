@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: MD
 # 摩尔多瓦（Moldova）
-# 数据日期: 2026-10-08
+# 数据日期: 2026-10-09
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 807 条（IPv4: 559 / IPv6: 248）
+# 规则统计: 共 805 条（IPv4: 557 / IPv6: 248）
 # ============================================================
 payload:
   - IP-CIDR,103.106.0.0/22,no-resolve
@@ -25,6 +25,7 @@ payload:
   - IP-CIDR,109.248.50.0/24,no-resolve
   - IP-CIDR,130.193.3.0/24,no-resolve
   - IP-CIDR,130.78.185.0/24,no-resolve
+  - IP-CIDR,130.78.28.0/24,no-resolve
   - IP-CIDR,131.123.0.0/18,no-resolve
   - IP-CIDR,132.243.161.0/24,no-resolve
   - IP-CIDR,132.243.162.0/24,no-resolve
@@ -72,7 +73,6 @@ payload:
   - IP-CIDR,178.18.32.0/20,no-resolve
   - IP-CIDR,178.23.190.0/24,no-resolve
   - IP-CIDR,178.76.64.0/18,no-resolve
-  - IP-CIDR,178.92.123.0/24,no-resolve
   - IP-CIDR,178.92.73.0/24,no-resolve
   - IP-CIDR,185.1.45.0/24,no-resolve
   - IP-CIDR,185.1.78.0/24,no-resolve
@@ -250,7 +250,6 @@ payload:
   - IP-CIDR,195.149.87.0/24,no-resolve
   - IP-CIDR,195.178.106.0/24,no-resolve
   - IP-CIDR,195.20.18.0/23,no-resolve
-  - IP-CIDR,195.206.252.0/23,no-resolve
   - IP-CIDR,195.211.48.0/24,no-resolve
   - IP-CIDR,195.216.156.0/22,no-resolve
   - IP-CIDR,195.216.248.0/24,no-resolve
@@ -558,7 +557,6 @@ payload:
   - IP-CIDR,94.26.1.0/24,no-resolve
   - IP-CIDR,94.26.69.0/24,no-resolve
   - IP-CIDR,95.128.152.0/24,no-resolve
-  - IP-CIDR,95.134.116.0/24,no-resolve
   - IP-CIDR,95.135.161.0/24,no-resolve
   - IP-CIDR,95.141.251.0/24,no-resolve
   - IP-CIDR,95.153.64.0/18,no-resolve

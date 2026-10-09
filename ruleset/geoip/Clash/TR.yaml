@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: TR
 # 土耳其（Turkey）
-# 数据日期: 2026-10-08
+# 数据日期: 2026-10-09
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 3170 条（IPv4: 2295 / IPv6: 875）
+# 规则统计: 共 3157 条（IPv4: 2282 / IPv6: 875）
 # ============================================================
 payload:
   - IP-CIDR,102.135.106.0/24,no-resolve
@@ -186,7 +186,7 @@ payload:
   - IP-CIDR,153.56.244.0/23,no-resolve
   - IP-CIDR,153.56.246.0/24,no-resolve
   - IP-CIDR,153.56.251.0/24,no-resolve
-  - IP-CIDR,153.56.253.0/24,no-resolve
+  - IP-CIDR,153.56.252.0/23,no-resolve
   - IP-CIDR,153.56.254.0/24,no-resolve
   - IP-CIDR,154.193.0.0/24,no-resolve
   - IP-CIDR,154.202.8.0/22,no-resolve
@@ -420,7 +420,6 @@ payload:
   - IP-CIDR,185.140.124.0/22,no-resolve
   - IP-CIDR,185.141.108.0/22,no-resolve
   - IP-CIDR,185.141.32.0/22,no-resolve
-  - IP-CIDR,185.143.74.0/23,no-resolve
   - IP-CIDR,185.144.248.0/22,no-resolve
   - IP-CIDR,185.144.76.0/22,no-resolve
   - IP-CIDR,185.146.136.0/22,no-resolve
@@ -849,7 +848,6 @@ payload:
   - IP-CIDR,188.240.46.0/24,no-resolve
   - IP-CIDR,188.240.81.0/24,no-resolve
   - IP-CIDR,188.241.122.0/23,no-resolve
-  - IP-CIDR,188.241.137.0/24,no-resolve
   - IP-CIDR,188.241.70.0/24,no-resolve
   - IP-CIDR,188.244.116.0/24,no-resolve
   - IP-CIDR,188.3.0.0/16,no-resolve
@@ -1047,7 +1045,7 @@ payload:
   - IP-CIDR,194.127.116.0/22,no-resolve
   - IP-CIDR,194.135.20.0/24,no-resolve
   - IP-CIDR,194.135.22.0/24,no-resolve
-  - IP-CIDR,194.135.32.0/23,no-resolve
+  - IP-CIDR,194.135.33.0/24,no-resolve
   - IP-CIDR,194.135.34.0/24,no-resolve
   - IP-CIDR,194.140.227.0/24,no-resolve
   - IP-CIDR,194.140.234.0/24,no-resolve
@@ -1121,13 +1119,11 @@ payload:
   - IP-CIDR,194.69.162.0/24,no-resolve
   - IP-CIDR,194.76.187.0/24,no-resolve
   - IP-CIDR,194.87.109.0/24,no-resolve
-  - IP-CIDR,194.87.170.0/24,no-resolve
   - IP-CIDR,194.87.186.0/24,no-resolve
   - IP-CIDR,194.87.188.0/24,no-resolve
   - IP-CIDR,194.87.229.0/24,no-resolve
   - IP-CIDR,194.87.246.0/24,no-resolve
   - IP-CIDR,194.87.64.0/24,no-resolve
-  - IP-CIDR,194.87.66.0/24,no-resolve
   - IP-CIDR,194.87.75.0/24,no-resolve
   - IP-CIDR,194.87.79.0/24,no-resolve
   - IP-CIDR,194.87.91.0/24,no-resolve
@@ -1199,7 +1195,6 @@ payload:
   - IP-CIDR,195.46.128.0/19,no-resolve
   - IP-CIDR,195.49.216.0/21,no-resolve
   - IP-CIDR,195.49.236.0/22,no-resolve
-  - IP-CIDR,195.58.60.0/24,no-resolve
   - IP-CIDR,195.58.63.0/24,no-resolve
   - IP-CIDR,195.62.30.0/24,no-resolve
   - IP-CIDR,195.62.35.0/24,no-resolve
@@ -1288,7 +1283,6 @@ payload:
   - IP-CIDR,212.15.0.0/19,no-resolve
   - IP-CIDR,212.154.0.0/17,no-resolve
   - IP-CIDR,212.156.0.0/16,no-resolve
-  - IP-CIDR,212.16.85.0/24,no-resolve
   - IP-CIDR,212.16.87.0/24,no-resolve
   - IP-CIDR,212.16.94.0/24,no-resolve
   - IP-CIDR,212.174.0.0/15,no-resolve
@@ -1298,7 +1292,6 @@ payload:
   - IP-CIDR,212.192.10.0/24,no-resolve
   - IP-CIDR,212.192.209.0/24,no-resolve
   - IP-CIDR,212.192.252.0/24,no-resolve
-  - IP-CIDR,212.193.12.0/23,no-resolve
   - IP-CIDR,212.2.192.0/19,no-resolve
   - IP-CIDR,212.20.136.0/23,no-resolve
   - IP-CIDR,212.20.139.0/24,no-resolve
@@ -1730,7 +1723,6 @@ payload:
   - IP-CIDR,46.36.201.0/24,no-resolve
   - IP-CIDR,46.37.107.0/24,no-resolve
   - IP-CIDR,46.37.115.0/24,no-resolve
-  - IP-CIDR,46.38.141.0/24,no-resolve
   - IP-CIDR,46.45.128.0/18,no-resolve
   - IP-CIDR,5.10.220.0/24,no-resolve
   - IP-CIDR,5.10.223.0/24,no-resolve
@@ -1818,7 +1810,6 @@ payload:
   - IP-CIDR,77.81.100.0/24,no-resolve
   - IP-CIDR,77.81.183.0/24,no-resolve
   - IP-CIDR,77.81.186.0/23,no-resolve
-  - IP-CIDR,77.81.88.0/24,no-resolve
   - IP-CIDR,77.83.200.0/22,no-resolve
   - IP-CIDR,77.83.37.0/24,no-resolve
   - IP-CIDR,77.87.122.0/24,no-resolve
@@ -1986,7 +1977,6 @@ payload:
   - IP-CIDR,86.106.21.0/24,no-resolve
   - IP-CIDR,86.106.82.0/24,no-resolve
   - IP-CIDR,86.107.188.0/24,no-resolve
-  - IP-CIDR,86.107.51.0/24,no-resolve
   - IP-CIDR,86.108.128.0/17,no-resolve
   - IP-CIDR,87.121.103.0/24,no-resolve
   - IP-CIDR,87.121.104.0/24,no-resolve
@@ -2064,12 +2054,10 @@ payload:
   - IP-CIDR,89.43.206.0/23,no-resolve
   - IP-CIDR,89.43.28.0/22,no-resolve
   - IP-CIDR,89.43.39.0/24,no-resolve
-  - IP-CIDR,89.43.62.0/24,no-resolve
   - IP-CIDR,89.43.64.0/22,no-resolve
   - IP-CIDR,89.43.78.0/24,no-resolve
   - IP-CIDR,89.44.106.0/24,no-resolve
   - IP-CIDR,89.44.108.0/24,no-resolve
-  - IP-CIDR,89.45.162.0/24,no-resolve
   - IP-CIDR,89.45.44.0/23,no-resolve
   - IP-CIDR,89.45.9.0/24,no-resolve
   - IP-CIDR,89.45.94.0/24,no-resolve
@@ -2239,7 +2227,6 @@ payload:
   - IP-CIDR,93.88.201.0/24,no-resolve
   - IP-CIDR,93.89.224.0/20,no-resolve
   - IP-CIDR,93.89.64.0/20,no-resolve
-  - IP-CIDR,93.90.75.0/24,no-resolve
   - IP-CIDR,93.91.64.0/20,no-resolve
   - IP-CIDR,93.93.104.0/22,no-resolve
   - IP-CIDR,93.93.24.0/21,no-resolve

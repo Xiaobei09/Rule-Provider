@@ -1,13 +1,14 @@
 # ============================================================
 # Rule-Provider: TZ
 # 坦桑尼亚（Tanzania）
-# 数据日期: 2026-10-08
+# 数据日期: 2026-10-09
 # 数据来源: APNIC + IPtoASN
 # 规则统计: 共 308 条（IPv4: 224 / IPv6: 84）
 # ============================================================
 payload:
   - IP-CIDR,102.165.191.0/24,no-resolve
   - IP-CIDR,102.177.80.0/21,no-resolve
+  - IP-CIDR,102.200.0.0/22,no-resolve
   - IP-CIDR,102.201.171.0/24,no-resolve
   - IP-CIDR,102.202.104.0/22,no-resolve
   - IP-CIDR,102.202.136.0/22,no-resolve
@@ -114,7 +115,6 @@ payload:
   - IP-CIDR,102.36.216.0/23,no-resolve
   - IP-CIDR,102.36.219.0/24,no-resolve
   - IP-CIDR,102.36.220.0/24,no-resolve
-  - IP-CIDR,102.36.222.0/24,no-resolve
   - IP-CIDR,102.64.64.0/21,no-resolve
   - IP-CIDR,102.68.64.0/22,no-resolve
   - IP-CIDR,102.68.71.0/24,no-resolve
