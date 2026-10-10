@@ -1,14 +1,13 @@
 # ============================================================
 # Rule-Provider: TR
 # 土耳其（Turkey）
-# 数据日期: 2026-10-09
+# 数据日期: 2026-10-10
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 3157 条（IPv4: 2282 / IPv6: 875）
+# 规则统计: 共 3159 条（IPv4: 2283 / IPv6: 876）
 # ============================================================
 payload:
   - IP-CIDR,102.135.106.0/24,no-resolve
   - IP-CIDR,102.140.0.0/23,no-resolve
-  - IP-CIDR,103.125.147.0/24,no-resolve
   - IP-CIDR,103.126.48.0/23,no-resolve
   - IP-CIDR,103.130.144.0/22,no-resolve
   - IP-CIDR,103.132.128.0/22,no-resolve
@@ -139,7 +138,7 @@ payload:
   - IP-CIDR,146.19.201.0/24,no-resolve
   - IP-CIDR,146.19.208.0/24,no-resolve
   - IP-CIDR,146.19.251.0/24,no-resolve
-  - IP-CIDR,146.19.57.0/24,no-resolve
+  - IP-CIDR,146.19.56.0/23,no-resolve
   - IP-CIDR,146.19.70.0/24,no-resolve
   - IP-CIDR,146.19.74.0/24,no-resolve
   - IP-CIDR,146.19.89.0/24,no-resolve
@@ -1590,6 +1589,7 @@ payload:
   - IP-CIDR,45.139.198.0/23,no-resolve
   - IP-CIDR,45.139.200.0/22,no-resolve
   - IP-CIDR,45.139.220.0/22,no-resolve
+  - IP-CIDR,45.14.164.0/24,no-resolve
   - IP-CIDR,45.14.32.0/22,no-resolve
   - IP-CIDR,45.141.148.0/22,no-resolve
   - IP-CIDR,45.143.11.0/24,no-resolve
@@ -1796,6 +1796,7 @@ payload:
   - IP-CIDR,70.40.136.0/21,no-resolve
   - IP-CIDR,72.18.67.0/24,no-resolve
   - IP-CIDR,74.80.168.0/24,no-resolve
+  - IP-CIDR,77.105.4.0/24,no-resolve
   - IP-CIDR,77.223.128.0/19,no-resolve
   - IP-CIDR,77.241.72.0/22,no-resolve
   - IP-CIDR,77.245.144.0/20,no-resolve
@@ -2329,6 +2330,7 @@ payload:
   - IP-CIDR6,2001:a98::/32,no-resolve
   - IP-CIDR6,2600:3500:c21::/48,no-resolve
   - IP-CIDR6,2600:3500:c23::/48,no-resolve
+  - IP-CIDR6,2602:f86f:50::/44,no-resolve
   - IP-CIDR6,2a00:1880::/32,no-resolve
   - IP-CIDR6,2a00:1d30::/29,no-resolve
   - IP-CIDR6,2a00:1d58::/29,no-resolve

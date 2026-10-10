@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: BN
 # 文莱（Brunei Darussalam）
-# 数据日期: 2026-10-09
+# 数据日期: 2026-10-10
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 45 条（IPv4: 35 / IPv6: 10）
+# 规则统计: 共 47 条（IPv4: 36 / IPv6: 11）
 # ============================================================
 payload:
   - IP-CIDR,103.12.208.0/23,no-resolve
@@ -37,6 +37,7 @@ payload:
   - IP-CIDR,43.225.136.0/22,no-resolve
   - IP-CIDR,43.225.40.0/22,no-resolve
   - IP-CIDR,43.251.128.0/22,no-resolve
+  - IP-CIDR,45.125.226.0/23,no-resolve
   - IP-CIDR,45.126.140.0/22,no-resolve
   - IP-CIDR,45.127.140.0/22,no-resolve
   - IP-CIDR,58.97.144.0/20,no-resolve
@@ -48,6 +49,7 @@ payload:
   - IP-CIDR6,2001:df6:1a80::/48,no-resolve
   - IP-CIDR6,2400:9400::/32,no-resolve
   - IP-CIDR6,2401:cf80:61f1::/48,no-resolve
+  - IP-CIDR6,2402:7d60::/32,no-resolve
   - IP-CIDR6,2404:8980::/32,no-resolve
   - IP-CIDR6,2405:1700::/32,no-resolve
   - IP-CIDR6,2406:7800::/31,no-resolve

@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: SG
 # 新加坡（Singapore）
-# 数据日期: 2026-10-09
+# 数据日期: 2026-10-10
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 4128 条（IPv4: 3242 / IPv6: 886）
+# 规则统计: 共 4130 条（IPv4: 3242 / IPv6: 888）
 # ============================================================
 IP-CIDR,1.178.32.0/19,no-resolve
 IP-CIDR,1.21.224.0/19,no-resolve
@@ -1178,11 +1178,12 @@ IP-CIDR,151.192.0.0/16,no-resolve
 IP-CIDR,151.236.216.0/21,no-resolve
 IP-CIDR,151.240.119.0/24,no-resolve
 IP-CIDR,151.240.124.0/24,no-resolve
+IP-CIDR,151.240.23.0/24,no-resolve
 IP-CIDR,151.240.29.0/24,no-resolve
 IP-CIDR,151.240.31.0/24,no-resolve
 IP-CIDR,151.240.68.0/22,no-resolve
 IP-CIDR,151.240.72.0/24,no-resolve
-IP-CIDR,151.240.74.0/24,no-resolve
+IP-CIDR,151.240.74.0/23,no-resolve
 IP-CIDR,151.240.78.0/23,no-resolve
 IP-CIDR,151.240.81.0/24,no-resolve
 IP-CIDR,151.240.82.0/24,no-resolve
@@ -1208,7 +1209,6 @@ IP-CIDR,152.102.0.0/16,no-resolve
 IP-CIDR,152.163.110.0/23,no-resolve
 IP-CIDR,152.226.0.0/16,no-resolve
 IP-CIDR,152.235.128.0/17,no-resolve
-IP-CIDR,152.237.236.0/24,no-resolve
 IP-CIDR,152.89.86.0/24,no-resolve
 IP-CIDR,153.20.0.0/16,no-resolve
 IP-CIDR,153.46.176.0/22,no-resolve
@@ -1443,7 +1443,7 @@ IP-CIDR,163.227.209.0/24,no-resolve
 IP-CIDR,163.47.176.0/22,no-resolve
 IP-CIDR,163.47.44.0/23,no-resolve
 IP-CIDR,163.5.202.0/24,no-resolve
-IP-CIDR,163.52.110.0/24,no-resolve
+IP-CIDR,163.52.110.0/23,no-resolve
 IP-CIDR,163.52.193.0/24,no-resolve
 IP-CIDR,163.53.245.0/24,no-resolve
 IP-CIDR,163.57.0.0/16,no-resolve
@@ -2501,8 +2501,7 @@ IP-CIDR,216.230.192.0/19,no-resolve
 IP-CIDR,217.10.226.0/24,no-resolve
 IP-CIDR,217.10.229.0/24,no-resolve
 IP-CIDR,217.10.230.0/23,no-resolve
-IP-CIDR,217.114.112.0/23,no-resolve
-IP-CIDR,217.114.114.0/24,no-resolve
+IP-CIDR,217.114.112.0/22,no-resolve
 IP-CIDR,217.114.120.0/24,no-resolve
 IP-CIDR,217.114.122.0/23,no-resolve
 IP-CIDR,217.114.124.0/22,no-resolve
@@ -2572,6 +2571,7 @@ IP-CIDR,23.106.48.0/21,no-resolve
 IP-CIDR,23.106.64.0/20,no-resolve
 IP-CIDR,23.108.96.0/21,no-resolve
 IP-CIDR,23.111.12.0/22,no-resolve
+IP-CIDR,23.128.140.0/24,no-resolve
 IP-CIDR,23.131.228.0/24,no-resolve
 IP-CIDR,23.131.24.0/24,no-resolve
 IP-CIDR,23.132.60.0/24,no-resolve
@@ -2583,6 +2583,7 @@ IP-CIDR,23.161.36.0/24,no-resolve
 IP-CIDR,23.165.100.0/24,no-resolve
 IP-CIDR,23.165.116.0/24,no-resolve
 IP-CIDR,23.165.132.0/24,no-resolve
+IP-CIDR,23.165.180.0/24,no-resolve
 IP-CIDR,23.177.152.0/24,no-resolve
 IP-CIDR,23.177.56.0/24,no-resolve
 IP-CIDR,23.187.136.0/24,no-resolve
@@ -2699,9 +2700,6 @@ IP-CIDR,31.210.22.0/23,no-resolve
 IP-CIDR,31.216.59.0/24,no-resolve
 IP-CIDR,31.220.14.0/24,no-resolve
 IP-CIDR,31.40.214.0/24,no-resolve
-IP-CIDR,31.56.142.0/23,no-resolve
-IP-CIDR,31.56.149.0/24,no-resolve
-IP-CIDR,31.56.151.0/24,no-resolve
 IP-CIDR,31.58.152.0/24,no-resolve
 IP-CIDR,31.77.121.0/24,no-resolve
 IP-CIDR,31.77.122.0/24,no-resolve
@@ -3090,6 +3088,7 @@ IP-CIDR,71.18.248.0/22,no-resolve
 IP-CIDR,71.18.252.0/23,no-resolve
 IP-CIDR,71.18.255.0/24,no-resolve
 IP-CIDR,72.14.176.0/20,no-resolve
+IP-CIDR,72.22.96.0/22,no-resolve
 IP-CIDR,72.246.245.0/24,no-resolve
 IP-CIDR,72.246.246.0/24,no-resolve
 IP-CIDR,72.246.54.0/24,no-resolve
@@ -3117,6 +3116,7 @@ IP-CIDR,8.128.0.0/10,no-resolve
 IP-CIDR,8.208.0.0/12,no-resolve
 IP-CIDR,80.238.128.0/17,no-resolve
 IP-CIDR,80.249.134.0/24,no-resolve
+IP-CIDR,80.46.192.0/19,no-resolve
 IP-CIDR,80.65.208.0/24,no-resolve
 IP-CIDR,80.85.84.0/22,no-resolve
 IP-CIDR,80.94.89.0/24,no-resolve
@@ -3852,6 +3852,7 @@ IP-CIDR6,2600:3c18::/30,no-resolve
 IP-CIDR6,2600:3c1c::/32,no-resolve
 IP-CIDR6,2600:3c1e::/32,no-resolve
 IP-CIDR6,2602:f2bf::/40,no-resolve
+IP-CIDR6,2602:f2c0::/40,no-resolve
 IP-CIDR6,2602:f2cb::/40,no-resolve
 IP-CIDR6,2602:f2cc::/40,no-resolve
 IP-CIDR6,2602:f2cd::/40,no-resolve
@@ -3860,6 +3861,7 @@ IP-CIDR6,2602:f402::/40,no-resolve
 IP-CIDR6,2602:f548::/40,no-resolve
 IP-CIDR6,2602:f741::/36,no-resolve
 IP-CIDR6,2602:f74f::/36,no-resolve
+IP-CIDR6,2602:f7b3::/40,no-resolve
 IP-CIDR6,2602:f832::/40,no-resolve
 IP-CIDR6,2602:f834::/40,no-resolve
 IP-CIDR6,2602:f8fe::/40,no-resolve
