@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: Global
 # 全球（Global）
-# 数据日期: 2026-10-10
+# 数据日期: 2026-10-11
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 176837 条（IPv4: 107411 / IPv6: 69426）
+# 规则统计: 共 176836 条（IPv4: 107407 / IPv6: 69429）
 # ============================================================
 payload:
   - IP-CIDR,1.0.0.0/16,no-resolve
@@ -22141,14 +22141,12 @@ payload:
   - IP-CIDR,156.9.0.0/20,no-resolve
   - IP-CIDR,156.9.108.0/22,no-resolve
   - IP-CIDR,156.9.112.0/20,no-resolve
-  - IP-CIDR,156.9.128.0/20,no-resolve
-  - IP-CIDR,156.9.144.0/22,no-resolve
-  - IP-CIDR,156.9.152.0/21,no-resolve
+  - IP-CIDR,156.9.128.0/19,no-resolve
   - IP-CIDR,156.9.16.0/21,no-resolve
   - IP-CIDR,156.9.160.0/21,no-resolve
   - IP-CIDR,156.9.168.0/21,no-resolve
   - IP-CIDR,156.9.180.0/22,no-resolve
-  - IP-CIDR,156.9.184.0/22,no-resolve
+  - IP-CIDR,156.9.184.0/21,no-resolve
   - IP-CIDR,156.9.192.0/22,no-resolve
   - IP-CIDR,156.9.200.0/21,no-resolve
   - IP-CIDR,156.9.208.0/20,no-resolve
@@ -93167,9 +93165,7 @@ payload:
   - IP-CIDR,66.18.128.0/17,no-resolve
   - IP-CIDR,66.18.64.0/18,no-resolve
   - IP-CIDR,66.180.0.0/18,no-resolve
-  - IP-CIDR,66.180.128.0/18,no-resolve
-  - IP-CIDR,66.180.192.0/20,no-resolve
-  - IP-CIDR,66.180.224.0/19,no-resolve
+  - IP-CIDR,66.180.128.0/17,no-resolve
   - IP-CIDR,66.180.64.0/18,no-resolve
   - IP-CIDR,66.181.0.0/17,no-resolve
   - IP-CIDR,66.181.128.0/17,no-resolve
@@ -129959,6 +129955,11 @@ payload:
   - IP-CIDR6,2602:81f:3000::/40,no-resolve
   - IP-CIDR6,2602:81f::/44,no-resolve
   - IP-CIDR6,2602::/24,no-resolve
+  - IP-CIDR6,2602:f2ab::/40,no-resolve
+  - IP-CIDR6,2602:f2ac::/40,no-resolve
+  - IP-CIDR6,2602:f2ad::/36,no-resolve
+  - IP-CIDR6,2602:f2ae::/40,no-resolve
+  - IP-CIDR6,2602:f2af::/40,no-resolve
   - IP-CIDR6,2602:f2b0::/40,no-resolve
   - IP-CIDR6,2602:f2b1::/40,no-resolve
   - IP-CIDR6,2602:f2b2::/40,no-resolve
@@ -132285,8 +132286,6 @@ payload:
   - IP-CIDR6,2602:fc67::/36,no-resolve
   - IP-CIDR6,2602:fc68::/36,no-resolve
   - IP-CIDR6,2602:fc69::/36,no-resolve
-  - IP-CIDR6,2602:fc6a:200::/48,no-resolve
-  - IP-CIDR6,2602:fc6a:210::/48,no-resolve
   - IP-CIDR6,2602:fc6a::/40,no-resolve
   - IP-CIDR6,2602:fc6b::/36,no-resolve
   - IP-CIDR6,2602:fc6c::/36,no-resolve
