@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: VE
 # 委内瑞拉（Venezuela）
-# 数据日期: 2026-10-12
+# 数据日期: 2026-10-13
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 805 条（IPv4: 564 / IPv6: 241）
+# 规则统计: 共 807 条（IPv4: 566 / IPv6: 241）
 # ============================================================
 IP-CIDR,103.83.193.0/24,no-resolve
 IP-CIDR,129.90.0.0/16,no-resolve
@@ -23,7 +23,10 @@ IP-CIDR,141.136.63.0/24,no-resolve
 IP-CIDR,143.0.96.0/22,no-resolve
 IP-CIDR,143.255.84.0/22,no-resolve
 IP-CIDR,149.100.138.0/24,no-resolve
-IP-CIDR,149.100.144.0/20,no-resolve
+IP-CIDR,149.100.144.0/21,no-resolve
+IP-CIDR,149.100.152.0/22,no-resolve
+IP-CIDR,149.100.156.0/23,no-resolve
+IP-CIDR,149.100.158.0/24,no-resolve
 IP-CIDR,149.18.28.0/22,no-resolve
 IP-CIDR,150.185.0.0/16,no-resolve
 IP-CIDR,150.186.0.0/15,no-resolve
@@ -31,6 +34,7 @@ IP-CIDR,150.188.0.0/15,no-resolve
 IP-CIDR,153.51.200.0/22,no-resolve
 IP-CIDR,153.51.212.0/23,no-resolve
 IP-CIDR,153.51.224.0/20,no-resolve
+IP-CIDR,154.12.66.0/24,no-resolve
 IP-CIDR,154.17.208.0/22,no-resolve
 IP-CIDR,154.194.13.0/24,no-resolve
 IP-CIDR,154.194.14.0/24,no-resolve
@@ -46,6 +50,7 @@ IP-CIDR,154.23.96.0/20,no-resolve
 IP-CIDR,154.27.128.0/21,no-resolve
 IP-CIDR,154.27.136.0/21,no-resolve
 IP-CIDR,154.27.144.0/20,no-resolve
+IP-CIDR,154.3.56.0/24,no-resolve
 IP-CIDR,154.3.76.0/23,no-resolve
 IP-CIDR,154.39.128.0/18,no-resolve
 IP-CIDR,154.40.142.0/23,no-resolve
@@ -284,14 +289,14 @@ IP-CIDR,206.1.88.0/22,no-resolve
 IP-CIDR,206.135.228.0/22,no-resolve
 IP-CIDR,206.135.252.0/22,no-resolve
 IP-CIDR,206.62.160.0/19,no-resolve
-IP-CIDR,206.85.164.0/22,no-resolve
+IP-CIDR,206.85.164.0/23,no-resolve
+IP-CIDR,206.85.166.0/24,no-resolve
 IP-CIDR,217.26.191.0/24,no-resolve
 IP-CIDR,217.76.248.0/22,no-resolve
 IP-CIDR,38.10.248.0/21,no-resolve
 IP-CIDR,38.103.210.0/24,no-resolve
 IP-CIDR,38.106.30.0/24,no-resolve
 IP-CIDR,38.108.119.0/24,no-resolve
-IP-CIDR,38.113.87.0/24,no-resolve
 IP-CIDR,38.114.75.0/24,no-resolve
 IP-CIDR,38.121.208.0/22,no-resolve
 IP-CIDR,38.121.212.0/23,no-resolve
@@ -304,8 +309,6 @@ IP-CIDR,38.125.106.0/24,no-resolve
 IP-CIDR,38.125.236.0/24,no-resolve
 IP-CIDR,38.127.220.0/23,no-resolve
 IP-CIDR,38.129.142.0/23,no-resolve
-IP-CIDR,38.129.7.0/24,no-resolve
-IP-CIDR,38.129.89.0/24,no-resolve
 IP-CIDR,38.130.64.0/23,no-resolve
 IP-CIDR,38.133.200.0/24,no-resolve
 IP-CIDR,38.134.172.0/24,no-resolve
@@ -408,10 +411,8 @@ IP-CIDR,38.50.160.0/22,no-resolve
 IP-CIDR,38.51.120.0/22,no-resolve
 IP-CIDR,38.51.124.0/23,no-resolve
 IP-CIDR,38.51.126.0/24,no-resolve
-IP-CIDR,38.51.154.0/23,no-resolve
 IP-CIDR,38.51.156.0/22,no-resolve
 IP-CIDR,38.51.176.0/23,no-resolve
-IP-CIDR,38.51.178.0/24,no-resolve
 IP-CIDR,38.51.180.0/22,no-resolve
 IP-CIDR,38.51.192.0/20,no-resolve
 IP-CIDR,38.51.208.0/20,no-resolve
@@ -453,7 +454,9 @@ IP-CIDR,38.7.0.0/21,no-resolve
 IP-CIDR,38.7.104.0/24,no-resolve
 IP-CIDR,38.70.28.0/22,no-resolve
 IP-CIDR,38.73.226.0/24,no-resolve
-IP-CIDR,38.74.224.0/21,no-resolve
+IP-CIDR,38.74.225.0/24,no-resolve
+IP-CIDR,38.74.226.0/24,no-resolve
+IP-CIDR,38.74.228.0/23,no-resolve
 IP-CIDR,38.74.232.0/23,no-resolve
 IP-CIDR,38.74.235.0/24,no-resolve
 IP-CIDR,38.74.237.0/24,no-resolve
@@ -464,7 +467,6 @@ IP-CIDR,38.76.136.0/22,no-resolve
 IP-CIDR,38.76.9.0/24,no-resolve
 IP-CIDR,38.77.40.0/22,no-resolve
 IP-CIDR,38.82.21.0/24,no-resolve
-IP-CIDR,38.83.91.0/24,no-resolve
 IP-CIDR,38.83.92.0/24,no-resolve
 IP-CIDR,38.84.58.0/24,no-resolve
 IP-CIDR,38.87.248.0/22,no-resolve

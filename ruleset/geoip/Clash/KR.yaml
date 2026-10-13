@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: KR
 # 韩国（South Korea）
-# 数据日期: 2026-10-12
+# 数据日期: 2026-10-13
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1828 条（IPv4: 1638 / IPv6: 190）
+# 规则统计: 共 1829 条（IPv4: 1638 / IPv6: 191）
 # ============================================================
 payload:
   - IP-CIDR,1.11.0.0/16,no-resolve
@@ -1787,6 +1787,7 @@ payload:
   - IP-CIDR6,2407:c000::/32,no-resolve
   - IP-CIDR6,2407:c700::/32,no-resolve
   - IP-CIDR6,2407:d100::/32,no-resolve
+  - IP-CIDR6,2602:f2dc:ab::/48,no-resolve
   - IP-CIDR6,2602:f494:1::/48,no-resolve
   - IP-CIDR6,2602:f494:4::/48,no-resolve
   - IP-CIDR6,2602:f5d1::/40,no-resolve
