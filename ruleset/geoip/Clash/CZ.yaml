@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: CZ
 # 捷克（Czechia）
-# 数据日期: 2026-10-13
+# 数据日期: 2026-10-14
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 2500 条（IPv4: 1716 / IPv6: 784）
+# 规则统计: 共 2501 条（IPv4: 1716 / IPv6: 785）
 # ============================================================
 payload:
   - IP-CIDR,102.223.110.0/24,no-resolve
@@ -48,6 +48,7 @@ payload:
   - IP-CIDR,128.254.224.0/24,no-resolve
   - IP-CIDR,13.143.234.0/24,no-resolve
   - IP-CIDR,13.143.236.0/23,no-resolve
+  - IP-CIDR,13.143.68.0/22,no-resolve
   - IP-CIDR,130.185.176.0/21,no-resolve
   - IP-CIDR,130.193.0.0/24,no-resolve
   - IP-CIDR,130.193.16.0/21,no-resolve
@@ -1405,7 +1406,6 @@ payload:
   - IP-CIDR,82.142.64.0/18,no-resolve
   - IP-CIDR,82.144.128.0/19,no-resolve
   - IP-CIDR,82.150.160.0/19,no-resolve
-  - IP-CIDR,82.153.113.0/24,no-resolve
   - IP-CIDR,82.153.116.0/24,no-resolve
   - IP-CIDR,82.202.0.0/17,no-resolve
   - IP-CIDR,82.208.0.0/21,no-resolve
@@ -1870,6 +1870,7 @@ payload:
   - IP-CIDR6,2403:c580:fffe::/47,no-resolve
   - IP-CIDR6,2602:fbec:2000::/47,no-resolve
   - IP-CIDR6,2602:fbec:2012::/47,no-resolve
+  - IP-CIDR6,2602:fbec:2014::/48,no-resolve
   - IP-CIDR6,2602:fbec:2016::/48,no-resolve
   - IP-CIDR6,2602:fbec:2018::/48,no-resolve
   - IP-CIDR6,2607:de80::/32,no-resolve
