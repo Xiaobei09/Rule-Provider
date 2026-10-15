@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: CN
 # 中国（China）
-# 数据日期: 2026-10-14
+# 数据日期: 2026-10-15
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 10218 条（IPv4: 7025 / IPv6: 3193）
+# 规则统计: 共 10220 条（IPv4: 7025 / IPv6: 3195）
 # ============================================================
 ip-cidr, 1.0.1.0/24
 ip-cidr, 1.0.2.0/23
@@ -1610,6 +1610,7 @@ ip-cidr, 103.50.44.0/22
 ip-cidr, 103.50.48.0/20
 ip-cidr, 103.50.64.0/21
 ip-cidr, 103.50.72.0/22
+ip-cidr, 103.51.62.0/23
 ip-cidr, 103.52.104.0/22
 ip-cidr, 103.52.160.0/21
 ip-cidr, 103.52.172.0/22
@@ -3109,7 +3110,7 @@ ip-cidr, 155.102.224.0/20
 ip-cidr, 155.102.24.0/24
 ip-cidr, 155.102.240.0/21
 ip-cidr, 155.102.248.0/21
-ip-cidr, 155.102.26.0/23
+ip-cidr, 155.102.26.0/24
 ip-cidr, 155.102.28.0/22
 ip-cidr, 155.102.32.0/23
 ip-cidr, 155.102.34.0/24
@@ -5556,7 +5557,7 @@ ip-cidr, 43.109.192.0/23
 ip-cidr, 43.109.2.0/24
 ip-cidr, 43.109.200.0/23
 ip-cidr, 43.109.202.0/24
-ip-cidr, 43.109.207.0/24
+ip-cidr, 43.109.206.0/23
 ip-cidr, 43.109.208.0/23
 ip-cidr, 43.109.21.0/24
 ip-cidr, 43.109.211.0/24
@@ -5566,7 +5567,7 @@ ip-cidr, 43.109.22.0/24
 ip-cidr, 43.109.224.0/23
 ip-cidr, 43.109.226.0/24
 ip-cidr, 43.109.237.0/24
-ip-cidr, 43.109.239.0/24
+ip-cidr, 43.109.238.0/23
 ip-cidr, 43.109.24.0/22
 ip-cidr, 43.109.28.0/24
 ip-cidr, 43.109.30.0/23
@@ -5587,7 +5588,6 @@ ip-cidr, 43.109.7.0/24
 ip-cidr, 43.109.70.0/24
 ip-cidr, 43.109.72.0/23
 ip-cidr, 43.109.76.0/22
-ip-cidr, 43.109.80.0/24
 ip-cidr, 43.109.83.0/24
 ip-cidr, 43.109.84.0/22
 ip-cidr, 43.109.88.0/22
@@ -6518,6 +6518,7 @@ ip-cidr, 47.246.2.0/23
 ip-cidr, 47.246.20.0/24
 ip-cidr, 47.246.208.0/23
 ip-cidr, 47.246.212.0/22
+ip-cidr, 47.246.216.0/22
 ip-cidr, 47.246.22.0/23
 ip-cidr, 47.246.24.0/24
 ip-cidr, 47.246.28.0/22
@@ -6961,8 +6962,7 @@ ip-cidr, 8.215.128.0/19
 ip-cidr, 8.215.160.0/22
 ip-cidr, 8.215.168.0/21
 ip-cidr, 8.215.176.0/20
-ip-cidr, 8.215.192.0/19
-ip-cidr, 8.215.224.0/19
+ip-cidr, 8.215.192.0/18
 ip-cidr, 8.216.0.0/18
 ip-cidr, 8.216.128.0/20
 ip-cidr, 8.216.144.0/20
@@ -9347,6 +9347,7 @@ ip6-cidr, 240e::/18
 ip6-cidr, 240f:4000::/24
 ip6-cidr, 240f:8000::/24
 ip6-cidr, 240f:c000::/24
+ip6-cidr, 2602:2e0:ff::/48
 ip6-cidr, 2602:f2dc:9d::/48
 ip6-cidr, 2602:f32a:30::/44
 ip6-cidr, 2602:f46d:1::/48
@@ -9495,19 +9496,17 @@ ip6-cidr, 2a06:a005:e50::/44
 ip6-cidr, 2a06:a005:e70::/44
 ip6-cidr, 2a06:de00:de00::/47
 ip6-cidr, 2a06:de00:de04::/48
+ip6-cidr, 2a06:de02:405::/48
 ip6-cidr, 2a06:de02:40c::/48
 ip6-cidr, 2a06:de02:411::/48
 ip6-cidr, 2a06:de02:419::/48
-ip6-cidr, 2a06:de02:41a::/48
 ip6-cidr, 2a06:de02:42d::/48
 ip6-cidr, 2a06:de02:431::/48
 ip6-cidr, 2a06:de02:435::/48
-ip6-cidr, 2a06:de02:436::/48
 ip6-cidr, 2a06:de02:43f::/48
 ip6-cidr, 2a06:de02:443::/48
 ip6-cidr, 2a06:de02:44b::/48
 ip6-cidr, 2a06:de02:459::/48
-ip6-cidr, 2a06:de02:469::/48
 ip6-cidr, 2a06:de02:476::/48
 ip6-cidr, 2a06:de02:47b::/48
 ip6-cidr, 2a06:de02:480::/48
@@ -9515,64 +9514,66 @@ ip6-cidr, 2a06:de02:482::/48
 ip6-cidr, 2a06:de02:489::/48
 ip6-cidr, 2a06:de02:490::/48
 ip6-cidr, 2a06:de02:494::/48
-ip6-cidr, 2a06:de02:496::/48
+ip6-cidr, 2a06:de02:4a0::/48
 ip6-cidr, 2a06:de02:4aa::/48
+ip6-cidr, 2a06:de02:4ae::/48
 ip6-cidr, 2a06:de02:4c7::/48
-ip6-cidr, 2a06:de02:4ce::/48
 ip6-cidr, 2a06:de02:4d7::/48
+ip6-cidr, 2a06:de02:4dc::/48
 ip6-cidr, 2a06:de02:4f5::/48
 ip6-cidr, 2a06:de02:4fd::/48
+ip6-cidr, 2a06:de02:504::/48
 ip6-cidr, 2a06:de02:511::/48
-ip6-cidr, 2a06:de02:518::/48
 ip6-cidr, 2a06:de02:51d::/48
 ip6-cidr, 2a06:de02:524::/48
 ip6-cidr, 2a06:de02:538::/48
 ip6-cidr, 2a06:de02:553::/48
-ip6-cidr, 2a06:de02:561::/48
+ip6-cidr, 2a06:de02:560::/47
+ip6-cidr, 2a06:de02:567::/48
 ip6-cidr, 2a06:de02:56a::/48
 ip6-cidr, 2a06:de02:57f::/48
 ip6-cidr, 2a06:de02:585::/48
 ip6-cidr, 2a06:de02:587::/48
 ip6-cidr, 2a06:de02:592::/48
-ip6-cidr, 2a06:de02:596::/48
-ip6-cidr, 2a06:de02:5ac::/48
+ip6-cidr, 2a06:de02:5b1::/48
 ip6-cidr, 2a06:de02:5b4::/48
 ip6-cidr, 2a06:de02:5b7::/48
 ip6-cidr, 2a06:de02:5cf::/48
+ip6-cidr, 2a06:de02:5e1::/48
 ip6-cidr, 2a06:de02:5eb::/48
-ip6-cidr, 2a06:de02:5f1::/48
 ip6-cidr, 2a06:de02:5fc::/48
 ip6-cidr, 2a06:de02:60d::/48
 ip6-cidr, 2a06:de02:61a::/48
-ip6-cidr, 2a06:de02:61c::/48
 ip6-cidr, 2a06:de02:622::/48
+ip6-cidr, 2a06:de02:624::/48
 ip6-cidr, 2a06:de02:628::/48
 ip6-cidr, 2a06:de02:62a::/47
+ip6-cidr, 2a06:de02:62d::/48
 ip6-cidr, 2a06:de02:634::/48
-ip6-cidr, 2a06:de02:643::/48
 ip6-cidr, 2a06:de02:647::/48
 ip6-cidr, 2a06:de02:648::/48
 ip6-cidr, 2a06:de02:65d::/48
 ip6-cidr, 2a06:de02:664::/48
 ip6-cidr, 2a06:de02:66c::/48
-ip6-cidr, 2a06:de02:672::/48
 ip6-cidr, 2a06:de02:676::/48
+ip6-cidr, 2a06:de02:67b::/48
 ip6-cidr, 2a06:de02:686::/48
 ip6-cidr, 2a06:de02:69a::/48
 ip6-cidr, 2a06:de02:6a0::/48
 ip6-cidr, 2a06:de02:6c6::/48
 ip6-cidr, 2a06:de02:6cf::/48
-ip6-cidr, 2a06:de02:701::/48
 ip6-cidr, 2a06:de02:704::/48
+ip6-cidr, 2a06:de02:708::/48
 ip6-cidr, 2a06:de02:70d::/48
 ip6-cidr, 2a06:de02:712::/48
+ip6-cidr, 2a06:de02:724::/48
 ip6-cidr, 2a06:de02:72c::/48
 ip6-cidr, 2a06:de02:731::/48
-ip6-cidr, 2a06:de02:73a::/48
-ip6-cidr, 2a06:de02:786::/47
 ip6-cidr, 2a06:de02:78a::/48
 ip6-cidr, 2a06:de02:796::/48
+ip6-cidr, 2a06:de02:79e::/48
 ip6-cidr, 2a06:de02:7a3::/48
+ip6-cidr, 2a06:de02:7ac::/48
 ip6-cidr, 2a06:de02:7af::/48
 ip6-cidr, 2a06:de07:f800::/38
 ip6-cidr, 2a06:e881:6600::/48
@@ -9849,6 +9850,7 @@ ip6-cidr, 2a0f:1cc5:45ff::/48
 ip6-cidr, 2a0f:1cc5:4600::/40
 ip6-cidr, 2a0f:1cc5:4700::/40
 ip6-cidr, 2a0f:1cc5:49f0::/48
+ip6-cidr, 2a0f:1cc5:57fb::/48
 ip6-cidr, 2a0f:1cc5:57fc::/46
 ip6-cidr, 2a0f:1cc5:600::/47
 ip6-cidr, 2a0f:1cc5:603::/48
@@ -9983,7 +9985,6 @@ ip6-cidr, 2a12:f8c3::/36
 ip6-cidr, 2a13:1800::/29
 ip6-cidr, 2a13:8b40::/29
 ip6-cidr, 2a13:8c87::/32
-ip6-cidr, 2a13:9500:167::/48
 ip6-cidr, 2a13:9500:194::/48
 ip6-cidr, 2a13:a5c3:f000::/40
 ip6-cidr, 2a13:a5c3:ff10::/44
@@ -10207,6 +10208,7 @@ ip6-cidr, 2a14:7c0:4d00::/40
 ip6-cidr, 2a14:7c0:5103::/48
 ip6-cidr, 2a14:7dc0:506::/48
 ip6-cidr, 2a14:7dc0:510::/47
+ip6-cidr, 2a14:7dc0:512::/48
 ip6-cidr, 2a14:7dc0:515::/48
 ip6-cidr, 2a14:7dc0:516::/47
 ip6-cidr, 2a14:7dc0:51b::/48
