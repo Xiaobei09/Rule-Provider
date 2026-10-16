@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: GR
 # 希腊（Greece）
-# 数据日期: 2026-10-15
+# 数据日期: 2026-10-16
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 720 条（IPv4: 568 / IPv6: 152）
+# 规则统计: 共 719 条（IPv4: 568 / IPv6: 151）
 # ============================================================
 payload:
   - IP-CIDR,109.107.139.0/24,no-resolve
@@ -56,6 +56,7 @@ payload:
   - IP-CIDR,155.207.0.0/16,no-resolve
   - IP-CIDR,160.40.0.0/16,no-resolve
   - IP-CIDR,164.40.237.0/24,no-resolve
+  - IP-CIDR,165.217.164.0/24,no-resolve
   - IP-CIDR,172.93.4.0/23,no-resolve
   - IP-CIDR,176.113.46.0/24,no-resolve
   - IP-CIDR,176.119.209.0/24,no-resolve
@@ -82,7 +83,6 @@ payload:
   - IP-CIDR,178.253.0.0/18,no-resolve
   - IP-CIDR,178.59.0.0/16,no-resolve
   - IP-CIDR,185.1.123.0/24,no-resolve
-  - IP-CIDR,185.1.172.0/24,no-resolve
   - IP-CIDR,185.1.29.0/24,no-resolve
   - IP-CIDR,185.100.168.0/22,no-resolve
   - IP-CIDR,185.104.144.0/22,no-resolve
@@ -595,7 +595,6 @@ payload:
   - IP-CIDR6,2001:7f8:6e::/48,no-resolve
   - IP-CIDR6,2001:7f8:8a::/48,no-resolve
   - IP-CIDR6,2001:7f8:ce::/48,no-resolve
-  - IP-CIDR6,2001:7f8:f5::/48,no-resolve
   - IP-CIDR6,2001:8f0::/30,no-resolve
   - IP-CIDR6,2a00:1cb8::/32,no-resolve
   - IP-CIDR6,2a00:1f68::/32,no-resolve

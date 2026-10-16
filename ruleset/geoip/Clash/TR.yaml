@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: TR
 # 土耳其（Turkey）
-# 数据日期: 2026-10-15
+# 数据日期: 2026-10-16
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 3167 条（IPv4: 2288 / IPv6: 879）
+# 规则统计: 共 3173 条（IPv4: 2293 / IPv6: 880）
 # ============================================================
 payload:
   - IP-CIDR,102.135.106.0/24,no-resolve
@@ -28,9 +28,10 @@ payload:
   - IP-CIDR,104.143.216.0/24,no-resolve
   - IP-CIDR,104.193.194.0/24,no-resolve
   - IP-CIDR,104.224.53.0/24,no-resolve
-  - IP-CIDR,104.233.4.0/24,no-resolve
+  - IP-CIDR,104.233.4.0/23,no-resolve
   - IP-CIDR,104.238.21.0/24,no-resolve
   - IP-CIDR,104.238.23.0/24,no-resolve
+  - IP-CIDR,104.239.127.0/24,no-resolve
   - IP-CIDR,104.239.83.0/24,no-resolve
   - IP-CIDR,104.247.160.0/19,no-resolve
   - IP-CIDR,104.249.19.0/24,no-resolve
@@ -155,7 +156,11 @@ payload:
   - IP-CIDR,149.18.4.0/24,no-resolve
   - IP-CIDR,149.3.171.0/24,no-resolve
   - IP-CIDR,149.34.192.0/19,no-resolve
-  - IP-CIDR,149.50.224.0/19,no-resolve
+  - IP-CIDR,149.50.224.0/21,no-resolve
+  - IP-CIDR,149.50.232.0/22,no-resolve
+  - IP-CIDR,149.50.236.0/24,no-resolve
+  - IP-CIDR,149.50.239.0/24,no-resolve
+  - IP-CIDR,149.50.240.0/20,no-resolve
   - IP-CIDR,149.62.40.0/24,no-resolve
   - IP-CIDR,149.86.128.0/19,no-resolve
   - IP-CIDR,151.135.0.0/16,no-resolve
@@ -486,7 +491,6 @@ payload:
   - IP-CIDR,185.174.68.0/22,no-resolve
   - IP-CIDR,185.175.67.0/24,no-resolve
   - IP-CIDR,185.176.95.0/24,no-resolve
-  - IP-CIDR,185.177.27.0/24,no-resolve
   - IP-CIDR,185.178.240.0/22,no-resolve
   - IP-CIDR,185.179.100.0/24,no-resolve
   - IP-CIDR,185.179.124.0/24,no-resolve
@@ -1228,6 +1232,7 @@ payload:
   - IP-CIDR,2.27.101.0/24,no-resolve
   - IP-CIDR,2.27.119.0/24,no-resolve
   - IP-CIDR,2.27.150.0/24,no-resolve
+  - IP-CIDR,2.27.72.0/23,no-resolve
   - IP-CIDR,2.27.78.0/24,no-resolve
   - IP-CIDR,2.27.85.0/24,no-resolve
   - IP-CIDR,2.27.91.0/24,no-resolve
@@ -2982,6 +2987,7 @@ payload:
   - IP-CIDR6,2a10:fa80:1080::/41,no-resolve
   - IP-CIDR6,2a10:fa80:1100::/40,no-resolve
   - IP-CIDR6,2a10:fa80:1200::/39,no-resolve
+  - IP-CIDR6,2a10:fa80:130::/47,no-resolve
   - IP-CIDR6,2a10:fa80:1400::/38,no-resolve
   - IP-CIDR6,2a10:fa80:1800::/37,no-resolve
   - IP-CIDR6,2a10:fa80::/47,no-resolve

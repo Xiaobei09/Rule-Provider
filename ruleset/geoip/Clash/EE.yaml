@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: EE
 # 爱沙尼亚（Estonia）
-# 数据日期: 2026-10-15
+# 数据日期: 2026-10-16
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1372 条（IPv4: 1063 / IPv6: 309）
+# 规则统计: 共 1388 条（IPv4: 1077 / IPv6: 311）
 # ============================================================
 payload:
   - IP-CIDR,103.140.186.0/23,no-resolve
@@ -133,6 +133,7 @@ payload:
   - IP-CIDR,167.104.64.0/19,no-resolve
   - IP-CIDR,167.148.83.0/24,no-resolve
   - IP-CIDR,167.94.163.0/24,no-resolve
+  - IP-CIDR,169.128.69.0/24,no-resolve
   - IP-CIDR,169.128.70.0/23,no-resolve
   - IP-CIDR,169.40.14.0/24,no-resolve
   - IP-CIDR,171.22.114.0/24,no-resolve
@@ -173,7 +174,6 @@ payload:
   - IP-CIDR,178.253.55.0/24,no-resolve
   - IP-CIDR,178.73.220.0/24,no-resolve
   - IP-CIDR,178.83.133.0/24,no-resolve
-  - IP-CIDR,179.61.242.0/24,no-resolve
   - IP-CIDR,181.114.240.0/20,no-resolve
   - IP-CIDR,185.1.235.0/24,no-resolve
   - IP-CIDR,185.103.203.0/24,no-resolve
@@ -347,7 +347,9 @@ payload:
   - IP-CIDR,193.109.120.0/24,no-resolve
   - IP-CIDR,193.124.205.0/24,no-resolve
   - IP-CIDR,193.124.224.0/24,no-resolve
+  - IP-CIDR,193.124.5.0/24,no-resolve
   - IP-CIDR,193.124.56.0/22,no-resolve
+  - IP-CIDR,193.124.7.0/24,no-resolve
   - IP-CIDR,193.124.80.0/24,no-resolve
   - IP-CIDR,193.138.27.0/24,no-resolve
   - IP-CIDR,193.138.8.0/24,no-resolve
@@ -436,6 +438,10 @@ payload:
   - IP-CIDR,194.76.136.0/22,no-resolve
   - IP-CIDR,194.76.198.0/24,no-resolve
   - IP-CIDR,194.77.38.0/24,no-resolve
+  - IP-CIDR,194.87.119.0/24,no-resolve
+  - IP-CIDR,194.87.136.0/24,no-resolve
+  - IP-CIDR,194.87.150.0/24,no-resolve
+  - IP-CIDR,194.87.179.0/24,no-resolve
   - IP-CIDR,194.87.6.0/24,no-resolve
   - IP-CIDR,194.88.150.0/23,no-resolve
   - IP-CIDR,194.93.63.0/24,no-resolve
@@ -444,6 +450,7 @@ payload:
   - IP-CIDR,195.12.178.0/24,no-resolve
   - IP-CIDR,195.123.188.0/24,no-resolve
   - IP-CIDR,195.130.196.0/24,no-resolve
+  - IP-CIDR,195.133.29.0/24,no-resolve
   - IP-CIDR,195.138.53.0/24,no-resolve
   - IP-CIDR,195.190.141.0/24,no-resolve
   - IP-CIDR,195.20.151.0/24,no-resolve
@@ -502,13 +509,20 @@ payload:
   - IP-CIDR,204.17.195.0/24,no-resolve
   - IP-CIDR,205.237.104.0/22,no-resolve
   - IP-CIDR,206.123.128.0/24,no-resolve
+  - IP-CIDR,206.245.144.0/24,no-resolve
+  - IP-CIDR,206.245.147.0/24,no-resolve
+  - IP-CIDR,206.245.150.0/24,no-resolve
+  - IP-CIDR,206.245.155.0/24,no-resolve
+  - IP-CIDR,206.245.156.0/24,no-resolve
   - IP-CIDR,207.244.210.0/23,no-resolve
   - IP-CIDR,209.161.105.0/24,no-resolve
   - IP-CIDR,209.161.107.0/24,no-resolve
   - IP-CIDR,212.107.52.0/22,no-resolve
   - IP-CIDR,212.119.43.0/24,no-resolve
   - IP-CIDR,212.192.22.0/24,no-resolve
+  - IP-CIDR,212.192.241.0/24,no-resolve
   - IP-CIDR,212.193.12.0/23,no-resolve
+  - IP-CIDR,212.193.7.0/24,no-resolve
   - IP-CIDR,212.23.202.0/24,no-resolve
   - IP-CIDR,212.237.231.0/24,no-resolve
   - IP-CIDR,212.46.38.0/24,no-resolve
@@ -1135,6 +1149,7 @@ payload:
   - IP-CIDR6,2602:f72e::/46,no-resolve
   - IP-CIDR6,2602:f72e:c0::/47,no-resolve
   - IP-CIDR6,2602:f72e:cd::/48,no-resolve
+  - IP-CIDR6,2602:fa02:e00::/40,no-resolve
   - IP-CIDR6,2604:ea80:6200::/40,no-resolve
   - IP-CIDR6,2604:ea80:6600::/40,no-resolve
   - IP-CIDR6,2a00:16e0::/32,no-resolve
@@ -1250,6 +1265,7 @@ payload:
   - IP-CIDR6,2a0b:4440::/29,no-resolve
   - IP-CIDR6,2a0b:48c0::/29,no-resolve
   - IP-CIDR6,2a0b:4e07:270::/44,no-resolve
+  - IP-CIDR6,2a0b:4e07:2b0::/44,no-resolve
   - IP-CIDR6,2a0b:4e07:2c::/48,no-resolve
   - IP-CIDR6,2a0b:4e07:2e::/48,no-resolve
   - IP-CIDR6,2a0b:4e07:3::/48,no-resolve
