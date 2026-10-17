@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: PH
 # 菲律宾（Philippines）
-# 数据日期: 2026-10-16
+# 数据日期: 2026-10-17
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1596 条（IPv4: 1103 / IPv6: 493）
+# 规则统计: 共 1594 条（IPv4: 1101 / IPv6: 493）
 # ============================================================
 payload:
   - IP-CIDR,1.37.0.0/16,no-resolve
@@ -741,6 +741,7 @@ payload:
   - IP-CIDR,185.251.172.0/22,no-resolve
   - IP-CIDR,192.112.243.0/24,no-resolve
   - IP-CIDR,192.133.66.0/24,no-resolve
+  - IP-CIDR,192.140.238.0/23,no-resolve
   - IP-CIDR,192.153.221.0/24,no-resolve
   - IP-CIDR,192.153.222.0/23,no-resolve
   - IP-CIDR,192.153.224.0/22,no-resolve
@@ -895,10 +896,7 @@ payload:
   - IP-CIDR,204.145.4.0/22,no-resolve
   - IP-CIDR,206.201.0.0/20,no-resolve
   - IP-CIDR,206.62.40.0/22,no-resolve
-  - IP-CIDR,207.19.252.0/22,no-resolve
   - IP-CIDR,208.195.3.0/24,no-resolve
-  - IP-CIDR,208.232.224.0/22,no-resolve
-  - IP-CIDR,208.235.224.0/21,no-resolve
   - IP-CIDR,208.71.224.0/21,no-resolve
   - IP-CIDR,209.141.0.0/20,no-resolve
   - IP-CIDR,209.146.106.0/24,no-resolve
@@ -1272,6 +1270,7 @@ payload:
   - IP-CIDR6,2001:df7:9f00::/48,no-resolve
   - IP-CIDR6,2001:df7:a780::/48,no-resolve
   - IP-CIDR6,2001:df7:b280::/48,no-resolve
+  - IP-CIDR6,2001:df7:b540::/48,no-resolve
   - IP-CIDR6,2001:fd8::/32,no-resolve
   - IP-CIDR6,2001:fe0::/31,no-resolve
   - IP-CIDR6,2400:1ea0::/32,no-resolve
@@ -1410,7 +1409,6 @@ payload:
   - IP-CIDR6,2402:7ce0::/32,no-resolve
   - IP-CIDR6,2402:940::/32,no-resolve
   - IP-CIDR6,2402:ba00::/32,no-resolve
-  - IP-CIDR6,2402:cb40::/32,no-resolve
   - IP-CIDR6,2402:ce0::/32,no-resolve
   - IP-CIDR6,2402:da0::/32,no-resolve
   - IP-CIDR6,2402:fe00::/32,no-resolve
