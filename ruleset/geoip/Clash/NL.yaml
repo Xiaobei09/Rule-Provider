@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: NL
 # 荷兰（Netherlands）
-# 数据日期: 2026-10-17
+# 数据日期: 2026-10-18
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 17012 条（IPv4: 11713 / IPv6: 5299）
+# 规则统计: 共 17024 条（IPv4: 11713 / IPv6: 5311）
 # ============================================================
 payload:
   - IP-CIDR,101.97.0.0/19,no-resolve
@@ -12273,10 +12273,11 @@ payload:
   - IP-CIDR6,2600:1404:2800::/38,no-resolve
   - IP-CIDR6,2600:1404:2c00::/38,no-resolve
   - IP-CIDR6,2600:1404:3000::/36,no-resolve
-  - IP-CIDR6,2600:1404:4000::/35,no-resolve
+  - IP-CIDR6,2600:1404:4000::/36,no-resolve
   - IP-CIDR6,2600:1404:400::/38,no-resolve
   - IP-CIDR6,2600:1404:40::/42,no-resolve
   - IP-CIDR6,2600:1404:4::/48,no-resolve
+  - IP-CIDR6,2600:1404:5000::/36,no-resolve
   - IP-CIDR6,2600:1404:6000::/37,no-resolve
   - IP-CIDR6,2600:1404:6800::/37,no-resolve
   - IP-CIDR6,2600:1404:6::/47,no-resolve
@@ -13800,7 +13801,18 @@ payload:
   - IP-CIDR6,2600:1411::/33,no-resolve
   - IP-CIDR6,2600:1411:c000::/34,no-resolve
   - IP-CIDR6,2600:1412::/32,no-resolve
-  - IP-CIDR6,2600:1413:1000::/36,no-resolve
+  - IP-CIDR6,2600:1413:1001::/48,no-resolve
+  - IP-CIDR6,2600:1413:1002::/47,no-resolve
+  - IP-CIDR6,2600:1413:1004::/46,no-resolve
+  - IP-CIDR6,2600:1413:1008::/45,no-resolve
+  - IP-CIDR6,2600:1413:1010::/44,no-resolve
+  - IP-CIDR6,2600:1413:1020::/43,no-resolve
+  - IP-CIDR6,2600:1413:1040::/42,no-resolve
+  - IP-CIDR6,2600:1413:1080::/41,no-resolve
+  - IP-CIDR6,2600:1413:1100::/40,no-resolve
+  - IP-CIDR6,2600:1413:1200::/39,no-resolve
+  - IP-CIDR6,2600:1413:1400::/38,no-resolve
+  - IP-CIDR6,2600:1413:1800::/37,no-resolve
   - IP-CIDR6,2600:1413:2000::/36,no-resolve
   - IP-CIDR6,2600:1413:3001::/48,no-resolve
   - IP-CIDR6,2600:1413:3002::/47,no-resolve
