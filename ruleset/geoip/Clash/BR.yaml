@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: BR
 # 巴西（Brazil）
-# 数据日期: 2026-10-18
+# 数据日期: 2026-10-19
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 15661 条（IPv4: 6570 / IPv6: 9091）
+# 规则统计: 共 15662 条（IPv4: 6570 / IPv6: 9092）
 # ============================================================
 payload:
   - IP-CIDR,102.129.192.0/24,no-resolve
@@ -835,7 +835,6 @@ payload:
   - IP-CIDR,151.242.95.0/24,no-resolve
   - IP-CIDR,151.243.0.0/24,no-resolve
   - IP-CIDR,151.243.218.0/23,no-resolve
-  - IP-CIDR,151.243.24.0/24,no-resolve
   - IP-CIDR,151.243.33.0/24,no-resolve
   - IP-CIDR,151.243.46.0/24,no-resolve
   - IP-CIDR,151.244.117.0/24,no-resolve
@@ -4638,12 +4637,13 @@ payload:
   - IP-CIDR,206.42.32.0/21,no-resolve
   - IP-CIDR,206.42.40.0/21,no-resolve
   - IP-CIDR,206.42.48.0/20,no-resolve
-  - IP-CIDR,206.43.0.0/17,no-resolve
-  - IP-CIDR,206.43.128.0/18,no-resolve
-  - IP-CIDR,206.43.192.0/21,no-resolve
-  - IP-CIDR,206.43.200.0/21,no-resolve
-  - IP-CIDR,206.43.208.0/20,no-resolve
-  - IP-CIDR,206.43.224.0/19,no-resolve
+  - IP-CIDR,206.43.12.0/24,no-resolve
+  - IP-CIDR,206.43.192.0/24,no-resolve
+  - IP-CIDR,206.43.241.0/24,no-resolve
+  - IP-CIDR,206.43.26.0/24,no-resolve
+  - IP-CIDR,206.43.34.0/23,no-resolve
+  - IP-CIDR,206.43.56.0/24,no-resolve
+  - IP-CIDR,206.43.91.0/24,no-resolve
   - IP-CIDR,206.62.100.0/24,no-resolve
   - IP-CIDR,206.62.102.0/24,no-resolve
   - IP-CIDR,206.62.114.0/23,no-resolve
@@ -4931,7 +4931,6 @@ payload:
   - IP-CIDR,38.224.255.0/24,no-resolve
   - IP-CIDR,38.224.30.0/23,no-resolve
   - IP-CIDR,38.224.58.0/23,no-resolve
-  - IP-CIDR,38.225.108.0/24,no-resolve
   - IP-CIDR,38.225.111.0/24,no-resolve
   - IP-CIDR,38.225.195.0/24,no-resolve
   - IP-CIDR,38.225.197.0/24,no-resolve
@@ -5008,6 +5007,7 @@ payload:
   - IP-CIDR,38.252.108.0/23,no-resolve
   - IP-CIDR,38.252.148.0/23,no-resolve
   - IP-CIDR,38.252.204.0/23,no-resolve
+  - IP-CIDR,38.252.4.0/23,no-resolve
   - IP-CIDR,38.252.64.0/22,no-resolve
   - IP-CIDR,38.252.80.0/24,no-resolve
   - IP-CIDR,38.252.82.0/23,no-resolve
@@ -5027,7 +5027,7 @@ payload:
   - IP-CIDR,38.3.140.0/22,no-resolve
   - IP-CIDR,38.3.164.0/22,no-resolve
   - IP-CIDR,38.3.172.0/22,no-resolve
-  - IP-CIDR,38.3.178.0/23,no-resolve
+  - IP-CIDR,38.3.178.0/24,no-resolve
   - IP-CIDR,38.3.186.0/24,no-resolve
   - IP-CIDR,38.3.208.0/21,no-resolve
   - IP-CIDR,38.3.227.0/24,no-resolve
@@ -8594,6 +8594,7 @@ payload:
   - IP-CIDR6,2804:29b0::/32,no-resolve
   - IP-CIDR6,2804:29b4::/32,no-resolve
   - IP-CIDR6,2804:29b8::/32,no-resolve
+  - IP-CIDR6,2804:29bc:8000::/34,no-resolve
   - IP-CIDR6,2804:29c0::/32,no-resolve
   - IP-CIDR6,2804:29c4::/32,no-resolve
   - IP-CIDR6,2804:29cc::/32,no-resolve
