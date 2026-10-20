@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: PA
 # 巴拿马（Panama）
-# 数据日期: 2026-10-19
+# 数据日期: 2026-10-20
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1469 条（IPv4: 1016 / IPv6: 453）
+# 规则统计: 共 1470 条（IPv4: 1017 / IPv6: 453）
 # ============================================================
 payload:
   - IP-CIDR,103.173.150.0/23,no-resolve
@@ -499,6 +499,7 @@ payload:
   - IP-CIDR,200.74.240.0/21,no-resolve
   - IP-CIDR,200.75.192.0/18,no-resolve
   - IP-CIDR,200.90.128.0/20,no-resolve
+  - IP-CIDR,200.91.194.0/24,no-resolve
   - IP-CIDR,201.131.148.0/22,no-resolve
   - IP-CIDR,201.131.49.0/24,no-resolve
   - IP-CIDR,201.159.112.0/22,no-resolve
@@ -1089,8 +1090,7 @@ payload:
   - IP-CIDR6,2803:2540:190::/44,no-resolve
   - IP-CIDR6,2803:2540:1a0::/45,no-resolve
   - IP-CIDR6,2803:2540:1a8::/45,no-resolve
-  - IP-CIDR6,2803:2540:1b0::/46,no-resolve
-  - IP-CIDR6,2803:2540:1b4::/46,no-resolve
+  - IP-CIDR6,2803:2540:1b0::/45,no-resolve
   - IP-CIDR6,2803:2540:1b8::/45,no-resolve
   - IP-CIDR6,2803:2540:1c0::/45,no-resolve
   - IP-CIDR6,2803:2540:1c8::/45,no-resolve
@@ -1152,7 +1152,8 @@ payload:
   - IP-CIDR6,2803:2540:380::/41,no-resolve
   - IP-CIDR6,2803:2540:4000::/34,no-resolve
   - IP-CIDR6,2803:2540:400::/38,no-resolve
-  - IP-CIDR6,2803:2540:40::/44,no-resolve
+  - IP-CIDR6,2803:2540:40::/45,no-resolve
+  - IP-CIDR6,2803:2540:48::/45,no-resolve
   - IP-CIDR6,2803:2540:50::/45,no-resolve
   - IP-CIDR6,2803:2540:58::/45,no-resolve
   - IP-CIDR6,2803:2540:60::/45,no-resolve

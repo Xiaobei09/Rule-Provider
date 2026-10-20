@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: ES
 # 西班牙（Spain）
-# 数据日期: 2026-10-19
+# 数据日期: 2026-10-20
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 5256 条（IPv4: 4021 / IPv6: 1235）
+# 规则统计: 共 5260 条（IPv4: 4023 / IPv6: 1237）
 # ============================================================
 payload:
   - IP-CIDR,102.177.129.0/24,no-resolve
@@ -58,6 +58,7 @@ payload:
   - IP-CIDR,103.89.132.0/22,no-resolve
   - IP-CIDR,103.95.124.0/22,no-resolve
   - IP-CIDR,103.97.206.0/23,no-resolve
+  - IP-CIDR,104.204.63.0/24,no-resolve
   - IP-CIDR,107.183.128.0/17,no-resolve
   - IP-CIDR,109.107.149.0/24,no-resolve
   - IP-CIDR,109.107.96.0/19,no-resolve
@@ -2601,6 +2602,7 @@ payload:
   - IP-CIDR,38.172.32.0/22,no-resolve
   - IP-CIDR,38.196.228.0/24,no-resolve
   - IP-CIDR,38.21.71.0/24,no-resolve
+  - IP-CIDR,38.225.118.0/24,no-resolve
   - IP-CIDR,38.225.88.0/24,no-resolve
   - IP-CIDR,38.226.0.0/24,no-resolve
   - IP-CIDR,38.226.252.0/22,no-resolve
@@ -3283,7 +3285,7 @@ payload:
   - IP-CIDR,85.118.240.0/21,no-resolve
   - IP-CIDR,85.119.192.0/21,no-resolve
   - IP-CIDR,85.136.82.0/24,no-resolve
-  - IP-CIDR,85.137.180.0/23,no-resolve
+  - IP-CIDR,85.137.180.0/24,no-resolve
   - IP-CIDR,85.137.82.0/23,no-resolve
   - IP-CIDR,85.152.0.0/16,no-resolve
   - IP-CIDR,85.155.0.0/21,no-resolve
@@ -4051,6 +4053,8 @@ payload:
   - IP-CIDR6,2001:3786:2323::/48,no-resolve
   - IP-CIDR6,2001:3786:23ab::/48,no-resolve
   - IP-CIDR6,2001:3786:2929::/48,no-resolve
+  - IP-CIDR6,2001:3786:2999::/48,no-resolve
+  - IP-CIDR6,2001:3786:29bb::/48,no-resolve
   - IP-CIDR6,2001:3786:2::/47,no-resolve
   - IP-CIDR6,2001:3786:3338::/48,no-resolve
   - IP-CIDR6,2001:3786:3371::/48,no-resolve
@@ -4897,7 +4901,7 @@ payload:
   - IP-CIDR6,2a0b:45c0::/29,no-resolve
   - IP-CIDR6,2a0b:4a80::/29,no-resolve
   - IP-CIDR6,2a0b:4b40::/32,no-resolve
-  - IP-CIDR6,2a0b:4e07:5d00::/48,no-resolve
+  - IP-CIDR6,2a0b:4e07:5d00::/47,no-resolve
   - IP-CIDR6,2a0b:4e07:5d02::/48,no-resolve
   - IP-CIDR6,2a0b:5080::/29,no-resolve
   - IP-CIDR6,2a0b:5400::/32,no-resolve

@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: PH
 # 菲律宾（Philippines）
-# 数据日期: 2026-10-19
+# 数据日期: 2026-10-20
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1598 条（IPv4: 1104 / IPv6: 494）
+# 规则统计: 共 1602 条（IPv4: 1107 / IPv6: 495）
 # ============================================================
 payload:
   - IP-CIDR,1.37.0.0/16,no-resolve
@@ -203,7 +203,8 @@ payload:
   - IP-CIDR,103.192.124.0/22,no-resolve
   - IP-CIDR,103.192.184.0/22,no-resolve
   - IP-CIDR,103.196.104.0/22,no-resolve
-  - IP-CIDR,103.196.128.0/22,no-resolve
+  - IP-CIDR,103.196.128.0/24,no-resolve
+  - IP-CIDR,103.196.130.0/24,no-resolve
   - IP-CIDR,103.196.136.0/22,no-resolve
   - IP-CIDR,103.196.176.0/23,no-resolve
   - IP-CIDR,103.197.200.0/22,no-resolve
@@ -317,7 +318,7 @@ payload:
   - IP-CIDR,103.39.146.0/23,no-resolve
   - IP-CIDR,103.40.2.0/23,no-resolve
   - IP-CIDR,103.41.8.0/23,no-resolve
-  - IP-CIDR,103.42.136.0/22,no-resolve
+  - IP-CIDR,103.42.136.0/23,no-resolve
   - IP-CIDR,103.42.92.0/22,no-resolve
   - IP-CIDR,103.42.96.0/22,no-resolve
   - IP-CIDR,103.43.212.0/22,no-resolve
@@ -976,7 +977,8 @@ payload:
   - IP-CIDR,27.50.0.0/22,no-resolve
   - IP-CIDR,31.77.244.0/24,no-resolve
   - IP-CIDR,36.255.106.0/23,no-resolve
-  - IP-CIDR,36.255.244.0/22,no-resolve
+  - IP-CIDR,36.255.245.0/24,no-resolve
+  - IP-CIDR,36.255.247.0/24,no-resolve
   - IP-CIDR,36.255.60.0/22,no-resolve
   - IP-CIDR,36.50.110.0/23,no-resolve
   - IP-CIDR,36.50.30.0/24,no-resolve
@@ -1090,6 +1092,7 @@ payload:
   - IP-CIDR,63.106.1.0/24,no-resolve
   - IP-CIDR,64.204.139.0/24,no-resolve
   - IP-CIDR,64.205.75.0/24,no-resolve
+  - IP-CIDR,64.205.96.0/24,no-resolve
   - IP-CIDR,64.224.128.0/20,no-resolve
   - IP-CIDR,64.224.21.0/24,no-resolve
   - IP-CIDR,64.224.96.0/19,no-resolve
@@ -1604,3 +1607,4 @@ payload:
   - IP-CIDR6,2a11:2dc0::/29,no-resolve
   - IP-CIDR6,2a11:37c0::/29,no-resolve
   - IP-CIDR6,2a12:200::/29,no-resolve
+  - IP-CIDR6,2a13:9500:15b::/48,no-resolve
