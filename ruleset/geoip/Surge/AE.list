@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: AE
 # 阿联酋（United Arab Emirates）
-# 数据日期: 2026-10-20
+# 数据日期: 2026-10-21
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 2683 条（IPv4: 1977 / IPv6: 706）
+# 规则统计: 共 2672 条（IPv4: 1966 / IPv6: 706）
 # ============================================================
 IP-CIDR,102.215.192.0/22,no-resolve
 IP-CIDR,102.223.124.0/22,no-resolve
@@ -138,14 +138,7 @@ IP-CIDR,128.0.1.0/24,no-resolve
 IP-CIDR,128.0.41.0/24,no-resolve
 IP-CIDR,128.127.72.0/21,no-resolve
 IP-CIDR,128.254.206.0/24,no-resolve
-IP-CIDR,13.140.80.0/23,no-resolve
-IP-CIDR,13.140.82.0/24,no-resolve
-IP-CIDR,13.140.85.0/24,no-resolve
-IP-CIDR,13.140.87.0/24,no-resolve
-IP-CIDR,13.140.89.0/24,no-resolve
-IP-CIDR,13.140.91.0/24,no-resolve
-IP-CIDR,13.140.92.0/23,no-resolve
-IP-CIDR,13.140.94.0/24,no-resolve
+IP-CIDR,13.140.80.0/20,no-resolve
 IP-CIDR,13.143.160.0/22,no-resolve
 IP-CIDR,13.143.168.0/24,no-resolve
 IP-CIDR,13.143.172.0/22,no-resolve
@@ -235,7 +228,7 @@ IP-CIDR,149.57.36.0/24,no-resolve
 IP-CIDR,149.57.38.0/24,no-resolve
 IP-CIDR,149.62.40.0/22,no-resolve
 IP-CIDR,150.237.72.0/22,no-resolve
-IP-CIDR,150.237.76.0/24,no-resolve
+IP-CIDR,150.237.76.0/23,no-resolve
 IP-CIDR,150.237.80.0/24,no-resolve
 IP-CIDR,150.241.242.0/24,no-resolve
 IP-CIDR,150.241.254.0/24,no-resolve
@@ -250,7 +243,7 @@ IP-CIDR,151.253.0.0/16,no-resolve
 IP-CIDR,152.234.128.0/19,no-resolve
 IP-CIDR,152.237.224.0/19,no-resolve
 IP-CIDR,153.52.104.0/22,no-resolve
-IP-CIDR,153.52.108.0/24,no-resolve
+IP-CIDR,153.52.108.0/23,no-resolve
 IP-CIDR,153.52.113.0/24,no-resolve
 IP-CIDR,153.52.115.0/24,no-resolve
 IP-CIDR,153.52.120.0/24,no-resolve
@@ -445,8 +438,7 @@ IP-CIDR,179.253.32.0/19,no-resolve
 IP-CIDR,179.254.107.0/24,no-resolve
 IP-CIDR,179.254.113.0/24,no-resolve
 IP-CIDR,179.254.140.0/22,no-resolve
-IP-CIDR,179.254.146.0/23,no-resolve
-IP-CIDR,179.254.148.0/22,no-resolve
+IP-CIDR,179.254.144.0/21,no-resolve
 IP-CIDR,179.254.152.0/22,no-resolve
 IP-CIDR,179.254.192.0/19,no-resolve
 IP-CIDR,179.254.72.0/24,no-resolve
@@ -510,6 +502,7 @@ IP-CIDR,185.141.9.0/24,no-resolve
 IP-CIDR,185.142.24.0/22,no-resolve
 IP-CIDR,185.143.228.0/22,no-resolve
 IP-CIDR,185.143.239.0/24,no-resolve
+IP-CIDR,185.143.74.0/24,no-resolve
 IP-CIDR,185.145.36.0/22,no-resolve
 IP-CIDR,185.147.128.0/22,no-resolve
 IP-CIDR,185.147.140.0/22,no-resolve
@@ -773,6 +766,7 @@ IP-CIDR,193.107.49.0/24,no-resolve
 IP-CIDR,193.108.104.0/24,no-resolve
 IP-CIDR,193.108.242.0/23,no-resolve
 IP-CIDR,193.124.200.0/24,no-resolve
+IP-CIDR,193.124.202.0/24,no-resolve
 IP-CIDR,193.124.224.0/23,no-resolve
 IP-CIDR,193.124.36.0/24,no-resolve
 IP-CIDR,193.124.49.0/24,no-resolve
@@ -1505,13 +1499,11 @@ IP-CIDR,64.204.216.0/24,no-resolve
 IP-CIDR,64.204.33.0/24,no-resolve
 IP-CIDR,64.204.71.0/24,no-resolve
 IP-CIDR,64.226.205.0/24,no-resolve
-IP-CIDR,64.239.69.0/24,no-resolve
 IP-CIDR,64.255.25.0/24,no-resolve
 IP-CIDR,64.4.170.0/24,no-resolve
 IP-CIDR,64.52.81.0/24,no-resolve
 IP-CIDR,65.20.128.0/17,no-resolve
 IP-CIDR,66.116.128.0/17,no-resolve
-IP-CIDR,66.132.146.0/24,no-resolve
 IP-CIDR,66.179.176.0/24,no-resolve
 IP-CIDR,66.18.95.0/24,no-resolve
 IP-CIDR,66.220.48.0/22,no-resolve
@@ -1520,7 +1512,6 @@ IP-CIDR,66.37.111.0/24,no-resolve
 IP-CIDR,66.92.2.0/24,no-resolve
 IP-CIDR,66.92.46.0/24,no-resolve
 IP-CIDR,68.68.252.0/24,no-resolve
-IP-CIDR,69.90.224.0/24,no-resolve
 IP-CIDR,72.244.58.0/24,no-resolve
 IP-CIDR,72.244.64.0/24,no-resolve
 IP-CIDR,72.244.67.0/24,no-resolve
@@ -1559,7 +1550,6 @@ IP-CIDR,77.83.92.0/22,no-resolve
 IP-CIDR,77.91.124.0/24,no-resolve
 IP-CIDR,77.94.0.0/23,no-resolve
 IP-CIDR,77.94.2.0/24,no-resolve
-IP-CIDR,78.105.149.0/24,no-resolve
 IP-CIDR,78.109.236.0/23,no-resolve
 IP-CIDR,78.17.0.0/16,no-resolve
 IP-CIDR,78.40.192.0/21,no-resolve
@@ -1933,7 +1923,6 @@ IP-CIDR,94.103.184.0/24,no-resolve
 IP-CIDR,94.103.80.0/23,no-resolve
 IP-CIDR,94.103.82.0/24,no-resolve
 IP-CIDR,94.103.94.0/23,no-resolve
-IP-CIDR,94.118.4.0/24,no-resolve
 IP-CIDR,94.140.0.0/24,no-resolve
 IP-CIDR,94.154.140.0/22,no-resolve
 IP-CIDR,94.156.104.0/24,no-resolve

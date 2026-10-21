@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: AR
 # 阿根廷（Argentina）
-# 数据日期: 2026-10-20
+# 数据日期: 2026-10-21
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 3062 条（IPv4: 1854 / IPv6: 1208）
+# 规则统计: 共 3065 条（IPv4: 1855 / IPv6: 1210）
 # ============================================================
 payload:
   - IP-CIDR,108.165.136.0/24,no-resolve
@@ -717,7 +717,6 @@ payload:
   - IP-CIDR,187.49.10.0/24,no-resolve
   - IP-CIDR,187.62.110.0/23,no-resolve
   - IP-CIDR,187.62.92.0/22,no-resolve
-  - IP-CIDR,189.125.134.0/24,no-resolve
   - IP-CIDR,189.45.176.0/22,no-resolve
   - IP-CIDR,189.8.112.0/21,no-resolve
   - IP-CIDR,189.90.228.0/22,no-resolve
@@ -1399,6 +1398,7 @@ payload:
   - IP-CIDR,38.21.80.0/20,no-resolve
   - IP-CIDR,38.210.101.0/24,no-resolve
   - IP-CIDR,38.210.127.0/24,no-resolve
+  - IP-CIDR,38.210.128.0/19,no-resolve
   - IP-CIDR,38.210.17.0/24,no-resolve
   - IP-CIDR,38.210.18.0/24,no-resolve
   - IP-CIDR,38.210.207.0/24,no-resolve
@@ -1669,6 +1669,7 @@ payload:
   - IP-CIDR,45.191.4.0/22,no-resolve
   - IP-CIDR,45.191.56.0/22,no-resolve
   - IP-CIDR,45.191.80.0/21,no-resolve
+  - IP-CIDR,45.192.251.0/24,no-resolve
   - IP-CIDR,45.195.32.0/20,no-resolve
   - IP-CIDR,45.224.100.0/22,no-resolve
   - IP-CIDR,45.224.104.0/22,no-resolve
@@ -2502,7 +2503,9 @@ payload:
   - IP-CIDR6,2803:7d80:6100::/44,no-resolve
   - IP-CIDR6,2803:7d80:6110::/44,no-resolve
   - IP-CIDR6,2803:7d80:6120::/43,no-resolve
-  - IP-CIDR6,2803:7d80:6140::/42,no-resolve
+  - IP-CIDR6,2803:7d80:6140::/44,no-resolve
+  - IP-CIDR6,2803:7d80:6150::/44,no-resolve
+  - IP-CIDR6,2803:7d80:6160::/43,no-resolve
   - IP-CIDR6,2803:7d80:6180::/41,no-resolve
   - IP-CIDR6,2803:7d80:6200::/39,no-resolve
   - IP-CIDR6,2803:7d80:6400::/38,no-resolve

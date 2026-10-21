@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: UA
 # 乌克兰（Ukraine）
-# 数据日期: 2026-10-20
+# 数据日期: 2026-10-21
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 4751 条（IPv4: 3996 / IPv6: 755）
+# 规则统计: 共 4755 条（IPv4: 3998 / IPv6: 757）
 # ============================================================
 payload:
   - IP-CIDR,102.165.44.0/24,no-resolve
@@ -663,6 +663,7 @@ payload:
   - IP-CIDR,177.203.52.0/22,no-resolve
   - IP-CIDR,177.203.56.0/23,no-resolve
   - IP-CIDR,177.203.60.0/22,no-resolve
+  - IP-CIDR,177.3.200.0/24,no-resolve
   - IP-CIDR,178.133.0.0/16,no-resolve
   - IP-CIDR,178.136.0.0/15,no-resolve
   - IP-CIDR,178.150.0.0/15,no-resolve
@@ -730,6 +731,7 @@ payload:
   - IP-CIDR,179.252.222.0/23,no-resolve
   - IP-CIDR,179.253.179.0/24,no-resolve
   - IP-CIDR,179.253.182.0/24,no-resolve
+  - IP-CIDR,179.253.99.0/24,no-resolve
   - IP-CIDR,179.255.177.0/24,no-resolve
   - IP-CIDR,179.255.178.0/23,no-resolve
   - IP-CIDR,179.255.181.0/24,no-resolve
@@ -4016,6 +4018,7 @@ payload:
   - IP-CIDR6,2001:678:12e0::/48,no-resolve
   - IP-CIDR6,2001:678:135c::/48,no-resolve
   - IP-CIDR6,2001:678:136c::/48,no-resolve
+  - IP-CIDR6,2001:678:1398::/48,no-resolve
   - IP-CIDR6,2001:678:148::/48,no-resolve
   - IP-CIDR6,2001:678:1f4::/48,no-resolve
   - IP-CIDR6,2001:678:1f8::/48,no-resolve
@@ -4651,6 +4654,7 @@ payload:
   - IP-CIDR6,2a11:95c0::/29,no-resolve
   - IP-CIDR6,2a11:9600::/29,no-resolve
   - IP-CIDR6,2a11:a600::/29,no-resolve
+  - IP-CIDR6,2a11:aa00::/29,no-resolve
   - IP-CIDR6,2a11:b100::/32,no-resolve
   - IP-CIDR6,2a11:cbc0::/29,no-resolve
   - IP-CIDR6,2a11:d640::/29,no-resolve
