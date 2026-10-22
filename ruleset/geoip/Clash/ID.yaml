@@ -1,12 +1,13 @@
 # ============================================================
 # Rule-Provider: ID
 # 印度尼西亚（Indonesia）
-# 数据日期: 2026-10-21
+# 数据日期: 2026-10-22
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 8278 条（IPv4: 5277 / IPv6: 3001）
+# 规则统计: 共 8280 条（IPv4: 5279 / IPv6: 3001）
 # ============================================================
 payload:
   - IP-CIDR,101.0.4.0/22,no-resolve
+  - IP-CIDR,101.1.18.0/24,no-resolve
   - IP-CIDR,101.1.4.0/24,no-resolve
   - IP-CIDR,101.128.64.0/18,no-resolve
   - IP-CIDR,101.203.168.0/22,no-resolve
@@ -3525,7 +3526,6 @@ payload:
   - IP-CIDR,150.129.18.0/24,no-resolve
   - IP-CIDR,150.129.188.0/22,no-resolve
   - IP-CIDR,150.129.56.0/22,no-resolve
-  - IP-CIDR,150.129.82.0/23,no-resolve
   - IP-CIDR,150.242.176.0/22,no-resolve
   - IP-CIDR,151.158.10.0/23,no-resolve
   - IP-CIDR,151.158.106.0/23,no-resolve
@@ -4944,6 +4944,7 @@ payload:
   - IP-CIDR,31.57.183.0/24,no-resolve
   - IP-CIDR,31.58.103.0/24,no-resolve
   - IP-CIDR,31.58.158.0/24,no-resolve
+  - IP-CIDR,31.58.231.0/24,no-resolve
   - IP-CIDR,31.58.57.0/24,no-resolve
   - IP-CIDR,31.58.59.0/24,no-resolve
   - IP-CIDR,31.6.20.0/24,no-resolve
@@ -5119,6 +5120,7 @@ payload:
   - IP-CIDR,43.240.224.0/21,no-resolve
   - IP-CIDR,43.240.80.0/22,no-resolve
   - IP-CIDR,43.241.148.0/22,no-resolve
+  - IP-CIDR,43.241.197.0/24,no-resolve
   - IP-CIDR,43.241.244.0/24,no-resolve
   - IP-CIDR,43.241.246.0/23,no-resolve
   - IP-CIDR,43.242.132.0/23,no-resolve
@@ -7223,6 +7225,7 @@ payload:
   - IP-CIDR6,2001:df7:ba40::/48,no-resolve
   - IP-CIDR6,2001:df7:bb00::/48,no-resolve
   - IP-CIDR6,2001:df7:bc00::/48,no-resolve
+  - IP-CIDR6,2001:df7:bc40::/48,no-resolve
   - IP-CIDR6,2001:df7:bd00::/48,no-resolve
   - IP-CIDR6,2001:df7:bf00::/48,no-resolve
   - IP-CIDR6,2001:df7:bf80::/48,no-resolve
@@ -7335,7 +7338,6 @@ payload:
   - IP-CIDR6,2400:dbe0::/32,no-resolve
   - IP-CIDR6,2400:dc00::/32,no-resolve
   - IP-CIDR6,2400:dd20::/32,no-resolve
-  - IP-CIDR6,2400:e220::/32,no-resolve
   - IP-CIDR6,2400:e320::/32,no-resolve
   - IP-CIDR6,2400:e420::/32,no-resolve
   - IP-CIDR6,2400:e4c0::/32,no-resolve

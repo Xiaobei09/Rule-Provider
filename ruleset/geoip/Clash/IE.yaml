@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: IE
 # 爱尔兰（Ireland）
-# 数据日期: 2026-10-21
+# 数据日期: 2026-10-22
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1414 条（IPv4: 1088 / IPv6: 326）
+# 规则统计: 共 1413 条（IPv4: 1089 / IPv6: 324）
 # ============================================================
 payload:
   - IP-CIDR,104.206.18.0/24,no-resolve
@@ -552,6 +552,7 @@ payload:
   - IP-CIDR,208.117.244.0/24,no-resolve
   - IP-CIDR,208.117.246.0/23,no-resolve
   - IP-CIDR,208.117.248.0/23,no-resolve
+  - IP-CIDR,208.117.250.0/24,no-resolve
   - IP-CIDR,208.117.252.0/23,no-resolve
   - IP-CIDR,208.117.255.0/24,no-resolve
   - IP-CIDR,208.23.212.0/24,no-resolve
@@ -1159,9 +1160,7 @@ payload:
   - IP-CIDR6,2620:11a:a01e::/47,no-resolve
   - IP-CIDR6,2620:11a:a020::/46,no-resolve
   - IP-CIDR6,2620:11a:a026::/47,no-resolve
-  - IP-CIDR6,2620:11a:a028::/46,no-resolve
-  - IP-CIDR6,2620:11a:a02c::/47,no-resolve
-  - IP-CIDR6,2620:11a:a02f::/48,no-resolve
+  - IP-CIDR6,2620:11a:a028::/45,no-resolve
   - IP-CIDR6,2620:11a:a030::/46,no-resolve
   - IP-CIDR6,2620:11a:a034::/47,no-resolve
   - IP-CIDR6,2620:11a:a03f::/48,no-resolve

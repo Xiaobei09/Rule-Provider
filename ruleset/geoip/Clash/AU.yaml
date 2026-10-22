@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: AU
 # 澳大利亚（Australia）
-# 数据日期: 2026-10-21
+# 数据日期: 2026-10-22
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 9475 条（IPv4: 7097 / IPv6: 2378）
+# 规则统计: 共 9476 条（IPv4: 7096 / IPv6: 2380）
 # ============================================================
 payload:
   - IP-CIDR,1.0.0.0/24,no-resolve
@@ -2878,6 +2878,7 @@ payload:
   - IP-CIDR,158.173.190.0/23,no-resolve
   - IP-CIDR,158.173.192.0/24,no-resolve
   - IP-CIDR,158.173.194.0/24,no-resolve
+  - IP-CIDR,158.173.196.0/22,no-resolve
   - IP-CIDR,158.173.219.0/24,no-resolve
   - IP-CIDR,158.173.223.0/24,no-resolve
   - IP-CIDR,158.173.229.0/24,no-resolve
@@ -6665,7 +6666,6 @@ payload:
   - IP-CIDR,44.31.226.0/24,no-resolve
   - IP-CIDR,44.31.235.0/24,no-resolve
   - IP-CIDR,44.31.240.0/24,no-resolve
-  - IP-CIDR,44.31.30.0/24,no-resolve
   - IP-CIDR,44.31.39.0/24,no-resolve
   - IP-CIDR,44.31.48.0/24,no-resolve
   - IP-CIDR,44.31.92.0/22,no-resolve
@@ -6802,7 +6802,6 @@ payload:
   - IP-CIDR,45.87.95.0/24,no-resolve
   - IP-CIDR,45.88.84.0/22,no-resolve
   - IP-CIDR,45.89.216.0/22,no-resolve
-  - IP-CIDR,45.89.233.0/24,no-resolve
   - IP-CIDR,45.9.0.0/24,no-resolve
   - IP-CIDR,45.90.145.0/24,no-resolve
   - IP-CIDR,45.90.146.0/23,no-resolve
@@ -8052,7 +8051,8 @@ payload:
   - IP-CIDR6,2401:3940::/32,no-resolve
   - IP-CIDR6,2401:3a40::/32,no-resolve
   - IP-CIDR6,2401:3ac0::/32,no-resolve
-  - IP-CIDR6,2401:3bc0:1000::/44,no-resolve
+  - IP-CIDR6,2401:3bc0:1000::/45,no-resolve
+  - IP-CIDR6,2401:3bc0:1008::/45,no-resolve
   - IP-CIDR6,2401:3bc0:100::/40,no-resolve
   - IP-CIDR6,2401:3bc0:1010::/46,no-resolve
   - IP-CIDR6,2401:3bc0:1014::/46,no-resolve
@@ -8357,6 +8357,7 @@ payload:
   - IP-CIDR6,2402:7c40::/32,no-resolve
   - IP-CIDR6,2402:7c60::/32,no-resolve
   - IP-CIDR6,2402:7e80::/32,no-resolve
+  - IP-CIDR6,2402:7f20::/32,no-resolve
   - IP-CIDR6,2402:8000::/32,no-resolve
   - IP-CIDR6,2402:8480::/32,no-resolve
   - IP-CIDR6,2402:8700::/32,no-resolve
