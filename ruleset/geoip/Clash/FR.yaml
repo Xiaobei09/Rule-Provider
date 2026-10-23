@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: FR
 # 法国（France）
-# 数据日期: 2026-10-22
+# 数据日期: 2026-10-23
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 7803 条（IPv4: 5966 / IPv6: 1837）
+# 规则统计: 共 7805 条（IPv4: 5968 / IPv6: 1837）
 # ============================================================
 payload:
   - IP-CIDR,1.178.224.0/19,no-resolve
@@ -878,6 +878,7 @@ payload:
   - IP-CIDR,178.216.15.0/24,no-resolve
   - IP-CIDR,178.216.246.0/24,no-resolve
   - IP-CIDR,178.217.94.0/23,no-resolve
+  - IP-CIDR,178.218.146.0/24,no-resolve
   - IP-CIDR,178.22.0.0/21,no-resolve
   - IP-CIDR,178.22.128.0/21,no-resolve
   - IP-CIDR,178.22.144.0/20,no-resolve
@@ -2186,6 +2187,7 @@ payload:
   - IP-CIDR,191.101.218.0/24,no-resolve
   - IP-CIDR,191.44.119.0/24,no-resolve
   - IP-CIDR,191.44.95.0/24,no-resolve
+  - IP-CIDR,191.96.13.0/24,no-resolve
   - IP-CIDR,191.96.140.0/23,no-resolve
   - IP-CIDR,191.96.16.0/24,no-resolve
   - IP-CIDR,191.96.27.0/24,no-resolve
@@ -3180,7 +3182,7 @@ payload:
   - IP-CIDR,194.51.0.0/16,no-resolve
   - IP-CIDR,194.53.4.0/22,no-resolve
   - IP-CIDR,194.53.76.0/22,no-resolve
-  - IP-CIDR,194.54.3.0/24,no-resolve
+  - IP-CIDR,194.54.0.0/22,no-resolve
   - IP-CIDR,194.54.70.0/24,no-resolve
   - IP-CIDR,194.55.137.0/24,no-resolve
   - IP-CIDR,194.55.189.0/24,no-resolve
@@ -3608,6 +3610,7 @@ payload:
   - IP-CIDR,203.5.184.0/24,no-resolve
   - IP-CIDR,203.55.81.0/24,no-resolve
   - IP-CIDR,203.80.88.0/24,no-resolve
+  - IP-CIDR,204.126.219.0/24,no-resolve
   - IP-CIDR,204.13.138.0/24,no-resolve
   - IP-CIDR,204.217.226.0/23,no-resolve
   - IP-CIDR,204.217.234.0/23,no-resolve
@@ -4469,7 +4472,6 @@ payload:
   - IP-CIDR,46.235.16.0/21,no-resolve
   - IP-CIDR,46.235.176.0/21,no-resolve
   - IP-CIDR,46.236.211.0/24,no-resolve
-  - IP-CIDR,46.243.56.0/22,no-resolve
   - IP-CIDR,46.244.32.0/20,no-resolve
   - IP-CIDR,46.245.224.0/21,no-resolve
   - IP-CIDR,46.247.128.0/21,no-resolve
@@ -6489,7 +6491,7 @@ payload:
   - IP-CIDR6,2a02:5820::/32,no-resolve
   - IP-CIDR6,2a02:5a40::/32,no-resolve
   - IP-CIDR6,2a02:5cc0::/32,no-resolve
-  - IP-CIDR6,2a02:5fa0::/32,no-resolve
+  - IP-CIDR6,2a02:5fa0::/29,no-resolve
   - IP-CIDR6,2a02:60e0::/32,no-resolve
   - IP-CIDR6,2a02:6100::/32,no-resolve
   - IP-CIDR6,2a02:6560::/32,no-resolve

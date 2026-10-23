@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: FI
 # 芬兰（Finland）
-# 数据日期: 2026-10-22
+# 数据日期: 2026-10-23
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1523 条（IPv4: 1177 / IPv6: 346）
+# 规则统计: 共 1523 条（IPv4: 1176 / IPv6: 347）
 # ============================================================
 payload:
   - IP-CIDR,103.101.88.0/22,no-resolve
@@ -923,7 +923,6 @@ payload:
   - IP-CIDR,77.86.128.0/17,no-resolve
   - IP-CIDR,77.90.176.0/24,no-resolve
   - IP-CIDR,77.90.187.0/24,no-resolve
-  - IP-CIDR,77.91.209.0/24,no-resolve
   - IP-CIDR,77.91.210.0/23,no-resolve
   - IP-CIDR,77.95.144.0/21,no-resolve
   - IP-CIDR,77.95.16.0/22,no-resolve
@@ -1359,6 +1358,7 @@ payload:
   - IP-CIDR6,2a04:c0c0::/29,no-resolve
   - IP-CIDR6,2a04:cbc0::/32,no-resolve
   - IP-CIDR6,2a04:cc80::/29,no-resolve
+  - IP-CIDR6,2a04:e100::/29,no-resolve
   - IP-CIDR6,2a05:1f40::/29,no-resolve
   - IP-CIDR6,2a05:39c0::/29,no-resolve
   - IP-CIDR6,2a05:6747::/48,no-resolve

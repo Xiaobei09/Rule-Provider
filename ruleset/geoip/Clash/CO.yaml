@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: CO
 # 哥伦比亚（Colombia）
-# 数据日期: 2026-10-22
+# 数据日期: 2026-10-23
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1667 条（IPv4: 857 / IPv6: 810）
+# 规则统计: 共 1668 条（IPv4: 858 / IPv6: 810）
 # ============================================================
 payload:
   - IP-CIDR,103.133.208.0/22,no-resolve
@@ -667,6 +667,7 @@ payload:
   - IP-CIDR,38.226.96.0/22,no-resolve
   - IP-CIDR,38.236.104.0/24,no-resolve
   - IP-CIDR,38.236.106.0/23,no-resolve
+  - IP-CIDR,38.236.111.0/24,no-resolve
   - IP-CIDR,38.236.124.0/23,no-resolve
   - IP-CIDR,38.236.160.0/24,no-resolve
   - IP-CIDR,38.236.182.0/24,no-resolve
@@ -840,7 +841,7 @@ payload:
   - IP-CIDR,64.76.212.0/24,no-resolve
   - IP-CIDR,64.76.80.0/24,no-resolve
   - IP-CIDR,64.86.224.0/23,no-resolve
-  - IP-CIDR,66.231.64.0/24,no-resolve
+  - IP-CIDR,66.231.64.0/23,no-resolve
   - IP-CIDR,66.253.71.0/24,no-resolve
   - IP-CIDR,67.215.254.0/24,no-resolve
   - IP-CIDR,67.73.224.0/20,no-resolve
@@ -1465,7 +1466,7 @@ payload:
   - IP-CIDR6,2803:7f30::/32,no-resolve
   - IP-CIDR6,2803:7f50:2000::/36,no-resolve
   - IP-CIDR6,2803:7f50:5100::/40,no-resolve
-  - IP-CIDR6,2803:7f50:5200::/40,no-resolve
+  - IP-CIDR6,2803:7f50:5200::/39,no-resolve
   - IP-CIDR6,2803:7f50:5600::/39,no-resolve
   - IP-CIDR6,2803:7f50::/35,no-resolve
   - IP-CIDR6,2803:8290::/32,no-resolve
