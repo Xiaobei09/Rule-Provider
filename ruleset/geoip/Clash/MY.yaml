@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: MY
 # 马来西亚（Malaysia）
-# 数据日期: 2026-10-23
+# 数据日期: 2026-10-24
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1543 条（IPv4: 1181 / IPv6: 362）
+# 规则统计: 共 1543 条（IPv4: 1180 / IPv6: 363）
 # ============================================================
 payload:
   - IP-CIDR,1.32.0.0/17,no-resolve
@@ -805,7 +805,6 @@ payload:
   - IP-CIDR,198.17.1.0/24,no-resolve
   - IP-CIDR,198.20.133.0/24,no-resolve
   - IP-CIDR,198.20.153.0/24,no-resolve
-  - IP-CIDR,198.44.170.0/24,no-resolve
   - IP-CIDR,198.44.176.0/22,no-resolve
   - IP-CIDR,2.57.16.0/24,no-resolve
   - IP-CIDR,202.0.81.0/24,no-resolve
@@ -1440,6 +1439,7 @@ payload:
   - IP-CIDR6,2402:6c00::/32,no-resolve
   - IP-CIDR6,2402:7481::/32,no-resolve
   - IP-CIDR6,2402:78a0::/32,no-resolve
+  - IP-CIDR6,2402:7fa0::/32,no-resolve
   - IP-CIDR6,2402:84c0::/32,no-resolve
   - IP-CIDR6,2402:90c0::/32,no-resolve
   - IP-CIDR6,2402:9500::/32,no-resolve

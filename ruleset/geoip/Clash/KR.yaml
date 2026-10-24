@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: KR
 # 韩国（South Korea）
-# 数据日期: 2026-10-23
+# 数据日期: 2026-10-24
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1837 条（IPv4: 1645 / IPv6: 192）
+# 规则统计: 共 1828 条（IPv4: 1636 / IPv6: 192）
 # ============================================================
 payload:
   - IP-CIDR,1.11.0.0/16,no-resolve
@@ -608,7 +608,6 @@ payload:
   - IP-CIDR,124.66.208.0/20,no-resolve
   - IP-CIDR,124.68.0.0/20,no-resolve
   - IP-CIDR,124.68.160.0/22,no-resolve
-  - IP-CIDR,124.68.168.0/24,no-resolve
   - IP-CIDR,124.68.176.0/20,no-resolve
   - IP-CIDR,124.68.192.0/19,no-resolve
   - IP-CIDR,124.68.224.0/19,no-resolve
@@ -822,9 +821,6 @@ payload:
   - IP-CIDR,175.45.160.0/21,no-resolve
   - IP-CIDR,175.45.192.0/18,no-resolve
   - IP-CIDR,177.202.126.0/23,no-resolve
-  - IP-CIDR,178.253.229.0/24,no-resolve
-  - IP-CIDR,178.94.124.0/23,no-resolve
-  - IP-CIDR,178.94.50.0/23,no-resolve
   - IP-CIDR,179.198.0.0/22,no-resolve
   - IP-CIDR,179.198.12.0/22,no-resolve
   - IP-CIDR,179.198.16.0/22,no-resolve
@@ -840,7 +836,6 @@ payload:
   - IP-CIDR,180.189.64.0/18,no-resolve
   - IP-CIDR,180.210.0.0/19,no-resolve
   - IP-CIDR,180.210.192.0/21,no-resolve
-  - IP-CIDR,180.210.224.0/19,no-resolve
   - IP-CIDR,180.210.32.0/19,no-resolve
   - IP-CIDR,180.210.64.0/18,no-resolve
   - IP-CIDR,180.211.0.0/18,no-resolve
@@ -899,7 +894,6 @@ payload:
   - IP-CIDR,192.132.15.0/24,no-resolve
   - IP-CIDR,192.132.247.0/24,no-resolve
   - IP-CIDR,192.132.248.0/22,no-resolve
-  - IP-CIDR,192.137.120.0/23,no-resolve
   - IP-CIDR,192.157.12.0/23,no-resolve
   - IP-CIDR,192.170.106.0/23,no-resolve
   - IP-CIDR,192.193.189.0/24,no-resolve
@@ -1272,9 +1266,7 @@ payload:
   - IP-CIDR,211.62.0.0/15,no-resolve
   - IP-CIDR,211.99.32.0/19,no-resolve
   - IP-CIDR,212.189.36.0/24,no-resolve
-  - IP-CIDR,212.47.36.0/24,no-resolve
   - IP-CIDR,212.66.49.0/24,no-resolve
-  - IP-CIDR,212.66.53.0/24,no-resolve
   - IP-CIDR,212.74.35.0/24,no-resolve
   - IP-CIDR,212.74.36.0/23,no-resolve
   - IP-CIDR,218.101.128.0/17,no-resolve
@@ -1487,10 +1479,9 @@ payload:
   - IP-CIDR,50.114.114.0/24,no-resolve
   - IP-CIDR,50.2.96.0/23,no-resolve
   - IP-CIDR,51.146.234.0/24,no-resolve
-  - IP-CIDR,51.146.238.0/24,no-resolve
   - IP-CIDR,51.194.152.0/24,no-resolve
   - IP-CIDR,51.241.138.0/23,no-resolve
-  - IP-CIDR,51.241.162.0/23,no-resolve
+  - IP-CIDR,51.241.162.0/24,no-resolve
   - IP-CIDR,51.241.199.0/24,no-resolve
   - IP-CIDR,58.102.0.0/15,no-resolve
   - IP-CIDR,58.120.0.0/13,no-resolve

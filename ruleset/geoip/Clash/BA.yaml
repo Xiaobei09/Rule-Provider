@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: BA
 # 波斯尼亚和黑塞哥维那（Bosnia and Herzegovina）
-# 数据日期: 2026-10-23
+# 数据日期: 2026-10-24
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 218 条（IPv4: 179 / IPv6: 39）
+# 规则统计: 共 219 条（IPv4: 179 / IPv6: 40）
 # ============================================================
 payload:
   - IP-CIDR,104.239.103.0/24,no-resolve
@@ -223,4 +223,5 @@ payload:
   - IP-CIDR6,2a0e:5400::/29,no-resolve
   - IP-CIDR6,2a0e:6580::/32,no-resolve
   - IP-CIDR6,2a0e:8ac0::/29,no-resolve
+  - IP-CIDR6,2a12:1d80::/29,no-resolve
   - IP-CIDR6,2a14:ce80::/29,no-resolve

@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: CY
 # 塞浦路斯（Cyprus）
-# 数据日期: 2026-10-23
+# 数据日期: 2026-10-24
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 2729 条（IPv4: 2314 / IPv6: 415）
+# 规则统计: 共 2732 条（IPv4: 2317 / IPv6: 415）
 # ============================================================
 payload:
   - IP-CIDR,103.110.124.0/23,no-resolve
@@ -400,6 +400,7 @@ payload:
   - IP-CIDR,148.230.80.0/20,no-resolve
   - IP-CIDR,148.230.96.0/19,no-resolve
   - IP-CIDR,149.19.196.0/24,no-resolve
+  - IP-CIDR,149.245.126.0/24,no-resolve
   - IP-CIDR,149.5.66.0/24,no-resolve
   - IP-CIDR,149.5.86.0/24,no-resolve
   - IP-CIDR,149.62.37.0/24,no-resolve
@@ -871,7 +872,7 @@ payload:
   - IP-CIDR,178.255.200.0/21,no-resolve
   - IP-CIDR,178.83.215.0/24,no-resolve
   - IP-CIDR,179.197.224.0/19,no-resolve
-  - IP-CIDR,179.197.64.0/20,no-resolve
+  - IP-CIDR,179.197.64.0/19,no-resolve
   - IP-CIDR,179.198.192.0/19,no-resolve
   - IP-CIDR,179.198.96.0/19,no-resolve
   - IP-CIDR,179.199.128.0/19,no-resolve
@@ -1431,7 +1432,10 @@ payload:
   - IP-CIDR,199.68.219.0/24,no-resolve
   - IP-CIDR,2.24.0.0/17,no-resolve
   - IP-CIDR,2.24.128.0/20,no-resolve
-  - IP-CIDR,2.24.160.0/19,no-resolve
+  - IP-CIDR,2.24.160.0/22,no-resolve
+  - IP-CIDR,2.24.164.0/22,no-resolve
+  - IP-CIDR,2.24.168.0/21,no-resolve
+  - IP-CIDR,2.24.176.0/20,no-resolve
   - IP-CIDR,2.24.192.0/19,no-resolve
   - IP-CIDR,2.25.128.0/17,no-resolve
   - IP-CIDR,2.25.25.0/24,no-resolve
@@ -1448,8 +1452,7 @@ payload:
   - IP-CIDR,2.58.97.0/24,no-resolve
   - IP-CIDR,2.59.150.0/24,no-resolve
   - IP-CIDR,2.59.49.0/24,no-resolve
-  - IP-CIDR,200.141.0.0/20,no-resolve
-  - IP-CIDR,200.141.16.0/20,no-resolve
+  - IP-CIDR,200.141.0.0/19,no-resolve
   - IP-CIDR,200.225.166.0/24,no-resolve
   - IP-CIDR,200.225.171.0/24,no-resolve
   - IP-CIDR,200.225.172.0/24,no-resolve
