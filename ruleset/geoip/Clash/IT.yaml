@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: IT
 # 意大利（Italy）
-# 数据日期: 2026-10-26
+# 数据日期: 2026-10-28
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 5441 条（IPv4: 4154 / IPv6: 1287）
+# 规则统计: 共 5444 条（IPv4: 4155 / IPv6: 1289）
 # ============================================================
 payload:
   - IP-CIDR,101.56.0.0/13,no-resolve
@@ -1354,7 +1354,6 @@ payload:
   - IP-CIDR,185.63.228.0/22,no-resolve
   - IP-CIDR,185.63.40.0/22,no-resolve
   - IP-CIDR,185.63.52.0/22,no-resolve
-  - IP-CIDR,185.63.87.0/24,no-resolve
   - IP-CIDR,185.63.88.0/22,no-resolve
   - IP-CIDR,185.64.204.0/22,no-resolve
   - IP-CIDR,185.64.68.0/22,no-resolve
@@ -2566,6 +2565,7 @@ payload:
   - IP-CIDR,217.77.80.0/20,no-resolve
   - IP-CIDR,217.9.64.0/20,no-resolve
   - IP-CIDR,23.12.128.0/20,no-resolve
+  - IP-CIDR,23.166.52.0/24,no-resolve
   - IP-CIDR,23.197.200.0/23,no-resolve
   - IP-CIDR,23.197.56.0/23,no-resolve
   - IP-CIDR,23.201.80.0/21,no-resolve
@@ -2676,6 +2676,7 @@ payload:
   - IP-CIDR,37.221.120.0/22,no-resolve
   - IP-CIDR,37.221.96.0/22,no-resolve
   - IP-CIDR,37.226.0.0/15,no-resolve
+  - IP-CIDR,37.235.243.0/24,no-resolve
   - IP-CIDR,37.247.48.0/21,no-resolve
   - IP-CIDR,37.25.128.0/20,no-resolve
   - IP-CIDR,37.25.144.0/23,no-resolve
@@ -4243,6 +4244,7 @@ payload:
   - IP-CIDR6,2406:840:eeb1::/48,no-resolve
   - IP-CIDR6,2406:840:eeb2::/48,no-resolve
   - IP-CIDR6,2407:6640::/32,no-resolve
+  - IP-CIDR6,2602:f29e::/40,no-resolve
   - IP-CIDR6,2602:f692:c::/48,no-resolve
   - IP-CIDR6,2602:f992:79::/48,no-resolve
   - IP-CIDR6,2602:f9ba:a4::/48,no-resolve
@@ -5069,8 +5071,10 @@ payload:
   - IP-CIDR6,2a0c:b641:500::/48,no-resolve
   - IP-CIDR6,2a0c:b641:750::/44,no-resolve
   - IP-CIDR6,2a0c:b641:d60::/44,no-resolve
+  - IP-CIDR6,2a0c:b641:ef0::/44,no-resolve
   - IP-CIDR6,2a0c:b642:a00::/45,no-resolve
   - IP-CIDR6,2a0c:b642:a08::/47,no-resolve
+  - IP-CIDR6,2a0c:b642:ace::/48,no-resolve
   - IP-CIDR6,2a0c:bb80::/29,no-resolve
   - IP-CIDR6,2a0c:bc40::/29,no-resolve
   - IP-CIDR6,2a0c:bcc0::/29,no-resolve
@@ -5267,7 +5271,6 @@ payload:
   - IP-CIDR6,2a0f:ee40::/29,no-resolve
   - IP-CIDR6,2a0f:f3c0::/29,no-resolve
   - IP-CIDR6,2a0f:f600::/29,no-resolve
-  - IP-CIDR6,2a10:1240::/29,no-resolve
   - IP-CIDR6,2a10:1400::/29,no-resolve
   - IP-CIDR6,2a10:1c40::/32,no-resolve
   - IP-CIDR6,2a10:1e40::/29,no-resolve

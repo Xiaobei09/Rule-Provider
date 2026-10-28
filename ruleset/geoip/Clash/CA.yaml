@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: CA
 # 加拿大（Canada）
-# 数据日期: 2026-10-26
+# 数据日期: 2026-10-28
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 9555 条（IPv4: 8084 / IPv6: 1471）
+# 规则统计: 共 9573 条（IPv4: 8089 / IPv6: 1484）
 # ============================================================
 payload:
   - IP-CIDR,100.42.240.0/20,no-resolve
@@ -1868,6 +1868,7 @@ payload:
   - IP-CIDR,174.88.0.0/13,no-resolve
   - IP-CIDR,175.41.0.0/22,no-resolve
   - IP-CIDR,175.41.10.0/24,no-resolve
+  - IP-CIDR,175.41.12.0/23,no-resolve
   - IP-CIDR,175.41.14.0/24,no-resolve
   - IP-CIDR,175.41.4.0/24,no-resolve
   - IP-CIDR,175.41.6.0/23,no-resolve
@@ -2017,6 +2018,7 @@ payload:
   - IP-CIDR,185.41.52.0/22,no-resolve
   - IP-CIDR,185.47.252.0/22,no-resolve
   - IP-CIDR,185.56.45.0/24,no-resolve
+  - IP-CIDR,185.7.214.0/24,no-resolve
   - IP-CIDR,185.75.60.0/22,no-resolve
   - IP-CIDR,185.80.124.0/22,no-resolve
   - IP-CIDR,185.80.36.0/22,no-resolve
@@ -2197,7 +2199,6 @@ payload:
   - IP-CIDR,192.153.220.0/24,no-resolve
   - IP-CIDR,192.154.136.0/21,no-resolve
   - IP-CIDR,192.154.144.0/20,no-resolve
-  - IP-CIDR,192.154.204.0/24,no-resolve
   - IP-CIDR,192.154.214.0/24,no-resolve
   - IP-CIDR,192.154.28.0/22,no-resolve
   - IP-CIDR,192.155.0.0/24,no-resolve
@@ -3207,6 +3208,7 @@ payload:
   - IP-CIDR,198.51.136.0/22,no-resolve
   - IP-CIDR,198.51.151.0/24,no-resolve
   - IP-CIDR,198.51.2.0/24,no-resolve
+  - IP-CIDR,198.51.231.0/24,no-resolve
   - IP-CIDR,198.51.255.0/24,no-resolve
   - IP-CIDR,198.51.75.0/24,no-resolve
   - IP-CIDR,198.52.128.0/18,no-resolve
@@ -4561,6 +4563,7 @@ payload:
   - IP-CIDR,205.173.252.0/22,no-resolve
   - IP-CIDR,205.174.160.0/20,no-resolve
   - IP-CIDR,205.175.212.0/22,no-resolve
+  - IP-CIDR,205.178.148.0/24,no-resolve
   - IP-CIDR,205.178.163.0/24,no-resolve
   - IP-CIDR,205.178.178.0/24,no-resolve
   - IP-CIDR,205.178.184.0/24,no-resolve
@@ -5550,6 +5553,7 @@ payload:
   - IP-CIDR,209.205.64.0/19,no-resolve
   - IP-CIDR,209.205.96.0/20,no-resolve
   - IP-CIDR,209.206.112.0/21,no-resolve
+  - IP-CIDR,209.206.127.0/24,no-resolve
   - IP-CIDR,209.207.64.0/18,no-resolve
   - IP-CIDR,209.209.0.0/23,no-resolve
   - IP-CIDR,209.209.116.0/22,no-resolve
@@ -7217,7 +7221,7 @@ payload:
   - IP-CIDR,66.114.51.0/24,no-resolve
   - IP-CIDR,66.114.52.0/22,no-resolve
   - IP-CIDR,66.114.57.0/24,no-resolve
-  - IP-CIDR,66.114.58.0/24,no-resolve
+  - IP-CIDR,66.114.58.0/23,no-resolve
   - IP-CIDR,66.114.60.0/22,no-resolve
   - IP-CIDR,66.118.16.0/22,no-resolve
   - IP-CIDR,66.118.232.0/22,no-resolve
@@ -7950,6 +7954,7 @@ payload:
   - IP-CIDR,85.131.160.0/19,no-resolve
   - IP-CIDR,85.187.213.0/24,no-resolve
   - IP-CIDR,85.187.214.0/23,no-resolve
+  - IP-CIDR,85.193.68.0/23,no-resolve
   - IP-CIDR,85.209.176.0/24,no-resolve
   - IP-CIDR,85.209.84.0/22,no-resolve
   - IP-CIDR,85.236.152.0/21,no-resolve
@@ -8147,7 +8152,19 @@ payload:
   - IP-CIDR6,2001:fb0:109f:1::/64,no-resolve
   - IP-CIDR6,2400:b820::/32,no-resolve
   - IP-CIDR6,2401:1fe0::/32,no-resolve
-  - IP-CIDR6,2401:2660:2000::/36,no-resolve
+  - IP-CIDR6,2401:2660:2001::/48,no-resolve
+  - IP-CIDR6,2401:2660:2002::/47,no-resolve
+  - IP-CIDR6,2401:2660:2005::/48,no-resolve
+  - IP-CIDR6,2401:2660:2006::/47,no-resolve
+  - IP-CIDR6,2401:2660:2008::/45,no-resolve
+  - IP-CIDR6,2401:2660:2010::/44,no-resolve
+  - IP-CIDR6,2401:2660:2020::/43,no-resolve
+  - IP-CIDR6,2401:2660:2040::/42,no-resolve
+  - IP-CIDR6,2401:2660:2080::/41,no-resolve
+  - IP-CIDR6,2401:2660:2100::/40,no-resolve
+  - IP-CIDR6,2401:2660:2200::/39,no-resolve
+  - IP-CIDR6,2401:2660:2400::/38,no-resolve
+  - IP-CIDR6,2401:2660:2800::/37,no-resolve
   - IP-CIDR6,2401:8700:ff01::/48,no-resolve
   - IP-CIDR6,2401:8700:ff02::/47,no-resolve
   - IP-CIDR6,2401:8700:ff04::/48,no-resolve
@@ -8220,6 +8237,7 @@ payload:
   - IP-CIDR6,2602:81d:b000::/44,no-resolve
   - IP-CIDR6,2602:81e:1000::/44,no-resolve
   - IP-CIDR6,2602:81f:6000::/44,no-resolve
+  - IP-CIDR6,2602:f28a::/40,no-resolve
   - IP-CIDR6,2602:f29a::/40,no-resolve
   - IP-CIDR6,2602:f2a8::/40,no-resolve
   - IP-CIDR6,2602:f2c9::/36,no-resolve

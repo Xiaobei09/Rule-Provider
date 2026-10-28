@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: PK
 # 巴基斯坦（Pakistan）
-# 数据日期: 2026-10-26
+# 数据日期: 2026-10-28
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1279 条（IPv4: 921 / IPv6: 358）
+# 规则统计: 共 1275 条（IPv4: 918 / IPv6: 357）
 # ============================================================
 payload:
   - IP-CIDR,101.50.64.0/18,no-resolve
@@ -462,6 +462,7 @@ payload:
   - IP-CIDR,116.206.84.0/22,no-resolve
   - IP-CIDR,116.213.32.0/22,no-resolve
   - IP-CIDR,116.58.0.0/17,no-resolve
+  - IP-CIDR,116.66.236.0/23,no-resolve
   - IP-CIDR,116.71.0.0/16,no-resolve
   - IP-CIDR,116.90.96.0/19,no-resolve
   - IP-CIDR,117.102.0.0/18,no-resolve
@@ -581,11 +582,7 @@ payload:
   - IP-CIDR,154.57.192.0/21,no-resolve
   - IP-CIDR,154.57.208.0/21,no-resolve
   - IP-CIDR,154.57.216.0/21,no-resolve
-  - IP-CIDR,154.80.0.0/20,no-resolve
-  - IP-CIDR,154.80.16.0/21,no-resolve
-  - IP-CIDR,154.80.24.0/21,no-resolve
-  - IP-CIDR,154.80.32.0/19,no-resolve
-  - IP-CIDR,154.80.64.0/18,no-resolve
+  - IP-CIDR,154.80.0.0/17,no-resolve
   - IP-CIDR,154.81.11.0/24,no-resolve
   - IP-CIDR,154.81.224.0/19,no-resolve
   - IP-CIDR,154.91.160.0/22,no-resolve
@@ -696,6 +693,7 @@ payload:
   - IP-CIDR,178.83.173.0/24,no-resolve
   - IP-CIDR,180.149.208.0/20,no-resolve
   - IP-CIDR,180.178.128.0/18,no-resolve
+  - IP-CIDR,180.214.161.0/24,no-resolve
   - IP-CIDR,182.176.0.0/12,no-resolve
   - IP-CIDR,182.255.48.0/22,no-resolve
   - IP-CIDR,185.145.235.0/24,no-resolve
@@ -845,7 +843,6 @@ payload:
   - IP-CIDR,36.50.72.0/23,no-resolve
   - IP-CIDR,36.50.76.0/24,no-resolve
   - IP-CIDR,37.111.128.0/18,no-resolve
-  - IP-CIDR,38.100.220.0/22,no-resolve
   - IP-CIDR,38.117.117.0/24,no-resolve
   - IP-CIDR,38.117.119.0/24,no-resolve
   - IP-CIDR,38.125.248.0/21,no-resolve
@@ -1044,7 +1041,6 @@ payload:
   - IP-CIDR6,2001:df4:ae40::/48,no-resolve
   - IP-CIDR6,2001:df4:d140::/48,no-resolve
   - IP-CIDR6,2001:df4:d1c0::/48,no-resolve
-  - IP-CIDR6,2001:df4:e80::/48,no-resolve
   - IP-CIDR6,2001:df4:e9c0::/48,no-resolve
   - IP-CIDR6,2001:df4:ecc0::/48,no-resolve
   - IP-CIDR6,2001:df4:fcc0::/48,no-resolve

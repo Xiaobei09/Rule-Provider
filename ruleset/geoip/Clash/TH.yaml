@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: TH
 # 泰国（Thailand）
-# 数据日期: 2026-10-26
+# 数据日期: 2026-10-28
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1213 条（IPv4: 961 / IPv6: 252）
+# 规则统计: 共 1222 条（IPv4: 962 / IPv6: 260）
 # ============================================================
 payload:
   - IP-CIDR,1.0.128.0/17,no-resolve
@@ -182,7 +182,6 @@ payload:
   - IP-CIDR,103.254.215.0/24,no-resolve
   - IP-CIDR,103.255.13.0/24,no-resolve
   - IP-CIDR,103.255.198.0/24,no-resolve
-  - IP-CIDR,103.26.180.0/22,no-resolve
   - IP-CIDR,103.26.20.0/22,no-resolve
   - IP-CIDR,103.27.100.0/22,no-resolve
   - IP-CIDR,103.27.200.0/22,no-resolve
@@ -788,6 +787,9 @@ payload:
   - IP-CIDR,23.164.116.0/24,no-resolve
   - IP-CIDR,23.165.228.0/24,no-resolve
   - IP-CIDR,23.165.244.0/24,no-resolve
+  - IP-CIDR,23.166.100.0/24,no-resolve
+  - IP-CIDR,23.166.132.0/24,no-resolve
+  - IP-CIDR,23.166.84.0/24,no-resolve
   - IP-CIDR,23.177.168.0/24,no-resolve
   - IP-CIDR,23.177.200.0/24,no-resolve
   - IP-CIDR,23.178.56.0/24,no-resolve
@@ -828,7 +830,6 @@ payload:
   - IP-CIDR,31.58.99.0/24,no-resolve
   - IP-CIDR,38.159.240.0/20,no-resolve
   - IP-CIDR,38.226.124.0/24,no-resolve
-  - IP-CIDR,43.228.196.0/22,no-resolve
   - IP-CIDR,43.228.80.0/22,no-resolve
   - IP-CIDR,43.228.84.0/22,no-resolve
   - IP-CIDR,43.229.132.0/22,no-resolve
@@ -1018,7 +1019,6 @@ payload:
   - IP-CIDR6,2001:df3:f240::/48,no-resolve
   - IP-CIDR6,2001:df3:f880::/48,no-resolve
   - IP-CIDR6,2001:df3:f900::/48,no-resolve
-  - IP-CIDR6,2001:df4:2000::/48,no-resolve
   - IP-CIDR6,2001:df4:3000::/48,no-resolve
   - IP-CIDR6,2001:df4:4480::/48,no-resolve
   - IP-CIDR6,2001:df4:68c0::/48,no-resolve
@@ -1176,6 +1176,9 @@ payload:
   - IP-CIDR6,2407:ed00::/32,no-resolve
   - IP-CIDR6,2600:1417:2c00::/48,no-resolve
   - IP-CIDR6,2600:1417:5f::/48,no-resolve
+  - IP-CIDR6,2602:f296::/40,no-resolve
+  - IP-CIDR6,2602:f29c::/40,no-resolve
+  - IP-CIDR6,2602:f2b3::/40,no-resolve
   - IP-CIDR6,2602:f2b9::/40,no-resolve
   - IP-CIDR6,2602:f2c3::/40,no-resolve
   - IP-CIDR6,2602:f2e4::/40,no-resolve
@@ -1203,11 +1206,17 @@ payload:
   - IP-CIDR6,2602:fb26::/36,no-resolve
   - IP-CIDR6,2602:fed2:7e83::/48,no-resolve
   - IP-CIDR6,2602:ff96:4::/48,no-resolve
+  - IP-CIDR6,2a02:f240::/29,no-resolve
+  - IP-CIDR6,2a04:3e80::/29,no-resolve
+  - IP-CIDR6,2a05:13c0::/29,no-resolve
+  - IP-CIDR6,2a05:b480::/29,no-resolve
   - IP-CIDR6,2a05:dfc3:f700::/42,no-resolve
   - IP-CIDR6,2a05:dfc3:f750::/44,no-resolve
   - IP-CIDR6,2a05:dfc3:f760::/43,no-resolve
   - IP-CIDR6,2a05:dfc3:f780::/41,no-resolve
   - IP-CIDR6,2a06:1281:80::/44,no-resolve
+  - IP-CIDR6,2a06:8240::/29,no-resolve
+  - IP-CIDR6,2a06:9ec0::/29,no-resolve
   - IP-CIDR6,2a06:9f81:5300::/40,no-resolve
   - IP-CIDR6,2a09:17c0:1000::/48,no-resolve
   - IP-CIDR6,2a0c:9a40:e030::/48,no-resolve
