@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: MX
 # 墨西哥（Mexico）
-# 数据日期: 2026-10-28
+# 数据日期: 2026-10-29
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1526 条（IPv4: 1282 / IPv6: 244）
+# 规则统计: 共 1522 条（IPv4: 1280 / IPv6: 242）
 # ============================================================
 payload:
   - IP-CIDR,103.137.192.0/24,no-resolve
@@ -986,7 +986,6 @@ payload:
   - IP-CIDR,38.211.156.0/22,no-resolve
   - IP-CIDR,38.211.198.0/24,no-resolve
   - IP-CIDR,38.211.200.0/23,no-resolve
-  - IP-CIDR,38.211.240.0/24,no-resolve
   - IP-CIDR,38.211.4.0/24,no-resolve
   - IP-CIDR,38.211.48.0/23,no-resolve
   - IP-CIDR,38.211.51.0/24,no-resolve
@@ -1055,7 +1054,6 @@ payload:
   - IP-CIDR,38.4.190.0/23,no-resolve
   - IP-CIDR,38.4.210.0/23,no-resolve
   - IP-CIDR,38.4.220.0/22,no-resolve
-  - IP-CIDR,38.4.238.0/23,no-resolve
   - IP-CIDR,38.4.48.0/23,no-resolve
   - IP-CIDR,38.41.176.0/23,no-resolve
   - IP-CIDR,38.43.88.0/24,no-resolve
@@ -1518,9 +1516,7 @@ payload:
   - IP-CIDR6,2806:468::/29,no-resolve
   - IP-CIDR6,2806:470::/29,no-resolve
   - IP-CIDR6,2806:478::/29,no-resolve
-  - IP-CIDR6,2806:480::/30,no-resolve
-  - IP-CIDR6,2806:485::/32,no-resolve
-  - IP-CIDR6,2806:486::/31,no-resolve
+  - IP-CIDR6,2806:480::/29,no-resolve
   - IP-CIDR6,2806:488::/30,no-resolve
   - IP-CIDR6,2806:48c::/32,no-resolve
   - IP-CIDR6,2806:48e::/32,no-resolve

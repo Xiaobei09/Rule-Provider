@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: PK
 # 巴基斯坦（Pakistan）
-# 数据日期: 2026-10-28
+# 数据日期: 2026-10-29
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1275 条（IPv4: 918 / IPv6: 357）
+# 规则统计: 共 1280 条（IPv4: 923 / IPv6: 357）
 # ============================================================
 payload:
   - IP-CIDR,101.50.64.0/18,no-resolve
@@ -582,7 +582,11 @@ payload:
   - IP-CIDR,154.57.192.0/21,no-resolve
   - IP-CIDR,154.57.208.0/21,no-resolve
   - IP-CIDR,154.57.216.0/21,no-resolve
-  - IP-CIDR,154.80.0.0/17,no-resolve
+  - IP-CIDR,154.80.0.0/20,no-resolve
+  - IP-CIDR,154.80.16.0/21,no-resolve
+  - IP-CIDR,154.80.24.0/21,no-resolve
+  - IP-CIDR,154.80.32.0/19,no-resolve
+  - IP-CIDR,154.80.64.0/18,no-resolve
   - IP-CIDR,154.81.11.0/24,no-resolve
   - IP-CIDR,154.81.224.0/19,no-resolve
   - IP-CIDR,154.91.160.0/22,no-resolve
@@ -593,6 +597,7 @@ payload:
   - IP-CIDR,156.238.72.0/24,no-resolve
   - IP-CIDR,156.238.80.0/24,no-resolve
   - IP-CIDR,156.238.82.0/24,no-resolve
+  - IP-CIDR,156.9.117.0/24,no-resolve
   - IP-CIDR,157.10.226.0/23,no-resolve
   - IP-CIDR,157.10.30.0/23,no-resolve
   - IP-CIDR,157.10.6.0/23,no-resolve

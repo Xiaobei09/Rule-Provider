@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: BR
 # 巴西（Brazil）
-# 数据日期: 2026-10-28
+# 数据日期: 2026-10-29
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 15674 条（IPv4: 6562 / IPv6: 9112）
+# 规则统计: 共 15676 条（IPv4: 6563 / IPv6: 9113）
 # ============================================================
 payload:
   - IP-CIDR,102.129.192.0/24,no-resolve
@@ -3772,6 +3772,7 @@ payload:
   - IP-CIDR,198.97.38.0/24,no-resolve
   - IP-CIDR,199.83.100.0/23,no-resolve
   - IP-CIDR,2.21.67.0/24,no-resolve
+  - IP-CIDR,2.216.12.0/22,no-resolve
   - IP-CIDR,2.22.51.0/24,no-resolve
   - IP-CIDR,2.27.112.0/24,no-resolve
   - IP-CIDR,2.27.246.0/24,no-resolve
@@ -4872,7 +4873,7 @@ payload:
   - IP-CIDR,38.210.239.0/24,no-resolve
   - IP-CIDR,38.210.24.0/21,no-resolve
   - IP-CIDR,38.210.250.0/24,no-resolve
-  - IP-CIDR,38.210.254.0/23,no-resolve
+  - IP-CIDR,38.210.254.0/24,no-resolve
   - IP-CIDR,38.210.52.0/23,no-resolve
   - IP-CIDR,38.210.62.0/23,no-resolve
   - IP-CIDR,38.210.64.0/24,no-resolve
@@ -6519,6 +6520,7 @@ payload:
   - IP-CIDR,82.41.222.0/23,no-resolve
   - IP-CIDR,83.137.198.0/23,no-resolve
   - IP-CIDR,83.170.168.0/21,no-resolve
+  - IP-CIDR,84.75.130.0/23,no-resolve
   - IP-CIDR,84.75.219.0/24,no-resolve
   - IP-CIDR,85.113.92.0/22,no-resolve
   - IP-CIDR,85.155.127.0/24,no-resolve
@@ -6536,7 +6538,6 @@ payload:
   - IP-CIDR,87.254.22.0/23,no-resolve
   - IP-CIDR,87.76.204.0/24,no-resolve
   - IP-CIDR,87.76.215.0/24,no-resolve
-  - IP-CIDR,87.76.219.0/24,no-resolve
   - IP-CIDR,89.116.60.0/23,no-resolve
   - IP-CIDR,89.116.63.0/24,no-resolve
   - IP-CIDR,89.116.68.0/24,no-resolve
@@ -15235,6 +15236,7 @@ payload:
   - IP-CIDR6,2804:9b08::/32,no-resolve
   - IP-CIDR6,2804:9b0::/32,no-resolve
   - IP-CIDR6,2804:9b0c::/32,no-resolve
+  - IP-CIDR6,2804:9b10::/32,no-resolve
   - IP-CIDR6,2804:9b4::/32,no-resolve
   - IP-CIDR6,2804:9b8::/32,no-resolve
   - IP-CIDR6,2804:9c0::/32,no-resolve
@@ -15598,7 +15600,7 @@ payload:
   - IP-CIDR6,2a05:dfc1:7812::/48,no-resolve
   - IP-CIDR6,2a05:dfc1:7816::/48,no-resolve
   - IP-CIDR6,2a05:dfc1:a800::/40,no-resolve
-  - IP-CIDR6,2a06:9801:1552::/48,no-resolve
+  - IP-CIDR6,2a06:9801:1550::/44,no-resolve
   - IP-CIDR6,2a06:9801:15bb::/48,no-resolve
   - IP-CIDR6,2a06:9801:1c00::/46,no-resolve
   - IP-CIDR6,2a06:9801:1c04::/48,no-resolve

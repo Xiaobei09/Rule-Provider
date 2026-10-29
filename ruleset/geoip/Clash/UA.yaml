@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: UA
 # 乌克兰（Ukraine）
-# 数据日期: 2026-10-28
+# 数据日期: 2026-10-29
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 4757 条（IPv4: 4002 / IPv6: 755）
+# 规则统计: 共 4757 条（IPv4: 4001 / IPv6: 756）
 # ============================================================
 payload:
   - IP-CIDR,102.165.44.0/24,no-resolve
@@ -816,15 +816,13 @@ payload:
   - IP-CIDR,185.13.248.0/22,no-resolve
   - IP-CIDR,185.13.4.0/22,no-resolve
   - IP-CIDR,185.130.120.0/22,no-resolve
-  - IP-CIDR,185.130.52.0/23,no-resolve
-  - IP-CIDR,185.130.55.0/24,no-resolve
+  - IP-CIDR,185.130.52.0/22,no-resolve
   - IP-CIDR,185.132.0.0/22,no-resolve
   - IP-CIDR,185.136.134.0/24,no-resolve
   - IP-CIDR,185.137.216.0/22,no-resolve
   - IP-CIDR,185.138.228.0/22,no-resolve
   - IP-CIDR,185.139.200.0/22,no-resolve
-  - IP-CIDR,185.139.52.0/23,no-resolve
-  - IP-CIDR,185.139.54.0/24,no-resolve
+  - IP-CIDR,185.139.52.0/22,no-resolve
   - IP-CIDR,185.14.192.0/22,no-resolve
   - IP-CIDR,185.143.144.0/22,no-resolve
   - IP-CIDR,185.143.56.0/22,no-resolve
@@ -2844,6 +2842,7 @@ payload:
   - IP-CIDR,5.199.232.0/21,no-resolve
   - IP-CIDR,5.207.0.0/16,no-resolve
   - IP-CIDR,5.248.0.0/16,no-resolve
+  - IP-CIDR,5.252.119.0/24,no-resolve
   - IP-CIDR,5.252.180.0/22,no-resolve
   - IP-CIDR,5.255.160.0/19,no-resolve
   - IP-CIDR,5.255.32.0/20,no-resolve
@@ -4567,6 +4566,7 @@ payload:
   - IP-CIDR6,2a0e:3300::/29,no-resolve
   - IP-CIDR6,2a0e:40c0::/29,no-resolve
   - IP-CIDR6,2a0e:6800::/29,no-resolve
+  - IP-CIDR6,2a0e:68c0:6::/48,no-resolve
   - IP-CIDR6,2a0e:69c0::/29,no-resolve
   - IP-CIDR6,2a0e:7780::/29,no-resolve
   - IP-CIDR6,2a0e:7e00::/29,no-resolve

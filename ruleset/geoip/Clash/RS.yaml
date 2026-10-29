@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: RS
 # 塞尔维亚（Serbia）
-# 数据日期: 2026-10-28
+# 数据日期: 2026-10-29
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 671 条（IPv4: 537 / IPv6: 134）
+# 规则统计: 共 668 条（IPv4: 535 / IPv6: 133）
 # ============================================================
 payload:
   - IP-CIDR,100.43.64.0/19,no-resolve
@@ -44,8 +44,7 @@ payload:
   - IP-CIDR,138.249.22.0/24,no-resolve
   - IP-CIDR,139.28.12.0/22,no-resolve
   - IP-CIDR,141.8.128.0/22,no-resolve
-  - IP-CIDR,141.8.132.0/23,no-resolve
-  - IP-CIDR,141.8.135.0/24,no-resolve
+  - IP-CIDR,141.8.132.0/22,no-resolve
   - IP-CIDR,141.8.136.0/21,no-resolve
   - IP-CIDR,141.8.144.0/20,no-resolve
   - IP-CIDR,141.8.160.0/19,no-resolve
@@ -129,7 +128,6 @@ payload:
   - IP-CIDR,185.197.28.0/23,no-resolve
   - IP-CIDR,185.199.120.0/22,no-resolve
   - IP-CIDR,185.20.36.0/22,no-resolve
-  - IP-CIDR,185.202.79.0/24,no-resolve
   - IP-CIDR,185.211.64.0/22,no-resolve
   - IP-CIDR,185.214.40.0/22,no-resolve
   - IP-CIDR,185.218.52.0/22,no-resolve
@@ -675,5 +673,4 @@ payload:
   - IP-CIDR6,2a12:6c42::/32,no-resolve
   - IP-CIDR6,2a12:cbc0::/29,no-resolve
   - IP-CIDR6,2a13:a400::/29,no-resolve
-  - IP-CIDR6,2a13:a980::/29,no-resolve
   - IP-CIDR6,2a14:bf80::/29,no-resolve
