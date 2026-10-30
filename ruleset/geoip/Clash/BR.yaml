@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: BR
 # 巴西（Brazil）
-# 数据日期: 2026-10-29
+# 数据日期: 2026-10-30
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 15676 条（IPv4: 6563 / IPv6: 9113）
+# 规则统计: 共 15678 条（IPv4: 6565 / IPv6: 9113）
 # ============================================================
 payload:
   - IP-CIDR,102.129.192.0/24,no-resolve
@@ -807,7 +807,9 @@ payload:
   - IP-CIDR,149.78.205.0/24,no-resolve
   - IP-CIDR,149.78.206.0/24,no-resolve
   - IP-CIDR,149.78.208.0/20,no-resolve
-  - IP-CIDR,149.78.64.0/20,no-resolve
+  - IP-CIDR,149.78.64.0/22,no-resolve
+  - IP-CIDR,149.78.68.0/22,no-resolve
+  - IP-CIDR,149.78.72.0/21,no-resolve
   - IP-CIDR,149.78.96.0/20,no-resolve
   - IP-CIDR,150.161.0.0/16,no-resolve
   - IP-CIDR,150.162.0.0/15,no-resolve
@@ -2687,6 +2689,7 @@ payload:
   - IP-CIDR,185.236.183.0/24,no-resolve
   - IP-CIDR,185.238.230.0/24,no-resolve
   - IP-CIDR,185.238.30.0/24,no-resolve
+  - IP-CIDR,185.253.123.0/24,no-resolve
   - IP-CIDR,185.30.164.0/22,no-resolve
   - IP-CIDR,185.47.143.0/24,no-resolve
   - IP-CIDR,185.60.172.0/22,no-resolve
@@ -4963,7 +4966,6 @@ payload:
   - IP-CIDR,38.226.244.0/24,no-resolve
   - IP-CIDR,38.226.250.0/24,no-resolve
   - IP-CIDR,38.226.30.0/24,no-resolve
-  - IP-CIDR,38.226.5.0/24,no-resolve
   - IP-CIDR,38.226.52.0/24,no-resolve
   - IP-CIDR,38.226.54.0/23,no-resolve
   - IP-CIDR,38.226.56.0/23,no-resolve
@@ -6612,7 +6614,6 @@ payload:
   - IP-CIDR6,2603:fc38::/29,no-resolve
   - IP-CIDR6,2605:6440:2000::/36,no-resolve
   - IP-CIDR6,2605:6441:4000::/36,no-resolve
-  - IP-CIDR6,2607:1640:145::/48,no-resolve
   - IP-CIDR6,2607:740:36::/48,no-resolve
   - IP-CIDR6,2607:740:4a::/48,no-resolve
   - IP-CIDR6,2607:740:63::/48,no-resolve
@@ -15237,6 +15238,7 @@ payload:
   - IP-CIDR6,2804:9b0::/32,no-resolve
   - IP-CIDR6,2804:9b0c::/32,no-resolve
   - IP-CIDR6,2804:9b10::/32,no-resolve
+  - IP-CIDR6,2804:9b14::/32,no-resolve
   - IP-CIDR6,2804:9b4::/32,no-resolve
   - IP-CIDR6,2804:9b8::/32,no-resolve
   - IP-CIDR6,2804:9c0::/32,no-resolve

@@ -1,15 +1,12 @@
 # ============================================================
 # Rule-Provider: PH
 # 菲律宾（Philippines）
-# 数据日期: 2026-10-29
+# 数据日期: 2026-10-30
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1594 条（IPv4: 1100 / IPv6: 494）
+# 规则统计: 共 1587 条（IPv4: 1093 / IPv6: 494）
 # ============================================================
 payload:
   - IP-CIDR,1.37.0.0/16,no-resolve
-  - IP-CIDR,101.192.112.0/20,no-resolve
-  - IP-CIDR,101.193.72.0/21,no-resolve
-  - IP-CIDR,101.193.80.0/22,no-resolve
   - IP-CIDR,103.1.116.0/22,no-resolve
   - IP-CIDR,103.10.176.0/22,no-resolve
   - IP-CIDR,103.10.200.0/22,no-resolve
@@ -151,7 +148,8 @@ payload:
   - IP-CIDR,103.169.68.0/23,no-resolve
   - IP-CIDR,103.17.148.0/23,no-resolve
   - IP-CIDR,103.17.20.0/22,no-resolve
-  - IP-CIDR,103.17.24.0/22,no-resolve
+  - IP-CIDR,103.17.25.0/24,no-resolve
+  - IP-CIDR,103.17.26.0/23,no-resolve
   - IP-CIDR,103.170.126.0/24,no-resolve
   - IP-CIDR,103.170.128.0/23,no-resolve
   - IP-CIDR,103.170.18.0/23,no-resolve
@@ -437,8 +435,6 @@ payload:
   - IP-CIDR,116.93.0.0/17,no-resolve
   - IP-CIDR,117.103.112.0/23,no-resolve
   - IP-CIDR,117.104.240.0/20,no-resolve
-  - IP-CIDR,117.120.192.0/22,no-resolve
-  - IP-CIDR,117.120.232.0/21,no-resolve
   - IP-CIDR,117.58.192.0/19,no-resolve
   - IP-CIDR,118.215.72.0/21,no-resolve
   - IP-CIDR,118.88.8.0/21,no-resolve
@@ -478,7 +474,6 @@ payload:
   - IP-CIDR,124.6.128.0/18,no-resolve
   - IP-CIDR,124.83.0.0/17,no-resolve
   - IP-CIDR,125.212.0.0/17,no-resolve
-  - IP-CIDR,125.252.99.0/24,no-resolve
   - IP-CIDR,125.253.128.0/22,no-resolve
   - IP-CIDR,125.5.0.0/16,no-resolve
   - IP-CIDR,125.60.128.0/17,no-resolve
@@ -506,7 +501,6 @@ payload:
   - IP-CIDR,138.84.64.0/18,no-resolve
   - IP-CIDR,139.135.128.0/17,no-resolve
   - IP-CIDR,139.135.64.0/18,no-resolve
-  - IP-CIDR,139.5.184.0/22,no-resolve
   - IP-CIDR,14.102.168.0/22,no-resolve
   - IP-CIDR,140.235.25.0/24,no-resolve
   - IP-CIDR,143.14.88.0/24,no-resolve
@@ -921,7 +915,6 @@ payload:
   - IP-CIDR,210.79.168.0/22,no-resolve
   - IP-CIDR,210.79.178.0/23,no-resolve
   - IP-CIDR,210.87.99.0/24,no-resolve
-  - IP-CIDR,211.102.184.0/21,no-resolve
   - IP-CIDR,216.247.0.0/18,no-resolve
   - IP-CIDR,216.247.80.0/20,no-resolve
   - IP-CIDR,216.250.100.0/22,no-resolve

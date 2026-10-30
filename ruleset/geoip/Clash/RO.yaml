@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: RO
 # 罗马尼亚（Romania）
-# 数据日期: 2026-10-29
+# 数据日期: 2026-10-30
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 5480 条（IPv4: 4900 / IPv6: 580）
+# 规则统计: 共 5480 条（IPv4: 4901 / IPv6: 579）
 # ============================================================
 payload:
   - IP-CIDR,102.128.164.0/23,no-resolve
@@ -545,7 +545,7 @@ payload:
   - IP-CIDR,153.52.82.0/24,no-resolve
   - IP-CIDR,153.52.95.0/24,no-resolve
   - IP-CIDR,153.76.153.0/24,no-resolve
-  - IP-CIDR,153.76.157.0/24,no-resolve
+  - IP-CIDR,153.76.156.0/23,no-resolve
   - IP-CIDR,153.76.192.0/24,no-resolve
   - IP-CIDR,153.76.197.0/24,no-resolve
   - IP-CIDR,153.76.201.0/24,no-resolve
@@ -1281,6 +1281,7 @@ payload:
   - IP-CIDR,185.216.190.0/24,no-resolve
   - IP-CIDR,185.216.32.0/22,no-resolve
   - IP-CIDR,185.217.68.0/22,no-resolve
+  - IP-CIDR,185.218.2.0/24,no-resolve
   - IP-CIDR,185.218.227.0/24,no-resolve
   - IP-CIDR,185.219.160.0/23,no-resolve
   - IP-CIDR,185.22.231.0/24,no-resolve
@@ -2303,7 +2304,7 @@ payload:
   - IP-CIDR,198.33.151.0/24,no-resolve
   - IP-CIDR,198.33.16.0/23,no-resolve
   - IP-CIDR,198.33.177.0/24,no-resolve
-  - IP-CIDR,198.33.178.0/24,no-resolve
+  - IP-CIDR,198.33.178.0/23,no-resolve
   - IP-CIDR,198.33.180.0/23,no-resolve
   - IP-CIDR,198.33.183.0/24,no-resolve
   - IP-CIDR,198.33.188.0/22,no-resolve
@@ -2514,7 +2515,7 @@ payload:
   - IP-CIDR,213.111.176.0/24,no-resolve
   - IP-CIDR,213.111.178.0/24,no-resolve
   - IP-CIDR,213.111.182.0/23,no-resolve
-  - IP-CIDR,213.111.184.0/23,no-resolve
+  - IP-CIDR,213.111.185.0/24,no-resolve
   - IP-CIDR,213.111.191.0/24,no-resolve
   - IP-CIDR,213.134.11.0/24,no-resolve
   - IP-CIDR,213.139.198.0/23,no-resolve
@@ -2854,7 +2855,7 @@ payload:
   - IP-CIDR,40.27.108.0/22,no-resolve
   - IP-CIDR,40.27.116.0/22,no-resolve
   - IP-CIDR,43.226.228.0/24,no-resolve
-  - IP-CIDR,43.226.230.0/24,no-resolve
+  - IP-CIDR,43.226.230.0/23,no-resolve
   - IP-CIDR,43.228.156.0/24,no-resolve
   - IP-CIDR,43.228.158.0/24,no-resolve
   - IP-CIDR,43.230.56.0/22,no-resolve
@@ -5424,7 +5425,6 @@ payload:
   - IP-CIDR6,2a13:9500:f4::/46,no-resolve
   - IP-CIDR6,2a13:9500:f8::/47,no-resolve
   - IP-CIDR6,2a13:9b80::/29,no-resolve
-  - IP-CIDR6,2a13:c8c3:e802::/48,no-resolve
   - IP-CIDR6,2a13:c8c4:3000::/36,no-resolve
   - IP-CIDR6,2a13:c8c4::/36,no-resolve
   - IP-CIDR6,2a13:c8c4:f100::/47,no-resolve
