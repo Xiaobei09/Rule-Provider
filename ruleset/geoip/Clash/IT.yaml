@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: IT
 # 意大利（Italy）
-# 数据日期: 2026-10-30
+# 数据日期: 2026-10-31
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 5445 条（IPv4: 4155 / IPv6: 1290）
+# 规则统计: 共 5449 条（IPv4: 4158 / IPv6: 1291）
 # ============================================================
 payload:
   - IP-CIDR,101.56.0.0/13,no-resolve
@@ -80,6 +80,7 @@ payload:
   - IP-CIDR,109.238.16.0/20,no-resolve
   - IP-CIDR,109.239.240.0/20,no-resolve
   - IP-CIDR,109.52.0.0/14,no-resolve
+  - IP-CIDR,109.66.254.0/24,no-resolve
   - IP-CIDR,109.68.152.0/21,no-resolve
   - IP-CIDR,109.68.24.0/21,no-resolve
   - IP-CIDR,109.69.128.0/21,no-resolve
@@ -528,6 +529,7 @@ payload:
   - IP-CIDR,178.94.8.0/24,no-resolve
   - IP-CIDR,178.95.165.0/24,no-resolve
   - IP-CIDR,178.99.0.0/16,no-resolve
+  - IP-CIDR,179.236.131.0/24,no-resolve
   - IP-CIDR,179.61.239.0/24,no-resolve
   - IP-CIDR,184.28.224.0/24,no-resolve
   - IP-CIDR,184.29.80.0/22,no-resolve
@@ -3329,6 +3331,7 @@ payload:
   - IP-CIDR,80.208.248.0/22,no-resolve
   - IP-CIDR,80.210.96.0/19,no-resolve
   - IP-CIDR,80.211.0.0/16,no-resolve
+  - IP-CIDR,80.224.190.0/24,no-resolve
   - IP-CIDR,80.224.248.0/22,no-resolve
   - IP-CIDR,80.241.136.0/21,no-resolve
   - IP-CIDR,80.241.224.0/20,no-resolve
@@ -4242,6 +4245,7 @@ payload:
   - IP-CIDR6,2001:df0:d840::/48,no-resolve
   - IP-CIDR6,2001:df1:82c0::/48,no-resolve
   - IP-CIDR6,2406:840:eeb1::/48,no-resolve
+  - IP-CIDR6,2406:840:eeb2::/48,no-resolve
   - IP-CIDR6,2407:6640::/32,no-resolve
   - IP-CIDR6,2602:f29e::/40,no-resolve
   - IP-CIDR6,2602:f692:c::/48,no-resolve

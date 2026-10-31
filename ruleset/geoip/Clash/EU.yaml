@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: EU
 # 欧盟（European Union）
-# 数据日期: 2026-10-30
+# 数据日期: 2026-10-31
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1101 条（IPv4: 978 / IPv6: 123）
+# 规则统计: 共 1106 条（IPv4: 983 / IPv6: 123）
 # ============================================================
 payload:
   - IP-CIDR,103.141.68.0/23,no-resolve
@@ -96,7 +96,6 @@ payload:
   - IP-CIDR,144.178.116.0/24,no-resolve
   - IP-CIDR,144.178.255.0/24,no-resolve
   - IP-CIDR,144.199.196.0/24,no-resolve
-  - IP-CIDR,144.204.0.0/16,no-resolve
   - IP-CIDR,144.206.136.0/21,no-resolve
   - IP-CIDR,144.225.215.0/24,no-resolve
   - IP-CIDR,144.225.216.0/23,no-resolve
@@ -195,6 +194,9 @@ payload:
   - IP-CIDR,176.125.20.0/23,no-resolve
   - IP-CIDR,176.125.22.0/24,no-resolve
   - IP-CIDR,176.125.24.0/21,no-resolve
+  - IP-CIDR,176.25.0.0/17,no-resolve
+  - IP-CIDR,176.26.0.0/16,no-resolve
+  - IP-CIDR,176.27.0.0/17,no-resolve
   - IP-CIDR,176.68.0.0/14,no-resolve
   - IP-CIDR,178.218.152.0/22,no-resolve
   - IP-CIDR,185.116.108.0/22,no-resolve
@@ -218,6 +220,7 @@ payload:
   - IP-CIDR,185.93.160.0/22,no-resolve
   - IP-CIDR,188.148.0.0/14,no-resolve
   - IP-CIDR,188.211.240.0/21,no-resolve
+  - IP-CIDR,188.222.0.0/16,no-resolve
   - IP-CIDR,188.240.144.0/20,no-resolve
   - IP-CIDR,188.241.160.0/20,no-resolve
   - IP-CIDR,192.102.229.0/24,no-resolve
@@ -829,6 +832,7 @@ payload:
   - IP-CIDR,80.170.0.0/16,no-resolve
   - IP-CIDR,80.216.0.0/15,no-resolve
   - IP-CIDR,80.73.176.0/20,no-resolve
+  - IP-CIDR,81.172.56.0/23,no-resolve
   - IP-CIDR,81.21.240.0/20,no-resolve
   - IP-CIDR,81.216.0.0/16,no-resolve
   - IP-CIDR,82.203.12.0/22,no-resolve
@@ -979,6 +983,7 @@ payload:
   - IP-CIDR,92.43.32.0/21,no-resolve
   - IP-CIDR,93.115.160.0/21,no-resolve
   - IP-CIDR,93.94.208.0/21,no-resolve
+  - IP-CIDR,94.117.0.0/16,no-resolve
   - IP-CIDR,94.176.224.0/21,no-resolve
   - IP-CIDR,94.186.0.0/17,no-resolve
   - IP-CIDR,95.153.0.0/18,no-resolve

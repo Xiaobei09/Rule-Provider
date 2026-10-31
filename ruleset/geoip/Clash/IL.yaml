@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: IL
 # 以色列（Israel）
-# 数据日期: 2026-10-30
+# 数据日期: 2026-10-31
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1459 条（IPv4: 1178 / IPv6: 281）
+# 规则统计: 共 1462 条（IPv4: 1181 / IPv6: 281）
 # ============================================================
 payload:
   - IP-CIDR,102.128.166.0/24,no-resolve
@@ -178,6 +178,11 @@ payload:
   - IP-CIDR,158.26.160.0/24,no-resolve
   - IP-CIDR,159.117.224.0/19,no-resolve
   - IP-CIDR,159.253.121.0/24,no-resolve
+  - IP-CIDR,160.0.130.0/23,no-resolve
+  - IP-CIDR,160.0.132.0/24,no-resolve
+  - IP-CIDR,160.0.134.0/23,no-resolve
+  - IP-CIDR,160.0.136.0/23,no-resolve
+  - IP-CIDR,160.0.189.0/24,no-resolve
   - IP-CIDR,164.108.104.0/24,no-resolve
   - IP-CIDR,164.108.12.0/23,no-resolve
   - IP-CIDR,164.108.19.0/24,no-resolve
@@ -622,7 +627,6 @@ payload:
   - IP-CIDR,204.57.218.0/24,no-resolve
   - IP-CIDR,205.177.67.0/24,no-resolve
   - IP-CIDR,205.177.68.0/24,no-resolve
-  - IP-CIDR,206.123.145.0/24,no-resolve
   - IP-CIDR,206.232.56.0/23,no-resolve
   - IP-CIDR,206.29.160.0/24,no-resolve
   - IP-CIDR,206.53.55.0/24,no-resolve
@@ -754,7 +758,6 @@ payload:
   - IP-CIDR,31.76.118.0/24,no-resolve
   - IP-CIDR,31.76.32.0/24,no-resolve
   - IP-CIDR,31.76.87.0/24,no-resolve
-  - IP-CIDR,31.76.93.0/24,no-resolve
   - IP-CIDR,31.77.189.0/24,no-resolve
   - IP-CIDR,31.77.228.0/24,no-resolve
   - IP-CIDR,37.122.152.0/22,no-resolve
