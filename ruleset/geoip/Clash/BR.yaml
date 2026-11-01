@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: BR
 # 巴西（Brazil）
-# 数据日期: 2026-10-31
+# 数据日期: 2026-11-01
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 15680 条（IPv4: 6567 / IPv6: 9113）
+# 规则统计: 共 15679 条（IPv4: 6565 / IPv6: 9114）
 # ============================================================
 payload:
   - IP-CIDR,102.129.192.0/24,no-resolve
@@ -888,8 +888,6 @@ payload:
   - IP-CIDR,154.16.50.0/24,no-resolve
   - IP-CIDR,154.16.59.0/24,no-resolve
   - IP-CIDR,154.17.183.0/24,no-resolve
-  - IP-CIDR,154.216.129.0/24,no-resolve
-  - IP-CIDR,154.216.130.0/24,no-resolve
   - IP-CIDR,154.28.208.0/23,no-resolve
   - IP-CIDR,154.28.210.0/24,no-resolve
   - IP-CIDR,154.28.212.0/22,no-resolve
@@ -5033,7 +5031,7 @@ payload:
   - IP-CIDR,38.4.128.0/20,no-resolve
   - IP-CIDR,38.4.168.0/21,no-resolve
   - IP-CIDR,38.4.176.0/21,no-resolve
-  - IP-CIDR,38.4.234.0/24,no-resolve
+  - IP-CIDR,38.4.234.0/23,no-resolve
   - IP-CIDR,38.4.240.0/21,no-resolve
   - IP-CIDR,38.41.116.0/22,no-resolve
   - IP-CIDR,38.41.122.0/24,no-resolve
@@ -15675,6 +15673,7 @@ payload:
   - IP-CIDR6,2a13:9500:19c::/48,no-resolve
   - IP-CIDR6,2a13:9500:1bf::/48,no-resolve
   - IP-CIDR6,2a13:9500:1e0::/48,no-resolve
+  - IP-CIDR6,2a13:9500:1fb::/48,no-resolve
   - IP-CIDR6,2a13:9500:20::/46,no-resolve
   - IP-CIDR6,2a13:9500:7a::/48,no-resolve
   - IP-CIDR6,2a13:9500:ab::/48,no-resolve
