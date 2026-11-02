@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: VC
 # 圣文森特和格林纳丁斯（Saint Vincent and the Grenadines）
-# 数据日期: 2026-11-01
+# 数据日期: 2026-11-02
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 45 条（IPv4: 42 / IPv6: 3）
+# 规则统计: 共 46 条（IPv4: 42 / IPv6: 4）
 # ============================================================
 payload:
   - IP-CIDR,103.17.98.0/23,no-resolve
@@ -51,3 +51,4 @@ payload:
   - IP-CIDR6,2001:505:141::/48,no-resolve
   - IP-CIDR6,2600:1e00::/28,no-resolve
   - IP-CIDR6,2602:fce4::/36,no-resolve
+  - IP-CIDR6,2a14:7583:eff7::/48,no-resolve

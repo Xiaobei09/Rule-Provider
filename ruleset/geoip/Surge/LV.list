@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: LV
 # 拉脱维亚（Latvia）
-# 数据日期: 2026-11-01
+# 数据日期: 2026-11-02
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1072 条（IPv4: 858 / IPv6: 214）
+# 规则统计: 共 1075 条（IPv4: 858 / IPv6: 217）
 # ============================================================
 IP-CIDR,103.101.86.0/24,no-resolve
 IP-CIDR,103.104.141.0/24,no-resolve
@@ -945,7 +945,7 @@ IP-CIDR6,2a02:c6c1:40::/42,no-resolve
 IP-CIDR6,2a02:c6c1:8000::/33,no-resolve
 IP-CIDR6,2a02:c6c1:800::/37,no-resolve
 IP-CIDR6,2a02:c6c1:80::/41,no-resolve
-IP-CIDR6,2a02:c6c1:d::/48,no-resolve
+IP-CIDR6,2a02:c6c1:c::/47,no-resolve
 IP-CIDR6,2a02:c6c1:e::/48,no-resolve
 IP-CIDR6,2a02:c6c2::/31,no-resolve
 IP-CIDR6,2a02:c6c4::/30,no-resolve
@@ -969,11 +969,6 @@ IP-CIDR6,2a05:8700::/29,no-resolve
 IP-CIDR6,2a06:a003:1111::/48,no-resolve
 IP-CIDR6,2a06:a003::/48,no-resolve
 IP-CIDR6,2a06:a003:b00b::/48,no-resolve
-IP-CIDR6,2a06:a005:19d0::/44,no-resolve
-IP-CIDR6,2a06:a005:2d90::/44,no-resolve
-IP-CIDR6,2a06:a005:2da0::/43,no-resolve
-IP-CIDR6,2a06:a005:2dc0::/42,no-resolve
-IP-CIDR6,2a06:a005:2e00::/43,no-resolve
 IP-CIDR6,2a06:e8c0::/29,no-resolve
 IP-CIDR6,2a09:2ac0::/29,no-resolve
 IP-CIDR6,2a09:3f00:3600::/47,no-resolve
@@ -986,7 +981,6 @@ IP-CIDR6,2a09:e0c0::/29,no-resolve
 IP-CIDR6,2a0a:1480::/29,no-resolve
 IP-CIDR6,2a0a:2380::/32,no-resolve
 IP-CIDR6,2a0a:4784::/32,no-resolve
-IP-CIDR6,2a0a:6040:b1f0::/48,no-resolve
 IP-CIDR6,2a0a:6040:b1f2::/47,no-resolve
 IP-CIDR6,2a0a:6040:b1f4::/47,no-resolve
 IP-CIDR6,2a0a:6040:b1f6::/48,no-resolve
@@ -1047,17 +1041,15 @@ IP-CIDR6,2a0e:a7c2::/31,no-resolve
 IP-CIDR6,2a0e:a7c4::/30,no-resolve
 IP-CIDR6,2a0e:e300::/29,no-resolve
 IP-CIDR6,2a0f:1585::/32,no-resolve
-IP-CIDR6,2a0f:1586::/32,no-resolve
 IP-CIDR6,2a0f:4b40::/32,no-resolve
 IP-CIDR6,2a0f:4b42::/31,no-resolve
 IP-CIDR6,2a0f:4b44::/30,no-resolve
-IP-CIDR6,2a0f:85c1:c41::/48,no-resolve
 IP-CIDR6,2a0f:85c1:e3b::/48,no-resolve
 IP-CIDR6,2a0f:85c1:e3c::/48,no-resolve
+IP-CIDR6,2a0f:9400:6148::/48,no-resolve
 IP-CIDR6,2a0f:cdc0::/29,no-resolve
 IP-CIDR6,2a0f:ea80::/29,no-resolve
 IP-CIDR6,2a10:2000::/29,no-resolve
-IP-CIDR6,2a10:2f00:18a::/48,no-resolve
 IP-CIDR6,2a10:ab80:3fe::/48,no-resolve
 IP-CIDR6,2a11:66c2::/32,no-resolve
 IP-CIDR6,2a11:66c4::/32,no-resolve
@@ -1067,6 +1059,13 @@ IP-CIDR6,2a11:9883::/32,no-resolve
 IP-CIDR6,2a12:9000::/29,no-resolve
 IP-CIDR6,2a12:b2c0:6::/48,no-resolve
 IP-CIDR6,2a12:b9c0::/29,no-resolve
+IP-CIDR6,2a12:bec4:1460::/44,no-resolve
+IP-CIDR6,2a12:bec4:150::/44,no-resolve
+IP-CIDR6,2a12:bec4:1a70::/44,no-resolve
+IP-CIDR6,2a12:bec4:1a80::/44,no-resolve
+IP-CIDR6,2a12:bec4:1c70::/44,no-resolve
+IP-CIDR6,2a12:bec4:1c90::/44,no-resolve
+IP-CIDR6,2a12:bec4:2000::/44,no-resolve
 IP-CIDR6,2a13:2000::/29,no-resolve
 IP-CIDR6,2a13:4ac0::/29,no-resolve
 IP-CIDR6,2a13:6c40::/29,no-resolve
@@ -1076,4 +1075,8 @@ IP-CIDR6,2a14:1a80::/29,no-resolve
 IP-CIDR6,2a14:1b80::/29,no-resolve
 IP-CIDR6,2a14:5680::/29,no-resolve
 IP-CIDR6,2a14:67c3:790::/44,no-resolve
+IP-CIDR6,2a14:7583:ef40::/45,no-resolve
+IP-CIDR6,2a14:7583:ef48::/46,no-resolve
+IP-CIDR6,2a14:7583:ef4c::/47,no-resolve
+IP-CIDR6,2a14:7583:ef4f::/48,no-resolve
 IP-CIDR6,2a14:f280::/29,no-resolve

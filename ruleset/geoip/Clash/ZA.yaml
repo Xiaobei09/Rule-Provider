@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: ZA
 # 南非（South Africa）
-# 数据日期: 2026-11-01
+# 数据日期: 2026-11-02
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 2552 条（IPv4: 1977 / IPv6: 575）
+# 规则统计: 共 2551 条（IPv4: 1977 / IPv6: 574）
 # ============================================================
 payload:
   - IP-CIDR,102.128.136.0/21,no-resolve
@@ -2069,7 +2069,9 @@ payload:
   - IP-CIDR6,2a01:5380::/32,no-resolve
   - IP-CIDR6,2a02:47c0::/32,no-resolve
   - IP-CIDR6,2a05:1680::/29,no-resolve
-  - IP-CIDR6,2a06:a005:1300::/44,no-resolve
+  - IP-CIDR6,2a06:a005:1300::/45,no-resolve
+  - IP-CIDR6,2a06:a005:1308::/46,no-resolve
+  - IP-CIDR6,2a06:a005:130c::/46,no-resolve
   - IP-CIDR6,2a0b:af00::/29,no-resolve
   - IP-CIDR6,2a0c:2e00::/29,no-resolve
   - IP-CIDR6,2a0c:4540::/29,no-resolve
@@ -2077,7 +2079,6 @@ payload:
   - IP-CIDR6,2a0d:9080::/29,no-resolve
   - IP-CIDR6,2a0d:b980::/29,no-resolve
   - IP-CIDR6,2a0e:3900::/32,no-resolve
-  - IP-CIDR6,2a0e:8f02:20a0::/44,no-resolve
   - IP-CIDR6,2a0e:8f02:2151::/48,no-resolve
   - IP-CIDR6,2a0e:8f02:2152::/48,no-resolve
   - IP-CIDR6,2a0e:8f02:2154::/48,no-resolve
@@ -2120,7 +2121,6 @@ payload:
   - IP-CIDR6,2c0f:1820::/32,no-resolve
   - IP-CIDR6,2c0f:1880::/32,no-resolve
   - IP-CIDR6,2c0f:1900::/32,no-resolve
-  - IP-CIDR6,2c0f:1940::/32,no-resolve
   - IP-CIDR6,2c0f:1980::/32,no-resolve
   - IP-CIDR6,2c0f:19a0::/32,no-resolve
   - IP-CIDR6,2c0f:1a20::/32,no-resolve
@@ -2203,7 +2203,6 @@ payload:
   - IP-CIDR6,2c0f:4aa0::/32,no-resolve
   - IP-CIDR6,2c0f:4b80::/32,no-resolve
   - IP-CIDR6,2c0f:4bc0::/32,no-resolve
-  - IP-CIDR6,2c0f:4c80::/32,no-resolve
   - IP-CIDR6,2c0f:4d40::/32,no-resolve
   - IP-CIDR6,2c0f:4dc0::/32,no-resolve
   - IP-CIDR6,2c0f:4e20::/32,no-resolve

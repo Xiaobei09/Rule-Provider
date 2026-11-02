@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: MU
 # 毛里求斯（Mauritius）
-# 数据日期: 2026-11-01
+# 数据日期: 2026-11-02
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 205 条（IPv4: 162 / IPv6: 43）
+# 规则统计: 共 220 条（IPv4: 162 / IPv6: 58）
 # ============================================================
 ip-cidr, 102.112.0.0/13
 ip-cidr, 102.131.48.0/21
@@ -189,11 +189,27 @@ ip6-cidr, 2001:43f8:e00::/40
 ip6-cidr, 2001:43fe:6000::/48
 ip6-cidr, 2c0f:4c20::/32
 ip6-cidr, 2c0f:5140::/32
-ip6-cidr, 2c0f:8a0::/32
+ip6-cidr, 2c0f:8a0:8000::/34
+ip6-cidr, 2c0f:8a0::/33
+ip6-cidr, 2c0f:8a0:c000::/37
+ip6-cidr, 2c0f:8a0:c800::/39
+ip6-cidr, 2c0f:8a0:ca00::/41
+ip6-cidr, 2c0f:8a0:ca80::/42
+ip6-cidr, 2c0f:8a0:cac0::/43
+ip6-cidr, 2c0f:8a0:cae0::/44
+ip6-cidr, 2c0f:8a0:caf0::/45
+ip6-cidr, 2c0f:8a0:caf8::/46
+ip6-cidr, 2c0f:8a0:cafc::/46
+ip6-cidr, 2c0f:8a0:cb00::/40
+ip6-cidr, 2c0f:8a0:cc00::/38
+ip6-cidr, 2c0f:8a0:d000::/36
+ip6-cidr, 2c0f:8a0:e000::/35
 ip6-cidr, 2c0f:e808::/32
 ip6-cidr, 2c0f:e8f8::/32
 ip6-cidr, 2c0f:ec30::/32
-ip6-cidr, 2c0f:ef68::/32
+ip6-cidr, 2c0f:ef68:10::/47
+ip6-cidr, 2c0f:ef68:5::/48
+ip6-cidr, 2c0f:ef68::/46
 ip6-cidr, 2c0f:f310::/32
 ip6-cidr, 2c0f:f3e8::/32
 ip6-cidr, 2c0f:f550::/32
@@ -204,7 +220,6 @@ ip6-cidr, 2c0f:f980:4000::/36
 ip6-cidr, 2c0f:f980:5000::/36
 ip6-cidr, 2c0f:f980:6000::/36
 ip6-cidr, 2c0f:f980:8000::/34
-ip6-cidr, 2c0f:f980::/35
 ip6-cidr, 2c0f:fa10::/32
 ip6-cidr, 2c0f:fe30::/32
 ip6-cidr, 2c0f:fe40::/32

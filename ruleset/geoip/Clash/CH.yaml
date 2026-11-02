@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: CH
 # 瑞士（Switzerland）
-# 数据日期: 2026-11-01
+# 数据日期: 2026-11-02
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 4034 条（IPv4: 3112 / IPv6: 922）
+# 规则统计: 共 4037 条（IPv4: 3112 / IPv6: 925）
 # ============================================================
 payload:
   - IP-CIDR,101.2.251.0/24,no-resolve
@@ -3675,12 +3675,10 @@ payload:
   - IP-CIDR6,2a06:8280::/29,no-resolve
   - IP-CIDR6,2a06:89c0::/29,no-resolve
   - IP-CIDR6,2a06:8a00::/29,no-resolve
-  - IP-CIDR6,2a06:9801:c6::/48,no-resolve
   - IP-CIDR6,2a06:980::/29,no-resolve
   - IP-CIDR6,2a06:a005:28e0::/48,no-resolve
   - IP-CIDR6,2a06:a005:28e2::/47,no-resolve
   - IP-CIDR6,2a06:a005:28e4::/48,no-resolve
-  - IP-CIDR6,2a06:a005:28e8::/48,no-resolve
   - IP-CIDR6,2a06:a840::/29,no-resolve
   - IP-CIDR6,2a06:ac0::/29,no-resolve
   - IP-CIDR6,2a06:b000::/29,no-resolve
@@ -3723,7 +3721,6 @@ payload:
   - IP-CIDR6,2a07:c180::/29,no-resolve
   - IP-CIDR6,2a07:dfc0::/29,no-resolve
   - IP-CIDR6,2a07:e100::/32,no-resolve
-  - IP-CIDR6,2a07:e640::/29,no-resolve
   - IP-CIDR6,2a09:1640::/29,no-resolve
   - IP-CIDR6,2a09:2200::/29,no-resolve
   - IP-CIDR6,2a09:2440::/29,no-resolve
@@ -3973,7 +3970,14 @@ payload:
   - IP-CIDR6,2a10:e480::/29,no-resolve
   - IP-CIDR6,2a10:e900::/29,no-resolve
   - IP-CIDR6,2a10:f540::/29,no-resolve
-  - IP-CIDR6,2a10:fa81:1100::/40,no-resolve
+  - IP-CIDR6,2a10:fa81:1100::/45,no-resolve
+  - IP-CIDR6,2a10:fa81:1108::/45,no-resolve
+  - IP-CIDR6,2a10:fa81:1110::/44,no-resolve
+  - IP-CIDR6,2a10:fa81:1120::/43,no-resolve
+  - IP-CIDR6,2a10:fa81:1140::/42,no-resolve
+  - IP-CIDR6,2a10:fa81:1180::/42,no-resolve
+  - IP-CIDR6,2a10:fa81:11c0::/43,no-resolve
+  - IP-CIDR6,2a10:fa81:11e0::/43,no-resolve
   - IP-CIDR6,2a10:fc40::/29,no-resolve
   - IP-CIDR6,2a10:fe40::/29,no-resolve
   - IP-CIDR6,2a11:1d00::/29,no-resolve
@@ -4001,7 +4005,6 @@ payload:
   - IP-CIDR6,2a12:bfc0::/32,no-resolve
   - IP-CIDR6,2a12:d7c0::/29,no-resolve
   - IP-CIDR6,2a12:f340::/29,no-resolve
-  - IP-CIDR6,2a12:f380::/29,no-resolve
   - IP-CIDR6,2a13:10c0::/29,no-resolve
   - IP-CIDR6,2a13:13c0::/29,no-resolve
   - IP-CIDR6,2a13:180::/29,no-resolve
@@ -4014,7 +4017,7 @@ payload:
   - IP-CIDR6,2a13:5681:1::/48,no-resolve
   - IP-CIDR6,2a13:5681:2::/48,no-resolve
   - IP-CIDR6,2a13:5681:6::/47,no-resolve
-  - IP-CIDR6,2a13:5681:8::/46,no-resolve
+  - IP-CIDR6,2a13:5681:a::/47,no-resolve
   - IP-CIDR6,2a13:7440::/29,no-resolve
   - IP-CIDR6,2a13:8380::/29,no-resolve
   - IP-CIDR6,2a13:9000::/29,no-resolve

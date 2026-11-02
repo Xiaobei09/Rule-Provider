@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: BH
 # 巴林（Bahrain）
-# 数据日期: 2026-11-01
+# 数据日期: 2026-11-02
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 75 条（IPv4: 59 / IPv6: 16）
+# 规则统计: 共 77 条（IPv4: 59 / IPv6: 18）
 # ============================================================
 payload:
   - IP-CIDR,109.161.128.0/17,no-resolve
@@ -80,4 +80,6 @@ payload:
   - IP-CIDR6,2a04:8ac0::/29,no-resolve
   - IP-CIDR6,2a06:9801:fc7::/48,no-resolve
   - IP-CIDR6,2a0e:6700::/29,no-resolve
+  - IP-CIDR6,2a0f:6280:1084::/47,no-resolve
+  - IP-CIDR6,2a0f:6280:1086::/48,no-resolve
   - IP-CIDR6,2a14:7180::/29,no-resolve
