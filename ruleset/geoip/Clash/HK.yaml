@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: HK
 # 中国香港（Hong Kong）
-# 数据日期: 2026-11-02
+# 数据日期: 2026-11-04
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 9542 条（IPv4: 8046 / IPv6: 1496）
+# 规则统计: 共 9543 条（IPv4: 8047 / IPv6: 1496）
 # ============================================================
 payload:
   - IP-CIDR,1.178.32.0/19,no-resolve
@@ -4992,6 +4992,7 @@ payload:
   - IP-CIDR,202.5.16.0/21,no-resolve
   - IP-CIDR,202.5.24.0/24,no-resolve
   - IP-CIDR,202.5.27.0/24,no-resolve
+  - IP-CIDR,202.50.60.0/23,no-resolve
   - IP-CIDR,202.50.76.0/23,no-resolve
   - IP-CIDR,202.51.128.0/19,no-resolve
   - IP-CIDR,202.52.108.0/22,no-resolve
@@ -8359,6 +8360,7 @@ payload:
   - IP-CIDR6,2001:df7:8680::/48,no-resolve
   - IP-CIDR6,2001:df7:aa80::/48,no-resolve
   - IP-CIDR6,2001:df7:c140::/48,no-resolve
+  - IP-CIDR6,2001:df7:cdc0::/48,no-resolve
   - IP-CIDR6,2001:df7:dc80::/48,no-resolve
   - IP-CIDR6,2001:df7:f680::/48,no-resolve
   - IP-CIDR6,2001:df7:fc80::/48,no-resolve
@@ -8556,7 +8558,6 @@ payload:
   - IP-CIDR6,2401:bec0::/32,no-resolve
   - IP-CIDR6,2401:c0::/32,no-resolve
   - IP-CIDR6,2401:c0c0::/32,no-resolve
-  - IP-CIDR6,2401:c480::/32,no-resolve
   - IP-CIDR6,2401:c60::/32,no-resolve
   - IP-CIDR6,2401:c700::/32,no-resolve
   - IP-CIDR6,2401:cc80::/32,no-resolve

@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: CO
 # 哥伦比亚（Colombia）
-# 数据日期: 2026-11-02
+# 数据日期: 2026-11-04
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 1680 条（IPv4: 866 / IPv6: 814）
+# 规则统计: 共 1683 条（IPv4: 869 / IPv6: 814）
 # ============================================================
 payload:
   - IP-CIDR,103.133.208.0/22,no-resolve
@@ -352,6 +352,9 @@ payload:
   - IP-CIDR,198.51.71.0/24,no-resolve
   - IP-CIDR,198.68.240.0/21,no-resolve
   - IP-CIDR,199.229.66.0/23,no-resolve
+  - IP-CIDR,2.152.224.0/20,no-resolve
+  - IP-CIDR,2.152.240.0/22,no-resolve
+  - IP-CIDR,2.152.244.0/23,no-resolve
   - IP-CIDR,2.152.33.0/24,no-resolve
   - IP-CIDR,2.152.8.0/21,no-resolve
   - IP-CIDR,2.59.193.0/24,no-resolve
