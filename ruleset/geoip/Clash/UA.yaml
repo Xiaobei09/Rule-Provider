@@ -3,7 +3,7 @@
 # 乌克兰（Ukraine）
 # 数据日期: 2026-11-05
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 4724 条（IPv4: 4005 / IPv6: 719）
+# 规则统计: 共 4725 条（IPv4: 4006 / IPv6: 719）
 # ============================================================
 payload:
   - IP-CIDR,102.165.44.0/24,no-resolve
@@ -2166,6 +2166,7 @@ payload:
   - IP-CIDR,195.60.200.0/22,no-resolve
   - IP-CIDR,195.60.224.0/21,no-resolve
   - IP-CIDR,195.60.70.0/23,no-resolve
+  - IP-CIDR,195.60.81.128/26,no-resolve
   - IP-CIDR,195.62.14.0/23,no-resolve
   - IP-CIDR,195.62.24.0/23,no-resolve
   - IP-CIDR,195.62.36.0/23,no-resolve
@@ -4211,7 +4212,7 @@ payload:
   - IP-CIDR6,2001:7f8:128::/48,no-resolve
   - IP-CIDR6,2001:7f8:14d::/48,no-resolve
   - IP-CIDR6,2001:7f8:158::/48,no-resolve
-  - IP-CIDR6,2001:7f8:180::/48,no-resolve
+  - IP-CIDR6,2001:7f8:180::/47,no-resolve
   - IP-CIDR6,2001:7f8:5d::/48,no-resolve
   - IP-CIDR6,2001:7f8:63::/48,no-resolve
   - IP-CIDR6,2001:7f8:65::/48,no-resolve
