@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: GB
 # 英国（United Kingdom）
-# 数据日期: 2026-11-05
+# 数据日期: 2026-11-10
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 20367 条（IPv4: 16775 / IPv6: 3592）
+# 规则统计: 共 20370 条（IPv4: 16776 / IPv6: 3594）
 # ============================================================
 payload:
   - IP-CIDR,1.186.0.0/16,no-resolve
@@ -59,6 +59,7 @@ payload:
   - IP-CIDR,102.38.199.0/24,no-resolve
   - IP-CIDR,102.38.204.0/24,no-resolve
   - IP-CIDR,103.1.196.0/22,no-resolve
+  - IP-CIDR,103.10.199.0/24,no-resolve
   - IP-CIDR,103.100.72.0/23,no-resolve
   - IP-CIDR,103.101.84.0/22,no-resolve
   - IP-CIDR,103.102.126.0/23,no-resolve
@@ -8896,7 +8897,7 @@ payload:
   - IP-CIDR,195.10.221.0/24,no-resolve
   - IP-CIDR,195.10.222.0/23,no-resolve
   - IP-CIDR,195.10.232.0/23,no-resolve
-  - IP-CIDR,195.10.244.0/22,no-resolve
+  - IP-CIDR,195.10.246.0/24,no-resolve
   - IP-CIDR,195.10.248.0/21,no-resolve
   - IP-CIDR,195.100.0.0/16,no-resolve
   - IP-CIDR,195.102.0.0/16,no-resolve
@@ -17730,7 +17731,9 @@ payload:
   - IP-CIDR6,2a01:e281:ad00::/41,no-resolve
   - IP-CIDR6,2a01:e281:ad80::/43,no-resolve
   - IP-CIDR6,2a01:e840::/32,no-resolve
-  - IP-CIDR6,2a01:e900::/29,no-resolve
+  - IP-CIDR6,2a01:e900::/43,no-resolve
+  - IP-CIDR6,2a01:e900:ac::/48,no-resolve
+  - IP-CIDR6,2a01:e900:bb::/48,no-resolve
   - IP-CIDR6,2a01:e980::/29,no-resolve
   - IP-CIDR6,2a01:eb80::/29,no-resolve
   - IP-CIDR6,2a01:ecc0::/29,no-resolve

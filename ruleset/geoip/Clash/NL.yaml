@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: NL
 # 荷兰（Netherlands）
-# 数据日期: 2026-11-05
+# 数据日期: 2026-11-10
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 16993 条（IPv4: 11817 / IPv6: 5176）
+# 规则统计: 共 16997 条（IPv4: 11820 / IPv6: 5177）
 # ============================================================
 payload:
   - IP-CIDR,101.97.0.0/19,no-resolve
@@ -1397,7 +1397,8 @@ payload:
   - IP-CIDR,145.0.0.0/16,no-resolve
   - IP-CIDR,145.1.0.0/17,no-resolve
   - IP-CIDR,145.10.0.0/16,no-resolve
-  - IP-CIDR,145.11.128.0/17,no-resolve
+  - IP-CIDR,145.11.128.0/19,no-resolve
+  - IP-CIDR,145.11.192.0/18,no-resolve
   - IP-CIDR,145.11.48.0/20,no-resolve
   - IP-CIDR,145.112.0.0/12,no-resolve
   - IP-CIDR,145.12.0.0/15,no-resolve
@@ -1773,6 +1774,7 @@ payload:
   - IP-CIDR,153.76.11.0/24,no-resolve
   - IP-CIDR,153.76.144.0/21,no-resolve
   - IP-CIDR,153.76.199.0/24,no-resolve
+  - IP-CIDR,153.78.128.0/17,no-resolve
   - IP-CIDR,153.79.104.0/24,no-resolve
   - IP-CIDR,154.16.61.0/24,no-resolve
   - IP-CIDR,154.21.215.0/24,no-resolve
@@ -5667,6 +5669,7 @@ payload:
   - IP-CIDR,195.10.212.0/24,no-resolve
   - IP-CIDR,195.10.224.0/23,no-resolve
   - IP-CIDR,195.10.228.0/22,no-resolve
+  - IP-CIDR,195.10.245.0/24,no-resolve
   - IP-CIDR,195.108.0.0/15,no-resolve
   - IP-CIDR,195.114.100.0/23,no-resolve
   - IP-CIDR,195.114.12.0/24,no-resolve
@@ -12113,6 +12116,7 @@ payload:
   - IP-CIDR6,2001:67c:8c::/48,no-resolve
   - IP-CIDR6,2001:67c:910::/48,no-resolve
   - IP-CIDR6,2001:67c:994::/48,no-resolve
+  - IP-CIDR6,2001:67c:998::/48,no-resolve
   - IP-CIDR6,2001:67c:9ac::/48,no-resolve
   - IP-CIDR6,2001:67c:9b0::/48,no-resolve
   - IP-CIDR6,2001:67c:9d8::/48,no-resolve
