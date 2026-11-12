@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: NP
 # 尼泊尔（Nepal）
-# 数据日期: 2026-11-11
+# 数据日期: 2026-11-12
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 443 条（IPv4: 277 / IPv6: 166）
+# 规则统计: 共 445 条（IPv4: 278 / IPv6: 167）
 # ============================================================
 payload:
   - IP-CIDR,101.251.4.0/22,no-resolve
@@ -188,6 +188,7 @@ payload:
   - IP-CIDR,138.252.2.0/23,no-resolve
   - IP-CIDR,139.5.68.0/22,no-resolve
   - IP-CIDR,139.5.72.0/22,no-resolve
+  - IP-CIDR,141.229.18.0/23,no-resolve
   - IP-CIDR,144.79.238.0/23,no-resolve
   - IP-CIDR,150.107.106.0/23,no-resolve
   - IP-CIDR,150.107.204.0/22,no-resolve
@@ -283,6 +284,7 @@ payload:
   - IP-CIDR,49.236.212.0/22,no-resolve
   - IP-CIDR,49.244.0.0/16,no-resolve
   - IP-CIDR,72.9.128.0/20,no-resolve
+  - IP-CIDR6,2001:9700::/40,no-resolve
   - IP-CIDR6,2001:dd8:10::/47,no-resolve
   - IP-CIDR6,2001:dd8:24::/47,no-resolve
   - IP-CIDR6,2001:def:8000::/47,no-resolve

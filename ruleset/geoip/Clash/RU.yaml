@@ -1,9 +1,9 @@
 # ============================================================
 # Rule-Provider: RU
 # 俄罗斯（Russia）
-# 数据日期: 2026-11-11
+# 数据日期: 2026-11-12
 # 数据来源: APNIC + IPtoASN
-# 规则统计: 共 13177 条（IPv4: 10749 / IPv6: 2428）
+# 规则统计: 共 13180 条（IPv4: 10751 / IPv6: 2429）
 # ============================================================
 payload:
   - IP-CIDR,103.101.85.0/24,no-resolve
@@ -706,6 +706,7 @@ payload:
   - IP-CIDR,157.22.254.0/24,no-resolve
   - IP-CIDR,157.228.73.0/24,no-resolve
   - IP-CIDR,157.228.76.0/22,no-resolve
+  - IP-CIDR,157.228.80.0/22,no-resolve
   - IP-CIDR,157.228.96.0/23,no-resolve
   - IP-CIDR,157.228.98.0/24,no-resolve
   - IP-CIDR,158.160.0.0/16,no-resolve
@@ -5314,6 +5315,7 @@ payload:
   - IP-CIDR,213.167.32.0/19,no-resolve
   - IP-CIDR,213.168.128.0/19,no-resolve
   - IP-CIDR,213.168.32.0/19,no-resolve
+  - IP-CIDR,213.170.192.0/22,no-resolve
   - IP-CIDR,213.170.220.0/22,no-resolve
   - IP-CIDR,213.170.64.0/18,no-resolve
   - IP-CIDR,213.171.0.0/18,no-resolve
@@ -13089,6 +13091,7 @@ payload:
   - IP-CIDR6,2a13:4040::/29,no-resolve
   - IP-CIDR6,2a13:42c0::/29,no-resolve
   - IP-CIDR6,2a13:43c0::/29,no-resolve
+  - IP-CIDR6,2a13:480::/29,no-resolve
   - IP-CIDR6,2a13:4fc0::/29,no-resolve
   - IP-CIDR6,2a13:51c0::/29,no-resolve
   - IP-CIDR6,2a13:5500::/29,no-resolve
